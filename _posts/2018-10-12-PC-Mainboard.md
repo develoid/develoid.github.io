@@ -27,6 +27,8 @@ tags:
 
 ## 메인보드 크기
 ![Mainboard Size]({{ site.baseurl }}/postImage/pc-mainboard.jpg)
+####출처 : 위키피디아
+
 * ATX : 305mm x 244mm
 * Micro-ATX : 244mm x 244mm
 * Mini-ITX : 170mm x 170mm
