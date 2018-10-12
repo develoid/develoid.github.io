@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% assign counter = 1 %}
+{% for category in site.categories %}
+  <h1 class="categoryTitle"><a href="/{{ category[0] }}">{{ category[0] }}</a></h1>
+  <hr class="postHr" />
+  <ul class="postsList">
+    {% assign products = category[1] | sort: 'title' %}
+    {% for post in products %}
+      <a href="{{ site.baseurl }}{{ post.url }}"><li>#{{counter}} · {{ post.title }}</li></a>
+      {% assign counter=counter | plus:1 %}
+    {% endfor %}
+  </ul>
+  <hr class="tempHR" />
+{% endfor %}
