@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "PC 메인보드(Mainboard)"
-date:   2018-10-07 00:00:00 +0900
 author: SiRyuA
 categories:
 - PC

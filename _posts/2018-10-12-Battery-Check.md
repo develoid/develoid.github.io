@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "배터리 수명 체크 방법"
-date:   2018-10-07 00:00:00 +0900
 author: SiRyuA
 categories:
 - IT

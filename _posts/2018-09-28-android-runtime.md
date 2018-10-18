@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "안드로이드 런타임(Android Rumtime)"
-date:   2018-09-28 00:00:00 +0900
 author: SiRyuA
 categories:
 - Android

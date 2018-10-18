@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "삼성 오딘(Odin)"
-date:   2018-09-19 00:00:00 +0900
 author: SiRyuA
 categories: Samsung
 tags:

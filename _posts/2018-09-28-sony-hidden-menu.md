@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "소니 히든메뉴(Sony Hidden Menu)"
-date:   2018-09-28 00:00:00 +0900
 author: SiRyuA
 categories:
 - Sony

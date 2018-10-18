@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "소니 TA 백업/복원(TA Backup/Restore)"
-date:   2018-09-20 00:00:00 +0900
 author: SiRyuA
 categories: Sony
 tags:

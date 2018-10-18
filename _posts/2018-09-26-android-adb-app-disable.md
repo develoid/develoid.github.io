@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "ADB 앱 비활성화 하기"
-date:   2018-09-26 00:00:00 +0900
 author: SiRyuA
 categories:
 - Android

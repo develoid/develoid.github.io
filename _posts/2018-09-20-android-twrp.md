@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "TWRP 커스텀 리커버리(Custom Recovery)"
-date:   2018-09-20 00:00:00 +0900
 author: SiRyuA
 categories: Android
 tags:

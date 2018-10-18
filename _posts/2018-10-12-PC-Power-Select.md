@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "PC 파워서플라이(Power Supply) 선정 방법"
-date:   2018-10-07 00:00:00 +0900
 author: SiRyuA
 categories:
 - PC

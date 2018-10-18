@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "하드웨어 추상화 계층(HAL : Hardware Abstraction Layer)"
-date:   2018-09-28 00:00:00 +0900
 author: SiRyuA
 categories:
 - Android

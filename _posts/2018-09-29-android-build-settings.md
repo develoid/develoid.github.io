@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "안드로이드 빌드 환경 구성"
-date:   2018-09-29 00:00:00 +0900
 author: SiRyuA
 categories:
 - Android

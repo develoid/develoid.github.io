@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "ADB 재부팅 하기(Reboot)"
-date:   2018-09-28 00:00:00 +0900
 author: SiRyuA
 categories:
 - Android

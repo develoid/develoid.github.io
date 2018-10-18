@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "안드로이드 프레임워크(Android Framework)"
-date:   2018-09-20 00:00:00 +0900
 author: SiRyuA
 categories:
 - Android

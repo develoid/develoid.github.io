@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "TWRP 리커버리 메뉴(TWRP Recovery)"
-date:   2018-10-02 00:00:00 +0900
 author: SiRyuA
 categories: Android
 tags:

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "작성규칙"
-date:   2018-09-16 00:00:00 +0900
 author: SiRyuA
 categories:
 tags:
@@ -12,7 +11,6 @@ tags:
   ---
   layout: post
   title:  "마크다운 작성"
-  date:   2018-09-18 00:00:00 +0900
   author: 작성자
   categories: 카테고리 // 2곳 초과되는 복수 카테고리 금지
   tags:

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "구글 부트로더 언락(Bootloader Unlock)"
-date:   2018-09-19 00:00:00 +0900
 author: SiRyuA
 categories: Google
 tags:

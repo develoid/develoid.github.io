@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "안드로이드 용어 사전"
-date:   2018-09-18 00:00:00 +0900
 author: SiRyuA
 categories: Android
 tags:

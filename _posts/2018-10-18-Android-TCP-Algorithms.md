@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "안드로이드 TCP 알고리즘(Algorithms)"
-date:   2018-10-07 00:00:00 +0900
 author: SiRyuA
 categories:
 - Android

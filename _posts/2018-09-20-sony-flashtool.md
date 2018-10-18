@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "소니 플래시툴(Flashtool)"
-date:   2018-09-20 00:00:00 +0900
 author: SiRyuA
 categories: Sony
 tags:

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Xperia 플래시/패스트부트/리커버리 모드"
-date:   2018-09-19 00:00:00 +0900
 author: SiRyuA
 categories: Sony
 tags:

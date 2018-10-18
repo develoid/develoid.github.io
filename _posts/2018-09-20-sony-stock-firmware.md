@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "소니 순정 펌웨어 다운로드(Stock Firmware)"
-date:   2018-09-20 00:00:00 +0900
 author: SiRyuA
 categories: Sony
 tags:

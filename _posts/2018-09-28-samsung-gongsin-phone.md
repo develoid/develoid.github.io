@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "공신폰 뚫기(Galaxy J2 Pro)"
-date:   2018-09-28 00:00:00 +0900
 author: SiRyuA
 categories:
 - Samsung

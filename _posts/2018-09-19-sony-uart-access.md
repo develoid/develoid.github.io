@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "소니 UART 포트 접근"
-date:   2018-09-19 00:00:00 +0900
 author: SiRyuA
 categories: Sony
 tags:

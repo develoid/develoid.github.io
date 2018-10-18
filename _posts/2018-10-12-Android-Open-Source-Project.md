@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Android Open Source Project"
-date:   2018-10-07 00:00:00 +0900
 author: SiRyuA
 categories:
 - Android

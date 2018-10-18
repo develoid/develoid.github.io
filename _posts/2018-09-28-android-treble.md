@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "안드로이드 트레블(Android Treble)"
-date:   2018-09-28 00:00:00 +0900
 author: SiRyuA
 categories:
 - Android

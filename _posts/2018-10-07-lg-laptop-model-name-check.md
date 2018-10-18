@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "LG 노트북 모델명 확인법"
-date:   2018-10-07 00:00:00 +0900
 author: SiRyuA
 categories:
 - PC

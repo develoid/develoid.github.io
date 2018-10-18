@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "안드로이드 CPU 가버너(Governors)"
-date:   2018-10-07 00:00:00 +0900
 author: SiRyuA
 categories:
 - Android

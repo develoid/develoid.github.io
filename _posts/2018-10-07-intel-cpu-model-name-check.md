@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "인텔 CPU 모델명 읽기"
-date:   2018-10-07 00:00:00 +0900
 author: SiRyuA
 categories:
 - PC

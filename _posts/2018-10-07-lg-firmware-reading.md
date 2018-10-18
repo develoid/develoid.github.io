@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "LG 펌웨어 버전 확인"
-date:   2018-10-07 00:00:00 +0900
 author: 키큰기린
 categories: LG
 tags:

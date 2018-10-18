@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "ADB 백업/복원하기(Backup/Restore)"
-date:   2018-09-28 00:00:00 +0900
 author: SiRyuA
 categories:
 - Android

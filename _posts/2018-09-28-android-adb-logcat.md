@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "ADB 로그캣 사용하기(Logcat)"
-date:   2018-09-28 00:00:00 +0900
 author: SiRyuA
 categories:
 - Android

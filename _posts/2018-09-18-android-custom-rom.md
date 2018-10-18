@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "커스텀롬(Custom ROM)"
-date:   2018-09-18 00:00:00 +0900
 author: SiRyuA
 categories: Android
 tags:
