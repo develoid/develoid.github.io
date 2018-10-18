@@ -15,7 +15,7 @@ Topjohnwu 님께서 개발하신 Google Pay 등의 Root 권한을 체크하는 �
 
 ## 매지스크 설치에 필요로 한 것
 1. Android 5.0 이상의 기기
-2. 커스텀 리커버리 [참고:리커버리모드진입](/android/Android-How-to-boot-Recovery.html) [참고:TWRP](/android/android-twrp.html)
+2. 커스텀 리커버리 [[참고:리커버리모드진입](/android/Android-How-to-boot-Recovery.html)] [[참고:TWRP](/android/android-twrp.html)]
   * 설명에는 TWRP 를 기준으로 함
 
 
