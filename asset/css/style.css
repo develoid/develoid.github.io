@@ -364,6 +364,18 @@ code.highlighter-rouge {
   background: #ECEFF1;
 }
 
+.ruleTitle {
+  background:#00BCD4;
+  color:#fff;
+  text-align:center;
+}
+
+.ruleH2 {
+  background:#00BCD4;
+  color:#fff;
+  text-align:center;
+}
+
 /* Phone */
 @media screen and (max-width: 1199px) {
   .nav,
