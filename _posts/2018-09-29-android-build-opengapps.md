@@ -3,9 +3,10 @@ layout: post
 title:  "안드로이드 빌드 할때 Open Gapps 추가"
 author: SiRyuA
 categories:
-- Android
+- Android-Develop
 tags:
 - Android
+- Android-Develop
 - Build
 ---
 

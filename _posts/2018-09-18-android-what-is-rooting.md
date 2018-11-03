@@ -2,9 +2,10 @@
 layout: post
 title:  "루팅(Rooting)"
 author: SiRyuA
-categories: Android
+categories: Android-Custom
 tags:
 - Android
+- Android-Custom
 - Root
 - SuperUser
 - SU

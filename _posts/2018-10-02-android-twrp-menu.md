@@ -2,9 +2,10 @@
 layout: post
 title:  "TWRP 리커버리 메뉴(TWRP Recovery)"
 author: SiRyuA
-categories: Android
+categories: Android-Custom
 tags:
 - Android
+- Android-Custom
 - Recovery
 - Flash
 - Firmware

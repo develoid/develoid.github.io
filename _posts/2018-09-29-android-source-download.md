@@ -3,9 +3,10 @@ layout: post
 title:  "안드로이드 소스 다운로드"
 author: SiRyuA
 categories:
-- Android
+- Android-Develop
 tags:
 - Android
+- Android-Develop
 - Build
 ---
 

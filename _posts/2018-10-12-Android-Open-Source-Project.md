@@ -4,9 +4,10 @@ title:  "Android Open Source Project"
 author: SiRyuA
 categories:
 - Android
-- Google
+- Android-Develop
 tags:
 - Android
+- Android-Develop
 - Google
 - OpenSource
 ---

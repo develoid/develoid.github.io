@@ -3,9 +3,10 @@ layout: post
 title:  "안드로이드 빌드 환경 구성"
 author: SiRyuA
 categories:
-- Android
+- Android-Develop
 tags:
 - Android
+- Android-Develop
 - Build
 ---
 

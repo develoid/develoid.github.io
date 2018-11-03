@@ -3,9 +3,10 @@ layout: post
 title:  "안드로이드 매지스크(Magisk) 설치하기"
 author: SiRyuA
 categories:
-- Android
+- Android-Custom
 tags:
 - Android
+- Android-Custom
 - Magisk
 ---
 

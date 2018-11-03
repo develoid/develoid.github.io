@@ -2,9 +2,10 @@
 layout: post
 title:  "TWRP 커스텀 리커버리(Custom Recovery)"
 author: SiRyuA
-categories: Android
+categories: Android-Custom
 tags:
 - Android
+- Android-Custom
 - Recovery
 - Flash
 - Firmware

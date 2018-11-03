@@ -2,11 +2,11 @@
 layout: post
 title:  "커스텀롬(Custom ROM)"
 author: SiRyuA
-categories: Android
+categories: Android-Custom
 tags:
 - Android
+- Android-Custom
 - Root
-- Custom ROM
 ---
 
 ### 사용자가 입맛에 맞추어서 수정 해놓은 펌웨어
