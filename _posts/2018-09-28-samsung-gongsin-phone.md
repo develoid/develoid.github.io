@@ -63,13 +63,13 @@ tags:
 ## 와이드2(Wide 2) 준비물
 1. 삼성 오딘(Odin) [설명 및 다운로드](/samsung/samsung-odin.html) <= 버전 3.12 이상
 2. 삼성 USB 드라이버 [다운로드](http://downloadcenter.samsung.com/content/SW/201705/20170525145021007/SAMSUNG_USB_Driver_for_Mobile_Phones.exe)
-3. J2 Pro 순정펌웨어 [설명 및 다운로드](/samsung/samsung-stock-firmware.html) <= 모델명(Model) : SM-J250N / 지역(Region) : KOO
+3. 와이드2(Wide 2) 순정펌웨어 [설명 및 다운로드](/samsung/samsung-stock-firmware.html) <= 모델명(Model) : SM-J727N / 지역(Region) : KOO
 
 
 ## 와이드2(Wide 2) 뚫는 방법
 1. 설정앱 메뉴 중, **개발자 옵션** 에서 **OEM 잠금해제** 를 활성화 시킵니다.
  * 개발자 옵션은 **설정 > 휴대전화 정보 > 빌드번호** 를 7번 이상 클릭하면 나타납니다.
-2. UPDATO 또는 SamFirm 을 통해서 **J2 Pro 순정 펌웨어를 다운로드** 받습니다.
+2. UPDATO 또는 SamFirm 을 통해서 **와이드2(Wide 2) 순정 펌웨어를 다운로드** 받습니다.
  * **모델명(Model) : SM-J727N / 지역(Region) : KOO**
 3. 다운로드 받은 순정 펌웨어 압축파일을 해제해줍니다.
  * 압축해제하게되면 **AP, BL, CP, CSC, HOME_CSC 란 앞이름을 가진 .md5 파일** 이 생성됩니다.
