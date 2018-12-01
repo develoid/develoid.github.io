@@ -99,8 +99,8 @@ tags:
 
 
 ## 참조
-(이루이루님 게시글 1)[https://cafe.naver.com/develoid/807783]
-(이루이루님 게시글 1)[https://cafe.naver.com/develoid/820486]
+[이루이루님 게시글 1](https://cafe.naver.com/develoid/807783)
+[이루이루님 게시글 2](https://cafe.naver.com/develoid/820486)
 
 
 ## 기타사항
