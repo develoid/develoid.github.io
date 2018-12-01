@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "공신폰 뚫기(Galaxy J2 Pro)"
+title:  "공신폰 뚫기"
 author: SiRyuA
 categories:
 - Samsung
@@ -23,20 +23,14 @@ tags:
 4. 본인의 기기의 펌웨어가 아닌 **다른 기기의 펌웨어를 올릴 경우 벽돌(하드 브릭)** 이 될 수 있습니다.
 
 
-## 뚫기 준비물
+## J2 Pro 준비물
 1. 삼성 오딘(Odin) [설명 및 다운로드](/samsung/samsung-odin.html) <= 버전 3.12 이상
 2. 삼성 USB 드라이버 [다운로드](http://downloadcenter.samsung.com/content/SW/201705/20170525145021007/SAMSUNG_USB_Driver_for_Mobile_Phones.exe)
 3. J2 Pro TWRP 리커버리 [다운로드](https://forum.xda-developers.com/galaxy-j2/development/recovery-twrp-3-2-x-galaxy-j2-pro-2018-t3796658)
 4. AirDroid V30 롬 [다운로드(구버전)](https://cafe.naver.com/develoid/807783) [다운로드(신버전)](https://cafe.naver.com/develoid/820486)
 
 
-## 복구 준비물
-1. 삼성 오딘(Odin) [설명 및 다운로드](/samsung/samsung-odin.html) <= 버전 3.12 이상
-2. 삼성 USB 드라이버 [다운로드](http://downloadcenter.samsung.com/content/SW/201705/20170525145021007/SAMSUNG_USB_Driver_for_Mobile_Phones.exe)
-3. J2 Pro 순정펌웨어 [설명 및 다운로드](/samsung/samsung-stock-firmware.html) <= 모델명(Model) : SM-J250N / 지역(Region) : KOO
-
-
-## 뚫는 방법
+## J2 Pro 뚫는 방법
 1. AirDroid V30 롬을 SD카드에 저장합니다.
 2. 설정앱 메뉴 중, **개발자 옵션** 에서 **OEM 잠금해제** 를 활성화 시킵니다.
  * 개발자 옵션은 **설정 > 휴대전화 정보 > 빌드번호** 를 7번 이상 클릭하면 나타납니다.
@@ -62,10 +56,17 @@ tags:
 21. 설치 확인 화면에서 **슬라이드하여 설치를 진행** 합니다.
 22. TWRP 메인으로 돌아가서 **Reboot 메뉴를 누른 후 System을 눌러서 재부팅** 합니다.
  * TWRP 앱 설치 유무는 선택사항입니다.
-23. 부팅애니가 나오면 커스텀롬으로 펌웨어 교체가 완료되었습니다.
+23. 부팅애니가 나오는지 확인합니다.
+24. 완료되었습니다.
 
 
-## 복구 방법
+## 와이드2(Wide 2) 준비물
+1. 삼성 오딘(Odin) [설명 및 다운로드](/samsung/samsung-odin.html) <= 버전 3.12 이상
+2. 삼성 USB 드라이버 [다운로드](http://downloadcenter.samsung.com/content/SW/201705/20170525145021007/SAMSUNG_USB_Driver_for_Mobile_Phones.exe)
+3. J2 Pro 순정펌웨어 [설명 및 다운로드](/samsung/samsung-stock-firmware.html) <= 모델명(Model) : SM-J250N / 지역(Region) : KOO
+
+
+## 와이드2(Wide 2) 뚫는 방법
 1. 설정앱 메뉴 중, **개발자 옵션** 에서 **OEM 잠금해제** 를 활성화 시킵니다.
  * 개발자 옵션은 **설정 > 휴대전화 정보 > 빌드번호** 를 7번 이상 클릭하면 나타납니다.
 2. UPDATO 또는 SamFirm 을 통해서 **J2 Pro 순정 펌웨어를 다운로드** 받습니다.
@@ -87,12 +88,19 @@ tags:
 13. 삼성 오딘(Odin)에서 START 버튼을 눌러 펌웨어 변경을 진행합니다.
  * 진행 중 USB 케이블이 분리될 경우 **벽돌(하드브릭)** 이 될 수 있습니다.
 14. 좌측 상단의 네모 칸이 **PASS** 버튼이 되면, 기기 재부팅과 함께 초기 설정화면이 나타납니다.
-15. J2 Pro 순정 펌웨어로 교체가 완료되었습니다.
+15. 부팅애니가 나오는지 확인합니다.
+ * 무한 부팅이 될 경우 **전원 + 볼륨 상 + 홈** 를 눌러서 리커버리 모드로 진입하여 **공장초기화** 를 진행합니다.
+16. 완료되었습니다.
 
 
 ## 응급복구기능 사용 메세지가 나타났을 경우
 1. **삼성 스마트 스위치** 를 사용하여 응급복구 사용
 2. 또는 삼성 서비스센터
+
+
+## 참조
+(이루이루님 게시글 1)[https://cafe.naver.com/develoid/807783]
+(이루이루님 게시글 1)[https://cafe.naver.com/develoid/820486]
 
 
 ## 기타사항
