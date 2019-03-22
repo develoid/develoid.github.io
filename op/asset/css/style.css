@@ -126,13 +126,14 @@ footer {
 .bggrean { transition: 0.5s; background-color: #4CAF50;  color: #fff; }
 .bgred { transition: 0.5s; background-color: #F44336;  color: #fff; }
 .bgindigo { transition: 0.5s; background-color: #3F51B5;  color: #fff; }
+.bgblack { transition: 0.5s; background-color:#424242; color:#fff; }
 
 .bgkakao:hover { background-color: #FF7F00;  color: #fff; }
 .bgblue:hover { background-color: #0D47A1; }
 .bggrean:hover { background-color: #1B5E20; }
 .bgred:hover { background-color: #B71C1C;}
 .bgindigo:hover { background-color: #1A237E;}
-
+.bgblack:hover { background-color: #212121;}
 
 @media only screen and (max-width: 1024px) {
   .item {
