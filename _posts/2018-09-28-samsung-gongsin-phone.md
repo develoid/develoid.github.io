@@ -27,7 +27,9 @@ tags:
 1. 삼성 오딘(Odin) [설명 및 다운로드](/samsung/samsung-odin.html) <= 버전 3.12 이상
 2. 삼성 USB 드라이버 [다운로드](http://downloadcenter.samsung.com/content/SW/201705/20170525145021007/SAMSUNG_USB_Driver_for_Mobile_Phones.exe)
 3. J2 Pro TWRP 리커버리 [다운로드](https://forum.xda-developers.com/galaxy-j2/development/recovery-twrp-3-2-x-galaxy-j2-pro-2018-t3796658)
-4. AirDroid V30 롬 [다운로드(구버전)](https://cafe.naver.com/develoid/807783) [다운로드(신버전)](https://cafe.naver.com/develoid/820486)
+4. ~~AirDroid V30 롬 [다운로드(구버전)](https://cafe.naver.com/develoid/807783) [다운로드(신버전)](https://cafe.naver.com/develoid/820486)~~
+ AirDroid V31 롬 [게시글](https://cafe.naver.com/develoid/859631) [V30 다운로드](https://goo.gl/aNHpNG) [V31 다운로드](https://goo.gl/1mEBZ2)
+
 
 
 ## J2 Pro 뚫는 방법
@@ -101,6 +103,7 @@ tags:
 ## 참조
 [이루이루님 게시글 1](https://cafe.naver.com/develoid/807783)
 [이루이루님 게시글 2](https://cafe.naver.com/develoid/820486)
+[이루이루님 게시글 3](https://cafe.naver.com/develoid/859631)
 
 
 ## 기타사항
