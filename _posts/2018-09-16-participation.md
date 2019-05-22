@@ -19,7 +19,3 @@ tags:
 ## 방법 3.
 1. 자료들을 정리하여 .docx 문서로 작성
 2. 작성한 .docx 문서를 [디벨로이드 메일](mailto:develoid@naver.com) 으로 전달
-
-
-## 방법 4.
-1. Git pull requests 이용, 방법 설명은 정리중입니다.
