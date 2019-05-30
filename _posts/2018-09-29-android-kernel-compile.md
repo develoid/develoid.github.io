@@ -10,7 +10,7 @@ tags:
 - Build
 ---
 
-### [안드로이드 빌드 환경 구성](/android/android-build-settings.html) 이 되어있어야 합니다.
+### [안드로이드 빌드 환경 구성](/android-develop/android-build-settings.html) 이 되어있어야 합니다.
 
 ## Kernel 컴파일하기
 1. Kernel 소스 및 크로스컴파일러를 담아 둘 폴더를 생성

@@ -10,9 +10,9 @@ tags:
 - Build
 ---
 
-### [안드로이드 빌드 환경 구성](/android/android-build-settings.html) 이 되어있어야 합니다.
+### [안드로이드 빌드 환경 구성](/android-develop/android-build-settings.html) 이 되어있어야 합니다.
 
-### [안드로이드 소스 다운로드](/android/android-source-download.html) 에서 "repo sync"을 제외한 나머지 작업이 되어있어야됩니다.
+### [안드로이드 소스 다운로드](/android-develop/android-source-download.html) 에서 "repo sync"을 제외한 나머지 작업이 되어있어야됩니다.
 
 
 ## Open Gapps 다운로드 소스 추가
