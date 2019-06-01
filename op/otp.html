@@ -21,13 +21,15 @@
     <div class="list">
 		<div class="list-box">
 		  <center>
-		  <h1 id="otpcode"><span id="c1"></span><span id="c2"></span><span id="c3"></span><span id="c4"></span><span id="c5"></span><span id="c6"></span><h1>
+		  <h1 id="otpcode">버튼을 눌러주세요 :)<h1>
 		  </center>
 		</div>
+		<button onclick="getcode()" class="item bgkakao">코드생성</button>
     </div>
   </div>
   <footer><div class="footer">Copyright&copy;2018 <b><a href="https://cafe.naver.com/develoid">Develoid</a></b>.</div></footer>
   <script type="text/javascript">
+	function getcode() {
       var x1 = Math.floor((Math.random() * 9) + 1);
       var x2 = Math.floor((Math.random() * 9) + 1);
       var x3 = Math.floor((Math.random() * 9) + 1);
@@ -35,12 +37,8 @@
       var x5 = Math.floor((Math.random() * 9) + 1);
       var x6 = Math.floor((Math.random() * 9) + 1);
   
-      document.getElementById("c1").innerHTML = x1;
-      document.getElementById("c2").innerHTML = x2;
-      document.getElementById("c3").innerHTML = x3;
-      document.getElementById("c4").innerHTML = x4;
-      document.getElementById("c5").innerHTML = x5;
-      document.getElementById("c6").innerHTML = x6;
+      document.getElementById("otpcode").innerHTML = "" + x1 + x2 + x3 + x4 + x5 + x6;
+	}
   </script>
 </body>
 </html>
