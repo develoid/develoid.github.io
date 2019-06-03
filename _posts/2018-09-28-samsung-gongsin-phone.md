@@ -3,7 +3,7 @@ layout: post
 title:  "공신폰 뚫기"
 author: SiRyuA
 categories:
-- Samsung
+- Samsung-Custom
 tags:
 - Samsung
 - Firmware
