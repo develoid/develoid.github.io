@@ -3,7 +3,7 @@ layout: post
 title:  "안드로이드 트레블(Android Treble)"
 author: SiRyuA
 categories:
-- Android
+- Android-Treble
 tags:
 - Android
 - Treble
