@@ -13,24 +13,7 @@ tags:
 
 <script> location.href='https://cafe.naver.com/develoid/864239' ; </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						<p>안녕하살법!</p><img src="https://storep-phinf.pstatic.net/ogq_58146d74c399f/original_32.png?type=p100_100"><b><p><b>건강한 한국 성인 남자라면 누구나 반드시 만들게 되어있는 바로 이것!<b><b><b>두둥! 나.라.사.랑 카드!</p><img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTA0MTdfMjU5/MDAxNTU1NDYzMDA5MDkw.kuVvdmznsbq2KtgEzJ25xNo6iPzxXyzfLjZpMc8sRCgg.02oT3s5nLqZT2ngtC0ziOQ9tDbfpJMgRmWaApTMeSa0g.JPEG.yougnilzzz/externalFile.jpg?type=w740"><b><p><b>이 카드 자세히보면 조그맣게 이메일이 하나 써있을 겁니다.<b><b>병무청에서 병역증 같은거 보내오는 메일인데 <b>이걸로  KNOX 리셀러 계정을 만들수 있다는 사실!<b>다들 알고 계셨나요?</p><img src="https://storep-phinf.pstatic.net/ogq_58146d6e98126/original_5.png?type=p100_100"><b><p><b>모르셨다구요?<b> 그럼 지금 당장 알려드리겠습니다!<b><b><b>먼저, KNOX  웹 포털에 들어가 줍니다.</p><div>
+<p>안녕하살법!</p><img src="https://storep-phinf.pstatic.net/ogq_58146d74c399f/original_32.png?type=p100_100"><b><p><b>건강한 한국 성인 남자라면 누구나 반드시 만들게 되어있는 바로 이것!<b><b><b>두둥! 나.라.사.랑 카드!</p><img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTA0MTdfMjU5/MDAxNTU1NDYzMDA5MDkw.kuVvdmznsbq2KtgEzJ25xNo6iPzxXyzfLjZpMc8sRCgg.02oT3s5nLqZT2ngtC0ziOQ9tDbfpJMgRmWaApTMeSa0g.JPEG.yougnilzzz/externalFile.jpg?type=w740"><b><p><b>이 카드 자세히보면 조그맣게 이메일이 하나 써있을 겁니다.<b><b>병무청에서 병역증 같은거 보내오는 메일인데 <b>이걸로  KNOX 리셀러 계정을 만들수 있다는 사실!<b>다들 알고 계셨나요?</p><img src="https://storep-phinf.pstatic.net/ogq_58146d6e98126/original_5.png?type=p100_100"><b><p><b>모르셨다구요?<b> 그럼 지금 당장 알려드리겠습니다!<b><b><b>먼저, KNOX  웹 포털에 들어가 줍니다.</p><div>
         <div>
                           <div>
                         <div>Samsung Knox 웹 포털 등록 | Samsung Knox</div>

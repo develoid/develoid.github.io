@@ -13,24 +13,7 @@ tags:
 
 <script> location.href='https://cafe.naver.com/develoid/850323' ; </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						<!-- Rabbit HTML --><div>
+<!-- Rabbit HTML --><div>
  <div>
   <div>
    <div>

@@ -13,24 +13,7 @@ tags:
 
 <script> location.href='https://cafe.naver.com/develoid/845056' ; </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						<p><img src="https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fcafethumb.pstatic.net%2FMjAxOTAxMTlfMTIz%2FMDAxNTQ3ODIzODc5MDQ4.BwAuFZbhE55QzzdpLs_OrR7Iva-DU_KqYJq-_7FtzuEg.y-TDtE94hEi-dwe5YRM1uZZZlJyrkHJm9geSP4bk7QUg.PNG.hsm8hsm8%2FHelloWorld.png%3Ftype%3Df1%22&amp;type=cafe_wa740"></p><p><span><b></span></p><p><span>나도 이 포맷을 솔직히 말하자면 잘 모른다.</span></p><div><b></div><div>아는 것 정도라면 코스코스 스튜디오에서는 열리고, 코스코스 크레이터에서는 못 연다는 것이다.</div><div><b></div><div>아마 에셋을 지정, 위치나 이펙트를 저장하는 파일인 듯 하다.</div><div><b></div><div><b></div><div>아시다시피, 코스코스 스튜디오는 더 이상 업데이트를 하지 않는다.</div><div><b></div><div>또한 CSB 파일은 메모장이나 Notepad++따위로도 안 열린다.</div><div><b></div><div><b></div><div>그래서 혹시 CSB를 CSD파일로 바꾸거나, 열고 싶은 사람을 위해서 이 문서를 쓴다.</div><div><b></div><div>---</div><div><b></div><div><div>
+<p><img src="https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fcafethumb.pstatic.net%2FMjAxOTAxMTlfMTIz%2FMDAxNTQ3ODIzODc5MDQ4.BwAuFZbhE55QzzdpLs_OrR7Iva-DU_KqYJq-_7FtzuEg.y-TDtE94hEi-dwe5YRM1uZZZlJyrkHJm9geSP4bk7QUg.PNG.hsm8hsm8%2FHelloWorld.png%3Ftype%3Df1%22&amp;type=cafe_wa740"></p><p><span><b></span></p><p><span>나도 이 포맷을 솔직히 말하자면 잘 모른다.</span></p><div><b></div><div>아는 것 정도라면 코스코스 스튜디오에서는 열리고, 코스코스 크레이터에서는 못 연다는 것이다.</div><div><b></div><div>아마 에셋을 지정, 위치나 이펙트를 저장하는 파일인 듯 하다.</div><div><b></div><div><b></div><div>아시다시피, 코스코스 스튜디오는 더 이상 업데이트를 하지 않는다.</div><div><b></div><div>또한 CSB 파일은 메모장이나 Notepad++따위로도 안 열린다.</div><div><b></div><div><b></div><div>그래서 혹시 CSB를 CSD파일로 바꾸거나, 열고 싶은 사람을 위해서 이 문서를 쓴다.</div><div><b></div><div>---</div><div><b></div><div><div>
         <div>
                           <div>
                         <img src="https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F5645137%3Fs%3D400%26v%3D4%22&amp;type=f220">

@@ -13,24 +13,7 @@ tags:
 
 <script> location.href='https://cafe.naver.com/develoid/788499' ; </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						<div>
+<div>
  <p style="padding:0;margin:0;max-width:100%;display:inline-block;vertical-align:middle;font-size:16px"><span><span>* 주의사항<b></span><span>1.&nbsp;<span>본 글은 개인이 공부한 내용을 바탕으로 정리한 게시글입니다.</span><b></span><span>2. 본 글은&nbsp;</span>구글 공식 가이드를 기반으로 개인이 실습하는 과정을 적은 글입니다. 공식 가이드 문서를 보시려면 아래의 링크를 클릭해서 이동해주세요 :)<b></span><span></span></p>
 </div>
 <div>

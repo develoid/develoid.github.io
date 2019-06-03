@@ -13,24 +13,6 @@ tags:
 
 <script> location.href='https://cafe.naver.com/develoid/257008' ; </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <p><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fpostfiles3.naver.net%2F20130523_178%2Ftjdtnsu_1369283538974akCh1_JPEG%2Fand.jpg%3Ftype%3Dw2%22&amp;type=cafe_wa740"></p>
 <p><i>퍼갈 때에는 반드시 저작자의 허락과 저작자의 이름(아이디)를 기록하어야 합니다.</i></p>
 <p><i>저작자는 Snails(tjdtnsu)입니다.</i></p>

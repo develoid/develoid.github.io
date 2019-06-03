@@ -13,24 +13,7 @@ tags:
 
 <script> location.href='https://cafe.naver.com/develoid/869475' ; </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						<div>
+<div>
         <div>
                           <div>
                         <img src="https://dthumb-phinf.pstatic.net/?src=https://topjohnwu.github.io/Magisk/images/samsung_bootloader.jpg&amp;type=f560_336">

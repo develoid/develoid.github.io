@@ -13,24 +13,7 @@ tags:
 
 <script> location.href='https://cafe.naver.com/develoid/843391' ; </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						<div><div><span>|</span><span>&nbsp;</span><span><span>APK 파일의 디컴파일이란?</span></span></div><div><span><span>&nbsp;</span><span>&nbsp;</span></span></div><div><span><span><b></span></span></div><div><span>앱 모딩을 위해서, 또는 앱을 개발하는 데 참고하고 싶어서 APK 파일을 종종 읽고 수정해야 할 경우가 있다.</span><b></div><div><span><b></span></div><div><span>그러나 APK 파일 내부의 소스코드를 얻기 위해 아무 작업 없이 열면 대부분의 소스코드가 깨져있을 것이다.</span></div><div><span><b></span></div><div><span><img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAxMzFfMTE3/MDAxNTQ4OTQxMDk3MTI3.VMoGPa5LBTWSU9Y7oqG2tOryKcVULN6h09b6553uN8Qg.nOD8HRpJsEGmNChrI3WYaaysYg8wnMS_1PHsTh63Goog.PNG.hsm8hsm8/%EC%9D%B4%EB%AF%B8%EC%A7%80_001.png?type=w740"></span><b></div><div><b></div><div><span>이는 안드로이드에서 달빅이 인식할 수 있도록 class 파일과 같은 파일들을 바이트 코드로 변환하기 때문인데, 이유를 설명하기에는 글이 너무 길어지므로 <a href="https://wanzargen.tistory.com/10">자바의 컴파일에 대한&nbsp;설명</a>이나 <a href="http://blurayha.blog.me/110178160957">APK의 구조</a>를&nbsp;참고하도록 하자.</span><b></div><div><b></div><div><span>따라서 코드 난독화가 되지 않았다면, 우리는 디컴파일을 통해 어느 정도 소스를 읽고 수정할 수 있다.</span></div><div><b></div><div><b></div><div><span>디컴파일링을 하기 위해 사용할 수 있는 툴은 많다.</span></div><div><span><b></span></div><div><span>아마 제일 많이 쓰이는 툴은 APK Manager이 아닐까 싶다.</span></div><div><span><b></span></div><div><span><img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAxMzFfMTUy/MDAxNTQ4OTQyNzM0NTc3.wf0K8nUpYDw8xvRzqQ8J5jbDBXg0Hrj0FGSxo0qf87sg.vM1dQ87E9Nu2oC8kKiP1cXY-xUpTMwEa6ZwEJd6mDCsg.PNG.hsm8hsm8/%EC%9D%B4%EB%AF%B8%EC%A7%80_002.png?type=w740"><b></span></div><div><span><b></span></div><div><span>그러나 APK Manager은 블로그에서 공유가 되어 APK Manager의 디/컴파일을 할 때 사용되는 Apktool 업데이트가 제대로 되지 않고 에러가 발생해도 원인을 알기 어렵다.</span></div><div><span><b></span></div><div><span>그래서 에러(21번)를 해결을 못 해 다른 툴을 알아보다 찾았던 프로그램이 이번에 소개할 APK Easy Tool 이다.</span></div><div><span>&nbsp;</span></div><div><span><span><span>|</span> </span><span>APK Easy tool를 사용하기 위한 준비</span></span></div><div><b></div><div><span>일단 시작하기 전에 우리는 Java SE가 필요하다.</span></div><div><span>Java SE의 최신 버전은 Apksigner을 지원하지 않으므로 하단의 주소에서 자바 8을 다운로드 받아야 한다.</span><b></div><div><span><b></span></div><div><span></span><div>
+<div><div><span>|</span><span>&nbsp;</span><span><span>APK 파일의 디컴파일이란?</span></span></div><div><span><span>&nbsp;</span><span>&nbsp;</span></span></div><div><span><span><b></span></span></div><div><span>앱 모딩을 위해서, 또는 앱을 개발하는 데 참고하고 싶어서 APK 파일을 종종 읽고 수정해야 할 경우가 있다.</span><b></div><div><span><b></span></div><div><span>그러나 APK 파일 내부의 소스코드를 얻기 위해 아무 작업 없이 열면 대부분의 소스코드가 깨져있을 것이다.</span></div><div><span><b></span></div><div><span><img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAxMzFfMTE3/MDAxNTQ4OTQxMDk3MTI3.VMoGPa5LBTWSU9Y7oqG2tOryKcVULN6h09b6553uN8Qg.nOD8HRpJsEGmNChrI3WYaaysYg8wnMS_1PHsTh63Goog.PNG.hsm8hsm8/%EC%9D%B4%EB%AF%B8%EC%A7%80_001.png?type=w740"></span><b></div><div><b></div><div><span>이는 안드로이드에서 달빅이 인식할 수 있도록 class 파일과 같은 파일들을 바이트 코드로 변환하기 때문인데, 이유를 설명하기에는 글이 너무 길어지므로 <a href="https://wanzargen.tistory.com/10">자바의 컴파일에 대한&nbsp;설명</a>이나 <a href="http://blurayha.blog.me/110178160957">APK의 구조</a>를&nbsp;참고하도록 하자.</span><b></div><div><b></div><div><span>따라서 코드 난독화가 되지 않았다면, 우리는 디컴파일을 통해 어느 정도 소스를 읽고 수정할 수 있다.</span></div><div><b></div><div><b></div><div><span>디컴파일링을 하기 위해 사용할 수 있는 툴은 많다.</span></div><div><span><b></span></div><div><span>아마 제일 많이 쓰이는 툴은 APK Manager이 아닐까 싶다.</span></div><div><span><b></span></div><div><span><img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAxMzFfMTUy/MDAxNTQ4OTQyNzM0NTc3.wf0K8nUpYDw8xvRzqQ8J5jbDBXg0Hrj0FGSxo0qf87sg.vM1dQ87E9Nu2oC8kKiP1cXY-xUpTMwEa6ZwEJd6mDCsg.PNG.hsm8hsm8/%EC%9D%B4%EB%AF%B8%EC%A7%80_002.png?type=w740"><b></span></div><div><span><b></span></div><div><span>그러나 APK Manager은 블로그에서 공유가 되어 APK Manager의 디/컴파일을 할 때 사용되는 Apktool 업데이트가 제대로 되지 않고 에러가 발생해도 원인을 알기 어렵다.</span></div><div><span><b></span></div><div><span>그래서 에러(21번)를 해결을 못 해 다른 툴을 알아보다 찾았던 프로그램이 이번에 소개할 APK Easy Tool 이다.</span></div><div><span>&nbsp;</span></div><div><span><span><span>|</span> </span><span>APK Easy tool를 사용하기 위한 준비</span></span></div><div><b></div><div><span>일단 시작하기 전에 우리는 Java SE가 필요하다.</span></div><div><span>Java SE의 최신 버전은 Apksigner을 지원하지 않으므로 하단의 주소에서 자바 8을 다운로드 받아야 한다.</span><b></div><div><span><b></span></div><div><span></span><div>
         <div>
                           <div>
                         <div>Java SE Development Kit 8 - Downloads</div>

@@ -13,24 +13,7 @@ tags:
 
 <script> location.href='https://cafe.naver.com/develoid/318863' ; </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						<p><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fpostfiles3.naver.net%2F20130523_178%2Ftjdtnsu_1369283538974akCh1_JPEG%2Fand.jpg%3Ftype%3Dw2%22&amp;type=cafe_wa740"></p><div><p><i>퍼갈 때에는 반드시 저작자의 허락과 저작자의 이름(아이디)를 기록하어야 합니다.</i></p><p><i>저작자는 Snails(tjdtnsu)입니다.</i></p><p><span><strong><span>제발 덧글 좀 적어주세요. 강의 적는 시간은 1시간이지만 덧글은 1분도 걸리지 않습니다.</span></strong></span></p><p><u>참고 : 이 강좌는 초보자를 위한 Eclipse를 사용하였습니다.</u></p><p><u>올리는 곳 : 제 네이버 블로그, 디벨로이드 카페, App Development 카페, 프그머 카페</u></p><div><span><u><strong>업로드 시간 : 매주 일요일 오후 11시</strong></u><div></div><p>&nbsp;<strong><span>난이도 : ★</span><span>★★★</span></strong><span>﻿<span>﻿</span></span></p><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span></span></span></div><div><span><span><span><span>﻿</span>﻿<span>﻿</span></span></span></span></div><div><span><span><span><span>﻿안드로이드 상에서 그래픽을 직접 코드로 짜서 출력하는 시간입니다.</span></span></span></span></div><div><span><span><span><span><span>﻿</span>﻿<span>﻿</span></span></span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿오늘은 간단히 초록색 사각형을 그려(출력해)보겠습니다.</span></span></span></div><div><span><span><span><span>﻿</span>﻿<span>﻿</span></span></span></span></div><div><span><span><span><span>﻿</span>﻿<span>﻿</span></span></span></span></div><div><span><span><span><span>﻿</span>﻿<span>﻿</span>일단 MainActivity.java 파일을 엽니다.</span></span></span></div><p></p></span><div><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fblogfiles.naver.net%2F20131006_185%2Ftjdtnsu_1381047373223md1VG_PNG%2F%25C1%25A6%25B8%25F1_%25BE%25F8%25C0%25BD.png%22&amp;type=cafe_wa740"></div><div>&nbsp;</div><div>그리고 그쪽에 코드를 적거나 복사합니다.</div><div>
+<p><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fpostfiles3.naver.net%2F20130523_178%2Ftjdtnsu_1369283538974akCh1_JPEG%2Fand.jpg%3Ftype%3Dw2%22&amp;type=cafe_wa740"></p><div><p><i>퍼갈 때에는 반드시 저작자의 허락과 저작자의 이름(아이디)를 기록하어야 합니다.</i></p><p><i>저작자는 Snails(tjdtnsu)입니다.</i></p><p><span><strong><span>제발 덧글 좀 적어주세요. 강의 적는 시간은 1시간이지만 덧글은 1분도 걸리지 않습니다.</span></strong></span></p><p><u>참고 : 이 강좌는 초보자를 위한 Eclipse를 사용하였습니다.</u></p><p><u>올리는 곳 : 제 네이버 블로그, 디벨로이드 카페, App Development 카페, 프그머 카페</u></p><div><span><u><strong>업로드 시간 : 매주 일요일 오후 11시</strong></u><div></div><p>&nbsp;<strong><span>난이도 : ★</span><span>★★★</span></strong><span>﻿<span>﻿</span></span></p><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span>﻿</span></span></div><div><span><span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span></span></span></div><div><span><span><span><span>﻿</span>﻿<span>﻿</span></span></span></span></div><div><span><span><span><span>﻿안드로이드 상에서 그래픽을 직접 코드로 짜서 출력하는 시간입니다.</span></span></span></span></div><div><span><span><span><span><span>﻿</span>﻿<span>﻿</span></span></span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿</span><span>﻿오늘은 간단히 초록색 사각형을 그려(출력해)보겠습니다.</span></span></span></div><div><span><span><span><span>﻿</span>﻿<span>﻿</span></span></span></span></div><div><span><span><span><span>﻿</span>﻿<span>﻿</span></span></span></span></div><div><span><span><span><span>﻿</span>﻿<span>﻿</span>일단 MainActivity.java 파일을 엽니다.</span></span></span></div><p></p></span><div><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fblogfiles.naver.net%2F20131006_185%2Ftjdtnsu_1381047373223md1VG_PNG%2F%25C1%25A6%25B8%25F1_%25BE%25F8%25C0%25BD.png%22&amp;type=cafe_wa740"></div><div>&nbsp;</div><div>그리고 그쪽에 코드를 적거나 복사합니다.</div><div>
 
 
 

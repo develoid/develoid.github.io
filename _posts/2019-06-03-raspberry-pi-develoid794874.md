@@ -13,24 +13,7 @@ tags:
 
 <script> location.href='https://cafe.naver.com/develoid/794874' ; </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						<div>
+<div>
  <p><span>우리가 많이 사용하고 있는 IoT 보드인 Raspberry Pi에 작년(2017년) 구글에서 공개한 IoT용 안드로이드 플랫폼인 Android Things의 설치 이미지파일을 한 번 만드는 과정을 한 번 정리해보았습니다.<b></span><span><b></span><span>* Android Things 가 무엇인지는 다음 글 중 하나로 준비중이니 참고부탁드립니다 :)</span></p>
 </div>
 <div>

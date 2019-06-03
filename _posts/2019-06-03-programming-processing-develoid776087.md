@@ -13,24 +13,7 @@ tags:
 
 <script> location.href='https://cafe.naver.com/develoid/776087' ; </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						<div>
+<div>
  <div>
   <img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzAxMjRfMTc4%2FMDAxNDg1MjQxOTk5NTQy.7dFyqc_Dvx16On1h532dRDWs_0zEpvbiTyJ_g0NjHFEg.MuA30BH1Afkl_6Qfys3K77mtj9-RFCGvvBz8ZUdO-aog.PNG.searphiel9%2Fprocessing_logo.png%22&amp;type=cafe_wa740">
  </div>

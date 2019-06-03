@@ -13,24 +13,7 @@ tags:
 
 <script> location.href='https://cafe.naver.com/develoid/246443' ; </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						<p><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fpostfiles11.naver.net%2F20130517_266%2Ftjdtnsu_1368772568157vEMv8_JPEG%2Fand.jpg%3Ftype%3Dw2%22&amp;type=cafe_wa740"></p><p><i>퍼갈 때에는 반드시 저작자의 허락과 저작자의 이름(아이디)를 기록하어야 합니다.</i></p><p><i>저작자는 Snails(tjdtnsu)입니다.</i></p><p><u>참고 : 이 강좌가 쓰여진 컴퓨터 사양은 엄청 안좋습니다.(Celeron D 2.66GHz, 768MB) 그러므로 다른 컴퓨터도 거의 다 될겁니다.</u>&nbsp;</p><p><u>참고 : 이 강좌는 초보자를 위한 Eclipse를 사용하였습니다.</u></p><p>&nbsp;</p><p><b><span>학습목표 : 이미지를 레이아웃에 추가할 수 있다</span></b>&nbsp;</p><p><b><span><span>난이도 : ★</span></span></b><b><span><span>☆</span></span></b><b><span><span></span></span></b><b><span><span></span></span></b></p><p>&nbsp;</p><p><strike><span>(여담으로 월요일에 졸업여행갑니다ㅋㅋ..)</span></strike></p><p>&nbsp;</p><p>오랜만에 쉬운 부분으로 가 보겠습니다. </p><p>이번에는 역시 안드로이드 어플을 만들때 제일 중요한 것</p><p>이미지를 넣을 줄 알아야 합니다.</p><p>어플만들 때도 자바 뿐 만 아니라 다른 것도 할 줄 알아야 합니다.(예를 들어 저는 디자인을 중점으로 둡니다.)</p><p>어플에 텍스트만 있으면 보기 좋지 않잖아요</p><p>이제 시작하겠습니다.</p><p>&nbsp;</p><p>1. 프로젝트 추가(정말 이건 알아서 하세요)</p>
+<p><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fpostfiles11.naver.net%2F20130517_266%2Ftjdtnsu_1368772568157vEMv8_JPEG%2Fand.jpg%3Ftype%3Dw2%22&amp;type=cafe_wa740"></p><p><i>퍼갈 때에는 반드시 저작자의 허락과 저작자의 이름(아이디)를 기록하어야 합니다.</i></p><p><i>저작자는 Snails(tjdtnsu)입니다.</i></p><p><u>참고 : 이 강좌가 쓰여진 컴퓨터 사양은 엄청 안좋습니다.(Celeron D 2.66GHz, 768MB) 그러므로 다른 컴퓨터도 거의 다 될겁니다.</u>&nbsp;</p><p><u>참고 : 이 강좌는 초보자를 위한 Eclipse를 사용하였습니다.</u></p><p>&nbsp;</p><p><b><span>학습목표 : 이미지를 레이아웃에 추가할 수 있다</span></b>&nbsp;</p><p><b><span><span>난이도 : ★</span></span></b><b><span><span>☆</span></span></b><b><span><span></span></span></b><b><span><span></span></span></b></p><p>&nbsp;</p><p><strike><span>(여담으로 월요일에 졸업여행갑니다ㅋㅋ..)</span></strike></p><p>&nbsp;</p><p>오랜만에 쉬운 부분으로 가 보겠습니다. </p><p>이번에는 역시 안드로이드 어플을 만들때 제일 중요한 것</p><p>이미지를 넣을 줄 알아야 합니다.</p><p>어플만들 때도 자바 뿐 만 아니라 다른 것도 할 줄 알아야 합니다.(예를 들어 저는 디자인을 중점으로 둡니다.)</p><p>어플에 텍스트만 있으면 보기 좋지 않잖아요</p><p>이제 시작하겠습니다.</p><p>&nbsp;</p><p>1. 프로젝트 추가(정말 이건 알아서 하세요)</p>
 
 
 

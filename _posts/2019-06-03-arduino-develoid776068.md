@@ -13,24 +13,7 @@ tags:
 
 <script> location.href='https://cafe.naver.com/develoid/776068' ; </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						<div>
+<div>
  <div>
   <img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzAxMThfNDMg%2FMDAxNDg0NzQxODQyNjc4.RDeJPAuU8RnaiE4JDoF0CaHEoJ3_9JKSZALo-yj1KIcg.DHzzCBh3ICsUxoH91wpNcekoaQoVQVKUkru6erk1bacg.JPEG.searphiel9%2Farduino_logo.jpg%22&amp;type=cafe_wa740">
  </div>

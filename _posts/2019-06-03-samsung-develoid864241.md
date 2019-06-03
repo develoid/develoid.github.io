@@ -13,24 +13,7 @@ tags:
 
 <script> location.href='https://cafe.naver.com/develoid/864241' ; </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						<p>먼저, 블루투스가 정상적으로 작동하는 쓰지않는 공기기나 다른 여분의 기기를 준비해줍니다.<b><b><b><b>그다음, Knox Deployment 앱을 설치후 로그인 해 줍니다<b><b></p><div>
+<p>먼저, 블루투스가 정상적으로 작동하는 쓰지않는 공기기나 다른 여분의 기기를 준비해줍니다.<b><b><b><b>그다음, Knox Deployment 앱을 설치후 로그인 해 줍니다<b><b></p><div>
         <div>
                           <div>
                         <img src="https://dthumb-phinf.pstatic.net/?src=https://lh3.googleusercontent.com/ruiokLXdSpIGY2-jZzCwbxy-mjaytNphu3c6nBQzu_5mcx0frmq1iZwb_ieMuL_Fn8M1&amp;type=f220">
