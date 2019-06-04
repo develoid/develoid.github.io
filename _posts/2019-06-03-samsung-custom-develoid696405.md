@@ -13,4 +13,19 @@ tags:
 
 <script> location.href='https://cafe.naver.com/develoid/696405' ; </script>
 
-<p>SystemUI.apk</p><p>PowerUI.smali</p><p>SupportChargingRemainingTime 검색</p><p><b>&nbsp;&nbsp;&nbsp; iput-boolean v2, p0, Lcom/android/systemui/power/PowerUI;-&gt;mSupportChargingRemainingTime:Z</p><p>v2를 v4로 변경</p><p>PowerNotificationWarnings.smali</p><p>showChargingNotice(ZI)V 검색</p><p><b>&nbsp;&nbsp;&nbsp; const-string v3, "PowerUI.Notification"</p><p>&nbsp;&nbsp;&nbsp; const-string v4, "Charging remaining time is not supported and connected cable is not a fast/slow charger, so return!"</p><p>이게 나오는데 그 위에</p><p>if-eq if-nez if-eqz if-ne 등을 서로 반대되게 변경</p><p>eq&gt;&gt;&gt;ne</p><p>eqz&gt;&gt;nez</p><p>ne&gt;&gt;eq</p><p>nez&gt;&gt;eqz</p>
+<p>SystemUI.apk</p>
+<p>PowerUI.smali</p>
+<p>SupportChargingRemainingTime 검색</p>
+<p>&nbsp;&nbsp;&nbsp; iput-boolean v2, p0, Lcom/android/systemui/power/PowerUI;-&gt;mSupportChargingRemainingTime:Z</p>
+<p>v2를 v4로 변경</p>
+<p>PowerNotificationWarnings.smali</p>
+<p>showChargingNotice(ZI)V 검색</p>
+<p>&nbsp;&nbsp;&nbsp; const-string v3, "PowerUI.Notification"</p>
+<p>&nbsp;&nbsp;&nbsp; const-string v4, "Charging remaining time is not supported and connected cable is not a fast/slow charger, so return!"</p>
+<p>이게 나오는데 그 위에</p>
+<p>if-eq if-nez if-eqz if-ne 등을 서로 반대되게 변경</p>
+<p>eq&gt;&gt;&gt;ne</p>
+<p>eqz&gt;&gt;nez</p>
+<p>ne&gt;&gt;eq</p>
+<p>nez&gt;&gt;eqz</p>
+
