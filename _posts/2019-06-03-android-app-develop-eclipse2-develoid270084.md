@@ -18,7 +18,7 @@ tags:
 <p>저작자는 Snails(tjdtnsu)입니다.</p>
 <p><u>참고 : 이 강좌는 초보자를 위한 Eclipse를 사용하였습니다.</u></p>
 <p><u>참고 : 이 강좌는 매주 일요일마다 업데이트합니다.</u> (공휴일, 개인사정 등등 제외)</p>
-<p><strong>개인강좌게시판을 득템하기 위하여</strong>&nbsp;</p>
+<p>개인강좌게시판을 득템하기 위하여&nbsp;</p>
 <p>&nbsp;</p>
 <p><u>﻿</u></p>
 <p>학습목표 :&nbsp;TextView, ImageView의 주요한 속성을 이해할 수 있다.</p>
@@ -32,30 +32,30 @@ tags:
 <p>&nbsp;</p>
 <p>1. TextView 속성</p>
 <p>&nbsp;</p>
-<p><strong>text</strong></p>
+<p>text</p>
 <p>출력할 문자열을 지정한다.</p>
 <p>일관된 메세지 관리를 위해서 string.xml(3-1 참조)를 지정하기도 한다.</p>
 <p>ex) android:text="안녕"</p>
 <p>&nbsp;</p>
-<p><strong>textColor</strong></p>
+<p>textColor</p>
 <p>문자열의 색상을 지정한다.</p>
 <p>ex) android:textColor="#ff0000"</p>
 <p>&nbsp;</p>
-<p><strong>textSize</strong></p>
+<p>textSize</p>
 <p>텍스트이 폰트 크기를 지정한다.</p>
 <p>단위는 sp가 적당하다. </p>
 <p>ex) android:textSize="25sp"</p>
 <p>&nbsp;</p>
-<p><strong>textStyle</strong></p>
+<p>textStyle</p>
 <p>폰트의 속성을 지정한다.</p>
 <p>normal, bold, italic 중 하나를 쓰기나 '|' 로 묶어 두 개 이상 할 수도 있다.</p>
 <p>ex) android:text</p>
 <p>&nbsp;</p>
-<p><strong>typeface</strong></p>
+<p>typeface</p>
 <p>글꼴의 모양을 지정한다.normal, sans, serif, monospace 중 하나를 선택할 수 있다.&nbsp;</p>
 <p>ex) android:typeface="normal"</p>
 <p>&nbsp;</p>
-<p><strong>width,height</strong></p>
+<p>width,height</p>
 <p>텍스트 뷰의 폭과 높이이다.</p>
 <p>위젯의 가장 기본적 속성이지만 거의 사용되지 않는다.</p>
 <p>width, height 대신 layout_width, layout_height 로 사용된다.</p>
@@ -65,19 +65,19 @@ tags:
 <p>&nbsp;</p>
 <p>2. ImageView 속성</p>
 <p>&nbsp;</p>
-<p><strong>src</strong></p>
+<p>src</p>
 <p>출력할 이미지를 지정한다.</p>
 <p>ex) android:src="@drawable/Scan06172013_172111"</p>
 <p>&nbsp;</p>
-<p><strong>adjustViewBounds</strong></p>
+<p>adjustViewBounds</p>
 <p>이미지 뷰를 적당히 조정할 것인가를 지정한다.</p>
 <p>ex)&nbsp;android:adjustViewBounds="false"</p>
 <p>&nbsp;</p>
-<p><strong>cropToPadding</strong></p>
+<p>cropToPadding</p>
 <p>true이면 여백을 맞추기 위해 이미지 일부를 자른다.</p>
 <p>ex) android:cropToPadding="true"</p>
 <p>&nbsp;</p>
-<p><strong>maxHeight, maxWidth</strong></p>
+<p>maxHeight, maxWidth</p>
 <p>이미지 최대 크기를 지정한다.</p>
 <p>ex)&nbsp;android:max</p>
 <p>&nbsp;</p>

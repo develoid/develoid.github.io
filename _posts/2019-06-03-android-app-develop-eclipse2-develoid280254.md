@@ -21,7 +21,7 @@ tags:
 <p>&nbsp;</p>
 <p><u>﻿</u></p>
 <p>학습목표 :&nbsp;토스트를 생성할 수 있다.</p>
-<p><strong>난이도 : ★★</strong><strong>★</strong><strong>★</strong>&nbsp; </p>
+<p>난이도 : ★★★★&nbsp; </p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>네 제가 난이도를 4개로 한 이유가 뭘까요?</p>

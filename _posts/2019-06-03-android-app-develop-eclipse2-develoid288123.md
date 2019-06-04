@@ -16,7 +16,7 @@ tags:
 <p><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fpostfiles3.naver.net%2F20130523_178%2Ftjdtnsu_1369283538974akCh1_JPEG%2Fand.jpg%3Ftype%3Dw2%22&amp;type=cafe_wa740"></p>
 <p>퍼갈 때에는 반드시 저작자의 허락과 저작자의 이름(아이디)를 기록하어야 합니다.</p>
 <p>저작자는 Snails(tjdtnsu)입니다.</p>
-<p><strong>제발 덧글 좀 적어주세요. 강의 적는 시간은 1시간이지만 덧글은 1분도 걸리지 않습니다.</strong></p>
+<p>제발 덧글 좀 적어주세요. 강의 적는 시간은 1시간이지만 덧글은 1분도 걸리지 않습니다.</p>
 <p><u>참고 : 이 강좌는 초보자를 위한 Eclipse를 사용하였습니다.</u></p>
 <p><u>올리는 곳 : 제 네이버 블로그, 디벨로이드 카페, App Development 카페, 프그머 카페</u></p>
 <p>&nbsp;</p>
@@ -27,7 +27,7 @@ tags:
 <p>그 중 대표적인 것만 하겠습니다.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><strong>1. 터치 입력</strong></p>
+<p>1. 터치 입력</p>
 <p>스마트폰에서 가장 기본적인 입력 방법입니다.</p>
 <p>지난번에도 말했다싶이</p>
 <p>터치는 입력 시간뿐만 아니라 x,y좌표까지 알아냅니다.</p>
@@ -41,9 +41,9 @@ tags:
 <p>쿠키런의 점프, 슬라이드을 구현</p>
 <p>만약에&nbsp;터치한 자리가&nbsp;가로 화면의 크기의 반보다 작으면 점프, 크면 슬라이드를 한다.&nbsp;</p>
 <p>&nbsp;</p>
-<p><strong></strong>&nbsp;</p>
-<p><strong></strong>&nbsp;</p>
-<p><strong>2.&nbsp;키보드 입력</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>2.&nbsp;키보드 입력</p>
 <p>장비에 따라 하드웨어 키보드, 스크린 키보드가 제공되는데 문자를 둘 다 입력이 가능하다.</p>
 <p>&nbsp;</p>
 <p>상수</p>
@@ -64,7 +64,7 @@ tags:
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><strong>3. 위젯의 이벤트 처리</strong></p>
+<p>3. 위젯의 이벤트 처리</p>
 <p>위젯의 이벤트는 동일하지만 효율적 방법이 존재한다.</p>
 <p>위젯의 대표적 예로 버튼을 해보면</p>
 <p>클릭은 단순히 누르고 떼는 동작이며 터치에 희해 추가로 발생하는 이벤트이다.</p>

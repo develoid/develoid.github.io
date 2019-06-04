@@ -202,9 +202,9 @@ tags:
 <p ></p>
 <p align="left" >&nbsp;</p>
 <p align="left" >&nbsp;</p>
-<p align="left" ><strong>overlay 문제 해결</strong></p>
+<p align="left" >overlay 문제 해결</p>
 <p align="left" >target Export Resources: framework-res (/home/whdghks913/cluster/system/out/target/common/obj/APPS/framework-res_intermediates/package-export.apk)</p>
-<p align="left" >device/pantech/ef46l/overlay/frameworks/base/core/res/res/values/config.xml:30: error: Resource at config_networkLocationProviderPackageName appears in overlay but not in the base package; use&nbsp;<strong>&lt;add-resource&gt;</strong>&nbsp;to add.device/pantech/ef46l/overlay/frameworks/base/core/res/res/values/config.xml:33: error: Resource at config_geocodeProviderPackageName appears in overlay but not in the base package; use&nbsp;<strong>&lt;add-resource&gt;</strong>&nbsp;to add.device/pantech/ef46l/overlay/frameworks/base/core/res/res/values/config.xml:40: error: Resource at config_autoBrightnessButtonKeyboard appears in overlay but not in the base package; use&nbsp;<strong>&lt;add-resource&gt;</strong>&nbsp;to add.make: *** [/home/whdghks913/cluster/system/out/target/common/obj/APPS/framework-res_intermediates/package-export.apk] 오류 1make: *** 파일 `/home/whdghks913/cluster/system/out/target/common/obj/APPS/framework-res_intermediates/package-export.apk'을(를) 지웁니다</p>
+<p align="left" >device/pantech/ef46l/overlay/frameworks/base/core/res/res/values/config.xml:30: error: Resource at config_networkLocationProviderPackageName appears in overlay but not in the base package; use&nbsp;&lt;add-resource&gt;&nbsp;to add.device/pantech/ef46l/overlay/frameworks/base/core/res/res/values/config.xml:33: error: Resource at config_geocodeProviderPackageName appears in overlay but not in the base package; use&nbsp;&lt;add-resource&gt;&nbsp;to add.device/pantech/ef46l/overlay/frameworks/base/core/res/res/values/config.xml:40: error: Resource at config_autoBrightnessButtonKeyboard appears in overlay but not in the base package; use&nbsp;&lt;add-resource&gt;&nbsp;to add.make: *** [/home/whdghks913/cluster/system/out/target/common/obj/APPS/framework-res_intermediates/package-export.apk] 오류 1make: *** 파일 `/home/whdghks913/cluster/system/out/target/common/obj/APPS/framework-res_intermediates/package-export.apk'을(를) 지웁니다</p>
 <p align="left" >&nbsp;</p>
 <p align="left" >cm10→cm10.1에서 체험한 문제입니다</p>
 <p align="left" >표시된 내용을 보면 &lt;add-resource&gt;를 추가해 해결할 수 있습니다</p>
@@ -221,7 +221,7 @@ tags:
 <p align="left" ></p>
 <p align="left" ></p>
 <p align="left" >&nbsp;</p>
-<p ><strong>external/bluetooth/bluedroid/Android.mk:8: NO BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR, using only generic configuration</strong></p>
+<p >external/bluetooth/bluedroid/Android.mk:8: NO BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR, using only generic configuration</p>
 <p >&nbsp;</p>
 <p ></p>
 <p >device/samsung/msm8660-common 또는 msm8660-common에 들어간 다음 bluetooth라는 폴더를 만들어 주세요</p>

@@ -20,7 +20,7 @@ tags:
 <p>&nbsp;</p>
 <p>오타, 잘못된 부분 지적 부탁드립니다!</p>
 <p>&nbsp;</p>
-<p><strong>2. 이클립스 때려서 어플 만들자</strong></p>
+<p>2. 이클립스 때려서 어플 만들자</p>
 <p>2-1 이클립스 실행하자</p>
 <p>저번 강좌에서 다운받은 ADT를 압축풀면 이클립스와 SDK, SDK Manager이 나오는대요 이클립스 폴더에 진입하신다음</p>
 <p>eclipse.exe를 실행해 주세요</p>
@@ -63,7 +63,7 @@ tags:
 <p>&nbsp;</p>
 <p>[미르의 팁]</p>
 <p>-이클립스의 단축키를 알아봅시다</p>
-<p><strong>Ctrl + F11 : Run As를 실행한것과 같은 단축키 입니다</strong>Ctrl + D : 커서가 위치한 줄 자체를 지워버립니다Ctrl + / : 주석처리를 위한 단축키 입니다 드래그를 한다음 이 단축키를 누르면 드레그된 줄이 주석(//)처리 됩니다Ctrl&nbsp; + Shift + / : 주석처리를 위한 단축키 이며 이는 /* */으로 주석처리 됩니다<strong>Ctrl + Shift + O : 자동으로 import하며 가장 많이 하는 단축키가 될것입니다 (꼭 암기하세요!)</strong>Ctrl + N : 새로운 프로젝트를 생성합니다<strong>Alt + ↓ , Alt + ↑ : 줄바꾸기 입니다 현재 커서가 위치한 줄을 위쪽(또는 아래쪽)으로 이동시켜 줍니다</strong></p>
+<p>Ctrl + F11 : Run As를 실행한것과 같은 단축키 입니다Ctrl + D : 커서가 위치한 줄 자체를 지워버립니다Ctrl + / : 주석처리를 위한 단축키 입니다 드래그를 한다음 이 단축키를 누르면 드레그된 줄이 주석(//)처리 됩니다Ctrl&nbsp; + Shift + / : 주석처리를 위한 단축키 이며 이는 /* */으로 주석처리 됩니다Ctrl + Shift + O : 자동으로 import하며 가장 많이 하는 단축키가 될것입니다 (꼭 암기하세요!)Ctrl + N : 새로운 프로젝트를 생성합니다Alt + ↓ , Alt + ↑ : 줄바꾸기 입니다 현재 커서가 위치한 줄을 위쪽(또는 아래쪽)으로 이동시켜 줍니다</p>
 <p>&nbsp;</p>
 <p>hello world를 표시하는 어플을 만들어 보겠습니다</p>
 <p><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fcfile22.uf.tistory.com%2Fimage%2F2464FA3B51F86B5A0E6F3B%22&amp;type=cafe_wa740"></p>

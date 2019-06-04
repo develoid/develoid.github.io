@@ -16,13 +16,13 @@ tags:
 <p><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fpostfiles3.naver.net%2F20130523_178%2Ftjdtnsu_1369283538974akCh1_JPEG%2Fand.jpg%3Ftype%3Dw2%22&amp;type=cafe_wa740"></p>
 <p>퍼갈 때에는 반드시 저작자의 허락과 저작자의 이름(아이디)를 기록하어야 합니다.</p>
 <p>저작자는 Snails(tjdtnsu)입니다.</p>
-<p><strong>제발 덧글 좀 적어주세요. 강의 적는 시간은 1시간이지만 덧글은 1분도 걸리지 않습니다.</strong></p>
+<p>제발 덧글 좀 적어주세요. 강의 적는 시간은 1시간이지만 덧글은 1분도 걸리지 않습니다.</p>
 <p><u>참고 : 이 강좌는 초보자를 위한 Eclipse를 사용하였습니다.</u></p>
 <p><u>올리는 곳 : 제 네이버 블로그, 디벨로이드 카페, App Development 카페, 프그머 카페</u></p>
 <p>&nbsp;</p>
 <p><u>﻿</u></p>
 <p>학습목표 :&nbsp;소리 삽입의 종류와 삽입법을 알 수 있다.</p>
-<p><strong>난이도 : ★★</strong><strong>★</strong><strong>★★</strong>&nbsp; </p>
+<p>난이도 : ★★★★★&nbsp; </p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>네 오늘은 소리입니다.</p>
@@ -46,13 +46,13 @@ tags:
 <p><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fpostfiles6.naver.net%2F20130906_85%2Ftjdtnsu_13784759326851N61T_PNG%2F%25C1%25A6%25B8%25F1_%25BE%25F8%25C0%25BD.png%3Ftype%3Dw2%22&amp;type=cafe_wa740">둘을 섞었습니다.</p>
 <p>한줄씩 대충 어떤 역할을 하는지 짚어보겠습니다.</p>
 <p>&nbsp;</p>
-<p>1. <strong>soundpool</strong></p>
+<p>1. soundpool</p>
 <p>&nbsp;&nbsp;&nbsp; SoundPool beep; : 비프 사운드풀 생성&nbsp;&nbsp;&nbsp; int bee; : 재생 변수 생성</p>
 <p>&nbsp;&nbsp;&nbsp; beep=new SoundPool(1,AudioManager.STREAM_MUSIC,0);&nbsp;: 비프 설정&nbsp;&nbsp;&nbsp;&nbsp;bee=beep.load(this,R.raw.dingdong,1); : 비프 설정에 따라 로딩</p>
 <p>&nbsp;&nbsp;&nbsp; beep.play(bee,1,1,0,1,1); : 재생</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>2. <strong>audiomanager</strong></p>
+<p>2. audiomanager</p>
 <p>&nbsp;&nbsp;&nbsp; private static MediaPlayer back; : 미디어플레이어 백 생성</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;back=MediaPlayer.create(this, R.raw.arirang); : 재생 파일&nbsp;지정&nbsp;&nbsp;&nbsp;&nbsp;back.setLooping(true); : 반복 유무&nbsp;&nbsp;&nbsp;&nbsp;back.start(); : 재생</p>
 <p>&nbsp;</p>

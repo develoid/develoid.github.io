@@ -20,7 +20,7 @@ tags:
 <p>저작자는 Snails(tjdtnsu)입니다.</p>
 <p><u>참고 : 이 강좌는 초보자를 위한 Eclipse를 사용하였습니다.</u></p>
 <p>&nbsp;</p>
-<p><strong>개인강좌게시판을 득템하기 위하여</strong>&nbsp;</p>
+<p>개인강좌게시판을 득템하기 위하여&nbsp;</p>
 <p>&nbsp;</p>
 <p><u>﻿</u></p>
 <p>학습목표 :&nbsp;apk 파일을 추출할 수 있다.</p>

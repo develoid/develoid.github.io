@@ -19,7 +19,7 @@ tags:
 <p>속성이 이 EditText에서 추가할수 있는 게 몇게 있는대요 그것 위주로 설명하도록 하겠습니다</p>
 <p> </p>
 <p>&nbsp;</p>
-<p><strong>7. EditText는 완전 쉬워요~</strong></p>
+<p>7. EditText는 완전 쉬워요~</p>
 <p>7-1 일단 프로젝트를 만들자</p>
 <p>Ctrl+N을 누르면 새로운 프로젝트를 만드는 창이 뜹니다</p>
 <p> </p>

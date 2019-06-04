@@ -21,7 +21,7 @@ tags:
 
 <p><u>참고 : 이 강좌는 초보자를 위한 Eclipse를 사용하였습니다.</u></p>
 
-<p><strong>개인강좌게시판을 득템하기 위하여</strong>&nbsp;</p>
+<p>개인강좌게시판을 득템하기 위하여&nbsp;</p>
 
 <p>&nbsp;<u>﻿</u></p>
 
@@ -59,7 +59,7 @@ tags:
 
 <p>2. 레이아웃을 꾸밉니다. 알아서 넣으세요 그리고 텍스트도 넣으세요</p>
 
-<p><strong>참고로 ratiobutton은 form widget에서 버튼이 3개 있는 걸 해야합니다. 외톨이 하나 아니에요</strong></p>
+<p>참고로 ratiobutton은 form widget에서 버튼이 3개 있는 걸 해야합니다. 외톨이 하나 아니에요</p>
 
 <p>&nbsp;</p>
 

@@ -130,7 +130,7 @@ tags:
 <p>아래 초록 박스의 굵은 글씨가 추가된 부분입니다</p>
 <p> </p>
 <p>&nbsp;</p>
-<p>public class MainActivity extends Activity <strong>implements Runnable</strong> {<strong> ProgressBar progressBar1; EditText editText1; int progress=0; Thread thread;</strong></p>
+<p>public class MainActivity extends Activity implements Runnable { ProgressBar progressBar1; EditText editText1; int progress=0; Thread thread;</p>
 <p> </p>
 <p>... 중략</p>
 <p> </p>
@@ -146,7 +146,7 @@ tags:
 <p> </p>
 <p>&nbsp;</p>
 <p>똑똑한 EditText를 만들어 봅시다</p>
-<p>editText1.<strong>addTextChangedListener</strong>(new TextWatcher() {     @Override   public void afterTextChanged(Editable arg0) {       }</p>
+<p>editText1.addTextChangedListener(new TextWatcher() {     @Override   public void afterTextChanged(Editable arg0) {       }</p>
 <p>   @Override   public void beforeTextChanged(CharSequence arg0, int arg1, int arg2, int arg3) {       }</p>
 <p>   @Override   public void onTextChanged(CharSequence arg0, int arg1, int arg2,     int arg3) {    // TODO Auto-generated method stub    /**     * 만약 입력한 값이 공백(없음, "")이라면 강제종료 오류가 뜨므로 이 전체를 try문으로 감싸 오류를 막습니다     */    try {      // Integer.parseInt()는 String을 Int로 바꿔줍니다     progress = Integer.parseInt(editText1.getText().toString());     progressBar1.setProgress(progress);</p>
 <p>     //setProgress는 프로그래스바의 진행정도를 지정해 줍니다, ()안에는 int형 숫자가 들어갈수 있습니다    } catch (Exception e) {         }   }  });</p>

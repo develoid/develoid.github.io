@@ -26,12 +26,12 @@ tags:
 <p>안녕하세요~</p>
 <p>이번강좌는 조금 복잡한 내용을 다루고 있습니다</p>
 <p>알림을 띄우는것은 전에 모두 했었던 내용입니다</p>
-<p><a href="http://whdghks913.tistory.com/315"><strong>[Development/App] - #11 알림 메세지 띄우기</strong></a></p>
+<p><a href="http://whdghks913.tistory.com/315">[Development/App] - #11 알림 메세지 띄우기</a></p>
 <p>그러나 이것만으로는 할수 없는것들이 있기 때문에 이번에는 그것을 배워보도록 하겠습니다</p>
 <p>이처럼 점점 이미 배웠던것을 심화시켜서 강좌를 쓰도록 하겠습니다</p>
 <p>아마도 이번 강좌부터 난이도가 조금씩 생기지 않을까 생각됩니다</p>
 <p>&nbsp;</p>
-<p><strong>17. 커스텀 알림(Alert) 띄우기</strong></p>
+<p>17. 커스텀 알림(Alert) 띄우기</p>
 <p>17-1 이번시간에 배울 내용은?</p>
 <p>이번시간에는 알림을 이용한 방법 모두!! 마스터 해보겠습니다</p>
 <p>&nbsp;</p>
@@ -59,7 +59,7 @@ tags:
 <p>첫번째 [그림 2-1]을 구현하는 부분입니다</p>
 <p>먼저 첫번째 메소드의 맨 위에 아래 소스가 필요합니다</p>
 <p>LayoutInflater inflater = (LayoutInflater)getSystemService(this.LAYOUT_INFLATER_SERVICE);</p>
-<p>View view = inflater.inflate(<u><strong>R.layout.activity_alert1</strong></u>, null);</p>
+<p>View view = inflater.inflate(<u>R.layout.activity_alert1</u>, null);</p>
 <p>[소스 3-1] LayoutInflater를 이용한 코드</p>
 <p>여기서 레이아웃 인플레이터이란? 20번대 강좌에서 살펴볼 예정이지만 한번 그림으로&nbsp; 보겠습니다</p>
 <p>&nbsp;</p>
@@ -67,7 +67,7 @@ tags:
 <p>[그림 3-1] LayoutInflater에 관한 설명, 이 사진은 나중에 재활용 될 예정(왜냐면 만들기 힘들어요 ㅠㅠ)</p>
 <p>정리하자면 한 부분을 따로 떼어 레이아웃 파일(xml)으로 따로 작성한 것 입니다</p>
 <p>&nbsp;</p>
-<p>여기서 <strong><u>R.layout.activity_alert1</u></strong>을 주목해 주세요</p>
+<p>여기서 <u>R.layout.activity_alert1</u>을 주목해 주세요</p>
 <p>이것은 자주 보면 형식인대 우리는 아직 activity_alert1이라는 xml파일을 안만들었습니다</p>
 <p>그래서 한번 만들어 봤습니다 여러분도 따로 만들어 보세요~</p>
 <p>&nbsp;</p>
@@ -80,7 +80,7 @@ tags:
 <p>&nbsp;</p>
 <p>그다음 소스는 아래와 같습니다</p>
 <p>AlertDialog.Builder alert = new AlertDialog.Builder(this);</p>
-<p>alert.setTitle("알림");alert.setPositiveButton("확인", new DialogInterface.OnClickListener() {&nbsp;&nbsp;&nbsp; @Override&nbsp;&nbsp;&nbsp; public void onClick(DialogInterface dialog, int which) {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;dialog.dismiss();&nbsp;&nbsp;&nbsp; }});alert.setNegativeButton("취소", null);alert.<strong><u>setView(view);</u></strong>alert.show();</p>
+<p>alert.setTitle("알림");alert.setPositiveButton("확인", new DialogInterface.OnClickListener() {&nbsp;&nbsp;&nbsp; @Override&nbsp;&nbsp;&nbsp; public void onClick(DialogInterface dialog, int which) {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;dialog.dismiss();&nbsp;&nbsp;&nbsp; }});alert.setNegativeButton("취소", null);alert.<u>setView(view);</u>alert.show();</p>
 <p>[소스 3-2] setView를 사용한 알림 소스</p>
 <p>이미 배운 내용이라 익숙하실탠대 한가지 중요한 코드가 있습니다</p>
 <p>setView라는 부분인대요</p>
@@ -95,8 +95,8 @@ tags:
 <p>17-4 커스텀 알림에 리스트 추가하기 - 1</p>
 <p>이번에는 [그림 2-2]를 구현해 보겠습니다</p>
 <p>그리고 이번에는 알림 코드의 단축형(?)을 사용해 보겠습니다</p>
-<p>new AlertDialog.Builder(this).setTitle("알림")<strong>.<u>setItems</u>(<u>R.array.Like</u>,&nbsp;&nbsp;&nbsp; new DialogInterface.OnClickListener(){&nbsp;&nbsp;&nbsp; public void onClick(DialogInterface dialog, int which){&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>String[] Like = getResources().getStringArray(R.array.Like);</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toast.makeText(MainActivity.this, "가장 좋아하는것은: " + <u>Like[which]</u>, Toast.LENGTH_SHORT).show();</strong></p>
-<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dialog.dismiss();&nbsp;&nbsp;&nbsp; }})</strong></p>
+<p>new AlertDialog.Builder(this).setTitle("알림").<u>setItems</u>(<u>R.array.Like</u>,&nbsp;&nbsp;&nbsp; new DialogInterface.OnClickListener(){&nbsp;&nbsp;&nbsp; public void onClick(DialogInterface dialog, int which){&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>String[] Like = getResources().getStringArray(R.array.Like);</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toast.makeText(MainActivity.this, "가장 좋아하는것은: " + <u>Like[which]</u>, Toast.LENGTH_SHORT).show();</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dialog.dismiss();&nbsp;&nbsp;&nbsp; }})</p>
 <p>.setPositiveButton("확인", new DialogInterface.OnClickListener(){&nbsp;&nbsp;&nbsp; @Override&nbsp;&nbsp;&nbsp; public void onClick(DialogInterface dialog, int which) {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dialog.dismiss();&nbsp;&nbsp;&nbsp; }}).show();</p>
 <p>[소스 4-1] 터치하면 창이 닫히는 리스트 알림 소스</p>
 <p>개발자분들이 자주 사용하는 알림 소스의 형태입니다</p>
@@ -143,11 +143,11 @@ tags:
 <p>17-5 커스텀 알림에 리스트 추가하기 - 2</p>
 <p>으어 강좌가 너무 길어지는대요;;</p>
 <p>아무튼 이번에는 [그림 2-3]을 구현해 보겠습니다</p>
-<p><strong>int Choose = 0;</strong></p>
+<p>int Choose = 0;</p>
 <p>&nbsp;</p>
 <p>...</p>
 <p>&nbsp;</p>
-<p>new AlertDialog.Builder(this).setTitle("알림")<strong>.setSingleChoiceItems(R.array.Like, Choose,&nbsp;new DialogInterface.OnClickListener(){&nbsp;public void onClick(DialogInterface dialog, <u>int which</u>){</strong>&nbsp;&nbsp;&nbsp;&nbsp; <strong><u>Choose=which;</u>&nbsp;}})</strong>.setPositiveButton("확인",new DialogInterface.OnClickListener(){&nbsp;public void onClick(DialogInterface dialog, int whichButton){&nbsp;&nbsp;&nbsp;&nbsp; <strong>String[] Like = getResources().getStringArray(R.array.Like);</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Toast.makeText(MainActivity.this, "가장 좋아하는것은: "+<strong>Like[Choose]</strong>, Toast.LENGTH_SHORT).show();&nbsp;&nbsp; &nbsp;&nbsp;dialog.dismiss();&nbsp;}}).setNegativeButton("취소",null).show();</p>
+<p>new AlertDialog.Builder(this).setTitle("알림").setSingleChoiceItems(R.array.Like, Choose,&nbsp;new DialogInterface.OnClickListener(){&nbsp;public void onClick(DialogInterface dialog, <u>int which</u>){&nbsp;&nbsp;&nbsp;&nbsp; <u>Choose=which;</u>&nbsp;}}).setPositiveButton("확인",new DialogInterface.OnClickListener(){&nbsp;public void onClick(DialogInterface dialog, int whichButton){&nbsp;&nbsp;&nbsp;&nbsp; String[] Like = getResources().getStringArray(R.array.Like);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Toast.makeText(MainActivity.this, "가장 좋아하는것은: "+Like[Choose], Toast.LENGTH_SHORT).show();&nbsp;&nbsp; &nbsp;&nbsp;dialog.dismiss();&nbsp;}}).setNegativeButton("취소",null).show();</p>
 <p>[소스 5-1] 라디오 버튼이 있는 리스트 알림 띄우기</p>
 <p>이 예제는 위와 비슷해서 많은 설명은 필요 없습니다</p>
 <p>&nbsp;</p>
@@ -164,10 +164,10 @@ tags:
 <p>ㅁ..마지막 입니다!!</p>
 <p>이것은 위에서 설명했드시 이해하기 좀 어렵습니다</p>
 <p>그러므로 지금 이해가 안된다면 꼭 이해하려 하지 마세요</p>
-<p><strong>boolean[]</strong> MultChoose = {false, false, false, false, false}</p>
+<p>boolean[] MultChoose = {false, false, false, false, false}</p>
 <p>&nbsp;</p>
 ... <p>&nbsp;</p>
-<p>new AlertDialog.Builder(this)&nbsp;&nbsp;.setTitle("알림")&nbsp;&nbsp;.setMultiChoiceItems(R.array.Like, MultChoose,&nbsp;&nbsp;&nbsp;new DialogInterface.OnMultiChoiceClickListener() {&nbsp;&nbsp;&nbsp;public void onClick(DialogInterface dialog, <strong>int which</strong>, <strong>boolean isChecked</strong>) {&nbsp;&nbsp;&nbsp;&nbsp;MultChoose[which]=<strong>isChecked</strong>;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;})&nbsp;&nbsp;.setPositiveButton("확인",new DialogInterface.OnClickListener() {&nbsp;&nbsp;&nbsp;public void onClick(DialogInterface dialog, int whichButton) {&nbsp;&nbsp;&nbsp;&nbsp;<strong>String[]</strong> foods = getResources().getStringArray(R.array.Like);&nbsp;&nbsp;&nbsp;&nbsp;String string= "가장 좋아하는것은: ";&nbsp;&nbsp;&nbsp;&nbsp;for(int i=0; i&lt;MultChoose.length;i++){&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>if(MultChoose[i]){&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string += foods[i] + ", ";&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</strong>&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;&nbsp;Toast.makeText(MainActivity.this, string, Toast.LENGTH_SHORT).show();&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;})&nbsp;&nbsp;.setNegativeButton("취소",null)&nbsp;&nbsp;.show();</p>
+<p>new AlertDialog.Builder(this)&nbsp;&nbsp;.setTitle("알림")&nbsp;&nbsp;.setMultiChoiceItems(R.array.Like, MultChoose,&nbsp;&nbsp;&nbsp;new DialogInterface.OnMultiChoiceClickListener() {&nbsp;&nbsp;&nbsp;public void onClick(DialogInterface dialog, int which, boolean isChecked) {&nbsp;&nbsp;&nbsp;&nbsp;MultChoose[which]=isChecked;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;})&nbsp;&nbsp;.setPositiveButton("확인",new DialogInterface.OnClickListener() {&nbsp;&nbsp;&nbsp;public void onClick(DialogInterface dialog, int whichButton) {&nbsp;&nbsp;&nbsp;&nbsp;String[] foods = getResources().getStringArray(R.array.Like);&nbsp;&nbsp;&nbsp;&nbsp;String string= "가장 좋아하는것은: ";&nbsp;&nbsp;&nbsp;&nbsp;for(int i=0; i&lt;MultChoose.length;i++){&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(MultChoose[i]){&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string += foods[i] + ", ";&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;&nbsp;Toast.makeText(MainActivity.this, string, Toast.LENGTH_SHORT).show();&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;})&nbsp;&nbsp;.setNegativeButton("취소",null)&nbsp;&nbsp;.show();</p>
 <p>[소스 6-1]&nbsp;체크&nbsp;박스가 있는 리스트 알림 띄우기</p>
 <p>이 예제에도 역시 배열이 등장하는대요</p>
 <p>약간 어렵습니다...</p>
@@ -179,7 +179,7 @@ tags:
 <p>&nbsp;</p>
 <p>이때 boolean배열의 *번째 값을 isChecked의 값으로 변경하게 됩니다</p>
 <p>즉 which가 2고 isChecked가 true가 되면</p>
-<p>boolean[] MultChoose = {false, <strong>true</strong>, false, false, false};</p>
+<p>boolean[] MultChoose = {false, true, false, false, false};</p>
 <p>로 변하게 됩니다</p>
 <p>&nbsp;</p>
 <p>마지막으로 확인버튼을 누르게 되면 배열의 수를 확인해서 for문을 돌립니다</p>

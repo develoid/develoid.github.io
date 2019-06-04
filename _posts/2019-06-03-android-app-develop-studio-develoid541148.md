@@ -40,7 +40,7 @@ tags:
 <p align="center" >잘 따라오면 쉽게 설치할 수 있을 겁니다.</p>
 <p align="center" >​</p>
 <p align="center" >﻿</p>
-<p align="center" ><strong>1. 사이트에 접속</strong></p>
+<p align="center" >1. 사이트에 접속</p>
 <p align="center" >​&nbsp;</p>
 <p align="center" >&nbsp; - JAVA JDK : 자바 소스 프록램 컴파일&nbsp;</p>
 <p align="center" >&nbsp;&nbsp;&nbsp; ㄴ <a href="http://www.oracle.com/">http://www.oracle.com</a></p>
@@ -52,7 +52,7 @@ tags:
 <p align="center" >﻿&nbsp;</p>
 <p align="center" >﻿&nbsp;</p>
 <p align="center" >﻿&nbsp;</p>
-<p align="center" ><strong>2. JDK 설치</strong></p>
+<p align="center" >2. JDK 설치</p>
 <p align="center" >﻿</p>
 <p align="center" >﻿&nbsp;﻿</p>
 <p align="center" ><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fblogfiles.naver.net%2F20150614_191%2Ftjdtnsu_1434272206767WQP4s_PNG%2F%25C1%25A6%25B8%25F1_%25BE%25F8%25C0%25BD.png%22&amp;type=cafe_wa740"></p>
@@ -67,7 +67,7 @@ tags:
 <p align="center" >﻿&nbsp;﻿</p>
 <p align="center" >﻿&nbsp;</p>
 <p align="center" >﻿&nbsp;﻿</p>
-<p align="center" ><strong>3. 환경 변수 설정</strong></p>
+<p align="center" >3. 환경 변수 설정</p>
 <p align="center" ></p>
 <p align="center" >&nbsp;<img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fblogfiles.naver.net%2F20150614_259%2Ftjdtnsu_1434253454685uf2dL_PNG%2F%25C1%25A6%25B8%25F1_%25BE%25F8%25C0%25BD.png%22&amp;type=cafe_wa740"></p>
 <p align="center" ></p>
@@ -114,7 +114,7 @@ tags:
 <p align="center" >&nbsp;﻿</p>
 <p align="center" >﻿</p>
 <p align="center" >﻿&nbsp;</p>
-<p align="center" ><strong>4.&nbsp;Android Studio&nbsp;설치</strong></p>
+<p align="center" >4.&nbsp;Android Studio&nbsp;설치</p>
 <p align="center" >﻿&nbsp;</p>
 <p align="center" >&nbsp;<img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fblogfiles.naver.net%2F20150614_13%2Ftjdtnsu_1434269808702bfLmB_PNG%2F%25C1%25A6%25B8%25F1_%25BE%25F8%25C0%25BD.png%22&amp;type=cafe_wa740"></p>
 <p align="center" ></p>
@@ -154,7 +154,7 @@ tags:
 <p align="center" ></p>
 <p align="center" ></p>
 <p align="center" >​</p>
-<p align="center" ><strong>5.&nbsp;SDK 설정</strong></p>
+<p align="center" >5.&nbsp;SDK 설정</p>
 <p align="center" >​</p>
 <p align="center" >Start Android Studio로 실행합니다.</p>
 <p align="center" >​</p>
@@ -188,7 +188,7 @@ tags:
 <p align="center" >﻿</p>
 <p align="center" >﻿&nbsp;</p>
 <p align="center" >&nbsp;﻿</p>
-<p align="center" ><strong>6.&nbsp;AVD 설정 (선택)</strong></p>
+<p align="center" >6.&nbsp;AVD 설정 (선택)</p>
 <p align="center" >​</p>
 <p align="center" >​이 부분은 실험할 안드로이드 기기가 없을 때 이용합니다.</p>
 <p align="center" >저는 딱히 추천하지 않습니다.</p>
@@ -216,7 +216,7 @@ tags:
 <p align="center" >&nbsp;</p>
 <p align="center" ></p>
 <p align="center" >&nbsp;</p>
-<p align="center" ><strong>|&nbsp;</strong>​글 작성일 : 2013.04.24 <strong>|</strong> 재작성본 0차 수정&nbsp;<strong>|</strong>​&nbsp; 최종수정 2015.06.14&nbsp;<strong>|</strong>​ </p>
+<p align="center" >|&nbsp;​글 작성일 : 2013.04.24 | 재작성본 0차 수정&nbsp;|​&nbsp; 최종수정 2015.06.14&nbsp;|​ </p>
 <p></p>
 <p></p>
 <p></p>

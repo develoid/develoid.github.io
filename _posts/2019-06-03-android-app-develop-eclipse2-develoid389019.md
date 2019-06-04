@@ -21,10 +21,10 @@ tags:
 <p>덧글은 강의 제작자에게 큰 힘이 됩니다</p>
 <p><u>참고 : 이 강좌는 초보자를 위한 Eclipse를 사용하였습니다.</u></p>
 <p><u>올리는 곳 : 제 네이버 블로그, 디벨로이드 카페</u></p>
-<p><u><strong>업로드 시간 : 매달 2,4주 오후 11시</strong></u><p></p>
-<p><strong>난이도 : ★★★★★☆</strong></p>
-<strong></strong><p><strong></strong></p>
-<strong></strong></p>
+<p><u>업로드 시간 : 매달 2,4주 오후 11시</u><p></p>
+<p>난이도 : ★★★★★☆</p>
+<p></p>
+</p>
 <p></p>
 <p></p>
 </p>
@@ -40,14 +40,14 @@ tags:
 <p>Value.. 뭐시기 적혀 있는 건 TextView이므로 참고하세요</p>
 <p>&nbsp;</p>
 <p>자, 그러면 코드를 보시겠습니다</p>
-<table><tbody><tr><td ><p>&nbsp;<strong>xml - activity_main.xml</strong></p>
+<table><tbody><tr><td ><p>&nbsp;xml - activity_main.xml</p>
 <p>&nbsp;</p>
 <p>&lt;RelativeLayout xmlns:androhttp://schemas.android.com/apk/res/android">http://schemas.android.com/apk/res/android</a>"&nbsp;&nbsp;&nbsp; xmlns:tools="<a href="http://schemas.android.com/tools">http://schemas.android.com/tools</a>"&nbsp;&nbsp;&nbsp; android:layout_&nbsp;&nbsp;&nbsp; android:layout_height="match_parent"&nbsp;&nbsp;&nbsp; android:paddingBottom="@dimen/activity_vertical_margin"&nbsp;&nbsp;&nbsp; android:paddingLeft="@dimen/activity_horizontal_margin"&nbsp;&nbsp;&nbsp; android:paddingRight="@dimen/activity_horizontal_margin"&nbsp;&nbsp;&nbsp; android:paddingTop="@dimen/activity_vertical_margin"&nbsp;&nbsp;&nbsp; tools:context=".MainActivity" &gt;</p>
 <p>&nbsp;&nbsp;&nbsp; &lt;TextView&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:layout_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:layout_height="wrap_content"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:layout_alignParentTop="true"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:layout_centerHorizontal="true"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:layout_marginTop="21dp"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:text="Value : 0" /&gt;</p>
 <p>&nbsp;&nbsp;&nbsp; &lt;SeekBar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:layout_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:layout_height="wrap_content"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:layout_alignParentRight="true"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:max="100"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:layout_below="@+id/textView1" /&gt;</p>
 <p>&nbsp;&nbsp;&nbsp; &lt;TextView&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:layout_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:layout_height="wrap_content"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:layout_alignLeft="@+id/seekBar1"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:layout_below="@+id/seekBar1"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:text="" /&gt;</p>
 <p>&lt;/RelativeLayout&gt;&nbsp;</p>
-</td></tr><tr><td ><p>&nbsp;<strong>java - MainActivity.java</strong></p>
+</td></tr><tr><td ><p>&nbsp;java - MainActivity.java</p>
 <p>&nbsp;</p>
 <p>package com.meap;</p>
 <p>import android.app.Activity;import android.os.Bundle;import android.view.Menu;import android.widget.SeekBar;import android.widget.TextView;</p>

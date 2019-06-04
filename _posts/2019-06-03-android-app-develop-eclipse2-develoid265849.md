@@ -18,7 +18,7 @@ tags:
 <p>저작자는 Snails(tjdtnsu)입니다.</p>
 <p><u>참고 : 이 강좌는 초보자를 위한 Eclipse를 사용하였습니다.</u></p>
 <p><u>참고 : 이 강좌는 매주 일요일마다 업데이트합니다.</u> (공휴일, 개인사정 등등 제외)</p>
-<p><strong>개인강좌게시판을 득템하기 위하여</strong>&nbsp;</p>
+<p>개인강좌게시판을 득템하기 위하여&nbsp;</p>
 <p>내일 -&nbsp;학원을 10시부터 10시까지 해서 못올려서..&nbsp;</p>
 <p>&nbsp;</p>
 <p><u>﻿</u></p>
@@ -43,30 +43,30 @@ tags:
 <p>근데 속성이 또 엄청나므로 자주 사용하는 것부터 살펴 보도록 하겠습니다.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><strong>id</strong></p>
+<p>id</p>
 <p>뷰 고유 이름 정의</p>
 <p>ex) android:</p>
 <p>&nbsp;</p>
-<p><strong>layout_width, layout_height</strong></p>
+<p>layout_width, layout_height</p>
 <p>뷰의 폭과 높이를 지정</p>
 <p>match_parent(fill_parent) : 부모의 주어진 크기를 다 채운다.</p>
 <p>wrap_content : 내용물의 크기만큼만 맞춘다.</p>
 <p>ex) android:layout_</p>
-<p><strong>background</strong></p>
+<p>background</p>
 <p>뷰의 배경을 어떻게 채울 것인지 지정</p>
 <p>ex)android:background="#ff0000"</p>
 <p>&nbsp;</p>
-<p><strong>visibility</strong></p>
+<p>visibility</p>
 <p>뷰가 보일 것인가 아닌가를 지정한다.</p>
 <p>visible : 보이는 상태invisible : 숨겨지되 자리는 차지</p>
 <p>gone : 숨겨지되 자리도 차지하지 않음</p>
 <p>ex)android:visibility="visible"</p>
 <p>&nbsp;</p>
-<p><strong>clickable, longClickable</strong></p>
+<p>clickable, longClickable</p>
 <p>클릭 이벤트(손가락으로 누르는 것)를 받을 것인지, 롱 클릭 이벤트(누른 채로 기다리는 것)를 받을 것인지 지정</p>
 <p>ex) android:longClickable="true"</p>
 <p>&nbsp;</p>
-<p><strong>focusable</strong></p>
+<p>focusable</p>
 <p>키보드 포커스를 받을 수 있는지 지정</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>

@@ -19,24 +19,24 @@ tags:
 <p>덧글은 강의 제작자에게 큰 힘이 됩니다</p>
 <p><u>참고 : 이 강좌는 초보자를 위한 Eclipse를 사용하였습니다.</u></p>
 <p><u>올리는 곳 : 제 네이버 블로그, 디벨로이드 카페</u></p>
-<p><u><strong>업로드 시간 : 매달 2,4주 오후 11시</strong></u><p></p>
-<p> <strong>난이도 : ★★★★</strong></p>
-<strong></strong><p><strong></strong></p>
-<strong></strong><p>그렇습니다. 오늘은 간단하게 난수 생성법에 대해 알려드리겠습니다</p>
+<p><u>업로드 시간 : 매달 2,4주 오후 11시</u><p></p>
+<p> 난이도 : ★★★★</p>
+<p></p>
+<p>그렇습니다. 오늘은 간단하게 난수 생성법에 대해 알려드리겠습니다</p>
 <p>&nbsp;</p>
 <p>난수 : 어떤 확률분포로부터 무선적으로 선택이 된 수를 말한다</p>
 <p>&nbsp;</p>
 <p>그렇다 합니다. 그러면 난수 생성법은 2가지가 있습니다.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><strong>1. random() 함수 이용하기</strong></p>
+<p>1. random() 함수 이용하기</p>
 <p>double&nbsp;r = Math.random();</p>
 <p>&nbsp;</p>
 <p>0&lt;x&lt;1의 실수가 나옵니다.&nbsp;</p>
 <p>여기서 정수형 변환, 범위는 작업을 해야 합니다.﻿&nbsp;</p>
 <p>&nbsp;&nbsp;</p>
 <p>﻿&nbsp;</p>
-<p><strong>2. Random Class 이용하기</strong></p>
+<p>2. Random Class 이용하기</p>
 <p>Random rnd = new Random();&nbsp;</p>
 <p>int&nbsp;r = rnd.nextInt();﻿﻿</p>
 <p>&nbsp;</p>

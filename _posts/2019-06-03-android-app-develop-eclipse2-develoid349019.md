@@ -17,12 +17,12 @@ tags:
 </td></tr></tbody></table><p><p><p>&nbsp;<img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fpostfiles3.naver.net%2F20130523_178%2Ftjdtnsu_1369283538974akCh1_JPEG%2Fand.jpg%3Ftype%3Dw2%22&amp;type=cafe_wa740"></p>
 <p>퍼갈 때에는 반드시 저작자의 허락과 저작자의 이름(아이디)를 기록하어야 합니다.</p>
 <p>저작자는 Snails(tjdtnsu)입니다.</p>
-<p><strong>제발 덧글 좀 적어주세요. 강의 적는 시간은 1시간이지만 덧글은 1분도 걸리지 않습니다.</strong></p>
+<p>제발 덧글 좀 적어주세요. 강의 적는 시간은 1시간이지만 덧글은 1분도 걸리지 않습니다.</p>
 <p>&nbsp;</p>
 <p><u>참고 : 이 강좌는 초보자를 위한 Eclipse를 사용하였습니다.</u></p>
 <p><u>올리는 곳 : 제 네이버 블로그, 디벨로이드 카페</u></p>
-<p><u><strong>업로드 시간 : 매주 일요일 오후 11시</strong></u><p></p>
-<p>&nbsp;<strong>난이도 : ★★★★★★★</strong>﻿﻿</p>
+<p><u>업로드 시간 : 매주 일요일 오후 11시</u><p></p>
+<p>&nbsp;난이도 : ★★★★★★★﻿﻿</p>
 <p>﻿</p>
 <p>﻿</p>
 <p>﻿</p>

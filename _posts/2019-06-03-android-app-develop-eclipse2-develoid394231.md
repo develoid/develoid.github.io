@@ -33,13 +33,13 @@ tags:
 
 <p><u>올리는 곳 : 제 네이버 블로그, 디벨로이드 카페</u>
 </p>
-<p><u><strong>업로드 시간 : 매달 2,4주 오후 11시</strong></u>
+<p><u>업로드 시간 : 매달 2,4주 오후 11시</u>
 <p></p>
 
-<p><strong>난이도 : ★★★★★★</strong></p>
-<strong>
-</strong><p><strong></strong></p>
-<strong></strong></p>
+<p>난이도 : ★★★★★★</p>
+
+<p></p>
+</p>
 
 <p></p>
 <p>&nbsp;</p>
