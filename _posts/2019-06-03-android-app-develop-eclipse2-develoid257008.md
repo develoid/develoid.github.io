@@ -84,7 +84,7 @@ tags:
 <p>&nbsp;4번</p></td><td >
 <p>&nbsp;1</p></td><td >
 <p>&nbsp;잘라내기가 아니라 복사입니다.</p></td></tr></tbody></table>
-<p>&nbsp;</p></p>
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 <p><em></em>&nbsp;</p>
 <p></p><p>&nbsp;</p>

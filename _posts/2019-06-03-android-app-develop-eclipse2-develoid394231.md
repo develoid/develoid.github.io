@@ -14,7 +14,7 @@ tags:
 <script> location.href='https://cafe.naver.com/develoid/394231' ; </script>
 
 <p>
-<p></p></p>
+<p></p>
 <!-- Not Allowed Attribute Filtered ( cssquery_u) --><p>
 <p><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fpostfiles3.naver.net%2F20130523_178%2Ftjdtnsu_1369283538974akCh1_JPEG%2Fand.jpg%3Ftype%3Dw2%22&amp;type=cafe_wa740"> </p>
 <p>
@@ -30,7 +30,7 @@ tags:
 <p></p>
 <p><strong>난이도 : ★★★★★★</strong></p><strong>
 </strong><p><strong></strong></p><strong></strong></p>
-<p></p><p>&nbsp;</p></p></p></p></p></p>
+<p></p><p>&nbsp;</p></p></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>이번 시간에는 날짜값을 가져와서 출력하는 작업을 하겠습니다.</p>
