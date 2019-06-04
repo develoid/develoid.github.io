@@ -13,24 +13,24 @@ tags:
 
 <script> location.href='https://cafe.naver.com/develoid/394231' ; </script>
 
-<div>
-<p><span></span></p></div>
-<!-- Not Allowed Attribute Filtered ( cssquery_uid="51") --><div>
+<p>
+<p></p></p>
+<!-- Not Allowed Attribute Filtered ( cssquery_u) --><p>
 <p><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fpostfiles3.naver.net%2F20130523_178%2Ftjdtnsu_1369283538974akCh1_JPEG%2Fand.jpg%3Ftype%3Dw2%22&amp;type=cafe_wa740"> </p>
-<div>
-<div>
-<div>
-<div>
+<p>
+<p>
+<p>
+<p>
 <p><i>퍼갈 때에는 반드시 저작자의 허락과 저작자의 이름(아이디)를 기록하어야 합니다.</i></p>
 <p><i>저작자는 Snails(tjdtnsu)입니다.</i></p>
-<p><span><span>덧글은 강의 제작자에게 큰 힘이 됩니다</span></span></p>
+<p>덧글은 강의 제작자에게 큰 힘이 됩니다</p>
 <p><u>참고 : 이 강좌는 초보자를 위한 Eclipse를 사용하였습니다.</u></p>
 <p><u>올리는 곳 : 제 네이버 블로그, 디벨로이드 카페</u>
-</p><div><span><u><strong>업로드 시간 : 매달 2,4주 오후 11시</strong></u>
-<div></div>
-<p><strong><span>난이도 : ★</span><span>★★★★★</span></strong></p><strong>
-</strong><div><strong></strong></div></span><strong></strong></div>
-<p></p><p>&nbsp;</p></div></div></div></div></div>
+</p><p><u><strong>업로드 시간 : 매달 2,4주 오후 11시</strong></u>
+<p></p>
+<p><strong>난이도 : ★★★★★★</strong></p><strong>
+</strong><p><strong></strong></p><strong></strong></p>
+<p></p><p>&nbsp;</p></p></p></p></p></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>이번 시간에는 날짜값을 가져와서 출력하는 작업을 하겠습니다.</p>
@@ -40,14 +40,14 @@ tags:
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>여기서 시간을 불러오는 코드가</p>
-<p><span>final Calendar c = Calendar.getInstance();</span></p>
+<p>final Calendar c = Calendar.getInstance();</p>
 <p>입니다. 이 코드는</p>
-<p><span>import java.util.Calendar;</span></p>
+<p>import java.util.Calendar;</p>
 <p>를 일단 import 되어 있어야 합니다. 어차피 알아서 추가가 되겠지요</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>그러면 여기서 ㅁ를 불러올 때는 뭐라고 해야 할까요</p>
-<p><span>c.get(Calendar.ㅁ</span><span>);</span></p>
+<p>c.get(Calendar.ㅁ);</p>
 <p>입니다. 여기서 ㅁ에 들어갈 수 있는 것은</p>
 <p>엄청 많아서 생략하지만</p>
 <p>&nbsp;</p>
@@ -63,15 +63,15 @@ tags:
 
 
 
-<table style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid" class="__se_tbl" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td style="BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BACKGROUND-COLOR: #ffffff; WIDTH: 738px; HEIGHT: 684px; BORDER-TOP: 0px; BORDER-RIGHT: 0px">
-<p><span>&nbsp;public class MainActivity extends Activity {</span><b><span>&nbsp;&nbsp; private TextView mTimeDisplay;</span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; private int mHour;</span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; private int mMinute;</span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; private int mSecond;</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; private Runnable r;</span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; private Handler mHandler;</span></p>
-<p><b><span>&nbsp;@Override</span><b><span>&nbsp;protected void onCreate(Bundle savedInstanceState) {</span><b><span>&nbsp;&nbsp;super.onCreate(savedInstanceState);</span><b><span>&nbsp;&nbsp;setContentView(R.layout.activity_main);</span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mTimeDisplay = (TextView) findViewById(R.id.textView4);</span></p>
-<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; final Calendar c = Calendar.getInstance();</span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mHour = c.get(Calendar.HOUR_OF_DAY);</span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mMinute = c.get(Calendar.MINUTE);</span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mSecond = c.get(Calendar.SECOND);</span></p>
-<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mHandler = new Handler(); </span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; r = new Runnable() { </span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @Override</span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; public void run() { </span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; updateDisplay();</span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }; </span><b><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mHandler.postDelayed(r, 1000);</span></p>
+<table><tbody><tr><td >
+<p>&nbsp;public class MainActivity extends Activity {<b>&nbsp;&nbsp; private TextView mTimeDisplay;<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; private int mHour;<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; private int mMinute;<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; private int mSecond;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; private Runnable r;<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; private Handler mHandler;</p>
+<p><b>&nbsp;@Override<b>&nbsp;protected void onCreate(Bundle savedInstanceState) {<b>&nbsp;&nbsp;super.onCreate(savedInstanceState);<b>&nbsp;&nbsp;setContentView(R.layout.activity_main);<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mTimeDisplay = (TextView) findViewById(R.id.textView4);</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; final Calendar c = Calendar.getInstance();<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mHour = c.get(Calendar.HOUR_OF_DAY);<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mMinute = c.get(Calendar.MINUTE);<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mSecond = c.get(Calendar.SECOND);</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mHandler = new Handler(); <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; r = new Runnable() { <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @Override<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; public void run() { <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; updateDisplay();<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }; <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mHandler.postDelayed(r, 1000);</p>
 <p>&nbsp;</p>
-<p><span>&nbsp;}</span><b><span>&nbsp;</span><b><span>&nbsp;private void updateDisplay() {</span><b><span>&nbsp;final Calendar c = Calendar.getInstance();</span><b><span>&nbsp;&nbsp;&nbsp;&nbsp; mHour = c.get(Calendar.HOUR_OF_DAY);</span><b><span>&nbsp;&nbsp;&nbsp;&nbsp; mMinute = c.get(Calendar.MINUTE);</span><b><span>&nbsp;&nbsp;&nbsp;&nbsp; mSecond = c.get(Calendar.SECOND);</span></p>
-<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><b><span>&nbsp;&nbsp;&nbsp;&nbsp; mTimeDisplay.setText("현재시간 : " + mHour + "시 " + mMinute + "분 " + mSecond + "초 ");</span></p>
-<p><span>&nbsp;&nbsp;&nbsp;&nbsp; mHandler.postDelayed(r, 1000); </span><b><span>&nbsp;&nbsp;&nbsp; }</span><b><span>&nbsp;</span></p></td></tr></tbody></table>
+<p>&nbsp;}<b>&nbsp;<b>&nbsp;private void updateDisplay() {<b>&nbsp;final Calendar c = Calendar.getInstance();<b>&nbsp;&nbsp;&nbsp;&nbsp; mHour = c.get(Calendar.HOUR_OF_DAY);<b>&nbsp;&nbsp;&nbsp;&nbsp; mMinute = c.get(Calendar.MINUTE);<b>&nbsp;&nbsp;&nbsp;&nbsp; mSecond = c.get(Calendar.SECOND);</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&nbsp;&nbsp;&nbsp;&nbsp; mTimeDisplay.setText("현재시간 : " + mHour + "시 " + mMinute + "분 " + mSecond + "초 ");</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; mHandler.postDelayed(r, 1000); <b>&nbsp;&nbsp;&nbsp; }<b>&nbsp;</p></td></tr></tbody></table>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>이 예제는&nbsp;지금 현재 몇시&nbsp;몇분 몇초인지&nbsp;1초 주기로 업데이트하는&nbsp;코드입니다.</p>
@@ -80,7 +80,7 @@ tags:
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>그러면 실행 환경입니다</p>
-<div><iframe frameborder="0" scrolling="no" name="mplayer" title="플레이어" width="720" height="405" src="https://serviceapi.nmv.naver.com/view/ugcPlayer.nhn?vid=5F535B92462872C3BE287116150D0438158B&amp;inKey=V1246a8c0551cde5570a9b21fa7062efa1c022a86df6b5bc2ca869982356bd5e388a1b21fa7062efa1c02&amp;wmode=opaque&amp;hasLink=1&amp;autoPlay=false&amp;beginTime=0" allowfullscreen="allowfullscreen"></iframe></div>
+<p><iframe frame scrolling="no" name="mplayer" title="플레이어"  height="405" src="https://serviceapi.nmv.naver.com/view/ugcPlayer.nhn?vid=5F535B92462872C3BE287116150D0438158B&amp;inKey=V1246a8c0551cde5570a9b21fa7062efa1c022a86df6b5bc2ca869982356bd5e388a1b21fa7062efa1c02&amp;wmode=opaque&amp;hasLink=1&amp;autoPlay=false&amp;beginTime=0" allowfullscreen="allowfullscreen"></iframe></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
