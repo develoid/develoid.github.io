@@ -60,18 +60,4 @@ body {
   font-size: 16px;
 }
 
-@media (height: 320px) { #text { height: 40px; } }
-@media (height: 360px) { #text { height: 90px; } }
-@media (height: 375px) { #text { height: 90px; } }
-@media (height: 411px) { #text { height: 130px; } }
-@media (height: 414px) { #text { height: 130px; } }
-@media (height: 568px) { #text { height: 300px; } }
-@media (height: 640px) { #text { height: 350px; } }
-@media (height: 667px) { #text { height: 400px; } }
-@media (height: 731px) { #text { height: 450px; } }
-@media (height: 736px) { #text { height: 450px; } }
-@media (height: 768px) { #text { height: 450px; } }
-@media (height: 812px) { #text { height: 500px; } }
-@media (height: 823px) { #text { height: 500px; } }
-@media (height: 1024px) { #text { height: 700px; } }
-@media (height: 1366px) { #text { height: 1000px; } }
+@media (max-height: 1000px) { #text { height: 300px; } }
