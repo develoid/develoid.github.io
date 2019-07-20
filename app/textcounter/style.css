@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after { clear: both; }
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  color: #212121;
+  background: #212121;
+  font-size: 16px;
+}
+
+#box {
+  margin: 40px auto;
+  padding: 8px;
+  width: 90%;
+  background: #fefefe;
+  text-align: center;
+  border-collapse: collapse;
+  border: 0;
+  border-radius: 8px;
+}
+
+#view {
+  margin: 16px 8px 36px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#count {
+  font-size: 64px;
+  color: #FF5252;
+}
+
+#text {
+  width: 100%;
+  height: 600px;
+  padding: 12px;
+  border-collapse: collapse;
+  border: 0;
+  border-radius: 8px;
+  background: #dfdfdf;
+  resize: vertical;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 16px;
+}
+
+@media (height: 320px) { #text { height: 40px; } }
+@media (height: 360px) { #text { height: 90px; } }
+@media (height: 375px) { #text { height: 90px; } }
+@media (height: 411px) { #text { height: 130px; } }
+@media (height: 414px) { #text { height: 130px; } }
+@media (height: 568px) { #text { height: 300px; } }
+@media (height: 640px) { #text { height: 350px; } }
+@media (height: 667px) { #text { height: 400px; } }
+@media (height: 731px) { #text { height: 450px; } }
+@media (height: 736px) { #text { height: 450px; } }
+@media (height: 768px) { #text { height: 450px; } }
+@media (height: 812px) { #text { height: 500px; } }
+@media (height: 823px) { #text { height: 500px; } }
+@media (height: 1024px) { #text { height: 700px; } }
+@media (height: 1366px) { #text { height: 1000px; } }
