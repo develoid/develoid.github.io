@@ -42,13 +42,13 @@ body {
   font-weight: bold;
 }
 
-#count {
+#count,
+#ctext {
   font-size: 64px;
   color: #FF5252;
 }
 
-#text,
-#ctext {
+#text {
   width: 100%;
   height: 600px;
   padding: 12px;
