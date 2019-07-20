@@ -47,7 +47,8 @@ body {
   color: #FF5252;
 }
 
-#text {
+#text,
+#ctext {
   width: 100%;
   height: 600px;
   padding: 12px;
