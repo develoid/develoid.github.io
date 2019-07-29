@@ -1,6 +1,6 @@
 $("#i10").on("propertychange change keyup paste input", function() {
 	let source = $(this).val();
-	let price = parseInt(source/1.1);
+	let price = (source/1.1).toFixed();
 	let vat = source-price;
 	
     document.getElementById("o11").value = price;
