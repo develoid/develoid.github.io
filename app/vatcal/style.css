@@ -20,7 +20,34 @@
 
 body {
   font-family: "Nanum Gothic", sans-serif;
-  color: #fff;
   background: #212121;
+}
+
+#item {
+  width: 320px;
+  margin: 16px auto;
+  padding: 16px;
+  background: #fff;
+  border: 0px;
+  border-radius: 12px;
+}
+
+#item p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+#item input {
+  width: 100%;
+  margin: 4px 0;
+  padding: 8px;
+  text-align: right;
+  border: 0px;
+  border-radius: 6px;
+  background: #EEEEEE;
   font-size: 16px;
+}
+
+#item input:disabled {
+  background: #CFD8DC;
 }
