@@ -18,6 +18,12 @@
 }
 .clearfix:after { clear: both; }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
 body {
   font-family: "Nanum Gothic", sans-serif;
   background: #212121;
