@@ -11,7 +11,7 @@ tags:
 ---
 
 
-<script> location.href='https://cafe.naver.com/develoid/834407' ; </script>
+
 
 <p>S8/S8+ 통신사 펌웨어 변경 방법!</p>
 <p><a href="https://cafe.naver.com/developit/2431">https://cafe.naver.com/developit/2431</a></p>
@@ -30,4 +30,3 @@ tags:
 <p>왠만한 방법은 다 막아버렸는데 제 생각에 RealTerm을 이용한 방법은 막지 않을듯 합니다</p>
 <p>그냥 엿만 살짝 먹일려는 의도인것 같네요..</p>
 <p>시우연우파파님 방식의 변경 방법은 건재합니다</p>
-
