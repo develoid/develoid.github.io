@@ -11,8 +11,6 @@ tags:
 ---
 
 
-<script> location.href='https://cafe.naver.com/develoid/834477' ; </script>
-
 <p>안녕하세요 Android Pay (HD Voice) 입니다!</p>
 <p>주요 기종의 통신사 펌웨어 변경 방법을 하나의 글로 통합해서 올립니다</p>
 <p>녹스 보호하고 싶으시면 OEM 잠금해제는 하지 마시고 구글 계정은 그대로 두세요</p>
@@ -228,4 +226,3 @@ tags:
 <p>끝!</p>
 <p>-</p>
 <p>끝났습니다 감사합니다 수고하셨습니다</p>
-
