@@ -7,6 +7,8 @@
  * Credits: @jlantunez, @LuisSacristan, @Belelros
  */
 @charset "UTF-8";
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 /*-----------------------------------------------------------------------------------
 	0. CSS Reset & Normalize
 	1. Base
@@ -487,7 +489,7 @@ figure.alignleft {
 
 pre,
 code {
-  font-family: 'Cousine', monospace; }
+/*font-family: 'Cousine', monospace;*/ }
 
 pre {
   font-size: 1.6rem;
@@ -794,7 +796,8 @@ body,
 input,
 select,
 textarea {
-  font-family: 'Roboto', 'San Francisco', helvetica, arial, sans-serif;
+  font-family: "NanumSquare", sans-serif;
+  font-weight: bold;
   font-size: 62.5%; }
 
 body,
@@ -865,10 +868,10 @@ h1 {
     h1 {
       font-size: 5.6rem;
       line-height: 7.2rem; } }
-
+/*
 h1 span {
-  font-style: italic; }
-
+font-style: italic; }
+*/
 h2 {
   font-size: 3.2rem;
   line-height: 4.8rem; }
@@ -1068,9 +1071,10 @@ h3 [class*='bg-'] {
   line-height: 4rem; }
 
 /* -- Serif -- */
+/*
 .text-serif,
 h1 span {
-  font-family: 'Maitree', times, serif; }
+font-family: 'Maitree', times, serif; }*/
 
 /* -- h1,h2... Promo/Landings -- */
 .text-landing {
@@ -2563,7 +2567,7 @@ cite span {
   .text-quote:before,
   .wall:before {
     content: '\201C';
-    font-family: arial, sans-serif;
+    /*font-family: arial, sans-serif;*/
     font-size: 12rem;
     height: 5.6rem;
     left: -.8rem;

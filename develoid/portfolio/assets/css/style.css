@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*@import url('https://cdn.rawgit.com/develoid/NanumSquare/master/nanumsquare.css');*/
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/*
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*/
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after { clear: both; }
+
+.slogan {
+  font-size: 48px;
+}
+
+.list {
+  margin-top: 40px;
+}
+
+.list li {
+  margin: 10px 0;
+  list-style: none;
+  text-align: center;
+}
+
+.list li a {
+  text-decoration: none;
+  color: #333;
+}
