@@ -22,11 +22,16 @@
 }
 .clearfix:after { clear: both; }
 
+.a-style {
+  text-decoration: none;
+  color: #333;
+}
+
 .slogan {
   font-size: 48px;
 }
 
-.list {
+.content {
   margin-top: 40px;
 }
 
@@ -36,18 +41,27 @@
   text-align: center;
 }
 
-.list li a {
-  text-decoration: none;
-  color: #333;
-}
-
 .contact {
   margin-top: 40px;
   font-size: 24px;
   line-height: 2em;
+  text-align: center;
 }
 
-.contact a {
-  text-decoration: none;
-  color: #333;
+.contact-table {
+  width: auto;
+}
+
+.contact-table tr,
+.contact-table tr > td,
+.contact-table tr:nth-child(even) > td {
+  border: 0;
+  background:rgba(0, 0, 0, 0);
+  padding: 12px;
+}
+
+.contact-table tr:hover,
+.contact-table tr > td:hover,
+.contact-table tr:nth-child(even) > td:hover {
+  background:rgba(0, 0, 0, 0);
 }
