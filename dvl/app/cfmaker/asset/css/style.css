@@ -8,7 +8,7 @@ html {
   padding-top: 10px;
   padding-bottom: 40px;
   border-radius: 12px;
-  background: #eee;
+  background: #fafafa;
 }
 
 .write,
@@ -16,7 +16,7 @@ html {
 .out {
   width: 836px;
   margin: 20px auto;
-  background: #fff;
+  background: #fafafa;
 }
 
 table {
