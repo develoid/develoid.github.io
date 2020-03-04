@@ -1,0 +1,57 @@
+html {
+    background: #333;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  border-radius: 12px;
+  background: #eee;
+}
+
+.write,
+.view,
+.out {
+  width: 836px;
+  margin: 20px auto;
+  background: #fff;
+}
+
+table {
+  width: 100%;
+}
+
+input {
+  width: 95%;
+  padding: 6px;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+button {
+  padding: 6px;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+.btn_interface {
+  text-align: center;
+  margin: 10px 0 20px;
+}
+
+.out {
+  text-align: center;
+  padding: 20px 0;
+}
+
+textarea {
+  width: 90%;
+  margin: 20px 0;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 8px;
+  height: 300px;
+  resize: none;
+}
