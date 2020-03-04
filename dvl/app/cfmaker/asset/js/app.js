@@ -1,9 +1,18 @@
 let bp_cnt = 1;
-let ad_cnt = 2;
+let ad_cnt = 1;
 let yt_cnt = 2;
 let bt_cnt = 4;
 let sp_cnt = 4;
 let pt_cnt = 4;
+
+let bp_array = new Array();
+let ad_array = new Array();
+let yt_array = new Array();
+let bt_array = new Array();
+let sp_array = new Array();
+let pt_array = new Array();
+
+let page;
 
 let menu_url = new Array(
   "https://cafe.naver.com/develoid",
@@ -172,38 +181,38 @@ function DataCheckBool(item) {
 
 // Cafe Front Make
 function Make() {
-  let page = "<!-- Develoid Front v2020.01 / Design by 밤푸딩 / Edit by SiRyuA -->"
+  bp_array = new Array();
+  ad_array = new Array();
+  yt_array = new Array();
+  bt_array = new Array();
+  sp_array = new Array();
+  pt_array = new Array();
 
-  let bp_array = new Array();
-  let ad_array = new Array();
-  let yt_array = new Array();
-  let bt_array = new Array();
-  let sp_array = new Array();
-  let pt_array = new Array();
+  page = "<!-- Develoid Front v2020.01 / Design by 밤푸딩 / Edit by SiRyuA -->"
 
   // Best Photo
   for(let i=0; i<bp_cnt; i++) {
-    let temp = new Array();
+    let temp = new Object();
     let num = i+1;
     console.log(num);
     let temp0 = "bp_i" + num,
         temp1 = "bp_u" + num;
 
-    temp[0] = DataCheck(document.getElementById(temp0).value);
-    temp[1] = DataCheck(document.getElementById(temp1).value);
+    temp.img = DataCheck(document.getElementById(temp0).value);
+    temp.url = DataCheck(document.getElementById(temp1).value);
     bp_array.push(temp);
   }
 
   // AD Banner
   for(let i=0; i<ad_cnt; i++) {
-    let temp = new Array();
+    let temp = new Object();
     let num = i+1;
     console.log(num);
     let temp0 = "ad_i" + num,
         temp1 = "ad_u" + num;
 
-    temp[0] = DataCheck(document.getElementById(temp0).value);
-    temp[1] = DataCheck(document.getElementById(temp1).value);
+    temp.img = DataCheck(document.getElementById(temp0).value);
+    temp.url = DataCheck(document.getElementById(temp1).value);
     ad_array.push(temp);
   }
 
@@ -214,7 +223,7 @@ function Make() {
     let temp_id = "yt_u" + num;
     let temp = DataCheck(document.getElementById(temp_id).value);
 
-    if(temp != null) {
+    if(temp != "") {
       temp = temp.replace("https://youtu.be/", "https://www.youtube.com/embed/");
       temp += "?wmode=opaque";
     }
@@ -223,40 +232,40 @@ function Make() {
 
   // Best
   for(let i=0; i<bt_cnt; i++) {
-    let temp = new Array();
+    let temp = new Object();
     let num = i+1;
     console.log(num);
     let temp0 = "bt_i" + num,
         temp1 = "bt_u" + num;
 
-    temp[0] = DataCheck(document.getElementById(temp0).value);
-    temp[1] = DataCheck(document.getElementById(temp1).value);
+    temp.img = DataCheck(document.getElementById(temp0).value);
+    temp.url = DataCheck(document.getElementById(temp1).value);
     bt_array.push(temp);
   }
 
   // Sponsor
   for(let i=0; i<sp_cnt; i++) {
-    let temp = new Array();
+    let temp = new Object();
     let num = i+1;
     console.log(num);
     let temp0 = "sp_i" + num,
         temp1 = "sp_u" + num;
 
-    temp[0] = DataCheck(document.getElementById(temp0).value);
-    temp[1] = DataCheck(document.getElementById(temp1).value);
+    temp.img = DataCheck(document.getElementById(temp0).value);
+    temp.url = DataCheck(document.getElementById(temp1).value);
     sp_array.push(temp);
   }
 
   // Post
   for(let i=0; i<pt_cnt; i++) {
-    let temp = new Array();
+    let temp = new Object();
     let num = i+1;
     console.log(num);
     let temp0 = "pt_i" + num,
         temp1 = "pt_u" + num;
 
-    temp[0] = DataCheck(document.getElementById(temp0).value);
-    temp[1] = DataCheck(document.getElementById(temp1).value);
+    temp.img = DataCheck(document.getElementById(temp0).value);
+    temp.url = DataCheck(document.getElementById(temp1).value);
     pt_array.push(temp);
   }
 
@@ -389,7 +398,7 @@ function CodeSave() {
     if(m < 10) m = "0" + m;
     if(d < 10) d = "0" + d;
 
-    let fileName = "DVL-CFM-"+y+m+d+h+mm+s;
+    let fileName = "DVL-CFM-CODE-"+y+m+d+h+mm+s+".txt";
 
     let content = document.getElementById("out").value;
 
@@ -407,4 +416,41 @@ function CodeSave() {
     a.download = fileName;
     a.href = objURL;
     a.click();
+}
+
+// JSON Save
+function JSONSave() {
+    let now = new Date();
+    let y = now.getFullYear();
+    let m = now.getMonth() + 1;
+    let d = now.getDate();
+    let h = now.getHours();
+    let mm = now.getMinutes();
+    let s = now.getSeconds();
+
+    if(m < 10) m = "0" + m;
+    if(d < 10) d = "0" + d;
+
+    let fileName = "DVL-CFM-JSON-"+y+m+d+h+mm+s+".json";
+
+    let json = {time: ""+y+m+d+h+mm+s, bp: bp_cnt, ad: ad_cnt, yt: yt_cnt, bt: bt_cnt, sp: sp_cnt, pt: pt_cnt, bp_data: bp_array, ad_data: ad_array, yt_data: yt_array, bt_data: bt_array, sp_data: sp_array, pt_data: pt_array};
+    console.log(json);
+
+    let content = JSON.stringify(json);
+
+    let blob = new Blob([content], { type: 'json' });
+
+    objURL = window.URL.createObjectURL(blob);
+
+    if (window.__Xr_objURL_forCreatingFile__) {
+        window.URL.revokeObjectURL(window.__Xr_objURL_forCreatingFile__);
+    }
+    window.__Xr_objURL_forCreatingFile__ = objURL;
+
+    let a = document.createElement('a');
+
+    a.download = fileName;
+    a.href = objURL;
+    a.click();
+
 }
