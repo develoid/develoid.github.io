@@ -69,7 +69,7 @@ function ControlBp(type) {
 function ControlAd(type) {
   if(type == "add") {
     cntAd++;
-    $('#ad').append('<tr id="ad_'+cntAd+'"><td>'+cntAd+'</td><td><input type="text" id="ad_i'+cntAd+'"></td><td><input type="number" id="ad_u'+cntAd+'"></td></tr>');
+    $('#ad').append('<tr id="ad_'+cntAd+'"><td>'+cntAd+'</td><td><input type="text" id="ad_i'+cntAd+'"></td><td><input type="text" id="ad_u'+cntAd+'"></td></tr>');
   } else if(type == "rm") {
     if(cntAd > 0) {
       let target = "#ad_" + cntAd;
