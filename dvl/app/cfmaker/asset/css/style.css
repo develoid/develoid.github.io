@@ -48,10 +48,10 @@ button {
 
 textarea {
   width: 90%;
-  margin: 20px 0;
+  height: 300px;
+  margin: 10px 0;
   border: 1px solid #333;
   border-radius: 4px;
   padding: 8px;
-  height: 300px;
   resize: none;
 }
