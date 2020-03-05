@@ -287,13 +287,13 @@ function Make() {
     page += "<table width='836' cellspacing='0' cellpadding='0' style='margin-top:4px;'><tbody>";
 
     if(cntBp > 0) {
-      page += "<tr><td><a href='"+arrayBp[0][1]+"' target='_blank'><img id='"+arrayBp[0][0]+"' src='"+arrayBp[0][0]+"' width='836' height='495' style='width: 836px; height: 495px;'></a></td></tr>"
+      page += "<tr><td><a href='https://cafe.naver.com/develoid/"+arrayBp[0].url+"' target='_blank'><img id='"+arrayBp[0].img+"' src='"+arrayBp[0].img+"' width='836' height='495' style='width: 836px; height: 495px;'></a></td></tr>"
     }
 
     console.log(arrayAd);
     if(cntAd > 0) {
       for(let i=0; i<arrayAd.length; i++) {
-        page += "<tr><td><a href='"+arrayAd[i][1]+"' target='_blank'><img id='"+arrayAd[i][0]+"' src='"+arrayAd[i][0]+"' width='836' height='100' style='width: 836px; height: 100px;'></a></td></tr>"
+        page += "<tr><td><a href='"+arrayAd[i].url+"' target='_blank'><img id='"+arrayAd[i].img+"' src='"+arrayAd[i].img+"' width='836' height='100' style='width: 836px; height: 100px;'></a></td></tr>"
       }
     }
 
@@ -325,7 +325,7 @@ function Make() {
     for(let i=0; i<arrayBt.length; i+=4) {
       page += "<tr>";
       for(let j=0; j<4; j++) {
-        page += "<td><a href='"+arrayBt[i+j][1]+"' target='_blank'><img id='"+arrayBt[i+j][0]+"' src='"+arrayBt[i+j][0]+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
+        page += "<td><a href='https://cafe.naver.com/develoid/"+arrayBt[i+j].url+"' target='_blank'><img id='"+arrayBt[i+j].img+"' src='"+arrayBt[i+j].img+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
       }
       page += "</tr>";
     }
@@ -342,7 +342,7 @@ function Make() {
     for(let i=0; i<arraySp.length; i+=4) {
       page += "<tr>";
       for(let j=0; j<4; j++) {
-        page += "<td><a href='"+arraySp[i+j][1]+"' target='_blank'><img id='"+arraySp[i+j][0]+"' src='"+arraySp[i+j][0]+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
+        page += "<td><a href='"+arraySp[i+j].url+"' target='_blank'><img id='"+arraySp[i+j].img+"' src='"+arraySp[i+j].img+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
       }
       page += "</tr>";
     }
@@ -359,7 +359,7 @@ function Make() {
     for(let i=0; i<arrayPt.length; i+=4) {
       page += "<tr>";
       for(let j=0; j<4; j++) {
-        page += "<td><a href='"+arrayPt[i+j][1]+"' target='_blank'><img id='"+arrayPt[i+j][0]+"' src='"+arrayPt[i+j][0]+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
+        page += "<td><a href='https://cafe.naver.com/develoid/"+arrayPt[i+j].url+"' target='_blank'><img id='"+arrayPt[i+j].img+"' src='"+arrayPt[i+j].img+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
       }
       page += "</tr>";
     }
