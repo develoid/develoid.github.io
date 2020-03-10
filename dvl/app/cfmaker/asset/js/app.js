@@ -224,6 +224,7 @@ function Make() {
     let temp = DataCheck(document.getElementById(temp_id).value);
 
     if(temp != "") {
+      temp = temp.replace("https://www.youtube.com/watch?v=", "https://www.youtube.com/embed/");
       temp = temp.replace("https://www.youtube.com/", "https://www.youtube.com/embed/");
       temp = temp.replace("https://youtu.be/", "https://www.youtube.com/embed/");
       temp += "?wmode=opaque";
