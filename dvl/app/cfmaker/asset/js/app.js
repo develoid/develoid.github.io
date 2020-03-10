@@ -146,7 +146,7 @@ function ControlPt(type) {
   if(type == "add") {
     for(let i=0; i<4; i++) {
       cntPt++;
-      $('#pt').append('<tr id="pt_'+cntPt+'"><td>'+cntPt+'</td><td><input type="number" id="pt_i'+cntPt+'"></td><td><input type="text" id="pt_u'+cntPt+'"></td></tr>');
+      $('#pt').append('<tr id="pt_'+cntPt+'"><td>'+cntPt+'</td><td><input type="text" id="pt_i'+cntPt+'"></td><td><input type="text" id="pt_u'+cntPt+'"></td></tr>');
     }
   } else if(type == "rm") {
     if(cntPt > 0) {
