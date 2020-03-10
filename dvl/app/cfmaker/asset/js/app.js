@@ -325,7 +325,14 @@ function Make() {
     for(let i=0; i<arrayBt.length; i+=4) {
       page += "<tr>";
       for(let j=0; j<4; j++) {
-        page += "<td><a href='https://cafe.naver.com/develoid/"+arrayBt[i+j].url+"' target='_blank'><img id='"+arrayBt[i+j].img+"' src='"+arrayBt[i+j].img+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
+        let inimg = arrayBt[i+j].img;
+        let inurl = arrayBt[i+j].url
+
+        if(inimg.length > 0) {
+          page += "<td><a href='"+inurl+"' target='_blank'><img id='"+inimg+"' src='"+inimg+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
+        } else {
+          page += "<td></td>";
+        }
       }
       page += "</tr>";
     }
@@ -342,7 +349,14 @@ function Make() {
     for(let i=0; i<arraySp.length; i+=4) {
       page += "<tr>";
       for(let j=0; j<4; j++) {
-        page += "<td><a href='"+arraySp[i+j].url+"' target='_blank'><img id='"+arraySp[i+j].img+"' src='"+arraySp[i+j].img+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
+        let inimg = arraySp[i+j].img;
+        let inurl = arraySp[i+j].url
+
+        if(inimg.length > 0) {
+          page += "<td><a href='"+inurl+"' target='_blank'><img id='"+inimg+"' src='"+inimg+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
+        } else {
+          page += "<td></td>";
+        }
       }
       page += "</tr>";
     }
@@ -359,7 +373,14 @@ function Make() {
     for(let i=0; i<arrayPt.length; i+=4) {
       page += "<tr>";
       for(let j=0; j<4; j++) {
-        page += "<td><a href='https://cafe.naver.com/develoid/"+arrayPt[i+j].url+"' target='_blank'><img id='"+arrayPt[i+j].img+"' src='"+arrayPt[i+j].img+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
+        let inimg = arrayPt[i+j].img;
+        let inurl = arrayPt[i+j].url
+
+        if(inimg.length > 0) {
+          page += "<td><a href='https://cafe.naver.com/develoid/"+inurl+"' target='_blank'><img id='"+inimg+"' src='"+inimg+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
+        } else {
+          page += "<td></td>";
+        }
       }
       page += "</tr>";
     }
