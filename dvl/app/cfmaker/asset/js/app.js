@@ -329,7 +329,7 @@ function Make() {
         let inurl = arrayBt[i+j].url
 
         if(inimg.length > 0) {
-          page += "<td><a href='"+inurl+"' target='_blank'><img id='"+inimg+"' src='"+inimg+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
+          page += "<td><a href='https://cafe.naver.com/develoid/"+inurl+"' target='_blank'><img id='"+inimg+"' src='"+inimg+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
         } else {
           page += "<td></td>";
         }
