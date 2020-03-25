@@ -22,46 +22,62 @@
 }
 .clearfix:after { clear: both; }
 
-.a-style {
+.dvlAstyle {
   text-decoration: none;
   color: #333;
+  text-align: center;
 }
 
-.slogan {
-  font-size: 48px;
+.dvlTop60 {
+  margin-top: 60px;
 }
 
-.content {
-  margin: 40px 0;
+.dvlTop30 {
+  margin-top: 30px;
 }
 
-.list li {
-  margin: 10px 0;
+.dvlTop20 {
+  margin-top: 20px;
+}
+
+.dvlTop10 {
+  margin-top: 10px;
+}
+
+.dvlBottom0 {
+  margin-bottom: 0px;
+}
+
+.dvlLeft {
+  text-align: left;
+  float: left;
+}
+
+.dvlList li {
+  margin: 20px 0;
   list-style: none;
   text-align: center;
+  transition: 0.5s;
 }
 
-.contact {
-  margin-top: 40px;
-  font-size: 24px;
-  line-height: 2em;
-  text-align: center;
+.dvlList li:hover {
+  margin-left: 20px;
 }
 
-.contact-table {
+.dvlTable {
   width: auto;
 }
 
-.contact-table tr,
-.contact-table tr > td,
-.contact-table tr:nth-child(even) > td {
+.dvlTable tr,
+.dvlTable tr > td,
+.dvlTable tr:nth-child(even) > td {
   border: 0;
   background:rgba(0, 0, 0, 0);
   padding: 12px;
 }
 
-.contact-table tr:hover,
-.contact-table tr > td:hover,
-.contact-table tr:nth-child(even) > td:hover {
+.dvlTable tr:hover,
+.dvlTable tr > td:hover,
+.dvlTable tr:nth-child(even) > td:hover {
   background:rgba(0, 0, 0, 0);
 }

@@ -759,7 +759,7 @@ Auto-fill & Equal height === */
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 2.4rem;
+    padding: 1.8rem;
     position: relative;
     -webkit-transition: .3s;
     transition: .3s;
@@ -1504,7 +1504,7 @@ form[class*='bg-'] {
 
 @media (min-width: 768px) {
   [class*='content-'] {
-    width: 50%; }
+    width: 80%; }
     [class*='content-']:after, [class*='content-']:before {
       content: '';
       display: table; }
