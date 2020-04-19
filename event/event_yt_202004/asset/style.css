@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after { clear: both; }
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  color: #212121;
+  background: #212121;
+  font-size: 16px;
+}
+
+a {
+  color: #212121;
+}
+
+#box {
+  margin: 20px auto;
+  padding: 40px;
+  width: 1200px;
+  background: #fefefe;
+}
+
+
+#box h1,
+#box h3 {
+  text-align: center;
+  padding: 6px;
+}
+
+#box ul {
+  width: 600px;
+  margin: 20px auto;
+}
+
+
+#box ul li {
+  margin:8px 0;
+}
+
+#box table {
+  width: 1000px;
+  margin: 20px auto 40px;
+  border-collapse: collapse;
+  border: 0;
+  border-radius: 8px;
+}
+
+#box td {
+  padding: 10px 30px;
+  font-size: 18px;
+}
+
+#box tr {
+  background: #fafafa;
+}
+
+#box tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+#box button {
+  width: 100%;
+  padding: 16px;
+  font-size: 18px;
+  text-align:center;
+  background: #448AFF;
+  border:0;
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#box button:hover {
+  background: #26A69A;
+}
+
+#box button:focus {
+  background: #FF1744;
+}
+
+#box2 {
+  margin: 250px auto;
+  padding: 40px;
+  width: 600px;
+  background: #fefefe;
+  text-align: center;
+
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+
+/* Standard syntax */
+@keyframes example {
+0%   {transform: rotate(3deg);}
+25%   {transform: rotate(-3deg);}
+50%  {transform: rotate(3deg);}
+50%  {transform: rotate(-3deg);}
+100% {transform: rotate(0deg);}
+}
+
+#box2 h1 {
+  font-size: 60px;
+}
+
+#box2 h2 {
+  margin: 30px auto 10px;
+  font-size: 200px;
+}
