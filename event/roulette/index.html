@@ -9,67 +9,52 @@
   <meta name="author" content="시류아(SiRyuA)">
   <meta name="keywords" content="디벨로이드, 유튜브, 추첨">
   <meta name="description" content="디벨로이드 유튜브 추첨을 해봅시다.">
-  <title>디벨로이드 유튜브 추첨</title>
+  <title>디벨로이드 추첨기</title>
   <link rel="stylesheet" href="./asset/style.css">
 </head>
 <body>
   <div id="box">
-    <h1><a href="index_2.html">디벨로이드 유튜브 추첨</a></h1>
+    <h1><input type="text" value="추첨기"></h1>
     <table>
       <colgroup>
-          <col width="40%">
-          <col width="30%">
+          <col width="70%">
           <col width="30%">
       </colgroup>
       <tr>
-        <td><b>당첨자 0</b></td>
+        <td><button id="btnFucn" onclick="">명단</button> <button id="btnFucn" onclick="">추가</button> <button id="btnFucn" onclick="">제거</button></td>
+        <td><button id="btn" onclick="">전체 추첨!</button></td>
+      </tr>
+    </table>
+    <table>
+      <colgroup>
+          <col width="30%">
+          <col width="40%">
+          <col width="30%">
+      </colgroup>
+      <tr>
+        <td><input type="text" value="당첨자 0"></td>
         <td><span id="lucky0">READY</span></td>
         <td><button id="btn" onclick="luckybox(0);">GO!</button></td>
       </tr>
       <tr>
-        <td><b>당첨자 1</b></td>
+        <td><input type="text" value="당첨자 1"></td>
         <td><span id="lucky1">READY</span></td>
         <td><button id="btn" onclick="luckybox(1);">GO!</button></td>
       </tr>
       <tr>
-        <td><b>당첨자 2</b></td>
+        <td><input type="text" value="당첨자 2"></td>
         <td><span id="lucky2">READY</span></td>
         <td><button id="btn" onclick="luckybox(2);">GO!</button></td>
       </tr>
       <tr>
-        <td><b>당첨자 3</b></td>
+        <td><input type="text" value="당첨자 3"></td>
         <td><span id="lucky3">READY</span></td>
         <td><button id="btn" onclick="luckybox(3);">GO!</button></td>
       </tr>
       <tr>
-        <td><b>당첨자 4</b></td>
+        <td><input type="text" value="당첨자 4"></td>
         <td><span id="lucky4">READY</span></td>
         <td><button id="btn" onclick="luckybox(4);">GO!</button></td>
-      </tr>
-	  <tr>
-        <td><b>당첨자 5</b></td>
-        <td><span id="lucky5">READY</span></td>
-        <td><button id="btn" onclick="luckybox(5);">GO!</button></td>
-      </tr>
-	  <tr>
-        <td><b>당첨자 6</b></td>
-        <td><span id="lucky6">READY</span></td>
-        <td><button id="btn" onclick="luckybox(6);">GO!</button></td>
-      </tr>
-	  <tr>
-        <td><b>당첨자 7</b></td>
-        <td><span id="lucky7">READY</span></td>
-        <td><button id="btn" onclick="luckybox(7);">GO!</button></td>
-      </tr>
-	  <tr>
-        <td><b>당첨자 8</b></td>
-        <td><span id="lucky8">READY</span></td>
-        <td><button id="btn" onclick="luckybox(8);">GO!</button></td>
-      </tr>
-	  <tr>
-        <td><b>당첨자 9</b></td>
-        <td><span id="lucky9">READY</span></td>
-        <td><button id="btn" onclick="luckybox(9);">GO!</button></td>
       </tr>
     </table>
   </div>

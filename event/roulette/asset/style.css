@@ -36,11 +36,18 @@ a {
   background: #fefefe;
 }
 
-
 #box h1,
 #box h3 {
   text-align: center;
   padding: 6px;
+}
+
+#box h1 input {
+  border: 0px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 #box ul {
@@ -55,7 +62,7 @@ a {
 
 #box table {
   width: 1000px;
-  margin: 20px auto 40px;
+  margin: 20px auto;
   border-collapse: collapse;
   border: 0;
   border-radius: 8px;
@@ -64,6 +71,14 @@ a {
 #box td {
   padding: 10px 30px;
   font-size: 18px;
+}
+
+#box td input {
+  background-color: rgb(255, 255, 255, 0);
+  border: 0px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 #box tr {
@@ -75,52 +90,29 @@ a {
 }
 
 #box button {
-  width: 100%;
   padding: 16px;
   font-size: 18px;
   text-align:center;
-  background: #448AFF;
   border:0;
   color: #fff;
   transition: 0.5s;
   cursor: pointer;
 }
 
+#btnFucn {
+  width: 100px;
+  background: #009688;
+}
+
+#btn {
+  width: 100%;
+  background: #2196F3;
+}
+
 #box button:hover {
-  background: #26A69A;
+  background: #FFC107;
 }
 
 #box button:focus {
   background: #FF1744;
-}
-
-#box2 {
-  margin: 250px auto;
-  padding: 40px;
-  width: 600px;
-  background: #fefefe;
-  text-align: center;
-
-  animation-name: example;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-}
-
-
-/* Standard syntax */
-@keyframes example {
-0%   {transform: rotate(3deg);}
-25%   {transform: rotate(-3deg);}
-50%  {transform: rotate(3deg);}
-50%  {transform: rotate(-3deg);}
-100% {transform: rotate(0deg);}
-}
-
-#box2 h1 {
-  font-size: 60px;
-}
-
-#box2 h2 {
-  margin: 30px auto 10px;
-  font-size: 200px;
 }
