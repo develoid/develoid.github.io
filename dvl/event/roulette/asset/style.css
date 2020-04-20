@@ -116,3 +116,11 @@ a {
 #box button:focus {
   background: #FF1744;
 }
+
+#box ol {
+  margin: 10px 30px;
+}
+
+#box ol li {
+  margin: 6px 0;
+}
