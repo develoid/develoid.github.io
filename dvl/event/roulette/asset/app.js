@@ -49,7 +49,7 @@ function luckyboxAll() {
   Stop = setTimeout(function(){
     clearInterval(Work);
     clearTimeout(Stop);
-  }, 3000);
+  }, 5000);
 
   Work = setInterval(function(){
     for(let i=1; i<lucky+1; i++) {
