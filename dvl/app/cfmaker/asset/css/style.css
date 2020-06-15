@@ -2,21 +2,29 @@ html {
     background: #333;
 }
 
+h1 {
+  display: block;
+  font-size: 2.2em;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
 .container {
   width: 900px;
   margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 40px;
-  border-radius: 12px;
-  background: #fafafa;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  background: #ffffff;
 }
 
 .write,
-.view,
 .out {
   width: 836px;
   margin: 20px auto;
-  background: #fafafa;
+  background: #ffffff;
 }
 
 table {
@@ -26,13 +34,12 @@ table {
 input {
   width: 95%;
   padding: 6px;
-  border: 1px solid #333;
-  border-radius: 4px;
+  border: 1px solid #DDD;
 }
 
 button {
   padding: 6px;
-  border: 1px solid #333;
+  border: 0px solid #fafafa;
   border-radius: 4px;
 }
 
@@ -43,15 +50,19 @@ button {
 
 .out {
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0 0;
 }
 
 textarea {
-  width: 90%;
+  width: 97%;
   height: 300px;
   margin: 10px 0;
-  border: 1px solid #333;
-  border-radius: 4px;
+  border: 1px solid #DDD;
   padding: 8px;
   resize: none;
+}
+
+.view {
+  width: 836px;
+  margin: 5px auto;
 }
