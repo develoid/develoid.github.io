@@ -286,7 +286,7 @@ function Make() {
   // Best Photo & AD Banner
   if(cntBp > 0 || cntAd > 0) {
     console.log(arrayBp);
-    page += "<table width='836' cellspacing='0' cellpadding='0' style='margin-top:4px;'><tbody>";
+    page += "<table width='836' cellspacing='0' cellpadding='0'><tbody>";
 
     if(cntBp > 0) {
       page += "<tr><td><a href='https://cafe.naver.com/ArticleList.nhn?search.clubid=23370764&search.menuid=1441&search.boardtype=I' target='_blank'><img id='"+arrayBp[0].img+"' src='"+arrayBp[0].img+"' width='836' height='auto' style='width: 836px; height: auto;'></a></td></tr>"
