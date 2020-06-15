@@ -188,7 +188,7 @@ function Make() {
   arraySp = new Array();
   arrayPt = new Array();
 
-  page = "<!-- Develoid Front v2020.07 / Designed by 밤푸딩 / Edited by SiRyuA -->"
+  page = "<!-- Develoid Front v2020.07 / Produced by SiRyuA & 밤푸딩 -->"
 
   // Best Photo
   for(let i=0; i<cntBp; i++) {
