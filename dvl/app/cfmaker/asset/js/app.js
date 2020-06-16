@@ -289,7 +289,7 @@ function Make() {
     page += "<table width='836' cellspacing='0' cellpadding='0'><tbody>";
 
     if(cntBp > 0) {
-      page += "<tr><td><a href='https://cafe.naver.com/ArticleList.nhn?search.clubid=23370764&search.menuid=1441&search.boardtype=I' target='_blank'><img id='"+arrayBp[0].img+"' src='"+arrayBp[0].img+"' width='836' height='auto' style='width: 836px; height: auto;'></a></td></tr>"
+      page += "<tr><td><a href='https://cafe.naver.com/develoid/menu/1441' target='_blank'><img id='"+arrayBp[0].img+"' src='"+arrayBp[0].img+"' width='836' height='auto' style='width: 836px; height: auto;'></a></td></tr>"
     }
 
     console.log(arrayAd);

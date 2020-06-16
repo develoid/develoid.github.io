@@ -17,14 +17,14 @@ h1 {
   margin: 0 auto;
   padding-top: 1px;
   padding-bottom: 20px;
-  background: #ffffff;
+  background: #fafafa;
 }
 
 .write,
 .out {
   width: 836px;
   margin: 20px auto;
-  background: #ffffff;
+  background: #fafafa;
 }
 
 table {
