@@ -43,6 +43,7 @@ let resourceBest = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMTM4/MDAxNTkyMjMxM
 let resourceSponsor = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMTA3/MDAxNTkyMjMxMzI3MTM1.R8vjRWn7-3bNHAqGYgs55lh9YnX9iW0UGsdBsP6Z7Ccg.JH44TDKpWkmaAqJN6EjLvK7SqA-wzgWQm2X43tLmUEAg.PNG/dsponsor.png";
 let resourcePost = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjA4/MDAxNTkyMjMxMzI2NTYy.RjIGOTPMb5bv4V2dkZ-Mx820rbYnNrRaR-IqGNVl-vAg.5uhcwW2Rl-JnKYxz8nJPobvKyFBehCl2p3DyBbU4FxMg.PNG/dpost.png";
 let resourceCopyright = "https://cafefiles.pstatic.net/MjAyMDA2MTVfNzEg/MDAxNTkyMjMxMzI1OTQ4.Zupq6kdz8n_ygpiR58wHzFCbmKFoy5v50zr3-6S4hicg.i6pK_p0CQWO7qp-ignUgN2QifsSDUfXISAwkiuTYrTMg.PNG/dcopy.png";
+let resourceBlank = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjk0/MDAxNTkyMjMxMDEwNzE5.0geDSpRciQhBcP9UHLDMnMLNyUP56IFYjyGFo50Lr18g.3tQdIO2P1RPfbjcjwXlHu_erEhS92QtqgmRUMF_C_hQg.PNG/blank.png";
 
 let urlBest = "https://cafe.naver.com/develoid/menu/1363";
 let urlSponsor = "https://cafe.naver.com/develoid/menu/604";
@@ -170,6 +171,15 @@ function DataCheck(item) {
   }
 }
 
+// Data Check 1
+function DataCheckImg(item) {
+  if( item == "" || item == null || item == undefined || ( item != null && typeof item == "object" && !Object.keys(item).length ) ){
+    return resourceBlank;
+  } else {
+    return item;
+  }
+}
+
 // Data Check 2
 function DataCheckBool(item) {
   if( item == "" || item == null || item == undefined || ( item != null && typeof item == "object" && !Object.keys(item).length ) ){
@@ -198,7 +208,7 @@ function Make() {
     let temp0 = "bp_i" + num,
         temp1 = "bp_u" + num;
 
-    temp.img = DataCheck(document.getElementById(temp0).value);
+    temp.img = DataCheckImg(document.getElementById(temp0).value);
     temp.url = DataCheck(document.getElementById(temp1).value);
     arrayBp.push(temp);
   }
@@ -211,7 +221,7 @@ function Make() {
     let temp0 = "ad_i" + num,
         temp1 = "ad_u" + num;
 
-    temp.img = DataCheck(document.getElementById(temp0).value);
+    temp.img = DataCheckImg(document.getElementById(temp0).value);
     temp.url = DataCheck(document.getElementById(temp1).value);
     arrayAd.push(temp);
   }
@@ -240,7 +250,7 @@ function Make() {
     let temp0 = "bt_i" + num,
         temp1 = "bt_u" + num;
 
-    temp.img = DataCheck(document.getElementById(temp0).value);
+    temp.img = DataCheckImg(document.getElementById(temp0).value);
     temp.url = DataCheck(document.getElementById(temp1).value);
     arrayBt.push(temp);
   }
@@ -253,7 +263,7 @@ function Make() {
     let temp0 = "sp_i" + num,
         temp1 = "sp_u" + num;
 
-    temp.img = DataCheck(document.getElementById(temp0).value);
+    temp.img = DataCheckImg(document.getElementById(temp0).value);
     temp.url = DataCheck(document.getElementById(temp1).value);
     arraySp.push(temp);
   }
@@ -266,7 +276,7 @@ function Make() {
     let temp0 = "pt_i" + num,
         temp1 = "pt_u" + num;
 
-    temp.img = DataCheck(document.getElementById(temp0).value);
+    temp.img = DataCheckImg(document.getElementById(temp0).value);
     temp.url = DataCheck(document.getElementById(temp1).value);
     arrayPt.push(temp);
   }
