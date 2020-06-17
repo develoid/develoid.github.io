@@ -585,7 +585,7 @@ function readData(data) {
     ti = "ad_i" + (i+1);
     tu = "ad_u" + (i+1);
 
-    console.log("yt", dataAd[i].img, dataAd[i].url);
+    console.log("ad", dataAd[i].img, dataAd[i].url);
 
     document.getElementById(ti).value = dataAd[i].img;
     document.getElementById(tu).value = dataAd[i].url;
@@ -610,9 +610,14 @@ function readData(data) {
   for(let i=0; i<dataYt.length; i++) {
     tu = "yt_u" + (i+1);
 
-    console.log("ad", dataYt[i]);
+    console.log("yt", dataYt[i]);
 
-    document.getElementById(tu).value = dataYt[i];
+    ytTemp = dataYt[i]
+    ytTemp = ytTemp.replace("https://www.youtube.com/embed/", "");
+    ytTemp = ytTemp.replace("?wmode=opaque", "");
+    ytTemp = "https://youtu.be/" + ytTemp;
+
+    document.getElementById(tu).value = ytTemp;
   }
 
   if(cntBt != getBt) {
