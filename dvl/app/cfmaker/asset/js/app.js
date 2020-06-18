@@ -296,10 +296,10 @@ function Make() {
 
   // Menu
   page += "<table width='836' height='45' cellspacing='0' cellpadding='0'><tbody><tr>"
-       +  "<td><a href='"+urlMenu[0]+"' target='_blank'><img id='"+resourceMenu[0]+"' src='"+resourceMenu[0]+"' width='99' height='auto' style='width: 99px; height: auto;'></a></td>";
+       +  "<td><a href='"+urlMenu[0]+"' target='_blank'><img id='"+DataCheckImg(resourceMenu[0])+"' src='"+DataCheckImg(resourceMenu[0])+"' width='99' height='auto' style='width: 99px; height: auto;'></a></td>";
 
   for(let i=1; i<9; i++) {
-    page += "<td><a href='"+urlMenu[i]+"' target='_blank'><img id='"+resourceMenu[i]+"' src='"+resourceMenu[i]+"' width='92' height='auto' style='width: 92px; height: auto;'></a></td>";
+    page += "<td><a href='"+urlMenu[i]+"' target='_blank'><img id='"+DataCheckImg(resourceMenu[i])+"' src='"+DataCheckImg(resourceMenu[i])+"' width='92' height='auto' style='width: 92px; height: auto;'></a></td>";
   }
 
   page += "</tr></tbody></table>"
@@ -326,7 +326,7 @@ function Make() {
   // Youtube
   if(cntYt > 0) {
     console.log(arrayYt);
-    page += "<div width='836' height='auto' style='margin:30px 0 0 0;'><a href='"+urlMenu[5]+"' style='text-decoration:none;' target='_blank'><img id='"+resourceYoutube+"' src='"+resourceYoutube+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
+    page += "<div width='836' height='auto' style='margin:30px 0 0 0;'><a href='"+urlMenu[5]+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceYoutube)+"' src='"+DataCheckImg(resourceYoutube)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
     page += "<table width='836' height='225' cellspacing='12' cellpadding='0'><tbody>";
 
     for(let i=0; i<arrayYt.length; i+=2) {
@@ -342,7 +342,7 @@ function Make() {
   // Best
   if(cntBt > 0) {
     console.log(arrayBt);
-    page += "<div width='836' height='auto' style='margin:12px 0 0 0;'><a href='"+urlBest+"' style='text-decoration:none;' target='_blank'><img id='"+resourceBest+"' src='"+resourceBest+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
+    page += "<div width='836' height='auto' style='margin:12px 0 0 0;'><a href='"+urlBest+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceBest)+"' src='"+DataCheckImg(resourceBest)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
     page += "<table width='836' cellspacing='12' cellpadding='0'><tbody>";
 
     for(let i=0; i<arrayBt.length; i+=4) {
@@ -366,7 +366,7 @@ function Make() {
   // Sponsor
   if(cntSp > 0) {
     console.log(arraySp);
-    page += "<div width='836' height='auto' style='margin:12px 0 0 0;'><a href='"+urlSponsor+"' style='text-decoration:none;' target='_blank'><img id='"+resourceSponsor+"' src='"+resourceSponsor+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
+    page += "<div width='836' height='auto' style='margin:12px 0 0 0;'><a href='"+urlSponsor+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceSponsor)+"' src='"+DataCheckImg(resourceSponsor)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
     page += "<table width='836' cellspacing='12' cellpadding='0'><tbody>";
 
     for(let i=0; i<arraySp.length; i+=4) {
@@ -390,7 +390,7 @@ function Make() {
   // Post
   if(cntPt > 0) {
     console.log(arrayPt);
-    page += "<div width='836' height='auto' style='margin:12px 0 0 0;'><a href='"+urlPost+"' style='text-decoration:none;' target='_blank'><img id='"+resourcePost+"' src='"+resourcePost+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
+    page += "<div width='836' height='auto' style='margin:12px 0 0 0;'><a href='"+urlPost+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourcePost)+"' src='"+DataCheckImg(resourcePost)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
     page += "<table width='836' cellspacing='12' cellpadding='0'><tbody>";
 
     for(let i=0; i<arrayPt.length; i+=4) {
@@ -413,7 +413,7 @@ function Make() {
 
   // Copyright
   page += "<div width='836'>"
-       +  "<img src='"+resourceCopyright+"' width='836' height='auto' style='width: 836px; height: auto;'>"
+       +  "<img id='"+DataCheckImg(resourceCopyright)+"' src='"+DataCheckImg(resourceCopyright)+"' width='836' height='auto' style='width: 836px; height: auto;'>"
        +  "</div>";
 
   page += "</center>";
