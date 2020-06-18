@@ -178,6 +178,7 @@ function DataCheckImg(item) {
   } else {
     item = item.replace("https://cafefiles.pstatic.net/", "http://cafefiles.pstatic.net/");
     item = item.replace("https://postfiles.pstatic.net/", "http://postfiles.pstatic.net/");
+    //console.log(item);
     return item;
   }
 }
