@@ -176,6 +176,8 @@ function DataCheckImg(item) {
   if( item == "" || item == null || item == undefined || ( item != null && typeof item == "object" && !Object.keys(item).length ) ){
     return resourceBlank;
   } else {
+    item = item.replace("https://cafefiles.pstatic.net/", "http://cafefiles.pstatic.net/");
+    item = item.replace("https://postfiles.pstatic.net/", "http://postfiles.pstatic.net/");
     return item;
   }
 }
