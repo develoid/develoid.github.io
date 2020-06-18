@@ -234,10 +234,18 @@ function Make() {
     let temp = DataCheck(document.getElementById(temp_id).value);
 
     if(temp != "") {
+      /*
       temp = temp.replace("https://www.youtube.com/watch?v=", "https://www.youtube.com/embed/");
       temp = temp.replace("https://www.youtube.com/", "https://www.youtube.com/embed/");
       temp = temp.replace("https://youtu.be/", "https://www.youtube.com/embed/");
       temp += "?wmode=opaque";
+      */
+      temp = temp.replace("https://youtu.be/", "");
+      temp = temp.replace("https://www.youtube.com/watch?v=", "");
+      temp = temp.replace("https://www.youtube.com/embed/", "");
+      temp = temp.replace("https://www.youtube.com/", "");
+      temp = temp.replace("?wmode=opaque", "");
+
     }
     arrayYt.push(temp);
   }
@@ -321,7 +329,7 @@ function Make() {
     for(let i=0; i<arrayYt.length; i+=2) {
       page += "<tr>";
       for(let j=0; j<2; j++) {
-        page += "<td><iframe src='"+arrayYt[i+j]+"' width='400px' height='225px' frameborder='0' scrolling='no' allowfullscreen=''></iframe></td>";
+        page += "<td><iframe src='https://www.youtube.com/embed/"+arrayYt[i+j]+"?wmode=opaque' width='400px' height='225px' frameborder='0' scrolling='no' allowfullscreen=''></iframe></td>";
       }
       page += "</tr>";
     }
@@ -534,9 +542,9 @@ function readData(data) {
   let ti;
   let tu;
 
-  console.log(getBp, getAd, getYt, getBt, getSp, getPt);
-  console.log(dataBp, dataAd, dataYt, dataBt, dataSp, dataPt);
-  console.log(dataBp.length, dataYt.length, dataAd.length, dataBt.length, dataSp.length, dataPt.length);
+  console.log("get", getBp, getAd, getYt, getBt, getSp, getPt);
+  console.log("data", dataBp, dataAd, dataYt, dataBt, dataSp, dataPt);
+  console.log("len", dataBp.length, dataYt.length, dataAd.length, dataBt.length, dataSp.length, dataPt.length);
 
   if(cntBp != getBp) {
     let gapBp = getBp - cntBp;
@@ -566,9 +574,8 @@ function readData(data) {
 
   if(cntAd != getAd) {
     let gapAd = getAd - cntAd;
-    console.log("gapAd", gapAd);
 
-    loopAd = Math.abs(gapAd/4);
+    loopAd = Math.abs(gapAd);
 
     if(gapAd > 0) {
       for(let i=0; i<loopAd; i++) {
@@ -615,9 +622,12 @@ function readData(data) {
     ytTemp = dataYt[i]
     ytTemp = ytTemp.replace("https://www.youtube.com/embed/", "");
     ytTemp = ytTemp.replace("?wmode=opaque", "");
-    ytTemp = "https://youtu.be/" + ytTemp;
+    ytTemp = ytTemp.replace("https://youtu.be/", "");
+    ytTemp = ytTemp.replace("https://www.youtube.com/watch?v=", "");
+    //ytTemp = "https://youtu.be/" + ytTemp;
 
     document.getElementById(tu).value = ytTemp;
+    //document.getElementById(tu).value = dataYt[i];
   }
 
   if(cntBt != getBt) {
