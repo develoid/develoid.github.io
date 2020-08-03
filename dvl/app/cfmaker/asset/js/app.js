@@ -176,8 +176,8 @@ function DataCheckImg(item) {
   if( item == "" || item == null || item == undefined || ( item != null && typeof item == "object" && !Object.keys(item).length ) ){
     return resourceBlank;
   } else {
-    item = item.replace("https://cafefiles.pstatic.net/", "https://cafefiles.pstatic.net/");
-    item = item.replace("https://postfiles.pstatic.net/", "https://postfiles.pstatic.net/");
+    //item = item.replace("https://cafefiles.pstatic.net/", "https://cafefiles.pstatic.net/");
+    //item = item.replace("https://postfiles.pstatic.net/", "https://postfiles.pstatic.net/");
     //console.log(item);
     return item;
   }
@@ -418,13 +418,16 @@ function Make() {
 
   page += "</center>";
 
-  document.getElementById("view").innerHTML = page;
-  document.getElementById("code").value = page;
+  var tempPage = page.replace(/https/g, 'http');
+
+  document.getElementById("codeHTTPS").value = page;
+  document.getElementById("codeHTTP").value = tempPage;
+  document.getElementById("view").innerHTML = tempPage;
 }
 
 // Code Copy
 function CodeCopy() {
-  var copyText = document.getElementById("code");
+  var copyText = document.getElementById("codeHTTPS");
   copyText.select();
   document.execCommand("copy");
 }
@@ -444,7 +447,7 @@ function CodeSave() {
 
   let fileName = "DVL-CFM-CODE-"+y+m+d+h+mm+s+".txt";
 
-  let content = document.getElementById("out").value;
+  let content = document.getElementById("codeHTTPS").value;
 
   let blob = new Blob([content], { type: 'text/plain' });
 
