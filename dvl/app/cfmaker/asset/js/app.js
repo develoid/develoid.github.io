@@ -18,31 +18,31 @@ let urlMenu = new Array(
   "https://cafe.naver.com/develoid",
   "https://cafe.naver.com/develoid/901013",
   "https://cafe.naver.com/develoid/827731",
-  "https://develoid.github.io/",
-  "https://develoid.github.io/op",
-  "https://www.youtube.com/channel/UC0ktIJkyetokw2dnvjpyA9w",
-  "https://twitter.com/develoid",
-  "https://www.facebook.com/DeveloidOfficial/",
+  "https://cafe.naver.com/develoid/menu/1",
+  "https://cafe.naver.com/develoid/menu/1200",
+  "https://develoid.github.io/op/",
+  "https://cafe.naver.com/develoid/menu/1436",
+  "https://cafe.naver.com/develoid/menu/604",
   "https://goo.gl/forms/Lrxz08x3oB3XLuJ62"
 );
 
 let resourceMenu = new Array(
-  "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjg4/MDAxNTkyMjMxMzI4NDM4.Z8pOg5mi3rgEkuvgooJlQNqJI-0JKyErAmgp6uQfezcg.u4tEtT5rBRopxogo34sMBFAZ6c-ZBTAya2bzFE1tiAwg.PNG/menu_1.png",
-  "https://cafefiles.pstatic.net/MjAyMDA2MTVfMTIy/MDAxNTkyMjMxMzI5MzI2.E5HegjKPasfckQ2azlKnXM2P51clbE-AtSNP-wOSQ7gg.YYYBzuvjcP0iw_zJrIkKPeCp-Eu42jayrlVY3jdsw1Ag.PNG/menu_2.png",
-  "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjk1/MDAxNTkyMjMxMzI5OTAx.kZ6YLGFpUgh09M9Z1BeJKd8WMrrF7y7zLs0fU_ql72Ug.otAmTdxZFpyGvoV5zKCibxuPBRbRIJdVXzTZ6r67g34g.PNG/menu_3.png",
-  "https://cafefiles.pstatic.net/MjAyMDA2MTVfMTg2/MDAxNTkyMjMxMzMwNTY0.PkGuz_0Nhr8QoHnNJD0d5WWcvKRDUx1WLqqrUCRgG-og.MkL-4AepENU6xuFzcVp-93xlGpxvFyo2MRcd3QcSaTQg.PNG/menu_4.png",
-  "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjQw/MDAxNTkyMjMxMzMxMTI1.2vT_w5RtkiEafeqfUw0AsNt0fNhwgQxaSfXfBX5fb8wg.fn33kxfjjN1tbw9xV_h2L0bNbELFLnJ455s08t0sp-8g.PNG/menu_5.png",
-  "https://cafefiles.pstatic.net/MjAyMDA2MTVfOTEg/MDAxNTkyMjMxMzMxNTMy.no3-sxBpbVvjavoI2DLU_Pckbfi4Oqdd8ev2uysTA2sg.I_U9TJKdifct1raUw7Y0_haAMQnXewf33mjXrblL9_4g.PNG/menu_6.png",
-  "https://cafefiles.pstatic.net/MjAyMDA2MTVfNDAg/MDAxNTkyMjMxMzMyMDQ1.PYCBwHbP47IvXC-4y0D8mWCj8d14xBPwMn0jljx8Ftgg.XZNnZU9G7ktezkzJO9xrQMPLtZBv6mQDjhO4kBFXaQwg.PNG/menu_7.png",
-  "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjk5/MDAxNTkyMjMxMzMyNDY5.2OU0bZfDrAbLGlXmpIcI5IWOFGH0T-1M_qdOGifwgTkg.uNe5oqRxAqdvptbDBfjfiI9Xry6OB7xDgadWqb4qaYsg.PNG/menu_8.png",
-  "https://cafefiles.pstatic.net/MjAyMDA2MTVfMTc0/MDAxNTkyMjMxMzMzMDEy.ewH58BfSsnmqwQ3vvd46dPpVIiSMeDR8Xd3CiiB7AcUg.Oi_87uoIGABfg-xqQMscj49y8iW-5HePfDq4jptZT9Yg.PNG/menu_9.png"
+  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMTcw/MDAxNTk2NDQ4MjE0NDI0.vhK4pUfPkhZNE7sy6Hzm3pXrsyTu86rzria1NOQmD4kg.tYd-Zu46iHWtuLl_Eept-hE6v4vdiJeIJ8ELU5SE35wg.PNG/front_menu0.png",
+  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMTA1/MDAxNTk2NDQ4MjE0NzA5.dGbQT_TJvqkTfycjaJ4LHVQQSPpQ1tuaqeTPTSzS3aEg.2k7tPWN1fSCkyUGgpbu-P5nmxLuhCZxwRc76h3qAtRsg.PNG/front_menu1.png",
+  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMjYg/MDAxNTk2NDQ4MjE0OTQ2.Gcmj8M2k6O2i88prZCojKkV9Q79J4R_2P-z6BhQSP6kg.R1L30IUbGIKyLtSLzpFRo03Orn3yKrp6Y6k6PEOhJM8g.PNG/front_menu2.png",
+  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMTU0/MDAxNTk2NDQ4MjE1MjM4.fo_ljUyzpZe2CeeRv2RzcKA9VUjJAkzeoSvCYXPH9Ewg.s6dTB0MH8eAXlgZWXonsghVvIO7cSR9Rvm6kvqSwiagg.PNG/front_menu3.png",
+  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMjIx/MDAxNTk2NDQ4MjE1NTA2.PTUxkzBKqSUt5RmBxT6TmeE15mWq3AKD9akZ5fKMnlIg.E_tRt_-18aKhu-kzTgrdolQwkoN991HMKFsD1O4eRj0g.PNG/front_menu4.png",
+  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMjA1/MDAxNTk2NDQ4MjE1ODMy.__7OIojpORdQKLe62PHK0nqDuY_VEAo583yPgfvNcugg.OmXdoqNYFIFWJ27mRQtNsZ6gzm7BSr3Rq37EC8Nv-38g.PNG/front_menu5.png",
+  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMTk1/MDAxNTk2NDQ4MjE2MTMy.kXRjnSyNk1TCTDXsTThbWkXnQG0o-w610otl8U4CSSIg.Ct_cbOU_fzYLanXGHXtOLxbzaruzOwyY61coLmwWOA0g.PNG/front_menu6.png",
+  "https://cafefiles.pstatic.net/MjAyMDA4MDNfODcg/MDAxNTk2NDQ4MjE2MzMw.juZLnLZY028jSAs_HuMU5QxCftTo1Glax-up6vgBxAgg.MQDq1UGD7MmVR30_213dklCqRZkiBJVcBnFgSW6HtI4g.PNG/front_menu7.png",
+  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMTA3/MDAxNTk2NDQ4MjE2NjQx.vvmqIOMWGfC_KBtsG-a571hyS_u7ToaxrYHamE87v7Ig.f_nhYFnCycj47UbLkVX3K_1fa5P9tg-vkke5IFDgeA8g.PNG/front_menu8.png"
 );
 
-let resourceYoutube = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjk0/MDAxNTkyMjMxMzI3NzYw.r_GNE2TgvDZrXqg-PjZn9JO1rQDkFI3boibj7XfRjxEg.IYTXZ0aguNEp5JKnUqSlLjOSDcDa7EKeA8BCTQZ3IIgg.PNG/dyoutube.png";
-let resourceBest = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMTM4/MDAxNTkyMjMxMzI1Mzg4.qn65ZUkff1Hj32K-hS_iU5ySivb_tis-4aKccIwa7uYg.ragn0rlMryUIFwknlO1qEi6c78p4k-5meW4ZbgXmWSkg.PNG/dbest.png";
-let resourceSponsor = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMTA3/MDAxNTkyMjMxMzI3MTM1.R8vjRWn7-3bNHAqGYgs55lh9YnX9iW0UGsdBsP6Z7Ccg.JH44TDKpWkmaAqJN6EjLvK7SqA-wzgWQm2X43tLmUEAg.PNG/dsponsor.png";
-let resourcePost = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjA4/MDAxNTkyMjMxMzI2NTYy.RjIGOTPMb5bv4V2dkZ-Mx820rbYnNrRaR-IqGNVl-vAg.5uhcwW2Rl-JnKYxz8nJPobvKyFBehCl2p3DyBbU4FxMg.PNG/dpost.png";
-let resourceCopyright = "https://cafefiles.pstatic.net/MjAyMDA2MTVfNzEg/MDAxNTkyMjMxMzI1OTQ4.Zupq6kdz8n_ygpiR58wHzFCbmKFoy5v50zr3-6S4hicg.i6pK_p0CQWO7qp-ignUgN2QifsSDUfXISAwkiuTYrTMg.PNG/dcopy.png";
+let resourceYoutube = "https://cafefiles.pstatic.net/MjAyMDA4MDNfMTk2/MDAxNTk2NDQ4MjE0MDIx.r4pPCXJnwvM4t80WPxNab68HQtaPN5qcsI17-Pgo0rUg.AYOmOzwrfEhiF21w2viuEfs4jHNNuS_JVc_L42T4_2Yg.PNG/front_dyoutube.png";
+let resourceBest = "https://cafefiles.pstatic.net/MjAyMDA4MDNfMTMz/MDAxNTk2NDQ4MjEyNjk0._D2-UyxnMlXzpOZACQ_uXW1sNoJ8mjJKx2466Zdh1vcg.XdQlcJ6KQVS2_qtHb6Dc8XyU0jfQuvRSlSi-aZnzouMg.PNG/front_dbest.png";
+let resourceSponsor = "https://cafefiles.pstatic.net/MjAyMDA4MDNfMTE5/MDAxNTk2NDQ4MjEzNjc2.-4sDaY0iHYT_Bz2TV9ka3oquX9QFh7rq7oh-GGAKvmYg.Q0-NJZdlvYJBI6YGOSvG9zpNqkr4dWK4iaJlTVjaXAwg.PNG/front_dsponsor.png";
+let resourcePost = "https://cafefiles.pstatic.net/MjAyMDA4MDNfMjQy/MDAxNTk2NDQ4MjEzMzA4._R9UI92ME84J0yfAJWTd1OH8jy28xFsG7w0j7Sz0Oo8g.LyShAxFe0MCu_pAtTwkv5B5OZs9cNf55p2YYeNoHAy4g.PNG/front_dpost.png";
+let resourceCopyright = "https://cafefiles.pstatic.net/MjAyMDA4MDNfOSAg/MDAxNTk2NDQ4MjEyOTc3.cMZkjrOQxmCUs61NpR53aLRkJXbR6hLLR5IAdqax8JMg.zJPuAaR4qiAbyCI9NSiJJnc5yh9KQFuc0ej0nyK8pM0g.PNG/front_dcopy.png";
 let resourceBlank = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjk0/MDAxNTkyMjMxMDEwNzE5.0geDSpRciQhBcP9UHLDMnMLNyUP56IFYjyGFo50Lr18g.3tQdIO2P1RPfbjcjwXlHu_erEhS92QtqgmRUMF_C_hQg.PNG/blank.png";
 
 let urlBest = "https://cafe.naver.com/develoid/menu/1363";
@@ -176,8 +176,8 @@ function DataCheckImg(item) {
   if( item == "" || item == null || item == undefined || ( item != null && typeof item == "object" && !Object.keys(item).length ) ){
     return resourceBlank;
   } else {
-    item = item.replace("https://cafefiles.pstatic.net/", "http://cafefiles.pstatic.net/");
-    item = item.replace("https://postfiles.pstatic.net/", "http://postfiles.pstatic.net/");
+    item = item.replace("https://cafefiles.pstatic.net/", "https://cafefiles.pstatic.net/");
+    item = item.replace("https://postfiles.pstatic.net/", "https://postfiles.pstatic.net/");
     //console.log(item);
     return item;
   }
@@ -296,10 +296,10 @@ function Make() {
 
   // Menu
   page += "<table width='836' height='45' cellspacing='0' cellpadding='0'><tbody><tr>"
-       +  "<td><a href='"+urlMenu[0]+"' target='_blank'><img id='"+DataCheckImg(resourceMenu[0])+"' src='"+DataCheckImg(resourceMenu[0])+"' width='99' height='auto' style='width: 99px; height: auto;'></a></td>";
+       +  "<td><a href='"+urlMenu[0]+"' target='_blank'><img id='"+DataCheckImg(resourceMenu[0])+"' src='"+DataCheckImg(resourceMenu[0])+"' width='auto' height='29' style='width: auto; height: 29px; margin:-12px 0 0;'></a></td>";
 
   for(let i=1; i<9; i++) {
-    page += "<td><a href='"+urlMenu[i]+"' target='_blank'><img id='"+DataCheckImg(resourceMenu[i])+"' src='"+DataCheckImg(resourceMenu[i])+"' width='92' height='auto' style='width: 92px; height: auto;'></a></td>";
+    page += "<td><a href='"+urlMenu[i]+"' target='_blank'><img id='"+DataCheckImg(resourceMenu[i])+"' src='"+DataCheckImg(resourceMenu[i])+"' width='auto' height='29' style='width: auto; height: 29px; margin:-12px 0 0;'></a></td>";
   }
 
   page += "</tr></tbody></table>"
@@ -310,7 +310,7 @@ function Make() {
     page += "<table width='836' cellspacing='0' cellpadding='0'><tbody>";
 
     if(cntBp > 0) {
-      page += "<tr><td><a href='https://cafe.naver.com/develoid/menu/1441' target='_blank'><img id='"+arrayBp[0].img+"' src='"+arrayBp[0].img+"' width='836' height='auto' style='width: 836px; height: auto;'></a></td></tr>"
+      page += "<tr><td><a href='https://cafe.naver.com/develoid/menu/1441' target='_blank'><img id='"+arrayBp[0].img+"' src='"+arrayBp[0].img+"' width='836' height='auto' style='margin:0 0 4px; width: 836px; height: auto;'></a></td></tr>"
     }
 
     console.log(arrayAd);
@@ -326,7 +326,7 @@ function Make() {
   // Youtube
   if(cntYt > 0) {
     console.log(arrayYt);
-    page += "<div width='836' height='auto' style='margin:30px 0 0 0;'><a href='"+urlMenu[5]+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceYoutube)+"' src='"+DataCheckImg(resourceYoutube)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
+    page += "<div width='836' height='auto' style='margin:16px 0 4px 0;'><a href='"+urlMenu[5]+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceYoutube)+"' src='"+DataCheckImg(resourceYoutube)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
     page += "<table width='836' height='225' cellspacing='12' cellpadding='0'><tbody>";
 
     for(let i=0; i<arrayYt.length; i+=2) {
@@ -342,7 +342,7 @@ function Make() {
   // Best
   if(cntBt > 0) {
     console.log(arrayBt);
-    page += "<div width='836' height='auto' style='margin:12px 0 0 0;'><a href='"+urlBest+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceBest)+"' src='"+DataCheckImg(resourceBest)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
+    page += "<div width='836' height='auto' style='margin:0 0 4px;'><a href='"+urlBest+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceBest)+"' src='"+DataCheckImg(resourceBest)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
     page += "<table width='836' cellspacing='12' cellpadding='0'><tbody>";
 
     for(let i=0; i<arrayBt.length; i+=4) {
@@ -366,7 +366,7 @@ function Make() {
   // Sponsor
   if(cntSp > 0) {
     console.log(arraySp);
-    page += "<div width='836' height='auto' style='margin:12px 0 0 0;'><a href='"+urlSponsor+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceSponsor)+"' src='"+DataCheckImg(resourceSponsor)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
+    page += "<div width='836' height='auto' style='margin:4px 0 4px;'><a href='"+urlSponsor+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceSponsor)+"' src='"+DataCheckImg(resourceSponsor)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
     page += "<table width='836' cellspacing='12' cellpadding='0'><tbody>";
 
     for(let i=0; i<arraySp.length; i+=4) {
@@ -390,7 +390,7 @@ function Make() {
   // Post
   if(cntPt > 0) {
     console.log(arrayPt);
-    page += "<div width='836' height='auto' style='margin:12px 0 0 0;'><a href='"+urlPost+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourcePost)+"' src='"+DataCheckImg(resourcePost)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
+    page += "<div width='836' height='auto' style='margin:4px 0 4px;'><a href='"+urlPost+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourcePost)+"' src='"+DataCheckImg(resourcePost)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
     page += "<table width='836' cellspacing='12' cellpadding='0'><tbody>";
 
     for(let i=0; i<arrayPt.length; i+=4) {
@@ -413,7 +413,7 @@ function Make() {
 
   // Copyright
   page += "<div width='836'>"
-       +  "<img id='"+DataCheckImg(resourceCopyright)+"' src='"+DataCheckImg(resourceCopyright)+"' width='836' height='auto' style='width: 836px; height: auto;'>"
+       +  "<img id='"+DataCheckImg(resourceCopyright)+"' src='"+DataCheckImg(resourceCopyright)+"' width='836' height='auto' style='margin:4px 0 0;' width: 836px; height: auto;'>"
        +  "</div>";
 
   page += "</center>";
