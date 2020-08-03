@@ -176,8 +176,8 @@ function DataCheckImg(item) {
   if( item == "" || item == null || item == undefined || ( item != null && typeof item == "object" && !Object.keys(item).length ) ){
     return resourceBlank;
   } else {
-    //item = item.replace("https://cafefiles.pstatic.net/", "https://cafefiles.pstatic.net/");
-    //item = item.replace("https://postfiles.pstatic.net/", "https://postfiles.pstatic.net/");
+    //item = item.replace("https://cafefiles.pstatic.net/", "http://cafefiles.pstatic.net/");
+    //item = item.replace("https://postfiles.pstatic.net/", "http://postfiles.pstatic.net/");
     //console.log(item);
     return item;
   }
@@ -418,7 +418,8 @@ function Make() {
 
   page += "</center>";
 
-  var tempPage = page.replace(/https/g, 'http');
+  var tempPage = page.replace(/https:\/\/cafefiles.pstatic.net/g, 'http://cafefiles.pstatic.net');
+  tempPage = tempPage.replace(/https:\/\/postfiles.pstatic.net/g, 'http://postfiles.pstatic.net');
 
   document.getElementById("codeHTTPS").value = page;
   document.getElementById("codeHTTP").value = tempPage;
