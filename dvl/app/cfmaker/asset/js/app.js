@@ -296,10 +296,10 @@ function Make() {
 
   // Menu
   page += "<table width='836' height='45' cellspacing='0' cellpadding='0'><tbody><tr>"
-       +  "<td><a href='"+urlMenu[0]+"' target='_blank'><img id='"+DataCheckImg(resourceMenu[0])+"' src='"+DataCheckImg(resourceMenu[0])+"' width='100' height='auto' style='width: 100px; height: auto; margin:-12px 0 0;'></a></td>";
+       +  "<td><a href='"+urlMenu[0]+"' target='_blank'><img id='"+DataCheckImg(resourceMenu[0])+"' src='"+DataCheckImg(resourceMenu[0])+"' width='100' height='auto' style='width: 100px; height: auto; margin:-10px 0 0;'></a></td>";
 
   for(let i=1; i<9; i++) {
-    page += "<td><a href='"+urlMenu[i]+"' target='_blank'><img id='"+DataCheckImg(resourceMenu[i])+"' src='"+DataCheckImg(resourceMenu[i])+"' width='92' height='auto' style='width: 92px; height: auto; margin:-12px 0 0;'></a></td>";
+    page += "<td><a href='"+urlMenu[i]+"' target='_blank'><img id='"+DataCheckImg(resourceMenu[i])+"' src='"+DataCheckImg(resourceMenu[i])+"' width='92' height='auto' style='width: 92px; height: auto; margin:-10px 0 0;'></a></td>";
   }
 
   page += "</tr></tbody></table>"
