@@ -1,4 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
+dvl/app/checker/
 node_modules/
+dvl/app/checker.zip
