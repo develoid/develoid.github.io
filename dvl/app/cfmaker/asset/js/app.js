@@ -38,13 +38,14 @@ let resourceMenu = new Array(
   "https://cafefiles.pstatic.net/MjAyMDA4MDNfMTA3/MDAxNTk2NDQ4MjE2NjQx.vvmqIOMWGfC_KBtsG-a571hyS_u7ToaxrYHamE87v7Ig.f_nhYFnCycj47UbLkVX3K_1fa5P9tg-vkke5IFDgeA8g.PNG/front_menu8.png"
 );
 
-let resourceYoutube = "https://cafefiles.pstatic.net/MjAyMDA4MDNfNTcg/MDAxNTk2NDUwMDU5ODA3.FLRw2-ugGvyq74d72wt4iXGkSyzCrmIWey8swAyE6ssg.FnjmTFsce8zpbFTvHnTpZtX4b_j9_XHTSJPxrNAipEwg.PNG/front_dyoutube.png";
-let resourceBest = "https://cafefiles.pstatic.net/MjAyMDA4MDNfMTY5/MDAxNTk2NDUwMDU4NDkz.AdbyP13L-GBgmYhkX59wG_p_j-ZTxFO2C3Lm5z7XDLUg.KwNi4jSQWQ3996khMi4S3H7p770ficKj-MaAJoBHQ0sg.PNG/front_dbest.png";
-let resourceSponsor = "https://cafefiles.pstatic.net/MjAyMDA4MDNfMjAw/MDAxNTk2NDUwMDU5NDQ3.5bPHiByJ30qu9_Q-lrGP-Oa734AlFrKkDJm0PuPi29cg.aQXW94RPQYlSv_4bSeR0fRtibdAFTeq5uGIodjgGWpYg.PNG/front_dsponsor.png";
-let resourcePost = "https://cafefiles.pstatic.net/MjAyMDA4MDNfMjg1/MDAxNTk2NDUwMDU5MTM4.TckctUKWRuarMxaifhwcYZi81aCuiYSqyA3P6poM8p4g.VxraeD9AML_owNcopQn2YYOW6xBiWBC7R60ju2rqcdkg.PNG/front_dpost.png";
-let resourceCopyright = "https://cafefiles.pstatic.net/MjAyMDA4MDNfMjIw/MDAxNTk2NDUwMDU4ODQ0.db_aPObjDbSqkcG9wSwyE0fXAvk_3wAKntWFGTUfSmog.r4S083j6s7N5AW7oGRhriYGTFFOTLBGnMQpMpg-MuOIg.PNG/front_dcopy.png";
+let resourceYoutube = "https://cafefiles.pstatic.net/MjAyMDA4MjFfMTQ4/MDAxNTk4MDExNDc0MzQ3.18e9DbnBNyp_m4mxzOp6u8pJLEQKcPL77Bq1QOO0sH4g.Qeg50RdxckG-GEEipLzJ7q7dfjLBVJSq36tbYwP76kEg.PNG/1_dyoutube.png";
+let resourceBest = "https://cafefiles.pstatic.net/MjAyMDA4MjFfOTAg/MDAxNTk4MDExNDc0NTg3.SpLPeBT08IkwJvESJE0VWifKUKUaMK2riEX5uxy_wHwg.DWAklMximm6Zcto8GVRA28PzZNwHZUNyIfewsGffKZIg.PNG/1_dbest.png";
+let resourceSponsor = "https://cafefiles.pstatic.net/MjAyMDA4MjFfNjEg/MDAxNTk4MDExNDc0ODY1.ifdtuVGsUv9YGsXFVkIR7TMdze_yi_sOsxY-UNpNWlEg.nOTZ4wJvYefcHNAojXwqsvEj0SruRK_MVv8PhkIprEUg.PNG/1_dsponsor.png";
+let resourcePost = "https://cafefiles.pstatic.net/MjAyMDA4MjFfNzQg/MDAxNTk4MDEwOTI4MzEz.E8LujL0FMZTnrUCdXGJcLVfD4NjXoVYzzwN_aNjbuTwg.sNmrSlzASLsrn11BniMG8XhgW67D6BtSyguwJOpBP5Eg.PNG/dpost.png";
+let resourceCopyright = "https://cafefiles.pstatic.net/MjAyMDA4MjFfMjk0/MDAxNTk4MDExNDc1MTg5.xN0wSnewTU2h1dlTi1v2rKuxYDR_5lSWv1sAC9whMIEg.AqB0uVgmuld8QNjrqgxUX0d9rlp2vPSWY6v6Xu00zjEg.PNG/1_dpost.png";
 let resourceBlank = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjk0/MDAxNTkyMjMxMDEwNzE5.0geDSpRciQhBcP9UHLDMnMLNyUP56IFYjyGFo50Lr18g.3tQdIO2P1RPfbjcjwXlHu_erEhS92QtqgmRUMF_C_hQg.PNG/blank.png";
 
+let urlYouTube = "https://www.youtube.com/channel/UC0ktIJkyetokw2dnvjpyA9w/";
 let urlBest = "https://cafe.naver.com/develoid/menu/1363";
 let urlSponsor = "https://cafe.naver.com/develoid/menu/604";
 let urlPost = "https://cafe.naver.com/develoid/menu/1312";
@@ -326,7 +327,7 @@ function Make() {
   // Youtube
   if(cntYt > 0) {
     console.log(arrayYt);
-    page += "<div width='836' height='auto' style='margin:16px 0 4px 0;'><a href='"+urlMenu[5]+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceYoutube)+"' src='"+DataCheckImg(resourceYoutube)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
+    page += "<div width='836' height='auto' style='margin:16px 0 4px 0;'><a href='"+urlYouTube+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceYoutube)+"' src='"+DataCheckImg(resourceYoutube)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
     page += "<table width='836' height='225' cellspacing='12' cellpadding='0'><tbody>";
 
     for(let i=0; i<arrayYt.length; i+=2) {
