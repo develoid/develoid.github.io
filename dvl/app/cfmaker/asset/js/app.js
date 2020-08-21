@@ -42,7 +42,7 @@ let resourceYoutube = "https://cafefiles.pstatic.net/MjAyMDA4MjFfMjIy/MDAxNTk4MD
 let resourceBest = "https://cafefiles.pstatic.net/MjAyMDA4MjFfMTcg/MDAxNTk4MDEyNzk1Mjky.KZ4OX1fpF4Y4zLKhxhjJdY8ynJixIYXRucfnAyH6YZkg.zL7Hm-M7rrG_rmnzlaUCmQoYaIOI9OeBoIksCc0ktbIg.PNG/1_dbest.png";
 let resourceSponsor = "https://cafefiles.pstatic.net/MjAyMDA4MjFfMjg3/MDAxNTk4MDEyNzk2MTkw.b821EGJM4UdMAzqb_-OGcUflXKK3UGgw4T7sZT8tCXkg.tfNLK73n_oxK6eawhbGYk4z4zRa2v6z--Az-AV_J5Q0g.PNG/1_dsponsor.png";
 let resourcePost = "https://cafefiles.pstatic.net/MjAyMDA4MjFfMjEy/MDAxNTk4MDEyNzk1ODY0.UjmWElUbHStZ6ptYgSoqzLVLKFIR0NklfJIIkRsz5Zwg.bPXJxkvLcS3USAHknwQbEyI-AanvJq1TAIJi5WCyB44g.PNG/1_dpost.png";
-let resourceCopyright = "https://cafefiles.pstatic.net/MjAyMDA4MjFfMjQ3/MDAxNTk4MDEyNzk1NjEz.3d-2Ar4_GbnYRFYNzvfgayEEsDvlmjHI89D_oHMWwmog.khC9e092G_L_Uc36jZEEAIO3MVoWBEVie08bG_yRWCIg.PNG/1_dcopy.png";
+let resourceCopyright = "https://cafefiles.pstatic.net/MjAyMDA4MjFfMjg3/MDAxNTk4MDEzMzM4NjQz.TX4yu6YZrj0CRdR7i1H7O9Zh-4CfsQMQsFuKz77WuCIg.upoQyPYc01KPn8oe6njPfcfjxP-NE7kGw1CrEtX7_aIg.PNG/1_dcopy.png";
 let resourceBlank = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjk0/MDAxNTkyMjMxMDEwNzE5.0geDSpRciQhBcP9UHLDMnMLNyUP56IFYjyGFo50Lr18g.3tQdIO2P1RPfbjcjwXlHu_erEhS92QtqgmRUMF_C_hQg.PNG/blank.png";
 
 let urlYouTube = "https://www.youtube.com/channel/UC0ktIJkyetokw2dnvjpyA9w/";
