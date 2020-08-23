@@ -1,54 +1,40 @@
 let cntBp = 1;
 let cntAd = 2;
-let cntYt = 2;
-let cntBt = 4;
-let cntSp = 4;
-let cntPt = 4;
+let cntBt = 5;
+let cntSp = 5;
 
 let arrayBp = new Array();
 let arrayAd = new Array();
-let arrayYt = new Array();
 let arrayBt = new Array();
 let arraySp = new Array();
-let arrayPt = new Array();
 
 let page;
 
 let urlMenu = new Array(
   "https://cafe.naver.com/develoid",
-  "https://cafe.naver.com/develoid/901013",
   "https://cafe.naver.com/develoid/827731",
+  "https://cafe.naver.com/develoid/901013",
   "https://cafe.naver.com/develoid/menu/1",
-  "https://cafe.naver.com/develoid/menu/1200",
-  "https://develoid.github.io/op/",
-  "https://cafe.naver.com/develoid/menu/1436",
-  "https://cafe.naver.com/develoid/menu/604",
   "https://goo.gl/forms/Lrxz08x3oB3XLuJ62"
 );
 
 let resourceMenu = new Array(
-  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMTcw/MDAxNTk2NDQ4MjE0NDI0.vhK4pUfPkhZNE7sy6Hzm3pXrsyTu86rzria1NOQmD4kg.tYd-Zu46iHWtuLl_Eept-hE6v4vdiJeIJ8ELU5SE35wg.PNG/front_menu0.png",
-  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMTA1/MDAxNTk2NDQ4MjE0NzA5.dGbQT_TJvqkTfycjaJ4LHVQQSPpQ1tuaqeTPTSzS3aEg.2k7tPWN1fSCkyUGgpbu-P5nmxLuhCZxwRc76h3qAtRsg.PNG/front_menu1.png",
-  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMjYg/MDAxNTk2NDQ4MjE0OTQ2.Gcmj8M2k6O2i88prZCojKkV9Q79J4R_2P-z6BhQSP6kg.R1L30IUbGIKyLtSLzpFRo03Orn3yKrp6Y6k6PEOhJM8g.PNG/front_menu2.png",
-  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMTU0/MDAxNTk2NDQ4MjE1MjM4.fo_ljUyzpZe2CeeRv2RzcKA9VUjJAkzeoSvCYXPH9Ewg.s6dTB0MH8eAXlgZWXonsghVvIO7cSR9Rvm6kvqSwiagg.PNG/front_menu3.png",
-  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMjIx/MDAxNTk2NDQ4MjE1NTA2.PTUxkzBKqSUt5RmBxT6TmeE15mWq3AKD9akZ5fKMnlIg.E_tRt_-18aKhu-kzTgrdolQwkoN991HMKFsD1O4eRj0g.PNG/front_menu4.png",
-  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMjA1/MDAxNTk2NDQ4MjE1ODMy.__7OIojpORdQKLe62PHK0nqDuY_VEAo583yPgfvNcugg.OmXdoqNYFIFWJ27mRQtNsZ6gzm7BSr3Rq37EC8Nv-38g.PNG/front_menu5.png",
-  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMTk1/MDAxNTk2NDQ4MjE2MTMy.kXRjnSyNk1TCTDXsTThbWkXnQG0o-w610otl8U4CSSIg.Ct_cbOU_fzYLanXGHXtOLxbzaruzOwyY61coLmwWOA0g.PNG/front_menu6.png",
-  "https://cafefiles.pstatic.net/MjAyMDA4MDNfODcg/MDAxNTk2NDQ4MjE2MzMw.juZLnLZY028jSAs_HuMU5QxCftTo1Glax-up6vgBxAgg.MQDq1UGD7MmVR30_213dklCqRZkiBJVcBnFgSW6HtI4g.PNG/front_menu7.png",
-  "https://cafefiles.pstatic.net/MjAyMDA4MDNfMTA3/MDAxNTk2NDQ4MjE2NjQx.vvmqIOMWGfC_KBtsG-a571hyS_u7ToaxrYHamE87v7Ig.f_nhYFnCycj47UbLkVX3K_1fa5P9tg-vkke5IFDgeA8g.PNG/front_menu8.png"
+  "https://cafefiles.pstatic.net/MjAyMDA4MjRfMTgz/MDAxNTk4MjAzNjUxMDY3.U_GkymrJJmUcyWpRfjZnLrx08p9fJivydU0raJqXfG0g.wffFa2Qv-mWxnMZW1plGMJaCfjM0gebFebNWO6nxNAMg.PNG/notice1.png",
+  "https://cafefiles.pstatic.net/MjAyMDA4MjRfMTA1/MDAxNTk4MjAzNjUxMzUx.NMB7e3B0wvUAmP2N_f_VVj9_61luh3zmAL84qgMvhWYg.bUrxgBPs1t2-qNqOoocl9CfqxGF0YiA-7x_b5dn5iGkg.PNG/notice3.png",
+  "https://cafefiles.pstatic.net/MjAyMDA4MjRfMzkg/MDAxNTk4MjAzNjUxNjEx.pfI05sjRTUTe0RfkO2mMXrr4RXPHlnF9F5l1jl-Q3f8g.oJWwKhes13cZZn5D0yh_r6ugb6jCW8EHMN8mQeRjiCYg.PNG/notice2.png",
+  "https://cafefiles.pstatic.net/MjAyMDA4MjRfMTEw/MDAxNTk4MjAzNjUxOTA5.g_ke5EyEJDlkNlmc5pwlH0wwAUaY6RBQ4yni3yrHigAg.iz0Tdjaje_IrI3ocIoqaoD9unfCJhNZg4ooT04jGNNwg.PNG/more.png",
+  "https://cafefiles.pstatic.net/MjAyMDA4MjRfMjM4/MDAxNTk4MjAzNjUyMTY1.8U91jktx74yaIUW-2tSTGf0XQIk70o-knWC9j0kgKvog.xFEzTKmPrWqbbjJO6tP2j2j9_Z9yYq1dIn5UAtmH88Yg.PNG/contact.png"
 );
 
-let resourceYoutube = "https://cafefiles.pstatic.net/MjAyMDA4MjFfMjIy/MDAxNTk4MDEyNzk2NDc3.VYy2pzCJV07tErWttFPbF3p7vEcwfPfBKPzBSk3V6r8g.cnZWSy0qT8Wy17GXV31N_HbFKEFfqvPm848fxnuhk2og.PNG/1_dyoutube.png";
-let resourceBest = "https://cafefiles.pstatic.net/MjAyMDA4MjFfMTcg/MDAxNTk4MDEyNzk1Mjky.KZ4OX1fpF4Y4zLKhxhjJdY8ynJixIYXRucfnAyH6YZkg.zL7Hm-M7rrG_rmnzlaUCmQoYaIOI9OeBoIksCc0ktbIg.PNG/1_dbest.png";
-let resourceSponsor = "https://cafefiles.pstatic.net/MjAyMDA4MjFfMjg3/MDAxNTk4MDEyNzk2MTkw.b821EGJM4UdMAzqb_-OGcUflXKK3UGgw4T7sZT8tCXkg.tfNLK73n_oxK6eawhbGYk4z4zRa2v6z--Az-AV_J5Q0g.PNG/1_dsponsor.png";
-let resourcePost = "https://cafefiles.pstatic.net/MjAyMDA4MjFfMjEy/MDAxNTk4MDEyNzk1ODY0.UjmWElUbHStZ6ptYgSoqzLVLKFIR0NklfJIIkRsz5Zwg.bPXJxkvLcS3USAHknwQbEyI-AanvJq1TAIJi5WCyB44g.PNG/1_dpost.png";
-let resourceCopyright = "https://cafefiles.pstatic.net/MjAyMDA4MjFfMjg3/MDAxNTk4MDEzMzM4NjQz.TX4yu6YZrj0CRdR7i1H7O9Zh-4CfsQMQsFuKz77WuCIg.upoQyPYc01KPn8oe6njPfcfjxP-NE7kGw1CrEtX7_aIg.PNG/1_dcopy.png";
-let resourceBlank = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjk0/MDAxNTkyMjMxMDEwNzE5.0geDSpRciQhBcP9UHLDMnMLNyUP56IFYjyGFo50Lr18g.3tQdIO2P1RPfbjcjwXlHu_erEhS92QtqgmRUMF_C_hQg.PNG/blank.png";
+let resourceBest = "https://cafefiles.pstatic.net/MjAyMDA4MjNfMTU3/MDAxNTk4MTkyNzIyNjgx.NyVaAyS1HL6Lxp6TZK3k2XihFXR5KULAXg4LJYDprQgg.GvTcU-GaXzAGrFm_-Gc3i4vfpfzFi63kT5HYyi5xeiUg.PNG/best.png";
+let resourceContent = "https://cafefiles.pstatic.net/MjAyMDA4MjNfMTcy/MDAxNTk4MTkyNzIzMzE5.nP0xtg8rEODtAoQEZNj5pJ9NlJtiV6nfq3pJeHWxFnQg.KJHyAgiGjYqXyzn76KgE2PE5HVx259tYaK2PDeRP1Msg.PNG/content.png";
+let resourceSponsor = "https://cafefiles.pstatic.net/MjAyMDA4MjNfNDQg/MDAxNTk4MTkyNzMyMTMy.r4Y4Jc0cAyj8AqPXEY_0MP3IzfBPzutURE5QCdnP0iIg.fp5ahDCFelpqh55YmHJmFipEHbTQR-kvaUgpamV_KDQg.PNG/sponsor.png";
+let resourceCopyright = "https://cafefiles.pstatic.net/MjAyMDA4MjRfMTY3/MDAxNTk4MjA1MjQ4MDA4.RWNLRf-GafhKiTrawM0PZ3m6TPQTgWQpvwMACnCs1yAg.R4-kym7rYdX1RshFyEDxkoWt-DqjjYu_sTly6-CEBbAg.PNG/copyright.png";
+let resourceBlank = "";
 
-let urlYouTube = "https://www.youtube.com/channel/UC0ktIJkyetokw2dnvjpyA9w/";
 let urlBest = "https://cafe.naver.com/develoid/menu/1363";
+let urlContent = "https://cafe.naver.com/develoid/menu/1363";
 let urlSponsor = "https://cafe.naver.com/develoid/menu/604";
-let urlPost = "https://cafe.naver.com/develoid/menu/1312";
 
 // Best Photo
 function ControlBp(type) {
@@ -66,7 +52,6 @@ function ControlBp(type) {
   }
 }
 
-
 // AD Banner Control
 function ControlAd(type) {
   if(type == "add") {
@@ -83,36 +68,16 @@ function ControlAd(type) {
   }
 }
 
-// Youtube Control
-function ControlYt(type) {
-  if(type == "add") {
-    for(let i=0; i<2; i++) {
-      cntYt++;
-      $('#yt').append('<tr id="yt_'+cntYt+'"><td>'+cntYt+'</td><td><input type="text" id="yt_u'+cntYt+'"></td></tr>');
-    }
-  } else if(type == "rm") {
-    if(cntYt > 0) {
-      for(let i=0; i<2; i++) {
-        let target = "#yt_" + cntYt;
-        $(target).remove();
-        cntYt--;
-      }
-    } else {
-      alert('no target');
-    }
-  }
-}
-
-// Best Control
+// Thumbnail Control without sponsor
 function ControlBt(type) {
   if(type == "add") {
-    for(let i=0; i<4; i++) {
+    for(let i=0; i<5; i++) {
       cntBt++;
       $('#bt').append('<tr id="bt_'+cntBt+'"><td>'+cntBt+'</td><td><input type="text" id="bt_i'+cntBt+'"></td><td><input type="number" id="bt_u'+cntBt+'"></td></tr>');
     }
   } else if(type == "rm") {
     if(cntBt > 0) {
-      for(let i=0; i<4; i++) {
+      for(let i=0; i<5; i++) {
         let target = "#bt_" + cntBt;
         $(target).remove();
         cntBt--;
@@ -123,39 +88,19 @@ function ControlBt(type) {
   }
 }
 
-// Sponsor Control
+// Sponsor Thumbnail Control
 function ControlSp(type) {
   if(type == "add") {
-    for(let i=0; i<4; i++) {
+    for(let i=0; i<5; i++) {
       cntSp++;
       $('#sp').append('<tr id="sp_'+cntSp+'"><td>'+cntSp+'</td><td><input type="text" id="sp_i'+cntSp+'"></td><td><input type="text" id="sp_u'+cntSp+'"></td></tr>');
     }
   } else if(type == "rm") {
     if(cntSp > 0) {
-      for(let i=0; i<4; i++) {
+      for(let i=0; i<5; i++) {
         let target = "#sp_" + cntSp;
         $(target).remove();
         cntSp--;
-      }
-    } else {
-      alert('no target');
-    }
-  }
-}
-
-// Post Control
-function ControlPt(type) {
-  if(type == "add") {
-    for(let i=0; i<4; i++) {
-      cntPt++;
-      $('#pt').append('<tr id="pt_'+cntPt+'"><td>'+cntPt+'</td><td><input type="text" id="pt_i'+cntPt+'"></td><td><input type="number" id="pt_u'+cntPt+'"></td></tr>');
-    }
-  } else if(type == "rm") {
-    if(cntPt > 0) {
-      for(let i=0; i<4; i++) {
-        let target = "#pt_" + cntPt;
-        $(target).remove();
-        cntPt--;
       }
     } else {
       alert('no target');
@@ -175,7 +120,7 @@ function DataCheck(item) {
 // Data Check 1
 function DataCheckImg(item) {
   if( item == "" || item == null || item == undefined || ( item != null && typeof item == "object" && !Object.keys(item).length ) ){
-    return resourceBlank;
+    return "";
   } else {
     //item = item.replace("https://cafefiles.pstatic.net/", "http://cafefiles.pstatic.net/");
     //item = item.replace("https://postfiles.pstatic.net/", "http://postfiles.pstatic.net/");
@@ -193,18 +138,16 @@ function DataCheckBool(item) {
   }
 }
 
-// Cafe Front Make
+// Cafe Gate
 function Make() {
   arrayBp = new Array();
   arrayAd = new Array();
-  arrayYt = new Array();
   arrayBt = new Array();
   arraySp = new Array();
-  arrayPt = new Array();
 
-  page = "<!-- Develoid Front v2020.07 / Produced by SiRyuA & 밤푸딩 -->"
+  page = "<!-- 디벨로이드 대문 v2020.09 / 개발과 디자인 SiryuA, 밤푸딩 -->"
 
-  // Best Photo
+  // Best Photo = BP
   for(let i=0; i<cntBp; i++) {
     let temp = new Object();
     let num = i+1;
@@ -217,7 +160,7 @@ function Make() {
     arrayBp.push(temp);
   }
 
-  // AD Banner
+  // AD Banner = AD
   for(let i=0; i<cntAd; i++) {
     let temp = new Object();
     let num = i+1;
@@ -230,31 +173,7 @@ function Make() {
     arrayAd.push(temp);
   }
 
-  // Youtube
-  for(let i=0; i<cntYt; i++) {
-    let num = i+1;
-    console.log(num);
-    let temp_id = "yt_u" + num;
-    let temp = DataCheck(document.getElementById(temp_id).value);
-
-    if(temp != "") {
-      /*
-      temp = temp.replace("https://www.youtube.com/watch?v=", "https://www.youtube.com/embed/");
-      temp = temp.replace("https://www.youtube.com/", "https://www.youtube.com/embed/");
-      temp = temp.replace("https://youtu.be/", "https://www.youtube.com/embed/");
-      temp += "?wmode=opaque";
-      */
-      temp = temp.replace("https://youtu.be/", "");
-      temp = temp.replace("https://www.youtube.com/watch?v=", "");
-      temp = temp.replace("https://www.youtube.com/embed/", "");
-      temp = temp.replace("https://www.youtube.com/", "");
-      temp = temp.replace("?wmode=opaque", "");
-
-    }
-    arrayYt.push(temp);
-  }
-
-  // Best
+  // Thumbnail without sponsor = BT
   for(let i=0; i<cntBt; i++) {
     let temp = new Object();
     let num = i+1;
@@ -267,7 +186,7 @@ function Make() {
     arrayBt.push(temp);
   }
 
-  // Sponsor
+  // Sponsor Thumbnail = SP
   for(let i=0; i<cntSp; i++) {
     let temp = new Object();
     let num = i+1;
@@ -278,82 +197,54 @@ function Make() {
     temp.img = DataCheckImg(document.getElementById(temp0).value);
     temp.url = DataCheck(document.getElementById(temp1).value);
     arraySp.push(temp);
-  }
-
-  // Post
-  for(let i=0; i<cntPt; i++) {
-    let temp = new Object();
-    let num = i+1;
-    console.log(num);
-    let temp0 = "pt_i" + num,
-        temp1 = "pt_u" + num;
-
-    temp.img = DataCheckImg(document.getElementById(temp0).value);
-    temp.url = DataCheck(document.getElementById(temp1).value);
-    arrayPt.push(temp);
-  }
+  }  
 
   page += "<center>";
 
   // Menu
-  page += "<table width='836' height='45' cellspacing='0' cellpadding='0'><tbody><tr>"
-       +  "<td><a href='"+urlMenu[0]+"' target='_blank'><img id='"+DataCheckImg(resourceMenu[0])+"' src='"+DataCheckImg(resourceMenu[0])+"' width='100' height='auto' style='width: 100px; height: auto; margin:-10px 0 0;'></a></td>";
+    for(let i=0; i<3; i++) { 
+      page += "<a href='"+urlMenu[i]+"' target='_blank'><img id='"+DataCheckImg(resourceMenu[i])+"' src='"+DataCheckImg(resourceMenu[i])+"' width='236' height='58' style='width: 236px; height: 58px; margin: 2px 0 0 0; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a>";
+    }
 
-  for(let i=1; i<9; i++) {
-    page += "<td><a href='"+urlMenu[i]+"' target='_blank'><img id='"+DataCheckImg(resourceMenu[i])+"' src='"+DataCheckImg(resourceMenu[i])+"' width='92' height='auto' style='width: 92px; height: auto; margin:-10px 0 0;'></a></td>";
-  }
+    for(let j=3; j<5; j++) {
+      page += "<a href='"+urlMenu[j]+"' target='_blank'><img id='"+DataCheckImg(resourceMenu[j])+"' src='"+DataCheckImg(resourceMenu[j])+"' width='58' height='58' style='width: 58px; height: 58px; margin: 2px 0 0 0; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a>";
+    }  
 
-  page += "</tr></tbody></table>"
+  page += "</tr></tbody></table>";
 
   // Best Photo & AD Banner
   if(cntBp > 0 || cntAd > 0) {
     console.log(arrayBp);
-    page += "<table width='836' cellspacing='0' cellpadding='0'><tbody>";
+    page += "<table width='836' cellspacing='6' cellpadding='0'><tbody>";
 
     if(cntBp > 0) {
-      page += "<tr><td><a href='https://cafe.naver.com/develoid/menu/1441' target='_blank'><img id='"+arrayBp[0].img+"' src='"+arrayBp[0].img+"' width='836' height='auto' style='margin:0 0 4px; width: 836px; height: auto;'></a></td></tr>"
+      page += "<tr><td><a href='https://cafe.naver.com/develoid/menu/1441' target='_blank'><img id='"+arrayBp[0].img+"' src='"+arrayBp[0].img+"' width='824' height='auto'; style='width: 824px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td></tr>"
     }
 
     console.log(arrayAd);
     if(cntAd > 0) {
       for(let i=0; i<arrayAd.length; i++) {
-        page += "<tr><td><a href='"+arrayAd[i].url+"' target='_blank'><img id='"+arrayAd[i].img+"' src='"+arrayAd[i].img+"' width='836' height='auto' style='width: 836px; height: auto;'></a></td></tr>"
+        page += "<tr><td><a href='"+arrayAd[i].url+"' target='_blank'><img id='"+arrayAd[i].img+"' src='"+arrayAd[i].img+"' width='824' height='auto'; style='width: 824px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td></tr>"
       }
     }
 
-    page += "</tbody></table>"
-  }
-
-  // Youtube
-  if(cntYt > 0) {
-    console.log(arrayYt);
-    page += "<div width='836' height='auto' style='margin:16px 0 4px 0;'><a href='"+urlYouTube+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceYoutube)+"' src='"+DataCheckImg(resourceYoutube)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
-    page += "<table width='836' height='225' cellspacing='12' cellpadding='0'><tbody>";
-
-    for(let i=0; i<arrayYt.length; i+=2) {
-      page += "<tr>";
-      for(let j=0; j<2; j++) {
-        page += "<td><iframe src='https://www.youtube.com/embed/"+arrayYt[i+j]+"?wmode=opaque' width='400px' height='225px' frameborder='0' scrolling='no' allowfullscreen=''></iframe></td>";
-      }
-      page += "</tr>";
-    }
     page += "</tbody></table>";
   }
 
-  // Best
+  // Thumbnail without sponsor
   if(cntBt > 0) {
     console.log(arrayBt);
-    page += "<div width='836' height='auto' style='margin:0 0 4px;'><a href='"+urlBest+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceBest)+"' src='"+DataCheckImg(resourceBest)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
-    page += "<table width='836' cellspacing='12' cellpadding='0'><tbody>";
+    page += "<div width='836' height='auto''><a href='"+urlBest+"' target='_blank'><img id='"+DataCheckImg(resourceBest)+"' src='"+DataCheckImg(resourceBest)+"' width='492' height='auto' style='width: 492px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a><a href='"+urlContent+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceContent)+"' src='"+DataCheckImg(resourceContent)+"' width='326' height='auto' style='width: 326px; height: auto; margin: 0 0 0 6px; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></div>";
+    page += "<table width='836' cellspacing='6' cellpadding='0'>";
 
-    for(let i=0; i<arrayBt.length; i+=4) {
+    for(let i=0; i<arrayBt.length; i+=5) {
       page += "<tr>";
-      for(let j=0; j<4; j++) {
+      for(let j=0; j<5; j++) {
         let inimg = arrayBt[i+j].img;
         let inurl = arrayBt[i+j].url
 
         if(inimg.length > 0) {
-          page += "<td><a href='https://cafe.naver.com/develoid/"+inurl+"' target='_blank'><img id='"+inimg+"' src='"+inimg+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
+          page += "<td><a href='https://cafe.naver.com/develoid/"+inurl+"' target='_blank'><img id='"+inimg+"' src='"+inimg+"' width='160' height='160' style='width: 160px; height: 160px; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
         } else {
           page += "<td></td>";
         }
@@ -364,44 +255,20 @@ function Make() {
     page += "</tbody></table>";
   }
 
-  // Sponsor
+  // Sponsor Thumbnail
   if(cntSp > 0) {
     console.log(arraySp);
-    page += "<div width='836' height='auto' style='margin:4px 0 4px;'><a href='"+urlSponsor+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceSponsor)+"' src='"+DataCheckImg(resourceSponsor)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
-    page += "<table width='836' cellspacing='12' cellpadding='0'><tbody>";
+    page += "<div width='836' height='auto';'><a href'="+urlSponsor+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourceSponsor)+"' src='"+DataCheckImg(resourceSponsor)+"' width='824' height='auto' style='width: 824px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></div>";
+    page += "<table width='836' cellspacing='6' cellpadding='0'><tbody>";
 
-    for(let i=0; i<arraySp.length; i+=4) {
+    for(let i=0; i<arraySp.length; i+=5) {
       page += "<tr>";
-      for(let j=0; j<4; j++) {
+      for(let j=0; j<5; j++) {
         let inimg = arraySp[i+j].img;
         let inurl = arraySp[i+j].url
 
         if(inimg.length > 0) {
-          page += "<td><a href='"+inurl+"' target='_blank'><img id='"+inimg+"' src='"+inimg+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
-        } else {
-          page += "<td></td>";
-        }
-      }
-      page += "</tr>";
-    }
-
-    page += "</tbody></table>";
-  }
-
-  // Post
-  if(cntPt > 0) {
-    console.log(arrayPt);
-    page += "<div width='836' height='auto' style='margin:4px 0 4px;'><a href='"+urlPost+"' style='text-decoration:none;' target='_blank'><img id='"+DataCheckImg(resourcePost)+"' src='"+DataCheckImg(resourcePost)+"' width='836' height='auto' style='width: 836px; height: auto;'></a></div>";
-    page += "<table width='836' cellspacing='12' cellpadding='0'><tbody>";
-
-    for(let i=0; i<arrayPt.length; i+=4) {
-      page += "<tr>";
-      for(let j=0; j<4; j++) {
-        let inimg = arrayPt[i+j].img;
-        let inurl = arrayPt[i+j].url
-
-        if(inimg.length > 0) {
-          page += "<td><a href='https://cafe.naver.com/develoid/"+inurl+"' target='_blank'><img id='"+inimg+"' src='"+inimg+"' width='194' height='194' style='width: 194px; height: 194px;'></a></td>";
+          page += "<td><a href='https://cafe.naver.com/develoid/"+inurl+"' target='_blank'><img id='"+inimg+"' src='"+inimg+"' width='160' height='160' style='width: 160px; height: 160px; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
         } else {
           page += "<td></td>";
         }
@@ -414,7 +281,7 @@ function Make() {
 
   // Copyright
   page += "<div width='836'>"
-       +  "<img id='"+DataCheckImg(resourceCopyright)+"' src='"+DataCheckImg(resourceCopyright)+"' width='836' height='auto' style='margin:4px 0 0;' width: 836px; height: auto;'>"
+       +  "<img id='"+DataCheckImg(resourceCopyright)+"' src='"+DataCheckImg(resourceCopyright)+"' width='824' height='auto' style='width: 824px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'>"
        +  "</div>";
 
   page += "</center>";
@@ -482,7 +349,7 @@ function JSONSave() {
 
   let fileName = "DVL-CFM-JSON-"+y+m+d+h+mm+s+".json";
 
-  let json = {time: ""+y+m+d+h+mm+s, bp: cntBp, ad: cntAd, yt: cntYt, bt: cntBt, sp: cntSp, pt: cntPt, dataBp: arrayBp, dataAd: arrayAd, dataYt: arrayYt, dataBt: arrayBt, dataSp: arraySp, dataPt: arrayPt};
+  let json = {time: ""+y+m+d+h+mm+s, bp: cntBp, ad: cntAd, bt: cntBt, dataBp: arrayBp, dataAd: arrayAd, dataBt: arrayBt, dataSp: arraySp};
   console.log(json);
 
   let content = JSON.stringify(json);
@@ -535,24 +402,20 @@ function readData(data) {
 
   let getBp = json.bp;
   let getAd = json.ad;
-  let getYt = json.yt;
   let getBt = json.bt;
   let getSp = json.sp;
-  let getPt = json.pt;
 
   let dataBp = json.dataBp;
   let dataAd = json.dataAd;
-  let dataYt = json.dataYt;
   let dataBt = json.dataBt;
   let dataSp = json.dataSp;
-  let dataPt = json.dataPt;
 
   let ti;
   let tu;
 
-  console.log("get", getBp, getAd, getYt, getBt, getSp, getPt);
-  console.log("data", dataBp, dataAd, dataYt, dataBt, dataSp, dataPt);
-  console.log("len", dataBp.length, dataYt.length, dataAd.length, dataBt.length, dataSp.length, dataPt.length);
+  console.log("get", getBp, getAd, getBt, getSp);
+  console.log("data", dataBp, dataAd, dataBt, dataSp);
+  console.log("len", dataBp.length, dataAd.length, dataBt.length, dataSp.length);
 
   if(cntBp != getBp) {
     let gapBp = getBp - cntBp;
@@ -606,42 +469,10 @@ function readData(data) {
     document.getElementById(tu).value = dataAd[i].url;
   }
 
-  if(cntYt != getYt) {
-    let gapYt = getYt - cntYt;
-
-    loopYt = Math.abs(gapYt/2);
-
-    if(gapYt > 0) {
-      for(let i=0; i<loopYt; i++) {
-        ControlYt("add");
-      }
-    } else if(gapYt < 0) {
-      for(let i=0; i<loopYt; i++) {
-        ControlYt("rm");
-      }
-    }
-  }
-
-  for(let i=0; i<dataYt.length; i++) {
-    tu = "yt_u" + (i+1);
-
-    console.log("yt", dataYt[i]);
-
-    ytTemp = dataYt[i]
-    ytTemp = ytTemp.replace("https://www.youtube.com/embed/", "");
-    ytTemp = ytTemp.replace("?wmode=opaque", "");
-    ytTemp = ytTemp.replace("https://youtu.be/", "");
-    ytTemp = ytTemp.replace("https://www.youtube.com/watch?v=", "");
-    //ytTemp = "https://youtu.be/" + ytTemp;
-
-    document.getElementById(tu).value = ytTemp;
-    //document.getElementById(tu).value = dataYt[i];
-  }
-
   if(cntBt != getBt) {
     let gapBt = getBt - cntBt;
 
-    loopBt = Math.abs(gapBt/4);
+    loopBt = Math.abs(gapBt/5);
 
     if(gapBt > 0) {
       for(let i=0; i<loopBt; i++) {
@@ -667,7 +498,7 @@ function readData(data) {
   if(cntSp != getSp) {
     let gapSp = getSp - cntSp;
 
-    loopSp = Math.abs(gapSp/4);
+    loopSp = Math.abs(gapSp/5);
 
     if(gapSp > 0) {
       for(let i=0; i<loopSp; i++) {
@@ -688,31 +519,5 @@ function readData(data) {
 
     document.getElementById(ti).value = dataSp[i].img;
     document.getElementById(tu).value = dataSp[i].url;
-  }
-
-  if(cntPt != getPt) {
-    let gapPt = getPt - cntPt;
-
-    loopPt = Math.abs(gapPt/4);
-
-    if(gapPt > 0) {
-      for(let i=0; i<loopPt; i++) {
-        ControlPt("add");
-      }
-    } else if(gapPt < 0) {
-      for(let i=0; i<loopPt; i++) {
-        ControlPt("rm");
-      }
-    }
-  }
-
-  for(let i=0; i<dataPt.length; i++) {
-    ti = "pt_i" + (i+1);
-    tu = "pt_u" + (i+1);
-
-    console.log("pt", dataPt[i].img, dataPt[i].url);
-
-    document.getElementById(ti).value = dataPt[i].img;
-    document.getElementById(tu).value = dataPt[i].url;
   }
 }

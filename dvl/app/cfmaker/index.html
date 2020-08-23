@@ -53,24 +53,7 @@
       </table>
       <div class="btn_interface"><button onclick="ControlAd('add')">Add</button> <button onclick="ControlAd('rm')">Remove</button></div>
 
-      <h3>Youtube</h3>
-      <table id="yt">
-        <tr>
-          <td width="5%"></td>
-          <td width="95%">Youtube url</td>
-        </tr>
-        <tr id="yt_1">
-          <td>1</td>
-          <td><input type="text" id="yt_u1"></td>
-        </tr>
-        <tr id="yt_2">
-          <td>2</td>
-          <td><input type="text" id="yt_u2"></td>
-        </tr>
-      </table>
-      <div class="btn_interface"><button onclick="ControlYt('add')">Add</button> <button onclick="ControlYt('rm')">Remove</button></div>
-
-      <h3>Best</h3>
+      <h3>Thumbnail without sponsor</h3>
       <table id="bt">
         <tr>
           <td width="5%"></td>
@@ -97,10 +80,15 @@
           <td><input type="text" id="bt_i4"></td>
           <td><input type="number" id="bt_u4"></td>
         </tr>
+        <tr id="bt_5">
+          <td>5</td>
+          <td><input type="text" id="bt_i5"></td>
+          <td><input type="number" id="bt_u5"></td>
+        </tr>        
       </table>
       <div class="btn_interface"><button onclick="ControlBt('add')">Add</button> <button onclick="ControlBt('rm')">Remove</button></div>
 
-      <h3>Sponsor</h3>
+      <h3>Sponsor Thumbnail</h3>
       <table id="sp">
         <tr>
           <td width="5%"></td>
@@ -127,39 +115,14 @@
           <td><input type="text" id="sp_i4"></td>
           <td><input type="text" id="sp_u4"></td>
         </tr>
+        <tr id="sp_5">
+          <td>5</td>
+          <td><input type="text" id="sp_i5"></td>
+          <td><input type="text" id="sp_u5"></td>
+        </tr>        
       </table>
       <div class="btn_interface"><button onclick="ControlSp('add')">Add</button> <button onclick="ControlSp('rm')">Remove</button></div>
 
-      <h3>Post</h3>
-      <table id="pt">
-        <tr>
-          <td width="5%"></td>
-          <td width="65%">Image url</td>
-          <td width="30%">Post number</td>
-        </tr>
-        <tr id="pt_1">
-          <td>1</td>
-          <td><input type="text" id="pt_i1"></td>
-          <td><input type="number" id="pt_u1"></td>
-        </tr>
-        <tr id="pt_2">
-          <td>2</td>
-          <td><input type="text" id="pt_i2"></td>
-          <td><input type="number" id="pt_u2"></td>
-        </tr>
-        <tr id="pt_3">
-          <td>3</td>
-          <td><input type="text" id="pt_i3"></td>
-          <td><input type="number" id="pt_u3"></td>
-        </tr>
-        <tr id="pt_4">
-          <td>4</td>
-          <td><input type="text" id="pt_i4"></td>
-          <td><input type="number" id="pt_u4"></td>
-        </tr>
-
-      </table>
-      <div class="btn_interface"><button onclick="ControlPt('add')">Add</button> <button onclick="ControlPt('rm')">Remove</button></div>
     </div>
     <div id="out" class="out">
       <button onclick="Make()">Code Make</button> <button onclick="CodeCopy()">Code Copy</button> <button onclick="CodeSave()">Code Save</button> <button onclick="JSONSave()">JSON Save</button> <button onclick="openFile()">JSON Read</button><br />
