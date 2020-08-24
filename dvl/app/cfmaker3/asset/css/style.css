@@ -1,0 +1,112 @@
+html {
+    background: #212121;
+}
+
+.nav,
+.footer {
+    margin: 20px auto;
+    color: #fafafa;
+}
+
+.container {
+  width: 856px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #fafafa;
+  border-radius: 4px;
+}
+
+.nav,
+.controller,
+.btnBox,
+.footer {
+  text-align: center;
+}
+
+.write,
+.controller,
+.out,
+.view {
+  margin: 20px 0 40px 0;
+}
+
+.write {
+  margin-top: -40px;
+}
+
+.titleBox {
+  margin-top: 40px;
+}
+
+.titleBox h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.titleBox .left {
+  float:left;
+}
+
+.titleBox .right{
+  float:right;
+}
+
+.titleBox .right button {
+  font-size: 1.1em;
+}
+
+table {
+  width: 836px;
+  margin: 10px auto;
+}
+
+input {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+}
+
+.titleBox button {
+  border: 1px solid #DDD;
+  border-radius: 4px;
+}
+
+.controller button {
+  padding: 12px;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+}
+
+button:hover {
+  background:#B388FF;
+  border: 1px solid #B388FF;
+  transition: 0.5s;
+}
+
+.dvlm {
+  background:#82B1FF;
+}
+
+.dvlc {
+  background: #FFCDD2;
+}
+
+textarea {
+  width: 836px;
+  height: 200px;
+  margin: 10px auto;
+  border: 1px solid #DDD;
+  padding: 8px;
+  resize: none;
+}
+
+.codeHTTP {
+  display: none;
+}
+
+.view {
+  width: 836px;
+  margin: 10px auto;
+  background: #ccc;
+}
