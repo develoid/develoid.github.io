@@ -249,11 +249,19 @@ function FileDataRead(data) {
   let json = JSON.parse(data);
   console.log(json);
 
+  // 입력 창 생성
   FileDataInputMake('bp', json.BP - arrayCNT[1]);
   FileDataInputMake('eb', json.EB - arrayCNT[2]);
   FileDataInputMake('bc', json.BC - arrayCNT[3]);
   FileDataInputMake('sb', json.SB - arrayCNT[4]);
 
+  // 카운트 값 수정
+  arrayCNT[1] = json.BP;
+  arrayCNT[2] = json.EB;
+  arrayCNT[3] = json.BC;
+  arrayCNT[4] = json.SB;
+
+  // 입력 창에 데이터 입력
   FileDataInputWrite('tm', json.dataTM);
   FileDataInputWrite('bp', json.dataBP);
   FileDataInputWrite('eb', json.dataEB);
