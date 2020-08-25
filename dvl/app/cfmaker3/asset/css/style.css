@@ -36,6 +36,7 @@ html {
 
 .titleBox {
   margin-top: 40px;
+  padding-bottom: 40px;
 }
 
 .titleBox h2 {
@@ -61,7 +62,7 @@ table {
 }
 
 input {
-  width: 95%;
+  width: 90%;
   padding: 12px;
   border: 1px solid #DDD;
   border-radius: 4px;

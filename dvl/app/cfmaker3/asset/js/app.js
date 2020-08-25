@@ -14,9 +14,6 @@ let arrayITEM = new Array();
 // Resource
 let resourceBlank = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjk0/MDAxNTkyMjMxMDEwNzE5.0geDSpRciQhBcP9UHLDMnMLNyUP56IFYjyGFo50Lr18g.3tQdIO2P1RPfbjcjwXlHu_erEhS92QtqgmRUMF_C_hQg.PNG/blank.png";
 
-// 대문
-let page;
-
 // 배열 위치 가져오기
 function getTarget(target) {
   var out = 0;
@@ -270,10 +267,68 @@ function FileDataRead(data) {
 }
 
 
-/* 코드 생성 및 복사*/
+/* 코드 관련 */
 // 코드 복사
 function CodeCopy() {
   var copyText = document.getElementById("codeHTTPS");
   copyText.select();
   document.execCommand("copy");
+}
+
+/* 레이아웃 생성 */
+function Make() {
+  // 아이템 리스트업
+  ItemArrayMake();
+
+  // 페이지 생성 시작
+  let page = "<!-- Develoid Front v2020.08 / Produced by SIRYUA & 딸기푸딩 -->";
+
+  // 중앙 정렬
+  page += "<center>";
+
+  // 상단 메뉴 영역 테이블 생성
+
+  // 상단 메뉴 생성
+
+  // 상단 메뉴 영역 테이블 종료
+
+  // 베스트 포토 및 이벤트 배너 영역 테이블 생성
+
+  // 베스트 포토 생성
+
+  // 이벤트 배너 생성
+
+  // 베스트 포토 및 이벤트 배너 영역 테이블 종료
+
+  // 베스트 및 콘텐츠 영역 테이블 생성
+
+  // 베스트 및 콘텐츠 생성
+
+  // 베스트 및 콘텐츠 영역 테이블 종료
+
+  // 스폰서 영역 테이블 생성
+
+  // 스폰서 생성
+
+  // 스폰서 영역 테이블 종료
+
+  // 하단 영역 테이블 생성
+
+  // 하단 생성
+
+  // 하단 영역 테이블 종료
+
+  // 중앙 정렬 끝
+  page += "</center>";
+
+  // 페이지 생성 완료
+
+  // HTTP 버전 페이지 생성 (20.7. 이후 기본값 HTTPS)
+  var tempPage = page.replace(/https:\/\/cafefiles.pstatic.net/g, 'http://cafefiles.pstatic.net');
+  tempPage = tempPage.replace(/https:\/\/postfiles.pstatic.net/g, 'http://postfiles.pstatic.net');
+
+  // 페이지 출력
+  document.getElementById("codeHTTPS").value = page;
+  document.getElementById("codeHTTP").value = tempPage;
+  document.getElementById("view").innerHTML = tempPage;
 }
