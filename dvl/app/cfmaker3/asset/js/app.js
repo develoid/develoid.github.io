@@ -147,7 +147,7 @@ function ItemSave() {
   // 오브젝트 생성
   let json = new Object;
   json.time = ""+y+m+d+h+mm+s;
-  json.TM = arrayCNT[0];
+  //json.TM = arrayCNT[0];
   json.BP = arrayCNT[1];
   json.EB = arrayCNT[2];
   json.BC = arrayCNT[3];
