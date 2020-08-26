@@ -279,6 +279,10 @@ function CodeCopy() {
 function Make() {
   // 아이템 리스트업
   ItemArrayMake();
+  let num = 0;
+  let i = 0;
+  let j = 0;
+  let temp;
 
   // 페이지 생성 시작
   let page = "<!-- Develoid Front v2020.08 / Produced by SIRYUA & 딸기푸딩 -->";
@@ -286,37 +290,99 @@ function Make() {
   // 중앙 정렬
   page += "<center>";
 
-  // 상단 메뉴 영역 테이블 생성
+  // 상단 테이블 생성
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
+  page += "<tbody>"
 
   // 상단 메뉴 생성
+  temp = arrayITEM['tm'];
 
-  // 상단 메뉴 영역 테이블 종료
+  page += "<tr>";
+  page += "<td width=228><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 228px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+  page += "<td width=228><a href='"+temp[1].url+"' target='_blank'><img src='"+temp[1].img+"' style='width: 228px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+  page += "<td width=228><a href='"+temp[2].url+"' target='_blank'><img src='"+temp[2].img+"' style='width: 228px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+  page += "<td width=57><a href='"+temp[3].url+"' target='_blank'><img src='"+temp[3].img+"' style='width: 57px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+  page += "<td width=57><a href='"+temp[4].url+"' target='_blank'><img src='"+temp[4].img+"' style='width: 57px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+  page += "</tr>";
 
-  // 베스트 포토 및 이벤트 배너 영역 테이블 생성
+  // 상단 테이블 종료=
+  page += "</tbody>";
+  page += "</table>";
+
+  // 콘텐츠 테이블 생성
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
+  page += "<tbody>"
 
   // 베스트 포토 생성
+  temp = arrayITEM['bp'];
+
+  page += "<tr>";
+  page += "<td colspan=5><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 824px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+  page += "</tr>";
 
   // 이벤트 배너 생성
+  temp = arrayITEM['eb'];
 
-  // 베스트 포토 및 이벤트 배너 영역 테이블 종료
+  num = getTarget('eb');
+  for(i = 0; i<arrayCNT[num]; i++) {
+    page += "<tr>";
+    page += "<td colspan=5><a href='"+temp[i].url+"' target='_blank'><img src='"+temp[i].img+"' style='width: 824px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+    page += "</tr>";
+  }
 
-  // 베스트 및 콘텐츠 영역 테이블 생성
+  // 베스트 및 콘텐츠 메뉴 생성
+  temp = arrayITEM['tm'];
 
-  // 베스트 및 콘텐츠 생성
+  page += "<tr>";
+  page += "<td colspan=3><a href='"+temp[5].url+"' target='_blank'><img src='"+temp[5].img+"' style='width: 492px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+  page += "<td colspan=2><a href='"+temp[6].url+"' target='_blank'><img src='"+temp[6].img+"' style='width: 326px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+  page += "</tr>";
 
-  // 베스트 및 콘텐츠 영역 테이블 종료
+  // 베스트 및 콘텐츠 아이템 생성
+  temp = arrayITEM['bc'];
 
-  // 스폰서 영역 테이블 생성
+  num = getTarget('bc');
+  for(i = 0; i<arrayCNT[num]/arraySET[num]; i++) {
+    page += "<tr>";
 
-  // 스폰서 생성
+    for(j = 0; j<5; j++) {
+      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+    }
 
-  // 스폰서 영역 테이블 종료
+    page += "</tr>";
+  }
 
-  // 하단 영역 테이블 생성
+  // 스폰서 메뉴 생성
+  temp = arrayITEM['tm'];
+
+  page += "<tr>";
+  page += "<td colspan=5><a href='"+temp[7].url+"' target='_blank'><img src='"+temp[7].img+"' style='width: 824px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+  page += "</tr>";
+
+  // 스폰서 아이템 생성
+  temp = arrayITEM['sb'];
+
+  num = getTarget('sb');
+  for(i = 0; i<arrayCNT[num]/arraySET[num]; i++) {
+    page += "<tr>";
+
+    for(j = 0; j<5; j++) {
+      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+    }
+
+    page += "</tr>";
+  }
 
   // 하단 생성
+  temp = arrayITEM['tm'];
 
-  // 하단 영역 테이블 종료
+  page += "<tr>";
+  page += "<td colspan=5><a href='"+temp[8].url+"' target='_blank'><img src='"+temp[8].img+"' style='width: 824px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+  page += "</tr>";
+
+  // 콘텐츠 테이블 종료
+  page += "</tbody>";
+  page += "</table>";
 
   // 중앙 정렬 끝
   page += "</center>";
