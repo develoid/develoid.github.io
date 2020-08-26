@@ -14,13 +14,24 @@ let arrayITEM = new Array();
 // Resource
 let resourceBlank = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjk0/MDAxNTkyMjMxMDEwNzE5.0geDSpRciQhBcP9UHLDMnMLNyUP56IFYjyGFo50Lr18g.3tQdIO2P1RPfbjcjwXlHu_erEhS92QtqgmRUMF_C_hQg.PNG/blank.png";
 
-// 드랍 이벤트
-function drop(event, id) {
+// URL 드랍 이벤트
+function dropURL(event, id) {
    event.stopPropagation();
    event.preventDefault();
    let url = event.dataTransfer.getData('URL');
    document.getElementById(id).value = url;
    //alert(imageUrl);
+}
+
+// 이미지 드랍 이벤트
+function dropIMG(event, id) {
+   event.stopPropagation();
+   event.preventDefault();
+   var imageUrl = event.dataTransfer.getData('text/html');
+   var rex = /src="?([^"\s]+)"?\s*/;
+   var url, res;
+   url = rex.exec(imageUrl);
+   document.getElementById(id).value = url[1];
 }
 
 // 배열 위치 가져오기
@@ -49,9 +60,9 @@ function ItemControl(type, target) {
       let targetId = "#" + arrayCMD[num];
 
       if(num == 3 && i > 2) { // 베스트 & 콘텐츠 중 콘텐츠 영역 색상 구분
-        $(targetId).append('<tr id="'+arrayCMD[num]+'_'+arrayCNT[num]+'"><td>'+arrayCNT[num]+'</td><td><input type="url" id="'+arrayCMD[num]+'_i'+arrayCNT[num]+'" ondrop="drop(event, this.id)" class="dvlc"></td><td><input type="url" id="'+arrayCMD[num]+'_u'+arrayCNT[num]+'" class="dvlc"></td></tr>');
+        $(targetId).append('<tr id="'+arrayCMD[num]+'_'+arrayCNT[num]+'"><td>'+arrayCNT[num]+'</td><td><input type="url" id="'+arrayCMD[num]+'_i'+arrayCNT[num]+'" ondrop="dropIMG(event, this.id)" class="dvlc"></td><td><input type="url" id="'+arrayCMD[num]+'_u'+arrayCNT[num]+'" ondrop="dropURL(event, this.id)" class="dvlc"></td></tr>');
       } else { // 목록 추가
-        $(targetId).append('<tr id="'+arrayCMD[num]+'_'+arrayCNT[num]+'"><td>'+arrayCNT[num]+'</td><td><input type="url" id="'+arrayCMD[num]+'_i'+arrayCNT[num]+'" ondrop="drop(event, this.id)"></td><td><input type="url" id="'+arrayCMD[num]+'_u'+arrayCNT[num]+'"></td></tr>');
+        $(targetId).append('<tr id="'+arrayCMD[num]+'_'+arrayCNT[num]+'"><td>'+arrayCNT[num]+'</td><td><input type="url" id="'+arrayCMD[num]+'_i'+arrayCNT[num]+'" ondrop="dropIMG(event, this.id)"></td><td><input type="url" id="'+arrayCMD[num]+'_u'+arrayCNT[num]+'" ondrop="dropURL(event, this.id)"></td></tr>');
       }
     }
   } else if(type == "remove") { // 목록 제거 할 경우
