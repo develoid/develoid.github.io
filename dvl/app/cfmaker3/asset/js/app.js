@@ -18,8 +18,8 @@ let resourceBlank = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjk0/MDAxNTkyMjMx
 function drop(event, id) {
    event.stopPropagation();
    event.preventDefault();
-   let imageUrl = event.dataTransfer.getData('URL');
-   document.getElementById(id).value = imageUrl;
+   let url = event.dataTransfer.getData('URL');
+   document.getElementById(id).value = url;
    //alert(imageUrl);
 }
 
