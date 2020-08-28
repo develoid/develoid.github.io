@@ -362,10 +362,13 @@ function Make() {
   temp = arrayITEM['bc'];
 
   num = getTarget('bc');
-  for(i = 0; i<arrayCNT[num]/arraySET[num]; i++) {
+  for(i = 0; i<temp.length; i+=5) {
+    //console.log(arrayCNT[num]/arraySET[num]);
     page += "<tr>";
 
     for(j = 0; j<5; j++) {
+      console.log(i, j, i+j);
+
       page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
     }
 
@@ -383,7 +386,7 @@ function Make() {
   temp = arrayITEM['sb'];
 
   num = getTarget('sb');
-  for(i = 0; i<arrayCNT[num]/arraySET[num]; i++) {
+  for(i = 0; i<temp.length; i+=5) {
     page += "<tr>";
 
     for(j = 0; j<5; j++) {
