@@ -66,9 +66,9 @@ function ItemControl(type, target) {
       }
     }
   } else if(type == "remove") { // 목록 제거 할 경우
-    if(arrayCNT[num] < 1) { // 마이너스 되는 경우 방지
+    if(arrayCNT[num] > 0) { // 마이너스 되는 경우 방지
       for(let i=0; i < arraySET[num]; i++) {
-        let targetId = "#" + arrayTARGET[num] + "_" + arrayCNT[num]; // 목표 지정
+        let targetId = "#" + arrayCMD[num] + "_" + arrayCNT[num]; // 목표 지정
         $(targetId).remove(); // 삭제
         arrayCNT[num]--; // 카운트 감소
       }
