@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#3.[1-4~5.JAVA_기초사항]JAVA 자바의 종류,자바로 제작할수 있는 것.'
+title: '[커뮤니티] #3.[1-4~5.JAVA_기초사항]JAVA 자바의 종류,자바로 제작할수 있는 것.'
 author: 'ㅎ엘로이ㅎ'
 categories: Programming-Java
 tags:
@@ -58,4 +58,3 @@ tags:
 <p></p>
 <p></p>
 <p></p>
-

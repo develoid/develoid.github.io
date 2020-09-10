@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ' [12] 연산자 - 4.관계 연산자'
+title: '[커뮤니티] [12] 연산자 - 4.관계 연산자'
 author: 'ㅎ엘로이ㅎ'
 categories: Programming-JavaScript
 tags:
@@ -51,4 +51,3 @@ tags:
 <p>d instanceof Object;&nbsp;// true</p>
 <p>d instanceof Number;&nbsp;// false</p>
 <p></p>
-

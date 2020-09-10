@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#14 프로그래스바 사용법을 알아보자 (+ 미션소스 정답)'
+title: '[커뮤니티] #14 프로그래스바 사용법을 알아보자 (+ 미션소스 정답)'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -239,4 +239,3 @@ tags:
 <p></p>
 <p></p>
 <p></p>
-

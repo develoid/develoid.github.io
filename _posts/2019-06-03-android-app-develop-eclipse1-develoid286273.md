@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#4 어떻게 화면이 표시될까?'
+title: '[커뮤니티] #4 어떻게 화면이 표시될까?'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -102,4 +102,3 @@ tags:
 <p>만약 어렵게 느껴지신다면 더 해보세요</p>
 <p>Do it!</p>
 <p>하다보면 익숙해 져서 눈감고 해도 편할겁니다 ㅎㅎ</p>
-

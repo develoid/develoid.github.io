@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[05] 데이터 타입과 변수 - 3.문자열'
+title: '[커뮤니티] [05] 데이터 타입과 변수 - 3.문자열'
 author: 'ㅎ엘로이ㅎ'
 categories: Programming-JavaScript
 tags:
@@ -62,4 +62,3 @@ tags:
 <p>toString();</p>
 <p>trim();</p>
 <p>valueOf();</p>
-

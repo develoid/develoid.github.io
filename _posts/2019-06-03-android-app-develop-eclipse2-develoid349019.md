@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [35] 데이터베이스, 테이블 생성하기'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [35] 데이터베이스, 테이블 생성하기'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:

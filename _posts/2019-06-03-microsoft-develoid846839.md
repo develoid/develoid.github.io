@@ -1,13 +1,13 @@
 ---
 layout: post
-title: '윈도우 10 모바일 엔터프라이즈로 업그레이드하기'
+title: '[커뮤니티] 윈도우 10 모바일 엔터프라이즈로 업그레이드하기'
 author: '미세하고부드러운창문'
 categories: Microsoft
 tags:
 - Windows
 - OS
 -
-- 
+-
 ---
 
 
@@ -21,4 +21,3 @@ tags:
 <img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAxMjdfMTY1/MDAxNTQ4NTI1MzgzNzEx.ZCsMfLwMiY7bAzYMtxQX9yGEiy2rTE2Od_mpsDnnvz0g.eKQlmXJvk_ADrzfI2Brwi_JcdnN_3N-A5Rg0NFOuyz8g.PNG.io2364/wp_ss_20190127_0005.png?type=w740"><p>예,추가를 눌러주세요</p>
 <img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAxMjdfMTE5/MDAxNTQ4NTI1Mzg0MzMx.p60Aj9AVp7EtxhFkMtxNcfqPcTqutNZzOPBNqMS1I9og.aPR_7nJK4ClqFmVQ41zvrKA7YlpnspEMY9irnDV32Xsg.PNG.io2364/wp_ss_20190127_0006.png?type=w740"><p>추가된걸 확인후 설정 정보에서 확인을 해줍니다</p>
 <img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAxMjdfNDcg/MDAxNTQ4NTI1NTU5Nzkz.ki_BV6qBT2frPk2-by-GAWn4z5pRUURn-BiPvcHxW3cg.gbwwWW49NlBLUeKgtaYGvtONz7d1ay8EIhuW5AsSnG0g.PNG.io2364/wp_ss_20190127_0007.png?type=w740"><p>이걸 지금 올리네요. (2019.05.23 내용 추가1607 이상 버전도 비슷하거나 상식이 똑같습니다 예시의  .ppkg 프로비져닝 패키지는 조직이 모바일만 포함한 상태이며 패키지 내용물 설정에 따라서 다른 플랫폼에도 적용이 가능합니다 1607에서 업데이트가 하드웨어 제약때문에 막히신분들은 엔터프라이즈 모바일로 에디션 업그레이드시 2019 12월 까지 1709패치를 지속적 받으실수 있습니다)</p>
-

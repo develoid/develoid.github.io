@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[강좌] 갤럭시 기어 S3 프론티어 LTE 통신사 변경하기'
+title: '[커뮤니티] 갤럭시 기어 S3 프론티어 LTE 통신사 변경하기'
 author: '하늘목장'
 categories: Samsung-Custom
 tags:
@@ -126,4 +126,3 @@ tags:
 <p>이상 KT 정발 갤럭시 기어 S3 LTE 에서 SK LG 타 통신사 펌웨어 올리기 강좌를 마칩니다. :)</p>
 <p>여러분 모두 성공하시길 바랍니다.</p>
 <p>불펌금지</p>
-

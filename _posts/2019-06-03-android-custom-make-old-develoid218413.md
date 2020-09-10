@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#1 롬 포팅 (포팅하기)'
+title: '[커뮤니티] #1 롬 포팅 (포팅하기)'
 author: 'Ned'
 categories: Android-Custom-Make(Old)
 tags:
@@ -50,4 +50,3 @@ tags:
  </p>
 <p>&nbsp;다음에는 fix강좌를 쓸 예정입니다.</p>
 <p>&nbsp;디벨로이드에는 실력자가 많지만 그래도 복붙으로 롬을 포팅해 보고 싶은 분들을 위해 썼습니다.ㅎ</p>
-

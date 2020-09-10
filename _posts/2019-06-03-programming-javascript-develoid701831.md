@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[09] 연산자 - 1.연산자의 우선순위'
+title: '[커뮤니티] [09] 연산자 - 1.연산자의 우선순위'
 author: 'ㅎ엘로이ㅎ'
 categories: Programming-JavaScript
 tags:
@@ -66,4 +66,3 @@ Overview<p>연산자에는 수식 표현식, 비교 표현식, 논리 표현식,
 <p>&gt;&gt;=</p>
 <p>&gt;&gt;&gt;=</p>
 </td><td >대입(할당)</td><td >&nbsp;오른쪽부터</td><td >2</td><td >타입무방</td></tr><tr bgcolor="#ffffff"><td >14</td><td >.</td><td >쉼표연산자&nbsp;</td><td >&nbsp;왼쪽부터</td><td >&nbsp;2</td><td >타입무방</td></tr></tbody></table></p>
-

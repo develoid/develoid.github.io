@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Raspberry Pi - Android Things install image build'
+title: '[커뮤니티] Raspberry Pi - Android Things install image build'
 author: '시류아'
 categories: Raspberry-Pi
 tags:
@@ -268,4 +268,3 @@ tags:
  <p>간단하게 Raspberry Pi 3에 사용할 Android Things 의 이미지를 만드는 법을 알아보았습니다. 차후에는 Android Things를 이용해서 Raspberry Pi 3에 LED를 이용한 I/O 제어를 한 번 알아볼 수 있도록 준비해보겠습니다.감사합니다.</p>
 
 </p>
-

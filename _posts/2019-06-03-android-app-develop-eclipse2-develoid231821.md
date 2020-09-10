@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [3]  안드로이드 개발환경 설정'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [3]  안드로이드 개발환경 설정'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -105,4 +105,3 @@ tags:
 <p>- 작업 중 언제나 새로운 AVD 추가 삭제가 가능하다&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-

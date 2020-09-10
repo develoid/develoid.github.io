@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[마지막 강의] 정말 쉬운 코딩 강의 14번째 시간입니다 (엄마는 게임을 숨겼다 #5)'
+title: '[커뮤니티] 정말 쉬운 코딩 강의 14번째 시간입니다 (엄마는 게임을 숨겼다 #5)'
 author: '나도코딩'
 categories: Programming-Scratch
 tags:
@@ -92,4 +92,3 @@ tags:
 <p>다만 학교 교과과정을 선행하기 위해서 도움이 되는 강좌는 아닐 수도 있다는 말씀 드립니다 ㅎㅎ</p>
 <p>처음 보실 분들을 위해, 아래는 이 강의의 소개 영상입니다. ^^</p>
 <p><iframe src="https://www.youtube.com/embed/xN8O_mhR-7Y?wmode=opaque"  height="407px" frame scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
-

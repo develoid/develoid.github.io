@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Android Studio로 구글 예제 앱 만들어보기'
+title: '[커뮤니티] Android Studio로 구글 예제 앱 만들어보기'
 author: '시류아'
 categories: Android-App-Develop(Studio)
 tags:
@@ -469,7 +469,7 @@ tags:
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;super.onCreate(savedInstanceState);
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setContentView(R.layout.activity_main);
    &nbsp;&nbsp;&nbsp;&nbsp;}
-   
+
    &nbsp;&nbsp;&nbsp;&nbsp;/**&nbsp;사용자가&nbsp;Send&nbsp;버튼을&nbsp;눌렀을때&nbsp;호출됩니다.&nbsp;*/
    &nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;sendMessage(View&nbsp;view)&nbsp;{
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;눌렀을때&nbsp;어떠한&nbsp;작업을&nbsp;할지&nbsp;작성하세요&nbsp;:)
@@ -527,7 +527,7 @@ tags:
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;super.onCreate(savedInstanceState);
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setContentView(R.layout.activity_main);
    &nbsp;&nbsp;&nbsp;&nbsp;}
-   
+
    &nbsp;&nbsp;&nbsp;&nbsp;/**&nbsp;사용자가&nbsp;Send&nbsp;버튼을&nbsp;눌렀을때&nbsp;호출됩니다.&nbsp;*/
    &nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;void&nbsp;sendMessage(View&nbsp;view)&nbsp;{
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Intent&nbsp;intent&nbsp;=&nbsp;new&nbsp;Intent(this,&nbsp;DisplayMessageActivity.class);
@@ -595,16 +595,16 @@ tags:
  <p>
   <p>
    public&nbsp;class&nbsp;DisplayMessageActivity&nbsp;extends&nbsp;AppCompatActivity&nbsp;{
-   
+
    &nbsp;&nbsp;&nbsp;&nbsp;@Override
    &nbsp;&nbsp;&nbsp;&nbsp;protected&nbsp;void&nbsp;onCreate(Bundle&nbsp;savedInstanceState)&nbsp;{
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;super.onCreate(savedInstanceState);
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setContentView(R.layout.activity_display_message);
-   
+
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;이&nbsp;Activity를&nbsp;실행한&nbsp;Intent에서&nbsp;문자열을&nbsp;가져옵니다.
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Intent&nbsp;intent&nbsp;=&nbsp;getIntent();
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String&nbsp;message&nbsp;=&nbsp;intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
-   
+
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;레이아웃의&nbsp;TextView에&nbsp;추출한&nbsp;문자열을&nbsp;입력합니다.
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TextView&nbsp;textView&nbsp;=&nbsp;findViewById(R.id.textView);
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;textView.setText(message);
@@ -748,4 +748,3 @@ tags:
  <p ><a href="https://developer.android.com/training/basics/firstapp/index.html?hl=ko">https://developer.android.com/training/basics/firstapp/index.html</a><a href="https://developer.android.com/training/basics/firstapp/creating-project.html?hl=ko">https://developer.android.com/training/basics/firstapp/creating-project.html</a><a href="https://developer.android.com/training/basics/firstapp/creating-project.html?hl=ko"></a><a href="https://developer.android.com/training/basics/firstapp/running-app.html?hl=ko">https://developer.android.com/training/basics/firstapp/running-app.html</a><a href="https://developer.android.com/training/basics/firstapp/building-ui.html?hl=ko">https://developer.android.com/training/basics/firstapp/building-ui.html</a><a href="https://developer.android.com/training/basics/firstapp/starting-activity.html?hl=ko">https://developer.android.com/training/basics/firstapp/starting-activity.html</a></p>
 
 </p>
-

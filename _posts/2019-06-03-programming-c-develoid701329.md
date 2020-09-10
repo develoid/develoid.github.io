@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'C언어 기초정리 - 데이터형과 변수'
+title: '[커뮤니티] C언어 기초정리 - 데이터형과 변수'
 author: '시류아'
 categories: Programming-C
 tags:
@@ -49,4 +49,3 @@ tags:
  <p>  <p>   <p>   signed&nbsp;char&nbsp;value&nbsp;=&nbsp;-128&nbsp;~&nbsp;+127;   unsigned&nbsp;char&nbsp;value&nbsp;=&nbsp;+255;      signed&nbsp;short&nbsp;value&nbsp;=&nbsp;-32768&nbsp;~&nbsp;+32767;   unsigned&nbsp;short&nbsp;value&nbsp;=&nbsp;+65535;      signed&nbsp;int&nbsp;value&nbsp;=&nbsp;-2147483648&nbsp;~&nbsp;+2147483647;   unsigned&nbsp;int&nbsp;value&nbsp;=&nbsp;4294967295;  </p>
   </p>
  </p>
-

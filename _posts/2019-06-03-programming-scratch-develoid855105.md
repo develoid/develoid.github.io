@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '정말 쉬운 코딩 강의 7번째 시간입니다. (당구의 신)'
+title: '[커뮤니티] 정말 쉬운 코딩 강의 7번째 시간입니다. (당구의 신)'
 author: '나도코딩'
 categories: Programming-Scratch
 tags:
@@ -47,4 +47,3 @@ tags:
 <p>아래는 간략한 소개 영상입니다. ^^</p>
 <p><iframe src="https://www.youtube.com/embed/xN8O_mhR-7Y?wmode=opaque"  height="407px" frame scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
 <p><a href="https://youtu.be/xN8O_mhR-7Y">https://youtu.be/xN8O_mhR-7Y</a></p>
-

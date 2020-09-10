@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '삼성 듀얼심 기기의 국내 삼성페이 구동 가능 펌웨어 정보'
+title: '[커뮤니티] 삼성 듀얼심 기기의 국내 삼성페이 구동 가능 펌웨어 정보'
 author: '시우연우파파'
 categories: Samsung
 tags:

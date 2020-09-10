@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Linux에서 adb와 fastboot 설치'
+title: '[커뮤니티] Linux에서 adb와 fastboot 설치'
 author: 'ilcm96'
 categories: Android-Develop
 tags:
@@ -29,4 +29,3 @@ tags:
 <p>Version 4986621</p>
 <p>Installed as /home/ilcm96/development/platform-tools/adb</p>
 </p>
-

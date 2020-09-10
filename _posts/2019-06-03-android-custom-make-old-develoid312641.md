@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '통신픽스할떄 TIP(문자 수/발신)'
+title: '[커뮤니티] 통신픽스할떄 TIP(문자 수/발신)'
 author: 'kangdroid'
 categories: Android-Custom-Make(Old)
 tags:
@@ -27,4 +27,3 @@ tags:
 <p>*2 이것은 문자 수/발신팁이고, 소스 수정 없이 할수 있습니다. 또한, 전화 수/발신이 된다는 가정으로 진행을 하게됩니다.</p>
 <p>&nbsp;</p>
 <p>*3 문자 수신이 잘 안되시면... 로그를 보셔야 합니다. (ADB툴에서, adb logcat -b radio *:E 입력) 나머지 질문사항이 있으면 댓글 남겨주세요!</p>
-

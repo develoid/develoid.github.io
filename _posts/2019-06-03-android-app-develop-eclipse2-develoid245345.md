@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [8] 레이아웃 이동하기'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [8] 레이아웃 이동하기'
 author: 'Snails'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -111,4 +111,3 @@ tags:
 <p>&nbsp;</p>
 <p>이번 강좌는 코드 강좌 중 그렇게 어렵지 않은 강좌였습니다.</p>
 <p>다음에는 어려워지는데 저도 모르겠습니다...&nbsp;</p>
-

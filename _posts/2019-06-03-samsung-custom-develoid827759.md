@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '삼성노트 비밀번호 잃어버렸을때 잠금 해제법(루트전용)'
+title: '[커뮤니티] 삼성노트 비밀번호 잃어버렸을때 잠금 해제법(루트전용)'
 author: 'yoonun'
 categories: Samsung-Custom
 tags:
@@ -20,4 +20,3 @@ tags:
 <img src="https://cafeptthumb-phinf.pstatic.net/MjAxODEwMTRfNzkg/MDAxNTM5NDU3OTA1OTQ1.O6ERtmo-sCMteZ3th3l4UPBol1UlUc0h9-3ks71HPzwg.QTrN1k9R32MnAbdWkScBck6Fy_YIPlpx29QbyrYxs0gg.JPEG.ytk102/externalFile.jpg?type=w740"><p>그러면 이렇게 뜰텐데요 여기서 수정해서</p>
 <img src="https://cafeptthumb-phinf.pstatic.net/MjAxODEwMTRfMjE2/MDAxNTM5NDU3OTA2NzM3.slZEcMJEf8m6HkcF70MfZZHuT8KIpPrNKU3V5b4fzH8g.ywIyGbMZA6dPUZ4EH_N8L4UgH0Iz2eH-fKZMpVpJ5RMg.JPEG.ytk102/externalFile.jpg?type=w740"><p>islock를 1에서0 으로 바꿔줍니다(잠금=1 잠금×=0)그후 저장을한후 삼성노트를 강종시키고 다시 들어가면</p>
 <img src="https://cafeptthumb-phinf.pstatic.net/MjAxODEwMTRfMjkx/MDAxNTM5NDU3OTA3Mzk4.IJwLyxESYU0GJm5cIxUqMrJgLeOCQzxHmvZic6vBTwwg.CFJDj9lD1-9pkOoYxvg94xEPFZEGM5j1DFRanFQfmU8g.JPEG.ytk102/externalFile.jpg?type=w740"><p>이렇게 뜨는데요 별 이상없이 비밀번호를 치지않고 들어갈수 있더군요 여기까지 삼성노트의 잠금을 해제하는 방법이었습니다!(문제시 삭제하겠습니다)</p>
-

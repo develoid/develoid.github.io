@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[꿀팁?] PDL에서 아임백 펌웨어 올리기'
+title: '[커뮤니티] PDL에서 아임백 펌웨어 올리기'
 author: '이라시타'
 categories: Pantech
 tags:
@@ -91,4 +91,3 @@ tags:
 <p>&gt;&gt;&gt; 이 게시글 주소만 같이 남겨주시면 어디든지 퍼가셔도 좋습니다 &lt;&lt;&lt;</p>
 <p><a href="http://cafe.naver.com/develoid/803210">http://cafe.naver.com/develoid/803210</a></p>
 <p>퍼가실때는 채팅창에 닉네임란은 지워주시거나 모자이크처리 해주시면 더욱 감사하겠습니다~&nbsp;(정보 보호용)</p>
-

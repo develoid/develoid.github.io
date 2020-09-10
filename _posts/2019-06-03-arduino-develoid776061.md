@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '아두이노 기본 - Digital I/O 함수'
+title: '[커뮤니티] 아두이노 기본 - Digital I/O 함수'
 author: '시류아'
 categories: Arduino
 tags:
@@ -50,7 +50,7 @@ tags:
  <p>
   <p>
    pinMode(pin,&nbsp;mode)
-   
+
    //&nbsp;pin&nbsp;:&nbsp;입력&nbsp;받을&nbsp;포트&nbsp;번호
    //&nbsp;mode&nbsp;:&nbsp;INPUT(입력),&nbsp;OUTPUT(출력)
    //&nbsp;mode&nbsp;는&nbsp;1(입력),&nbsp;0(출력)&nbsp;으로&nbsp;대체&nbsp;가능
@@ -183,4 +183,3 @@ tags:
  </p>
 
 </p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '프로세싱 응용 - 아두이노 저항 값 입력 받기'
+title: '[커뮤니티] 프로세싱 응용 - 아두이노 저항 값 입력 받기'
 author: '시류아'
 categories: Programming-Processing
 tags:
@@ -264,4 +264,3 @@ tags:
  <p>소스코드에&nbsp;정답은&nbsp;없다.&nbsp;다양한&nbsp;생각이&nbsp;있듯&nbsp;다양한&nbsp;방법이&nbsp;있고,&nbsp;그&nbsp;중&nbsp;하나일&nbsp;뿐이다.</p>
 
 </p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [43] 캘린더(Calendar)'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [43] 캘린더(Calendar)'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -153,4 +153,3 @@ tags:
 <p>다음 시간에는 메세지 전송에 대해 알아보겠습니다.</p>
 
 <p>&nbsp;</p>
-

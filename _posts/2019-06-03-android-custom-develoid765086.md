@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '루팅 초보자를 위한 루트익스플로러 권한 부여 팁'
+title: '[커뮤니티] 루팅 초보자를 위한 루트익스플로러 권한 부여 팁'
 author: 'Hellmobile'
 categories: Android-Custom
 tags:

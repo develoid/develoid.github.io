@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '대한민국 성인 남성이라면 누구나 만들수있는 Knox 리셀러 계정'
+title: '[커뮤니티] 대한민국 성인 남성이라면 누구나 만들수있는 Knox 리셀러 계정'
 author: '구레포 훼인'
 categories: Samsung
 tags:
@@ -40,7 +40,7 @@ tags:
         <p>
                           <p>
                         <img src="https://dthumb-phinf.pstatic.net/?src=http://www.narasarang.or.kr/cmm/fms/ImgFileDown.do?fileId=90ED16BFA2238FA7CA1858B32E216C00&amp;type=f560_336">
-                        
+
                 </p>
 
                 <p>
@@ -63,7 +63,7 @@ tags:
         <p>
                           <p>
                         <img src="https://dthumb-phinf.pstatic.net/?src=https://cafeptthumb-phinf.pstatic.net/MjAxOTAyMDZfMTYg/MDAxNTQ5NDYxOTQyNzg1.zna6cfJoQBU5uGu5-Ks19-hhjdUodsp6VY_bVk9zGvYg.DO6c94SBpQY6Q_Yrs_5oCWQFfSp5cQR-3c90leAaw-Qg.PNG.yougnilzzz/externalFile.png?type=f550_412&amp;timestamp=1555462822991&amp;type=f220">
-                        
+
                 </p>
 
                 <p>
@@ -86,7 +86,7 @@ tags:
         <p>
                           <p>
                         <img src="https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fcafeptthumb-phinf.pstatic.net%2FMjAxOTA0MTFfMjYw%2FMDAxNTU0OTk0MjMzNTQ4.zjGJVmMMIOdFVkkvDg_OhpSwvd56aRrc5EFKYutB0kwg.8K2yPv5V2P9KjfEG98R4eq_MZhQsB1EP9jVsLihfI9og.PNG.kkw2821%2F1Desc.png%3Ftype%3Dw740%22&amp;type=f220">
-                        
+
                 </p>
 
                 <p>
@@ -103,4 +103,3 @@ tags:
 
 </p>
 <p></p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'HTTPS 리셋 패킷을 기다리지 말고 DPI를 우회해보자'
+title: '[커뮤니티] HTTPS 리셋 패킷을 기다리지 말고 DPI를 우회해보자'
 author: 'Mokky'
 categories: Network
 tags:
@@ -23,4 +23,3 @@ tags:
 <p>32비트랑 64비트중 맞는걸 선택하시고 압축푼다음&nbsp;GoodByeDPI GUI.exe를 실행하면 스마트 디펜더가 막아주는데 추가정보를 눌러서 실행을 누릅니다.</p>
 <p><img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAyMTJfMjE0/MDAxNTQ5OTU3MzMxNTcw.OqT1Jsr5TuwCM8QDMJUQBnq7K_3GTxECZ8scFgdQChAg.4xdwTRbgZ4_WKo1z5hIPAdOCZmakukutXA-dmku51qUg.JPEG.yms2772/%7BA8FC0B23-A9B7-45EF-9719-13DC23417463%7D.png.jpg?type=w740"></p>
 <p>여기서 아무것도 건들지 말고 Durdur 왼쪽에 있는 Ba~~를 누르면 실행이 되는데 실행 후 프로그램을 닫으면 시스템 트레이로 최소화 되어서 사용가능합니다.</p>
-

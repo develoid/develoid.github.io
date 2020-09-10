@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '아두이노 기본 - Serial 함수'
+title: '[커뮤니티] 아두이노 기본 - Serial 함수'
 author: '시류아'
 categories: Arduino
 tags:
@@ -409,4 +409,3 @@ tags:
  <p>우리가 만약 Hello 를 출력한다고 하자, write로 출력을 했을 경우 Hello 는 한 글자씩 끊어져서 H, e, l, l, o 로 출력되었을 것이다. 그에 비해서 print는 Hello 를 끊지 않고 한 문장으로 출력하고 있을 것이다. 이 둘 중 어떤 것이 틀렸다는 것은 없다. 상황에 따라서 write를 써야 될 수도 있으며, 반대로 print를 사용해야 될 수도 있다.</p>
 
 </p>
-

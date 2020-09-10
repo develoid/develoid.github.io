@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [34] Google Play Store에 앱 올리기'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [34] Google Play Store에 앱 올리기'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -87,4 +87,3 @@ tags:
 <p></p>
 </p>
 </p>
-

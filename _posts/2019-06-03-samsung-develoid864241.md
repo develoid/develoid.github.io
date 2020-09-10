@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 'KNOX CUSTOMIZATION 프로필 적용 방법'
+title: '[커뮤니티] KNOX CUSTOMIZATION 프로필 적용 방법'
 author: '구레포 훼인'
 categories: Samsung
 tags:
 - Samsung
 - Device
 -
-- 
+-
 ---
 
 
@@ -18,7 +18,7 @@ tags:
         <p>
                           <p>
                         <img src="https://dthumb-phinf.pstatic.net/?src=https://lh3.googleusercontent.com/ruiokLXdSpIGY2-jZzCwbxy-mjaytNphu3c6nBQzu_5mcx0frmq1iZwb_ieMuL_Fn8M1&amp;type=f220">
-                        
+
                 </p>
 
                 <p>
@@ -41,7 +41,7 @@ Knox Deployment 앱은 삼성 휴대..</p>
         <p>
                           <p>
                         <img src="https://dthumb-phinf.pstatic.net/?src=https://custom.samsungknox.com/assets/img/header_tablet.png&amp;type=f560_336">
-                        
+
                 </p>
 
                 <p>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '프로세싱 기초 - 자주 사용하는 함수 정리'
+title: '[커뮤니티] 프로세싱 기초 - 자주 사용하는 함수 정리'
 author: '시류아'
 categories: Programming-Processing
 tags:
@@ -113,7 +113,7 @@ tags:
  <p>
   <p>
    size(W,&nbsp;H);
-   
+
    //&nbsp;ex&nbsp;//
    size(360,&nbsp;240);
   </p>
@@ -151,7 +151,7 @@ tags:
    background(color);
    background(webcolor);
    background(r,&nbsp;g,&nbsp;b);
-   
+
    //&nbsp;ex&nbsp;//
    background(0);
    background(#000000);
@@ -181,7 +181,7 @@ tags:
  <p>
   <p>
    strokeWeight(size);
-   
+
    //&nbsp;ex&nbsp;//
    strokeWeight(10);
   </p>
@@ -211,7 +211,7 @@ tags:
    stroke(color);
    stroke(webcolor);
    stroke(r,&nbsp;g,&nbsp;b);
-   
+
    //&nbsp;ex&nbsp;//
    stroke(0);
    stroke(#000000);
@@ -249,7 +249,7 @@ tags:
  <p>
   <p>
    point(x,&nbsp;y);
-   
+
    //&nbsp;ex&nbsp;//
    point(10,&nbsp;10);
   </p>
@@ -277,7 +277,7 @@ tags:
  <p>
   <p>
    line(x1,&nbsp;y1,&nbsp;x2,&nbsp;y2);
-   
+
    //&nbsp;ex&nbsp;//
    line(10,&nbsp;10,&nbsp;50,&nbsp;50);
   </p>
@@ -305,7 +305,7 @@ tags:
  <p>
   <p>
    rect(X,&nbsp;Y,&nbsp;W,&nbsp;H);
-   
+
    //&nbsp;ex&nbsp;//
    rect(10,&nbsp;10,&nbsp;50,&nbsp;50);
   </p>
@@ -333,7 +333,7 @@ tags:
  <p>
   <p>
    triangle(x1,&nbsp;y1,&nbsp;x2,&nbsp;y2,&nbsp;x3,&nbsp;y3);
-   
+
    //&nbsp;ex&nbsp;//
    triangle(50,50,0,0,100,0);
   </p>
@@ -361,7 +361,7 @@ tags:
  <p>
   <p>
    quad(x1,&nbsp;y1,&nbsp;x2,&nbsp;y2,&nbsp;x3,&nbsp;y3,&nbsp;x4,&nbsp;y4);
-   
+
    //&nbsp;ex&nbsp;//
    quad(0,0,50,0,0,50,50,50);
   </p>
@@ -389,7 +389,7 @@ tags:
  <p>
   <p>
    ellipse(x,&nbsp;y,&nbsp;w,&nbsp;h);
-   
+
    //&nbsp;ex&nbsp;//
    ellipse(10,&nbsp;10,&nbsp;50,&nbsp;50);
   </p>
@@ -417,7 +417,7 @@ tags:
  <p>
   <p>
    text(TEXT,&nbsp;X,&nbsp;Y);
-   
+
    //&nbsp;ex&nbsp;//
    text(“TEST”,&nbsp;20,&nbsp;20);
   </p>
@@ -713,4 +713,3 @@ tags:
  <p></p>
 
 </p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#26 젤리빈 4.1에서 추가된 다양한 Notification 띄우기'
+title: '[커뮤니티] #26 젤리빈 4.1에서 추가된 다양한 Notification 띄우기'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -509,4 +509,3 @@ tags:
 <p>http://darksilber.tistory.com/114</p>
 <p>http://aroundck.tistory.com/2134</p>
 <p>http://developer.android.com/design/patterns/notifications.html</p>
-

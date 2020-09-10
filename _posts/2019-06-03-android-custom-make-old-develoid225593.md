@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#3 포팅한 롬을 기기에 최적화, 오류를 픽스해보자!!'
+title: '[커뮤니티] #3 포팅한 롬을 기기에 최적화, 오류를 픽스해보자!!'
 author: 'Ned'
 categories: Android-Custom-Make(Old)
 tags:
@@ -76,4 +76,3 @@ tags:
 <p>이 방법으로 픽스까지 하면 거의 완벽해질 겁니다.</p>
 <p>감사합니다. <p></p>
 </p>
-

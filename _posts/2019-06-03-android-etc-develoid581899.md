@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '롤리팝 노답 메모리의 오해를 잡아보자'
+title: '[커뮤니티] 롤리팝 노답 메모리의 오해를 잡아보자'
 author: 'arter97'
 categories: Android-Etc
 tags:
@@ -159,4 +159,3 @@ tags:
 <p>글 쓰느라 두 시간 걸렸네요.</p>
 <p>지적과 질문 환영합니다.</p>
 <p>전체공개이니 퍼가는건 링크로만 가져가주세요.</p>
-

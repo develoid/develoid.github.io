@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[11] 연산자 - 3.비트연산자'
+title: '[커뮤니티] [11] 연산자 - 3.비트연산자'
 author: 'ㅎ엘로이ㅎ'
 categories: Programming-JavaScript
 tags:
@@ -35,4 +35,3 @@ tags:
 <p>7. 맨앞 부호비트를 0으로 채우면서 나머지 비트를 오른쪽으로 이동(&gt;&gt;&gt;)</p>
 <p>&gt;&gt;연산자와 동일하나 맨앞 부호비트를 0으로 채우고 오른쪽 피연산자 수만큼 비트를 이동시킨다.</p>
 <p></p>
-

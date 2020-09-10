@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '녹스 바사삭 없이 부트로고/다운로드모드 경고창을 바꿔보자!'
+title: '[커뮤니티] 녹스 바사삭 없이 부트로고/다운로드모드 경고창을 바꿔보자!'
 author: '월이 Knox Basasak'
 categories: Samsung-Custom
 tags:
@@ -29,4 +29,3 @@ tags:
 <p>이제 압축을 풀어 자유롭게 수정해주세요!</p>
 <p>수정이 끝나면 7ZIP을 사용하여 압축한 뒤 다른 부트로더 파일들과도 같이 압축을 해 줍니다. (tar로)</p>
 <p>그리고 오딘으로 돌려주시면 끝납니다!(실패하면 부트로고가 날아가요)<img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAzMTFfMjYg/MDAxNTUyMzA1MDA4OTc4.hMZ2uUzNCR5M5mrV-qO69Lqn44PaLDnx-p2Cnf06ovog.DN_7NHIfqT6GrHKfrtaq2uavw75WVJ2ucBp2qlO8hTEg.PNG.jisongsari/20190311_204801.png?type=w740"><img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAzMTFfNzgg/MDAxNTUyMzA1MDA5MjI0.sTUJmKu8uHYB_P-mIEwo9IfJpB3Q1LgBiWGHabvAVYgg.F3TakO74Gj4DTzUtLev4Ypa6fXuzDz3Ba5vGER5vHqMg.PNG.jisongsari/20190311_204346.png?type=w740"></p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Superr 키친 설치하기! (리눅스 전용)'
+title: '[커뮤니티] Superr 키친 설치하기! (리눅스 전용)'
 author: 'Swipe'
 categories: Android-Custom-Make
 tags:

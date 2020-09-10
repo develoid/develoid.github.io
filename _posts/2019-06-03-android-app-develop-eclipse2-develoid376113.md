@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [40] ~키가 눌렸을 때 (onPressed)'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [40] ~키가 눌렸을 때 (onPressed)'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -93,4 +93,3 @@ tags:
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>cf) 강좌 할 것 추천해주세요</p>
-

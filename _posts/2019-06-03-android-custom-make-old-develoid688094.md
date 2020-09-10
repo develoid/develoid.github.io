@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'distcc를 이용한 안드로이드 분산빌드'
+title: '[커뮤니티] distcc를 이용한 안드로이드 분산빌드'
 author: 'Strontium닌디'
 categories: Android-Custom-Make(Old)
 tags:
@@ -129,4 +129,3 @@ tags:
 <p ><code>여기에 localhost가 아닌 다른 ip들이 컴파일을 진행하면 성공입니다.</code></p>
 <p ><code></code></p>
 <p ><code></code></p>
-

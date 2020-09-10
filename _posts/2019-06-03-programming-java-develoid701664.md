@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#4.[1-6.JAVA_기초사항]JAVA JDK 8설치'
+title: '[커뮤니티] #4.[1-6.JAVA_기초사항]JAVA JDK 8설치'
 author: 'ㅎ엘로이ㅎ'
 categories: Programming-Java
 tags:
@@ -110,4 +110,3 @@ tags:
 <p></p>
 <p></p>
 <p></p>
-

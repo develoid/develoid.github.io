@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '갤삼스쿨-(1) 루팅을 해보자 (Feat.주곰 어시스턴트)'
+title: '[커뮤니티] 갤삼스쿨-(1) 루팅을 해보자 (Feat.주곰 어시스턴트)'
 author: '주곰'
 categories: Samsung-Custom
 tags:
@@ -132,4 +132,3 @@ tags:
 <p><a href="http://odindownloader.com/download/odin3-v3-12-5">http://odindownloader.com/download/odin3-v3-12-5</a> (Odin 파일)</p>
 <p><a href="http://www.supersu.com/download">http://www.supersu.com/download</a> (Super SU 파일)</p>
 </p>
-

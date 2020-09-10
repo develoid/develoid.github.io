@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[업데이트] HTTPS 우회 패치기 (PC용)'
+title: '[커뮤니티] HTTPS 우회 패치기 (PC용)'
 author: 'ThinkQ'
 categories: Network
 tags:
@@ -26,4 +26,3 @@ tags:
 <p>[패치기 업데이트 예정]</p>
 <p>- 사용자의 편의성을 고려한 업데이트 (2/18)</p>
 <p></p>
-

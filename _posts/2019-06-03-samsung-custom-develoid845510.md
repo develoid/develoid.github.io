@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '삼성폰 카메라 무음설정'
+title: '[커뮤니티] 삼성폰 카메라 무음설정'
 author: 'daf720'
 categories: Samsung-Custom
 tags:
@@ -20,4 +20,3 @@ tags:
 <p><img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAxMjFfMTUz/MDAxNTQ4MDA0MzQ1MjA2.LnKlf9AzhdMb0Rohk5CQXujQItbmQuseB25Uwg0uJwQg.2JA2RjVBnL7F0yx3ZFPJItEtaoeQsDT-zzUtdwHy2c4g.JPEG.cbm852/Screenshot_20190121-021217_NAVER.jpg?type=w740"></p>
 <p>&nbsp;</p>
 이제 카메라 소리가 안날겁니다.<p>&nbsp;</p>
-

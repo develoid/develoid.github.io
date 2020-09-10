@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#2.[1-2.JAVA_기초사항]JAVA 자바의 특징'
+title: '[커뮤니티] #2.[1-2.JAVA_기초사항]JAVA 자바의 특징'
 author: 'ㅎ엘로이ㅎ'
 categories: Programming-Java
 tags:
@@ -119,4 +119,3 @@ tags:
 <p></p>
 <p></p>
 <p></p>
-

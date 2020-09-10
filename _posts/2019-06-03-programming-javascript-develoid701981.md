@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[13] 연산자 - 5.논리 연산자'
+title: '[커뮤니티] [13] 연산자 - 5.논리 연산자'
 author: 'ㅎ엘로이ㅎ'
 categories: Programming-JavaScript
 tags:
@@ -64,4 +64,3 @@ tags:
 <p>!true;&nbsp;// false</p>
 <p>!false;&nbsp;// true</p>
 <p></p>
-

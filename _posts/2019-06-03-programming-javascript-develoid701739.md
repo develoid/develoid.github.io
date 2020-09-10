@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[03] 데이터 타입과 변수 - 1.숫자'
+title: '[커뮤니티] [03] 데이터 타입과 변수 - 1.숫자'
 author: 'ㅎ엘로이ㅎ'
 categories: Programming-JavaScript
 tags:
@@ -33,4 +33,3 @@ Overview<p>프로그래밍 언어에서 다룰 수 있는 값의 종류를&nbsp;
 <p>0.01 -&gt; 1e-2 or 1E-2 -&gt; 1*10의-2승 = 0.01</p>
 <p><img src="https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fcafeptthumb-phinf.pstatic.net%2F20140529_108%2Fzeroday7_1401326347469xT1oX_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2014-05-29_%25BF%25C0%25C0%25FC_10.18.46.png%3Ftype%3Dw740%22&amp;type=cafe_wa740"></p>
 <p></p>
-

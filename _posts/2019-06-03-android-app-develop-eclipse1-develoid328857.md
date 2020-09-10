@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#20 쓰레드(Thread)와 핸들러(Handler)'
+title: '[커뮤니티] #20 쓰레드(Thread)와 핸들러(Handler)'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -192,4 +192,3 @@ tags:
 <p>이 강좌의 예제소스는 21번 강좌가&nbsp;나오는 즉시 업로드 됩니다</p>
 <p>카페에서는 원본글에서만 다운로드가 가능합니다</p>
 <p>예제소스 다운로드 : 아직 21번 강좌가 업로드 되지 않았습니다</p>
-

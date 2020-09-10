@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [7] Relative Layout 사용하기'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [7] Relative Layout 사용하기'
 author: 'Snails'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -81,4 +81,3 @@ tags:
 <p>&nbsp;</p>
 <p>그 외 많은 레이아웃이 있지만 뛰어넘고 다음은 EventHandler를 하도록 하겠습니다.&nbsp;</p>
 <p>&nbsp;</p>
-

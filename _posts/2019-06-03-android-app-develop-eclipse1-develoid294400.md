@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#8 이미지뷰를 정복하자(최종결과:버튼으로 이미지 바꾸기)'
+title: '[커뮤니티] #8 이미지뷰를 정복하자(최종결과:버튼으로 이미지 바꾸기)'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -141,4 +141,3 @@ tags:
 <p>이글은 [http://whdghks913.tistory.com/308] 에서 다시 보실수 있으며 원본 글의 저작권은 미르에게 있습니다</p>
 <p></p>
 <p>이글에 사용된 두개의 이미지는&nbsp;http://cafe.naver.com/ppc1004/22589,&nbsp;http://cafe.naver.com/take22/273567에 있습니다</p>
-

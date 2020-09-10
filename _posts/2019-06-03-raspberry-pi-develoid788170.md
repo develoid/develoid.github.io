@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Raspberry Pi 의 GPIO 사용해보기'
+title: '[커뮤니티] Raspberry Pi 의 GPIO 사용해보기'
 author: '시류아'
 categories: Raspberry-Pi
 tags:
@@ -264,12 +264,12 @@ tags:
    $&nbsp;gpio&nbsp;-g&nbsp;mode&nbsp;18&nbsp;output
    $&nbsp;gpio&nbsp;-g&nbsp;write&nbsp;18&nbsp;1
    $&nbsp;gpio&nbsp;-g&nbsp;write&nbsp;18&nbsp;0
-   
+
    //&nbsp;LED&nbsp;2&nbsp;테스트
    $&nbsp;gpio&nbsp;-g&nbsp;mode&nbsp;23&nbsp;output
    $&nbsp;gpio&nbsp;-g&nbsp;write&nbsp;23&nbsp;1
    $&nbsp;gpio&nbsp;-g&nbsp;write&nbsp;23&nbsp;0
-   
+
    //&nbsp;BUTTON&nbsp;테스트
    $&nbsp;gpio&nbsp;-g&nbsp;mode&nbsp;17&nbsp;up
    $&nbsp;gpio&nbsp;-g&nbsp;read&nbsp;17
@@ -311,10 +311,10 @@ tags:
  <p>
   <p>
    $&nbsp;sudo&nbsp;apt-get&nbsp;update
-   
+
    //&nbsp;Python&nbsp;설치
    $&nbsp;sudo&nbsp;apt-get&nbsp;install&nbsp;-y&nbsp;python-dev&nbsp;python-setuptools
-   
+
    //&nbsp;GCC&nbsp;설치
    $&nbsp;sudo&nbsp;apt-get&nbsp;install&nbsp;gcc&nbsp;g++
   </p>
@@ -403,18 +403,18 @@ tags:
   <p>
    #&nbsp;GPIO&nbsp;라이브러리&nbsp;불러오기
    import&nbsp;RPi.GPIO&nbsp;as&nbsp;GPIO
-   
+
    #&nbsp;PIN&nbsp;설정
    led1&nbsp;=&nbsp;18&nbsp;#&nbsp;P1&nbsp;pin&nbsp;12
    led2&nbsp;=&nbsp;23&nbsp;#&nbsp;P1&nbsp;pin&nbsp;16
    btn&nbsp;&nbsp;=&nbsp;17&nbsp;#&nbsp;P1&nbsp;pin&nbsp;11
-   
+
    #&nbsp;GPIO&nbsp;설정
    GPIO.setmode(GPIO.BCM)&nbsp;#&nbsp;브로드컴&nbsp;핀&nbsp;넘버링으로&nbsp;설정
    GPIO.setup(led1,&nbsp;GPIO.OUT)&nbsp;#&nbsp;LED1에&nbsp;사용할&nbsp;18번&nbsp;핀&nbsp;OUTPUT으로&nbsp;설정
    GPIO.setup(led2,&nbsp;GPIO.OUT)&nbsp;#&nbsp;LED2에&nbsp;사용할&nbsp;23번&nbsp;핀&nbsp;OUTPUT으로&nbsp;설정
    GPIO.setup(btn,&nbsp;GPIO.IN,&nbsp;pull_up_down=GPIO.PUD_UP)&nbsp;#&nbsp;버튼에&nbsp;사용할&nbsp;17번&nbsp;핀&nbsp;pull-up&nbsp;타입&nbsp;input으로&nbsp;설정)
-   
+
    #&nbsp;GPIO&nbsp;제어&nbsp;시작
    print("Press&nbsp;CTRL+C&nbsp;to&nbsp;exit")
    try:
@@ -430,8 +430,8 @@ tags:
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time.sleep(0.1)
    except&nbsp;KeyboardInterrupt:&nbsp;#&nbsp;Ctrl+C&nbsp;를&nbsp;눌러서&nbsp;종료&nbsp;할&nbsp;경우
    &nbsp;&nbsp;GPIO.cleanup()&nbsp;#&nbsp;GPIO&nbsp;초기화
-   
-   
+
+
   </p>
 
  </p>
@@ -500,21 +500,21 @@ tags:
    //&nbsp;라이브러리&nbsp;불러오기
    #include&nbsp;&lt;stdio.h&gt;&nbsp;//&nbsp;printf&nbsp;출력목적
    #include&nbsp;&lt;wiringPi.h&gt;&nbsp;//&nbsp;GPIO&nbsp;사용&nbsp;목적,&nbsp;Wiring&nbsp;Pi
-   
+
    //&nbsp;PIN&nbsp;설정
    int&nbsp;led0&nbsp;=&nbsp;18;
    int&nbsp;led1&nbsp;=&nbsp;17;
    int&nbsp;btn&nbsp;&nbsp;=&nbsp;23;
-   
+
    //&nbsp;메인
    int&nbsp;main(void)&nbsp;{
    &nbsp;&nbsp;wiringPiSetupGpio();&nbsp;//&nbsp;GPIO&nbsp;셋업
    &nbsp;&nbsp;pinMode(led0,&nbsp;OUTPUT);&nbsp;//&nbsp;LED1에&nbsp;사용할&nbsp;18번&nbsp;핀&nbsp;OUTPUT으로&nbsp;설정
    &nbsp;&nbsp;pinMode(led1,&nbsp;OUTPUT);&nbsp;//&nbsp;LED2에&nbsp;사용할&nbsp;23번&nbsp;핀&nbsp;OUTPUT으로&nbsp;설정
    &nbsp;&nbsp;pinMode(btn,&nbsp;INPUT);&nbsp;&nbsp;//&nbsp;BUTTON에&nbsp;사용할&nbsp;17번&nbsp;핀&nbsp;INPUT으로&nbsp;설정
-   
+
    &nbsp;&nbsp;printf("Press&nbsp;CTRL+C&nbsp;to&nbsp;exit&nbsp;\n");
-   
+
    &nbsp;&nbsp;while(1)&nbsp;{
    &nbsp;&nbsp;&nbsp;&nbsp;if(digitalRead(btn))&nbsp;{&nbsp;//&nbsp;버튼을&nbsp;누르지&nbsp;않았을&nbsp;때
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;digitalWrite(led0,&nbsp;HIGH);&nbsp;//&nbsp;LED1&nbsp;켜기
@@ -529,7 +529,7 @@ tags:
    &nbsp;&nbsp;}
    &nbsp;&nbsp;return&nbsp;0;
    }
-   
+
   </p>
 
  </p>
@@ -610,4 +610,3 @@ tags:
  <p><a href="https://www.raspberrypi.org/documentation/">https://www.raspberrypi.org/documentation/</a><a href="https://www.raspberrypi.org/documentation/"></a><a href="https://learn.sparkfun.com/tutorials/raspberry-gpio">https://learn.sparkfun.com/tutorials/raspberry-gpio</a></p>
 
 </p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '진짜 깨알같은 블랙베리 키투 화면 비율 바꾸기 팁'
+title: '[커뮤니티] 진짜 깨알같은 블랙베리 키투 화면 비율 바꾸기 팁'
 author: '웅진애옹'
 categories: Etc-Maker
 tags:
@@ -38,4 +38,3 @@ tags:
 <p>간단하죠?</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-

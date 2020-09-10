@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#29 커스텀 리스트뷰 (Custom ListView) - View Holder'
+title: '[커뮤니티] #29 커스텀 리스트뷰 (Custom ListView) - View Holder'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -121,4 +121,3 @@ tags:
 <p>예제소스 다운로드 : 아직 30번 강좌가 업로드 되지 않았습니다</p>
 </p>
 </p>
-

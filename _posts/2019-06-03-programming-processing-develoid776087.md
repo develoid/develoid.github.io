@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '프로세싱 기초 - 도형 그리기'
+title: '[커뮤니티] 프로세싱 기초 - 도형 그리기'
 author: '시류아'
 categories: Programming-Processing
 tags:
@@ -122,4 +122,3 @@ tags:
  <p>소스코드에는 정답이 없다. 다양한 생각이 있듯 다양한 방법이 있으며, 그 중 하나일 뿐이다.</p>
 
 </p>
-

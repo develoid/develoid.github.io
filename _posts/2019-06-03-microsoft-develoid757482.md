@@ -1,13 +1,13 @@
 ---
 layout: post
-title: '작업표시줄 입력표시기 없애기'
+title: '[커뮤니티] 작업표시줄 입력표시기 없애기'
 author: '나는나비'
 categories: Microsoft
 tags:
 - Windows
 - OS
 -
-- 
+-
 ---
 
 
@@ -20,4 +20,3 @@ tags:
 <p>저장하면 끝입니다</p>
 <p>이상 뻘팁이었습니다</p>
 <p><img src="https://gfmarket-phinf.pstatic.net/moon_and_james/original_2.png?type=p50_50"></p>
-

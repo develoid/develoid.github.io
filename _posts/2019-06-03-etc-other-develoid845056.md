@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Cocos2d studio에 쓰였던 CSB파일을 읽어보자.'
+title: '[커뮤니티] Cocos2d studio에 쓰였던 CSB파일을 읽어보자.'
 author: '글작성자'
 categories: Etc-Ohter
 tags:
@@ -25,7 +25,7 @@ tags:
         <p>
                           <p>
                         <img src="https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F5645137%3Fs%3D400%26v%3D4%22&amp;type=f220">
-                        
+
                 </p>
 
                 <p>
@@ -59,4 +59,3 @@ tags:
 <p><img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAxMTlfMjM5/MDAxNTQ3ODI1OTEzMzkz.QH_l7GmgazMNqrQccGAneyxRngUDc9hLz5WSxNQs8icg.eck7aXCXFloLTTHbR2bHaYVgAgCtb2e1RqnAXz61rB0g.PNG.hsm8hsm8/3.PNG?type=w740"></p>
 <p>그냥 저렇게 명령어?따위는 모두 건재하고 그것들은 닫는 것이 저장되지 않은 것이니, 그냥 저기서 수작업으로 처리하면 되겠다.</p>
 <p>혹시 CSB파일의 정확한 용도를 알면 댓글에 달아주길 바란다.</p>
-

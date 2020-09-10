@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[08] 표현식'
+title: '[커뮤니티] [08] 표현식'
 author: 'ㅎ엘로이ㅎ'
 categories: Programming-JavaScript
 tags:
@@ -62,4 +62,3 @@ age : 20,</blockquote>name : jjdev,</blockquote>hobby : ["여행","독서"],</bl
 <p>⑦ 연산자 표현식 : 복합 표현식을 만드는 가장 쉬원 방법은 연산자를 사용하는 것이다. 한개 이상의 피연산자들의 값들을 결합하여 새로운 값을 반환한다. 연산자들에 대한 자세한 설명은 다음장에 다룬다.</p>
 <p>1+2</p>
 <p>x*y&nbsp;// *는 곱하기 연산자다</p>
-

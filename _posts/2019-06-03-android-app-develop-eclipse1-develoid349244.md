@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#22 옵션 메뉴(Menu) 사용방법'
+title: '[커뮤니티] #22 옵션 메뉴(Menu) 사용방법'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -186,4 +186,3 @@ tags:
 <p>카페에서는 원본글에서만 다운로드가 가능합니다</p>
 <p>예제소스 다운로드 : 카페에서는 다운로드가 불가능 하며 원본글&nbsp;<a href="http://whdghks913.tistory.com/409">http://whdghks913.tistory.com/409</a>&nbsp;에서만 다운로드가 가능합니다</p>
 <p></p>
-

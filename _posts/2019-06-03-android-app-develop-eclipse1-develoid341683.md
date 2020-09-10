@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#21 Preference(프리퍼런스)'
+title: '[커뮤니티] #21 Preference(프리퍼런스)'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -190,4 +190,3 @@ tags:
 </p>
 <p></p>
 <p>참조 :&nbsp;http://blog.naver.com/liar1938/30173930915</p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[개정]"아마도 쉬운 안드로이드 어플만들기" [3] Android Studio 설치 및 안드로이드 개발환경 설정'
+title: '[커뮤니티] [개정]"아마도 쉬운 안드로이드 어플만들기" [3] Android Studio 설치 및 안드로이드 개발환경 설정'
 author: '달팽이들'
 categories: Android-App-Develop(Studio)
 tags:
@@ -233,4 +233,3 @@ tags:
 <p align="center" >&nbsp;</p>
 <p></p>
 <p></p>
-

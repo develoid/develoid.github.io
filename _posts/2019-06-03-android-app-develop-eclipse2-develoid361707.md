@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [38] 데이터 조회하기(2)'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [38] 데이터 조회하기(2)'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -119,4 +119,3 @@ int <code >recordCount = c1.getCount();&nbsp; </code><p>﻿여기는 커서의 g
 ﻿<p></p>
 </p>
 </p>
-

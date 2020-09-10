@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '정말 쉬운 코딩 강의 4번째 시간입니다. (상어 피하기, 스크래치 3.0)'
+title: '[커뮤니티] 정말 쉬운 코딩 강의 4번째 시간입니다. (상어 피하기, 스크래치 3.0)'
 author: '나도코딩'
 categories: Programming-Scratch
 tags:
@@ -32,4 +32,3 @@ tags:
 <p>4. 상어 피하기 프로젝트</p>
 <p><iframe src="https://www.youtube.com/embed/_IPilAXAknM?wmode=opaque"  height="407px" frame scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
 <p>감사합니다.</p>
-

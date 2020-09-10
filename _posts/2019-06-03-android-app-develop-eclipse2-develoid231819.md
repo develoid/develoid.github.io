@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [1] Android 소개'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [1] Android 소개'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -40,4 +40,3 @@ tags:
 <p>자바 : 선마이크로시스템즈사가 통신망을 통해 수행할 수 있는 코드를 만들 수 있도록 개발한 프로그래밍 언어</p>
 <p>아키텍쳐 : 컴퓨터의 설계사상 및 논리구조</p>
 <p>&nbsp;</p>
-

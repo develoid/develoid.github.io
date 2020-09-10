@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'ASUS 젠폰 맥스 프로 M1 심화과정 (1) - 부트로더 언락'
+title: '[커뮤니티] ASUS 젠폰 맥스 프로 M1 심화과정 (1) - 부트로더 언락'
 author: 'cdma2000'
 categories: Etc-Maker
 tags:
@@ -332,11 +332,11 @@ tags:
     <p>
      <p>
       <p>
-       
+
        <p>
         <a href="https://forum.xda-developers.com/asus-zenfone-max-pro-m1/how-to/noobs-to-unlock-relock-bootloader-twrp-t3894847">[NOOB’s][DETAILED] [GUIDE] TO Backup/Restore Stock+ Unlock Bootloader + TWRP + ROOT</a>
         A/A &amp; Welcome, READ THE FULL GUIDE OR YOU CAN LAND IN TROUBLE AND DO PRESS THE THANKS BUTTON Disclaimer * Your warranty is now void. * I am not responsibl…
-        &lt;="forum.xda-developers.com&lt;" p="p" &gt; 
+        &lt;="forum.xda-developers.com&lt;" p="p" &gt;
        </p>
 
       </p>
@@ -352,4 +352,3 @@ tags:
  </p>
 
 </p>
-

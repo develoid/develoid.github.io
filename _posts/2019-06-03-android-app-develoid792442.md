@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'YouTube 화질제한 걸린 기종을 위한 Tip!'
+title: '[커뮤니티] YouTube 화질제한 걸린 기종을 위한 Tip!'
 author: 'Kimss'
 categories: Android-App
 tags:
@@ -46,4 +46,3 @@ tags:
 <p>→ 서랍에 박혀있던 갤2를 위와 같은 방법으로 테스해 본 결과,</p>
 <p>720p60fps까지는 약간의 버벅임과&nbsp;함께 무난하게 재생합니다.</p>
 <p><img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTA1MjNfMjk4/MDAxNTU4NjE4MDg5NjQ1.9oQrClmWTzfIc4riIHQRGh5AZXzZ1B7qKSKZk2vqAOcg.QLv8UM8PhlPiKhqDgMupePcrmi90-YIWyZjVwgjZQPsg.PNG/Screenshot_2018-04-10-14-22-51.png?type=w740"></p>
-

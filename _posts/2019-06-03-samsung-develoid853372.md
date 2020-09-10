@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Galaxy Guide V1.1'
+title: '[커뮤니티] Galaxy Guide V1.1'
 author: '좀비싹싹'
 categories: Samsung
 tags:
@@ -567,4 +567,3 @@ tags:
 <p><!--[if !supportEmptyParas]>&nbsp;<![endif]--></p>
 <p></p>
 <p></p>
-

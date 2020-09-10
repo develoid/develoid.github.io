@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [41] 난수 생성하기 (Random)'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [41] 난수 생성하기 (Random)'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -68,4 +68,3 @@ tags:
 <p></p>
 </p>
 </p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[데이터주의]노트2 리니지 OS 설치 완벽 가이드'
+title: '[커뮤니티] 노트2 리니지 OS 설치 완벽 가이드'
 author: 'EdgeDEV'
 categories: Samsung-Custom
 tags:
@@ -58,4 +58,3 @@ tags:
 <p>6.&nbsp;기타&nbsp;등등&nbsp;여러가지</p>
 <p>모두&nbsp;정상작동하신다면,&nbsp;정말&nbsp;축하합니다!&nbsp;저와&nbsp;마찬가지로&nbsp;모든&nbsp;기능이&nbsp;정상&nbsp;작동하시는겁니다.(중간중간 MPT? 어떤 앱이 중지된다고 뜨는데 롬 자체의 문제입니다. 해결 불가)&nbsp;이제&nbsp;편리하고&nbsp;아름다운 Android Nougat을&nbsp;즐기시면&nbsp;됩니다.&nbsp;수고하셨습니다!</p>
 <p>(혹시라도 중간의 오류, 질문이 있으시다면 댓글로 남겨주세요. 제가 아는 선에서는 답변해드리겠습니다. 마지막으로 Lineage OS개발팀, KGOON님, WIDzard님께 정말 감사하다는 말씀 드립니다.)<img src="https://cafeptthumb-phinf.pstatic.net/MjAxNzEwMDRfMjgz/MDAxNTA3MTEyMDU0NDQ0.qeMABcxnZWedf83JtPffGuPse9cTTk4jZ8w5hWSRFQgg.BbjeFoxBXscc2sqRjvaDtGPEPh5wLd7kT5JJ09NpbUkg.PNG.eric1344/Screenshot_20171004-180948.png?type=w740"><img src="https://cafeptthumb-phinf.pstatic.net/MjAxNzEwMDRfMjE2/MDAxNTA3MTEyMDU0Njg4.9zahARmyBZ9_9tmTlhBiVobLhfjeiIGTZLsMwR0QYTsg.NaTXqkUE0sQJ_GUXlZj6bioiC1AbJ8LgfepMl4IKSnAg.PNG.eric1344/Screenshot_20171004-180911.png?type=w740">(여담으로&nbsp;중간&nbsp;스크린샷에 Windows 정품&nbsp;인증&nbsp;뜨는것은&nbsp;어제&nbsp;컴퓨터를&nbsp;포맷해서&nbsp;그렇습니다.)</p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" 5-1 이벤트 처리(1)'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" 5-1 이벤트 처리(1)'
 author: 'Snails'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -99,4 +99,3 @@ tags:
 <p>&nbsp;</p>
 <p></p>
 <p></p>
-

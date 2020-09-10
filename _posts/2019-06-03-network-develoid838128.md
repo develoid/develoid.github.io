@@ -1,12 +1,12 @@
 ---
 layout: post
-title: '공인 IP 하나로 여러대의 디바이스를 사용하는 방법'
+title: '[커뮤니티] 공인 IP 하나로 여러대의 디바이스를 사용하는 방법'
 author: '403 Forbidden'
 categories: Network
 tags:
 - Network
 - IP
-- 
+-
 -
 ---
 
@@ -31,4 +31,3 @@ tags:
 <p>9. 집에 남아도는 유무선공유기가 있다면 거실에 설치해서 벽면단자와 공유기 <u>WAN포트가 아닌 LAN포트에</u> 연결합니다.(공유기를 허브모드로 동작시키기 위함입니다.)</p>
 <p>내부 네트워크 맵은 대충 이렇게 될겁니다.</p>
 <p><img src="https://cafeptthumb-phinf.pstatic.net/MjAxODEyMTNfMTA3/MDAxNTQ0NjgxMzU0MzQy.lkeSNFYZ-SiKQtZbwqvnCPzAUoZpfTgu3bJBj5Cv7dsg.FoDuAWAxdl3TvqQ6txQajwRENiR1cjDp37G3nR_uspcg.PNG.lby22net/yee.png?type=w740"></p>
-

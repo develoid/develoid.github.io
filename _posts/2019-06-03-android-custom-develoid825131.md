@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'TWRP리커버리 용 ZIP파일을 플래싱 하는법'
+title: '[커뮤니티] TWRP리커버리 용 ZIP파일을 플래싱 하는법'
 author: 'FD 네오'
 categories: Android-Custom
 tags:

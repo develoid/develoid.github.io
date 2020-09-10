@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '삼성 휴대폰 (오레오 8.0)원하는 폰트 사용법'
+title: '[커뮤니티] 삼성 휴대폰 (오레오 8.0)원하는 폰트 사용법'
 author: 'JS53'
 categories: Samsung-Custom
 tags:
@@ -68,4 +68,3 @@ tags:
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-

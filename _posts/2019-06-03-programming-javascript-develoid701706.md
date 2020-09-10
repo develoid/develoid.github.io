@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[02] 자바스크립트 문장의 구성요소'
+title: '[커뮤니티] [02] 자바스크립트 문장의 구성요소'
 author: 'ㅎ엘로이ㅎ'
 categories: Programming-JavaScript
 tags:
@@ -120,4 +120,3 @@ tags:
 <p>x = 3</p>
 <p>으로 표기하면 vax x x는 var x x=3는 해석할 수 없기 때문에 var x; x=3 으로 해석한다.</p>
 <p></p>
-

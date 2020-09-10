@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '삼성 마시멜로에서 사라진 충전시간 알림 살리기.'
+title: '[커뮤니티] 삼성 마시멜로에서 사라진 충전시간 알림 살리기.'
 author: '세나'
 categories: Samsung-Custom
 tags:
@@ -28,4 +28,3 @@ tags:
 <p>eqz&gt;&gt;nez</p>
 <p>ne&gt;&gt;eq</p>
 <p>nez&gt;&gt;eqz</p>
-

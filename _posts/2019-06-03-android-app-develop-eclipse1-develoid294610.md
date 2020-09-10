@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#9 Toast와, 도둑잡기 게임을 만들어 봐요! (rand함수 이용)'
+title: '[커뮤니티] #9 Toast와, 도둑잡기 게임을 만들어 봐요! (rand함수 이용)'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -102,4 +102,3 @@ tags:
 <p>그럼 이쯤해서 이번 강좌 마치도록 하겠습니다~</p>
 <p>예제소스는 원본글에서..</p>
 <p>이글은 [http://whdghks913.tistory.com/310 ] 에서 다시 보실수 있으며 원본 글의 저작권은 미르에게 있습니다</p>
-

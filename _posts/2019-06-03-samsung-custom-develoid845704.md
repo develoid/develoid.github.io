@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '빅스비 2.0에서 bxactions 사용하는 방법'
+title: '[커뮤니티] 빅스비 2.0에서 bxactions 사용하는 방법'
 author: 'daf720'
 categories: Samsung-Custom
 tags:
@@ -26,4 +26,3 @@ tags:
 <p>long press(길게 누르기) - 원하는 설정</p>
 <p>이렇게 하시면 빅스비 버튼을 한번 눌렀을 때는 반응이 없고 두번 누르면 빅스비가 열리고 길게 누르면 설정한 기능이 실행됩니다.</p>
 <p>&nbsp;</p>
-

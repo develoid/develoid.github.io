@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[취향주의]AOSP계열 롬에서 루팅 감지 기능이 있는 게임을 해봅시다.'
+title: '[커뮤니티] AOSP계열 롬에서 루팅 감지 기능이 있는 게임을 해봅시다.'
 author: '디벨교육과정평가원'
 categories: Android-Custom
 tags:
@@ -38,7 +38,7 @@ tags:
         <p>
                           <p>
                         <img src="https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fwww.redditstatic.com%2Fnew-icon.png%22&amp;amp;amp;amp;amp;amp;type=f220">
-                        
+
                 </p>
 <p>
                         <p>Guide to play FGO on unrooted LineageOS</p>
@@ -50,4 +50,3 @@ tags:
 <p></p>
 <p>발문 방식 : 한국교육과정평가원에서 출제하는 시험(대학수학능력시험, 대학수학능력시험 모의평가/예비평가, '임용고사') 발문의 경어체 판(과학탐구&nbsp;영역&nbsp;과목의 발문을 주로 이용하였습니다.)</p>
 <p>p.s. ro.secure=0과 같은 부분이 있는 경우 ro.secure=1로 바꾸어주시기 바랍니다. lineage os의 경우에는 ro.secure=1로 되어 있지만 다른 커스텀롬(ex. Havoc OS) 같은 경우에는 ro.secure=0과 같은 부분이 있어, ro.debuggable=1 부분을 ro.debuggable=0으로 수정해도 예시로 든 것과 같은 게임 실행이 되지 않습니다.</p>
-

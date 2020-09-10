@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Screen Overlays 앱을 이용한 번인 숨기기'
+title: '[커뮤니티] Screen Overlays 앱을 이용한 번인 숨기기'
 author: 'LeeG'
 categories: Android-App
 tags:
@@ -37,4 +37,3 @@ tags:
 <p>저처럼 기기 수명이 얼마 남지 않아서 굴리는 입장이라 만족하지만 돈이 좀 들더라도 디스플레이 교체를 권하며&nbsp;</p>
 <p>글을 마치겠습니다.</p>
 <p>감사합니다.</p>
-

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 'CMD를 통해 안정적으로 파일 다운로드(VBS사용)'
+title: '[커뮤니티] CMD를 통해 안정적으로 파일 다운로드(VBS사용)'
 author: '글작성자'
 categories: Microsoft
 tags:
 - Windows
 - OS
 -
-- 
+-
 ---
 
 
@@ -62,4 +62,3 @@ bitsadmin는 권한때문에 다운로드가 안되고<p>Powershell은 어떨때
 <p>필자는 두 파일을 다운로드를 하기 위해서 이 스크립트를 두번 만들고 두번 삭제하는데</p>
 <p>vbs에 옵션을 넣는(download.vbs "파일주소" "저장주소") VBS를 만드는 방식이였으면 더 편하지 않았을까 싶다.</p>
 <p>그렇게 만들고는 싶다만 어떻게 만들어야 할지는 모르겠다.</p>
-

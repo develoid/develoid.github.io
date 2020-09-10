@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Superr 키친 사용방법.'
+title: '[커뮤니티] Superr 키친 사용방법.'
 author: 'Swipe'
 categories: Android-Custom-Make
 tags:
@@ -57,4 +57,3 @@ tags:
 <p>3번 boot/recovery 중에서 스위치하기</p>
 <p>그 외에도 있지만 다하면 힘들어져서 여기까지!</p>
 <p>잘 사용하여 보세요!</p>
-

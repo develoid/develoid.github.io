@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#6 버튼(Button)을 만들어 보자'
+title: '[커뮤니티] #6 버튼(Button)을 만들어 보자'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -150,4 +150,3 @@ tags:
 <p>이렇게 해서 버튼에 대해서도 알아봤습니다</p>
 <p>버튼의 글자도 button1.setText();를 이용하여 변경이 가능합니다</p>
 <p>응용은 당신의 몫!</p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [2] 안드로이드 버젼 역사'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [2] 안드로이드 버젼 역사'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -125,4 +125,3 @@ tags:
 <p>&nbsp; - 와이파이, 클라우드로 인쇄 가능</p>
 <p>&nbsp; - 메세징 프로그램 관리 가능</p>
 <p>&nbsp;</p>
-

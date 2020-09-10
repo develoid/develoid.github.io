@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#10 String 변수 (문자열 변수 설정하기)'
+title: '[커뮤니티] #10 String 변수 (문자열 변수 설정하기)'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -57,4 +57,3 @@ tags:
 <p>참조 :&nbsp;<a href="http://jhrun.tistory.com/123">http://jhrun.tistory.com/123</a></p>
 <p></p>
 <p>이글은 [http://whdghks913.tistory.com/298] 에서 다시 보실수 있으며 원본 글의 저작권은 미르에게 있습니다</p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'C언어 기초정리 - 연산자'
+title: '[커뮤니티] C언어 기초정리 - 연산자'
 author: '시류아'
 categories: Programming-C
 tags:
@@ -29,4 +29,3 @@ tags:
  </p>
  <p>  <p></p>
  </p>
-

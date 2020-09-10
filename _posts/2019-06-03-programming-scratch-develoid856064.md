@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '정말 쉬운 코딩 강의 10번째 시간입니다. (총알 피하기 게임 - 실전#1)'
+title: '[커뮤니티] 정말 쉬운 코딩 강의 10번째 시간입니다. (총알 피하기 게임 - 실전#1)'
 author: '나도코딩'
 categories: Programming-Scratch
 tags:

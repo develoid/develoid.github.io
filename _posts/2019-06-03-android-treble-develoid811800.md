@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[최신 업데이트]안드로이드 P DP 4 모든 기기에 올려보자!'
+title: '[커뮤니티] 안드로이드 P DP 4 모든 기기에 올려보자!'
 author: 'EdgeDEV'
 categories: Android-Treble
 tags:
@@ -37,4 +37,3 @@ tags:
 <p>가이드를 따라하시다가 문제가 있으시다면 바로 댓글 남겨주세요. 너무 더워서 조금 대충 쓴 감이 있네요;;(저도 알아듣기 힘듭니 ㄷ..)</p>
 <p>마지막으로 스크린샷 몇개 보여드리고 마치겠습니다. 감사합니다.</p>
 <p><img src="https://cafeptthumb-phinf.pstatic.net/MjAxODA3MjFfMTgy/MDAxNTMyMTQ2NzU0NDg2.rhhn-6dseUJw5rKnYmfGAyDiaIMzbaHCnXNlWo9YWLwg.sQzwIxaGm-sl8lNKRxYg54U0GSBIo3uZQDTUN4Gt4gkg.PNG.eric1344/Screenshot_20180721-130533.png?type=w740"><img src="https://cafeptthumb-phinf.pstatic.net/MjAxODA3MjFfMTM3/MDAxNTMyMTQ2NzU0NjMx.z0PhgyEE9tEGiqtEc0bKf4DH_MUR3mA4LNG1jhQd0log.ja1RdhiS1GgoTH0XjSGE8ZrAYCPVR828zbhDpkIHBuYg.PNG.eric1344/Screenshot_20180721-130152.png?type=w740"><img src="https://cafeptthumb-phinf.pstatic.net/MjAxODA3MjFfMTkx/MDAxNTMyMTQ2NzU1MDc5.oginv4cybaCmUj3S9U3piLp4sBubJRH7xt_nc8BtwaAg.s8ArypTWrwTtZnROeAxS8Zn0ColhwmFuEQ_MbCBQBuUg.PNG.eric1344/Screenshot_20180721-123601.png?type=w740"><img src="https://cafeptthumb-phinf.pstatic.net/MjAxODA3MjFfNDAg/MDAxNTMyMTQ2NzU1MTk5.LaHApzEnH1p_DT_1G6XMlwNJkbr5Ab9syLFfLtYRFTYg.Kv1L5amMBjthzpvUJOtgdHXYUfLKbvGQ9CX2h3tRuz8g.PNG.eric1344/Screenshot_20180721-123616.png?type=w740"></p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '(루팅, 아마도 전기종) 지긋지긋한 통신사 와이파이 삭제하기'
+title: '[커뮤니티] (루팅, 아마도 전기종) 지긋지긋한 통신사 와이파이 삭제하기'
 author: '나는나비'
 categories: Android-Custom
 tags:
@@ -58,4 +58,3 @@ tags:
 <p>(☆이로인해 발생하는 모든 문제는 본인의 책임입니다☆)</p>
 <p>&nbsp;</p>
 <p>출처: <a href="http://www.chosik.com/314">http://www.chosik.com/314</a></p>
-

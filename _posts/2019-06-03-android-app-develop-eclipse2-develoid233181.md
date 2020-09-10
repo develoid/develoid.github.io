@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [5] 텍스트 출력하기'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [5] 텍스트 출력하기'
 author: 'Snails'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -92,4 +92,3 @@ tags:
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>다음은 데이터를 직접 입력 할 수 있는 EditText에 대해서 알아보겠습니다.&nbsp;</p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#16 한번에3개를, [토글버튼/체크박스/라디오버튼]'
+title: '[커뮤니티] #16 한번에3개를, [토글버튼/체크박스/라디오버튼]'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -243,4 +243,3 @@ tags:
 <p>이글은 [<a href="http://whdghks913.tistory.com/354">http://whdghks913.tistory.com/354</a>] 에서 다시 보실수 있으며 원본 글의 저작권은 미르에게 있습니다</p>
 <p></p>
 <p>예제소스는 다음 17번 강좌가 업로드 될때 첨부됩니다</p>
-

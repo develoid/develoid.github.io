@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '정말 쉬운 코딩 강의 5번째 시간입니다. (AB형 정말 이런가요...? 스크래치 3.0)'
+title: '[커뮤니티] 정말 쉬운 코딩 강의 5번째 시간입니다. (AB형 정말 이런가요...? 스크래치 3.0)'
 author: '나도코딩'
 categories: Programming-Scratch
 tags:
@@ -38,4 +38,3 @@ tags:
 <p>교육은 완전 기초부터 진짜 서비스 되고 있는 게임까지 만들어보는 걸 목표로 합니다.</p>
 <p>아래는 간략한 소개 영상입니다. ^^</p>
 <p><iframe src="https://www.youtube.com/embed/xN8O_mhR-7Y?wmode=opaque"  height="407px" frame scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
-

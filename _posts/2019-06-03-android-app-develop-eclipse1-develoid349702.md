@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#23 Service (서비스)에 대해 알아보자'
+title: '[커뮤니티] #23 Service (서비스)에 대해 알아보자'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -237,4 +237,3 @@ tags:
 <p>카페에서는 <a href="http://itmir.tistory.com/414">원본글</a>에서만 다운로드가 가능합니다</p>
 <p>예제소스 다운로드 : 아직 24번 강좌가 업로드 되지 않았습니다</p>
 </p>
-

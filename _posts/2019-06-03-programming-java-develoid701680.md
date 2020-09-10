@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#5.[1-7.JAVA_기초사항]JAVA 프로그램 개발 단계'
+title: '[커뮤니티] #5.[1-7.JAVA_기초사항]JAVA 프로그램 개발 단계'
 author: 'ㅎ엘로이ㅎ'
 categories: Programming-Java
 tags:
@@ -62,4 +62,3 @@ tags:
 <p></p>
 <p></p>
 <p></p>
-

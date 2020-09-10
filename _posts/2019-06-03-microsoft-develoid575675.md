@@ -1,13 +1,13 @@
 ---
 layout: post
-title: '컴퓨터를 공유기로 Connectify (무선어뎁터必)'
+title: '[커뮤니티] 컴퓨터를 공유기로 Connectify (무선어뎁터必)'
 author: '나는나비'
 categories: Microsoft
 tags:
 - Windows
 - OS
 -
-- 
+-
 ---
 
 
@@ -37,4 +37,3 @@ tags:
 <p>뒤에 구버전 지우시면 설치 안됩니다</p>
 <p>저도 이유는 모르겠습니다....ㅋㅋㅋ</p>
 <p></p>
-

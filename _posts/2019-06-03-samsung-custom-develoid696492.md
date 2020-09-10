@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '삼성 마시멜로 밝기 슬라이더 바로 보이도록 하기'
+title: '[커뮤니티] 삼성 마시멜로 밝기 슬라이더 바로 보이도록 하기'
 author: '세나'
 categories: Samsung-Custom
 tags:
@@ -25,4 +25,3 @@ tags:
 <p>ImageView android: 의 width height를 0.0dip로 변경</p>
 <p>이렇게 하면 퀵패널을 확장하지 않아도 밝기슬라이더가 보이며.....남아있는 에스파인더의 레이아웃으로 인해서 밝기슬라이더가 짤리는 현상이 픽스가 되고 </p>
 <p>전혀 쓸일이 없는 에스파인더 버튼은 사라집니다.</p>
-

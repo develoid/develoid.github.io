@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" 6-3 질문 대화상자'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" 6-3 질문 대화상자'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -79,4 +79,3 @@ tags:
 <p>다음은 목록을 가지고 있는 대화상자를 살펴보도록 하겠습니다.</p>
 <p></p>
 </p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#24 Broadcast Receiver로 문자(SMS) 수신해보자'
+title: '[커뮤니티] #24 Broadcast Receiver로 문자(SMS) 수신해보자'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -199,4 +199,3 @@ tags:
 <p>예제소스 다운로드 : 아직 25번 강좌가 업로드 되지 않았습니다</p>
 </p>
 <p></p>
-

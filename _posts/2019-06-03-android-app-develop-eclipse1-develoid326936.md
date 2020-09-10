@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#18 소리를 재생해 보자 - MusicPlayer'
+title: '[커뮤니티] #18 소리를 재생해 보자 - MusicPlayer'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -194,4 +194,3 @@ tags:
 <p>참조 :&nbsp;<a href="http://nephilim.tistory.com/56">http://nephilim.tistory.com/56</a></p>
 <p><a href="http://naiacinn.tistory.com/109">http://naiacinn.tistory.com/109</a></p>
 <p><a href="http://indy9052.blog.me/120142002766">http://indy9052.blog.me/120142002766</a></p>
-

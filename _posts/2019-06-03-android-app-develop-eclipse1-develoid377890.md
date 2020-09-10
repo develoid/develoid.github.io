@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#28 WebView로 인터넷을 해보자'
+title: '[커뮤니티] #28 WebView로 인터넷을 해보자'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -110,4 +110,3 @@ tags:
 <p>예제소스 다운로드 : 아직 29번 강좌가 업로드 되지 않았습니다</p>
 </p>
 </p>
-

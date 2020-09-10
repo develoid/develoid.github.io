@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[04] 데이터 타입과 변수 - 2.Infinity와 NaN'
+title: '[커뮤니티] [04] 데이터 타입과 변수 - 2.Infinity와 NaN'
 author: 'ㅎ엘로이ㅎ'
 categories: Programming-JavaScript
 tags:
@@ -37,4 +37,3 @@ tags:
 <p><img src="https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fcafeptthumb-phinf.pstatic.net%2F20140620_181%2Fzeroday7_1403224776650DhSkc_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2014-06-20_%25BF%25C0%25C0%25FC_9.39.04.png%3Ftype%3Dw740%22&amp;type=cafe_wa740"><p>정리하는것도 일이네요...ㄷㄷ</p>
 <p></p>
 </p>
-

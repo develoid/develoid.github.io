@@ -1,13 +1,13 @@
 ---
 layout: post
-title: '잘못 설정한 연결프로그램 연결끊기'
+title: '[커뮤니티] 잘못 설정한 연결프로그램 연결끊기'
 author: '나는나비'
 categories: Microsoft
 tags:
 - Windows
 - OS
 -
-- 
+-
 ---
 
 
@@ -24,4 +24,3 @@ tags:
 <p><img src="https://cafeptthumb-phinf.pstatic.net/MjAxODAyMjRfOTEg/MDAxNTE5NDQ1NTg3MTk0.U-M2J938xy__PF7hh_r0ik3b64RoiTwLdBfEdPSXeeMg.KpGSlx3miEgWdw4mQ-mjwn3OERB7t4Lt0XeT27Gx6iMg.PNG.mdbs2/%EC%9D%B4%EB%AF%B8%EC%A7%80_006.png?type=w740">방금 생성한 파일을 선택해주면 끝입니다</p>
 <p>이제 파일은 삭제해도 됩니다<img src="https://cafeptthumb-phinf.pstatic.net/MjAxODAyMjRfMTgz/MDAxNTE5NDQ1NTg3Mjc2.lrSD_xs08IxKVSqEXpg1QESasErvGusfdYLuLpSMiV0g.CE-pKQ3YftEtNXTTB26uZF1wJw1CpJHrKw7wSaDGDfUg.PNG.mdbs2/%EC%9D%B4%EB%AF%B8%EC%A7%80_007.png?type=w740"></p>
 <p><img src="https://gfmarket-phinf.pstatic.net/moon_and_james/original_2.png?type=p50_50"></p>
-

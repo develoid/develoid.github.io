@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '이번 HTTPS 차단 우회방법입니다.'
+title: '[커뮤니티] 이번 HTTPS 차단 우회방법입니다.'
 author: 'rhkr8521'
 categories: Network
 tags:
@@ -28,4 +28,3 @@ tags:
 <p>+ 엣지나 익스플로러의 경우엔 MTU를 220으로 낮추어야 작동합니다.</p>
 <p>1. netsh interface ip set global minmtu=400 -&gt; netsh interface ip set global minmtu=220</p>
 <p>2. netsh interface ipv4 set subinterface "색인번호" mtu=400 store=persistent -&gt; netsh interface ipv4 set subinterface "색인번호" mtu=220 store=persistent</p>
-

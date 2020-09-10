@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#3 App의 구조와 동작 원리'
+title: '[커뮤니티] #3 App의 구조와 동작 원리'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -121,4 +121,3 @@ tags:
 <p>최대한 쉽게 풀어 쓴다했는대 좀 어려운 부분도 있을것 같군요...</p>
 <p>&nbsp;</p>
 <p>다음편부터는 이제 본격적으로 어플을 만들어 보는시간을 가져보겠습니다</p>
-

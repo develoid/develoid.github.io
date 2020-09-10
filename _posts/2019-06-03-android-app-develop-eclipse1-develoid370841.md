@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#27 어플에서 SMS(문자) 전송 하기'
+title: '[커뮤니티] #27 어플에서 SMS(문자) 전송 하기'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -151,4 +151,3 @@ tags:
 <p></p>
 <p>참조 :&nbsp;http://developer.android.com/reference/android/telephony/gsm/SmsManager.html</p>
 <p>http://whdghks913.tistory.com/424</p>
-

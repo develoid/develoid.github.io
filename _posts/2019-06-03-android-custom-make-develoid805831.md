@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'APK 디컴파일 / 컴파일 방법'
+title: '[커뮤니티] APK 디컴파일 / 컴파일 방법'
 author: 'NVME'
 categories: Android-Custom-Make
 tags:
@@ -82,4 +82,3 @@ tags:
 <p >Copyright©코어넷. All rights reserved.</p>
 <p>&nbsp;</p>
 </p>
-

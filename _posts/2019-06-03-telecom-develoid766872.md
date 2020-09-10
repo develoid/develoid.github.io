@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'APN(모바일 네트워크) 설정해보자!'
+title: '[커뮤니티] APN(모바일 네트워크) 설정해보자!'
 author: 'ㅇ쭈니ㅇ'
 categories: Telecom
 tags:
@@ -120,4 +120,3 @@ tags:
  <p></p>
 
 </p>
-

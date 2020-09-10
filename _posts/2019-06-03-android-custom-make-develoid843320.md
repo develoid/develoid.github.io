@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Apk Manager 21번 에러 팁'
+title: '[커뮤니티] Apk Manager 21번 에러 팁'
 author: '글작성자'
 categories: Android-Custom-Make
 tags:
@@ -37,4 +37,3 @@ tags:
 <p>귀찮지만 Sign 작업하실때, 이름.apk와 unsigned이름.apk를 함께 넣어주셔야 합니다. (물론 둘 다 같은 파일로)</p>
 <p><img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAxMTFfMTA2/MDAxNTQ3MTg4NTQ0Mzcx.w6tphlSuitUV3L8t_BS1iRWIfb4NfRGSCtqQnt3zjx8g.k3A22lDja1g6XAR8krLQh2MozLtKp1N95LUD8zyYNB8g.PNG.hsm8hsm8/%EC%BA%A1%EC%B2%98.PNG?type=w740"></p>
 <p>이렇게 해주시면 저 에러 안 뜹니다.</p>
-

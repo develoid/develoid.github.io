@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[TIP] KLWP 테마를 적용하는 방법을 간단히 소개합니다!'
+title: '[커뮤니티] KLWP 테마를 적용하는 방법을 간단히 소개합니다!'
 author: '인피케이'
 categories: Android-App
 tags:
@@ -116,4 +116,3 @@ tags:
 <p>역시 글을 적는 것은 항상 어렵습니다..ㅠㅜ</p>
 <p>도움이 되셨기를 바라며,</p>
 <p>긴 글 읽어주셔서 감사합니다 :)</p>
-

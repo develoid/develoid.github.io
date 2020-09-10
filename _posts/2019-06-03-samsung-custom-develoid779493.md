@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '삼성 오레오에서 싯유 테마 시스템 UI 테마 Substratum 사용하기 [ 삼성 오레오 Substratum 강좌 ]'
+title: '[커뮤니티] 삼성 오레오에서 싯유 테마 시스템 UI 테마 Substratum 사용하기 [ 삼성 오레오 Substratum 강좌 ]'
 author: 'ADR5'
 categories: Samsung-Custom
 tags:
@@ -18,4 +18,3 @@ tags:
 <img src="https://cafeptthumb-phinf.pstatic.net/MjAxODAyMTFfMzYg/MDAxNTE4MzMyOTA3MjA5.LjZHR-BxBoGvNxNSwqFW4qZ8x1qxJrcn8SVR0ysITgIg.Y8AEhEIXYBxpkShnFboG-qq8gKwX80gw27roB98mlpMg.JPEG.lshqqytiger/externalFile.jpg?type=w740"><p>그럼 자동으로 Substratum 앱이 열리면서 Substratum 앱을 사용할 수 있게 됩니다.</p>
 <img src="https://cafeptthumb-phinf.pstatic.net/MjAxODAyMTFfMjc2/MDAxNTE4MzMyOTA3NjI2.3lK1AcuOaL78KKGwPbEwP5lToIuBxMFTN_ofeftODiEg.dyIKX0LJnPesCw0kIfz4LGjklhHIayCUK9SiuEft2uEg.JPEG.lshqqytiger/externalFile.jpg?type=w740"><p>그런 다음 자신이 원하는 테마를 선택하고 적용할 항목들을 융통성 있게 체크해 주시고 '빌드 및 활성화'를 눌러 주시면!</p>
 <img src="https://cafeptthumb-phinf.pstatic.net/MjAxODAyMTFfNjQg/MDAxNTE4MzMyOTA4Mjg2.ziUf7TPmXCKY0odqTZNMnsHdlI3fmZAvFtlcyny3V30g.Af0H22ljHzXlI_QD7zx7-O71p4lcMd1g3Kt9U4mRRlIg.JPEG.lshqqytiger/externalFile.jpg?type=w740"><p>이렇게 정상적으로 적용된 모습을 보실 수 있으실 겁니다.긴 글 읽어주셔서 감사합니다.:: 주의 ::1. 나중에 펌웨어 업그레이드 할 때 비활성화 하셔야 합니다.2. 잘못하면 시스템 UI 무한 강종이 날 수 있습니다. 이럴 경우 카페에서 해결법을 검색하셔서 따라하시면 됩니다.위 주의사항을 지키지 않아서 일어난 문제에 대해서 책임지지 않습니다.</p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#2 이클립스 때려서 어플 만들자'
+title: '[커뮤니티] #2 이클립스 때려서 어플 만들자'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -188,4 +188,3 @@ tags:
 <p>&nbsp;</p>
 <p>포스팅 시간(약 1시간 30분 걸렸내요 ㅠㅠ)과 강좌의 길이도 너무 길어져서 여기서는 자세히 언급을 못했습니다</p>
 <p>다음에는 어떻게 작동되는지 한번 자세하게 알아보겠습니다~</p>
-

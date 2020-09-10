@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#25 실전 어플 만들기 - 연습문제1'
+title: '[커뮤니티] #25 실전 어플 만들기 - 연습문제1'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -42,4 +42,3 @@ tags:
 <p>허니콤 이상 안드로이드에서 사용이 안되는 옵션메뉴 형식은 무엇인가?</p>
 <p>25-10&nbsp;문제 10</p>
 <p>서비스는 어떤 경우에 사용하는가?</p>
-

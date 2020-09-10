@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '정말 쉬운 스크래치 3.0 강의를 시작합니다.'
+title: '[커뮤니티] 정말 쉬운 스크래치 3.0 강의를 시작합니다.'
 author: '나도코딩'
 categories: Programming-Scratch
 tags:
@@ -55,4 +55,3 @@ tags:
 <p><iframe src="https://www.youtube.com/embed/rGYBwTcpUbk?wmode=opaque"  height="407px" frame scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
 <p>감사합니다.</p>
 <p>ps) 정말 제 목소리는 아무리 들어도 적응이 안됩니다.. ㅠㅠ</p>
-

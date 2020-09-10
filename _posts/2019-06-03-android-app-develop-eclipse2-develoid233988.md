@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [6] 입력 가능한 칸 생성하기'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [6] 입력 가능한 칸 생성하기'
 author: 'Snails'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -71,4 +71,3 @@ tags:
 <p>&nbsp;</p>
 <p>Run은 생략하고 마치도록 하겠습니다.</p>
 <p>다음 강좌는 레이아웃에 대해 배워보겠습니다.&nbsp;</p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" 4-3 진동'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" 4-3 진동'
 author: 'Snails'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -62,4 +62,3 @@ tags:
 <p>&nbsp;</p>
 <p>다음은 이벤트 핸들러로 들어가겠습니다.</p>
 <p></p>
-

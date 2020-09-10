@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '정말 쉬운 코딩 강의 6번째 시간입니다. (어거스트 러쉬 OST 피아노 연주하기)'
+title: '[커뮤니티] 정말 쉬운 코딩 강의 6번째 시간입니다. (어거스트 러쉬 OST 피아노 연주하기)'
 author: '나도코딩'
 categories: Programming-Scratch
 tags:
@@ -33,4 +33,3 @@ tags:
 <p><iframe src="https://www.youtube.com/embed/Vc_BQJ0i-LQ?wmode=opaque"  height="407px" frame scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
 <p>이 강의를 토대로 여러분들이 원하시는 음악을 피아노, 기타, 드럼을 조합하여 만들어 보실 수 있습니다. ^^</p>
 <p>감사합니다.</p>
-

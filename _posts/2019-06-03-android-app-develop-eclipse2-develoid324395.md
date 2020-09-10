@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [30] 그래픽 스타일 설정'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [30] 그래픽 스타일 설정'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -63,4 +63,3 @@ tags:
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>다음 강좌 : <a href="http://tjdtnsu.blog.me/120200279109">http://tjdtnsu.blog.me/120200279109</a></p>
-

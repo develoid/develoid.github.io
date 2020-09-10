@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '아두이노 응용 - Bluetooth를 이용한 서보 제어'
+title: '[커뮤니티] 아두이노 응용 - Bluetooth를 이용한 서보 제어'
 author: '시류아'
 categories: Arduino
 tags:
@@ -142,4 +142,3 @@ tags:
  <p>소스코드에 정답은 없다. 다양한 생각이 있듯 다양한 방법이 있으며, 그 중 하나일 뿐이다.</p>
 
 </p>
-

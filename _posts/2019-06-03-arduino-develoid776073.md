@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '아두이노 응용 - Xbee 설정과 서보모터 제어'
+title: '[커뮤니티] 아두이노 응용 - Xbee 설정과 서보모터 제어'
 author: '시류아'
 categories: Arduino
 tags:
@@ -561,4 +561,3 @@ tags:
  <p>소스코드에는 정답은 없다. 다양한 생각이 있듯 다양한 방법이 있으며, 이는 그 중 하나다.</p>
 
 </p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#5 TextView를 정복하자'
+title: '[커뮤니티] #5 TextView를 정복하자'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -247,4 +247,3 @@ tags:
 <p>기본적인 TextView의 사용법을 마스터 하신다면 무궁무진한 활용이 가능합니다 ㅎㅎ</p>
 <p>자바코드를 수정한 예제소스</p>
 <p><u>예제소스&nbsp;<a href="http://whdghks913.tistory.com/291">http://whdghks913.tistory.com/291</a>&nbsp;첨부</u></p>
-

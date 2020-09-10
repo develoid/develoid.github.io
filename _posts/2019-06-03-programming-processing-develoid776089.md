@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '프로세싱 응용 - 아두이노 제어 라이브러리 설치'
+title: '[커뮤니티] 프로세싱 응용 - 아두이노 제어 라이브러리 설치'
 author: '시류아'
 categories: Programming-Processing
 tags:
@@ -110,4 +110,3 @@ tags:
  <p>마지막으로 아두이노 IDE 에서 프로세싱과 연동 할 수 있는 라이브러리를 아두이노에 업로드하면 끝난다. 예제&gt;Firmata&gt;StandardFirmata 를 연 후 아두이노에 컴파일하여 업로드하면 끝난다. 아두이노에서 Firmata 예제 별 프로세싱과 연동 할 수 있는 범위가 달라지니 목적에 맞추어서 사용하면 된다.</p>
 
 </p>
-

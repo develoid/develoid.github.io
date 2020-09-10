@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" 5-2 이벤트의 종류(1)'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" 5-2 이벤트의 종류(1)'
 author: 'Snails'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -79,4 +79,3 @@ tags:
 <p></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" 3-3 뷰(1)'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" 3-3 뷰(1)'
 author: 'Snails'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -73,4 +73,3 @@ tags:
 <p>&nbsp;</p>
 <p>오늘은 view의 속성중 아주 기초적인 것만 알아보았고</p>
 <p>다음은 TextView, ImageView&nbsp;전용으로 알아보겠습니다.</p>
-

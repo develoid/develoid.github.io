@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '(Root) build.prop을 이용한 볼륨 세분화 하기'
+title: '[커뮤니티] (Root) build.prop을 이용한 볼륨 세분화 하기'
 author: 'Shine yongs'
 categories: Android-Custom
 tags:
@@ -40,4 +40,3 @@ tags:
 <p><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzAyMTVfMjYx%2FMDAxNDg3MTQ3Mjc3NjM4.hTXrtOrZuK0XMeooHmoLiUxrn3aS5u-nSaXfbv2ScvMg.svqfeZLLYbBwwStgBojhKVd7PP4IiReQd-HX4N20gHIg.PNG.yongs2008%2FScreenshot_20170215-172610.png%22&amp;type=cafe_wa740"></p>
 <p><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fstatic.naver.net%2Fblank.gif%22&amp;type=cafe_wa740"></p>
 <p>그리고 재부팅.볼륨 세분화 적용 어럽지 않죠??</p>
-

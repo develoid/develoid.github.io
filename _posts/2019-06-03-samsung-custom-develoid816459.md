@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '갤럭시 S6 (계열) CSC 변경하기 (절반의 성공)'
+title: '[커뮤니티] 갤럭시 S6 (계열) CSC 변경하기 (절반의 성공)'
 author: '하늘목장'
 categories: Samsung-Custom
 tags:
@@ -59,4 +59,3 @@ tags:
 <p>녹스깨진다는 말이 있어서 그냥 안올렸습니다.</p>
 <p>현재 녹스 안깨지고 G928L + SK CSC 상태입니다.</p>
 </p>
-

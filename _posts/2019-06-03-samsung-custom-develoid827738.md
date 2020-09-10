@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Knox 부트애니메이션 변경 어플'
+title: '[커뮤니티] Knox 부트애니메이션 변경 어플'
 author: '이라시타'
 categories: Samsung-Custom
 tags:
@@ -101,4 +101,3 @@ tags:
 <p>다른 피드백이나 무단으로 이 게시글이 사용된것을 보시면</p>
 <p>스크린샷같은 증거물이나 사이트의 링크를 <a target="_blank" title="새창으로 열림">ohmtech.feedback@gmail.com</a>으로 메일을 보내주시면 감사하겠습니다.</p>
 <p>Knox SDK를 이용한 프로그램입니다. (소리소문없이 사라질수 있습니다..)</p>
-

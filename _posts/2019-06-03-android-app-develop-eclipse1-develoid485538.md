@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#32 최상위에 떠있는 뷰 만들기 (WindowManager)'
+title: '[커뮤니티] #32 최상위에 떠있는 뷰 만들기 (WindowManager)'
 author: 'Mir'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -184,4 +184,3 @@ tags:
 <p>특히 그림 만드는거..</p>
 <p>이 글이 유용하시다면 덧글과 제 블로그에 있는 수입원(?) 한번씩 터치해주시면 감사드리겠습니다..</p>
 <p>미밴드 사고싶어서 빨리 모였으면 하네요 ㅎㅎ..</p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" 6-1 기초 대화상자(1)'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" 6-1 기초 대화상자(1)'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -63,4 +63,3 @@ tags:
 <p>﻿&nbsp;</p>
 <p>﻿&nbsp;</p>
 <p>다음 강좌는 위에 말한 대로 대화상자에 버튼을 생성해 보겠습니다.﻿﻿&nbsp;</p>
-

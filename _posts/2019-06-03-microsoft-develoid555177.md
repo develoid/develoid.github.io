@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '윈도우10 엣지브라우저로 다른 브라우저에서 즐겨찾기 목록 가져오기'
+title: '[커뮤니티] 윈도우10 엣지브라우저로 다른 브라우저에서 즐겨찾기 목록 가져오기'
 author: '제이군i'
 categories: Microsoft
 tags:
@@ -46,4 +46,3 @@ tags:
 <p><img src="https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fstatic.naver.net%2Fblank.gif%22&amp;type=cafe_wa740"></p>
 <p>For This Moment..</p>
 <p>&nbsp;</p>
-

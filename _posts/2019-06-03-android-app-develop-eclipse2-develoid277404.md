@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" Bonus-1 AVD 내의 예제'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" Bonus-1 AVD 내의 예제'
 author: 'Snails'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -65,4 +65,3 @@ tags:
 <p>이것도 구경할 맛이 나니 해보면 좋을 겁니다.</p>
 <p>&nbsp;</p>
 <p>다음 방학시간때 보겠습니다.</p>
-

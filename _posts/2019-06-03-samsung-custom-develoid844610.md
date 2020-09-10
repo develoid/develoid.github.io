@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '루팅 및 굿락 없이 상단바 정리하기'
+title: '[커뮤니티] 루팅 및 굿락 없이 상단바 정리하기'
 author: '로스트원'
 categories: Samsung-Custom
 tags:
@@ -19,4 +19,3 @@ tags:
 <img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAxMTdfNDYg/MDAxNTQ3Njg2MzkxODgy.k5LAkTnPx1fJtZmVrE3Q3br379HvcVUoMreY15XiIjAg.1mrucuM9omnm0ybAgTjiqrW0JIB_Wrg_8ECfkyjn5cQg.JPEG.unwho145/externalFile.jpg?type=w740"><p>시험을 눌러줍니다.</p>
 <img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAxMTdfMTQ5/MDAxNTQ3Njg2MzkxODQ0.IjWM88wdY0zbooDIIYLov1bXVdgFIPSoC2iCk6Mb2jkg.WvW6er64zE8aBH4M40xGHOBX7Gti2wy_S4iS_ZnL7JIg.JPEG.unwho145/externalFile.jpg?type=w740"><p>상태표시줄에 들어갑니다. </p>
 <img src="https://cafeptthumb-phinf.pstatic.net/MjAxOTAxMTdfMTE4/MDAxNTQ3Njg2MzkxODgw.KBJBcUspEeGcjm2tx4uaoybnycx3Cm_prW9xIq2qfFkg.GlJyASVxkVM0zm76DDwnMRrgk42HUicMkAptpnedkZEg.JPEG.unwho145/externalFile.jpg?type=w740"><p>상태바에 원하는 정보만 띄울 수 있게 설정 가능합니다.아이폰으로 타자를 치다보니 오타가 좀 있을 수 있습니다ㅠㅠ 만약 있다면 댓글로 지적 부탁드립니다. 긴 글 읽어주셔서 감사드립니다. 게시판은 어디로 해야할지 잘 몰라서 강좌 삼성으로 일단 해두었습니다.</p>
-

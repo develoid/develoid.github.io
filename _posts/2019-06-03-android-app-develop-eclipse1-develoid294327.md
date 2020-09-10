@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#7 EditText는 완전 쉬워요~'
+title: '[커뮤니티] #7 EditText는 완전 쉬워요~'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -195,4 +195,3 @@ tags:
 <p>예제 소스 : 네이버 카페에서는 다운이 제한됩니다</p>
 <p>&nbsp;</p>
 <p><a href="http://whdghks913.tistory.com/306">http://itmir.tistory.com/306</a></p>
-

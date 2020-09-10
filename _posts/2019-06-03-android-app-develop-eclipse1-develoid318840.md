@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#17 커스텀 알림(Alert) 띄우기'
+title: '[커뮤니티] #17 커스텀 알림(Alert) 띄우기'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -223,4 +223,3 @@ tags:
 <p>이글은 [ http://whdghks913.tistory.com/358 ] 에서 다시 보실수 있으며 원본 글의 저작권은 미르에게 있습니다</p>
 <p>&nbsp;</p>
 <p>이 강좌의 예제소스는 #18 강좌가 나오면 업로드 됩니다</p>
-

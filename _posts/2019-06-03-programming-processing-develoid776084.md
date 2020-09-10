@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Processing이란?'
+title: '[커뮤니티] Processing이란?'
 author: '시류아'
 categories: Programming-Processing
 tags:
@@ -56,4 +56,3 @@ tags:
  <p>많은 라이브러리가 개발되어있어 아두이노와 연동해서 사용하던가, 위의 링크처럼 안드로이드용 애플리케이션 제작 등 그래픽 쪽으로는 많이 사용되고 있다. 그리고 라이브러리 추가 역시 매우 간단하고 편하며, 프로세싱 IDE를 베이스로해서 아두이노 IDE가 나왔다.</p>
 
 </p>
-

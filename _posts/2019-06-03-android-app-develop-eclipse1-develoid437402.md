@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#30 애니메이션에 대해 알아보자 (Tween Animation)'
+title: '[커뮤니티] #30 애니메이션에 대해 알아보자 (Tween Animation)'
 author: 'Mir'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -90,4 +90,3 @@ tags:
 <p></p>
 <p>머리가 아파서 횡설수설한거같네요;</p>
 <p>예제소스 뜯어보시며 값 하나씩 수정해 보시면 더 정확히 아실수 있을겁니다</p>
-

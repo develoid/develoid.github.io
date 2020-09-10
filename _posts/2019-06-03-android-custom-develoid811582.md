@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '상단바 시계를 초시계로 만들기(루팅x)'
+title: '[커뮤니티] 상단바 시계를 초시계로 만들기(루팅x)'
 author: 'daf720'
 categories: Android-Custom
 tags:
@@ -19,7 +19,7 @@ tags:
         <p>
                           <p>
                         <img src="https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fcafeptthumb-phinf.pstatic.net%2FMjAxODAyMjJfMTE3%2FMDAxNTE5MzEwMDE3MjE3.z9mGM-Z44VCHVUHeJHKcSKKYoH_vf4zMG4Z6bDT6KyYg.ZU5rIvQnmHDvbqOwiIwn9lGaAsi7rTSEDsL8ffhRR7Mg.PNG.searphiel9%2Fwjrdydvlfdy.png%3Ftype%3Dw740%22&amp;type=f220">
-                        
+
                 </p>
 
                 <p>
@@ -44,4 +44,3 @@ tags:
 <img src="https://cafeptthumb-phinf.pstatic.net/MjAxODA3MjBfMzgg/MDAxNTMyMDI0ODgwNzM4.DkjTSeFkXep1yzh2d4KwhgfQ3W1uwYtKxoYi3bj-N_kg.8VaMNXs0LaGAG81zMwuea9620X23zTKVM402OmGHfUMg.JPEG.cbm852/Screenshot_20180720-032739_SystemUI_Tuner.jpg?type=w740"><p>&nbsp;</p>
 참 쉽죠?<p>&nbsp;</p>
 <p>&nbsp;</p>
-

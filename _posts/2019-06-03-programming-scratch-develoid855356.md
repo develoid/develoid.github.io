@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '정말 쉬운 코딩 강의 8번째 시간입니다. (게임 캐릭터가 내 목소리를 듣는다??)'
+title: '[커뮤니티] 정말 쉬운 코딩 강의 8번째 시간입니다. (게임 캐릭터가 내 목소리를 듣는다??)'
 author: '나도코딩'
 categories: Programming-Scratch
 tags:
@@ -43,4 +43,3 @@ tags:
 <p>8-9.내 목소리를 제이미가 듣는다구?? 소리를 질러서 제이미를 도와주세요!!</p>
 <p><iframe src="https://www.youtube.com/embed/9d-2QHftlWU?wmode=opaque"  height="407px" frame scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
 <p>감사합니다.</p>
-

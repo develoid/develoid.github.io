@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [39] 일시정지(Delay)'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [39] 일시정지(Delay)'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -66,4 +66,3 @@ tags:
 <p>번호로 붙여 나가도록 하겠습니다.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-

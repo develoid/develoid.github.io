@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '정말 쉬운 코딩 강의 9번째 시간입니다. (실전 프로젝트 준비하기)'
+title: '[커뮤니티] 정말 쉬운 코딩 강의 9번째 시간입니다. (실전 프로젝트 준비하기)'
 author: '나도코딩'
 categories: Programming-Scratch
 tags:
@@ -36,4 +36,3 @@ tags:
 <p><iframe src="https://www.youtube.com/embed/zH0u58sfaPc?wmode=opaque"  height="407px" frame scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
 <p><a href="https://youtu.be/zH0u58sfaPc">https://youtu.be/zH0u58sfaPc</a></p>
 <p>감사합니다.</p>
-

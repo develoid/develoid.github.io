@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[툴] 누구나 쉽게 사용할 수 있는 디/컴파일 툴 - APK Easy Tool'
+title: '[커뮤니티] 누구나 쉽게 사용할 수 있는 디/컴파일 툴 - APK Easy Tool'
 author: '글작성자'
 categories: Android-Custom-Make
 tags:
@@ -55,7 +55,7 @@ tags:
         <p>
                           <p>
                         <img src="https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fi.imgur.com%2F95eMIU9.png%22&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;type=f560_336">
-                        
+
                 </p>
 
                 <p>
@@ -101,7 +101,7 @@ tags:
         <p>
                           <p>
                         <img src="https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fnotepad-plus-plus.org%2Fassets%2Fimages%2Ffolder_download_4.png%22&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;type=f220">
-                        
+
                 </p>
 
                 <p>
@@ -130,4 +130,3 @@ tags:
 <p>이제 'Compiled APK directory'를 눌러 서명된 APK파일을 확인할 수 있다.</p>
 <p>그러나 필자는 설치 후 동적 라이브러리(SO 파일)에 있던 해시 검사로 인하여 앱이 열리지 않았다.</p>
 <p>이처럼&nbsp;컴파일 후에도 설치 및 실행이 제대로 될지는 장담할 수는 없을 것 같다.</p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '아두이노 기본 - Analog I/O 함수'
+title: '[커뮤니티] 아두이노 기본 - Analog I/O 함수'
 author: '시류아'
 categories: Arduino
 tags:
@@ -148,4 +148,3 @@ tags:
  <p></p>
 
 </p>
-

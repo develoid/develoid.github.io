@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '아두이노 기초 - LED를 이용한 기초 TIP'
+title: '[커뮤니티] 아두이노 기초 - LED를 이용한 기초 TIP'
 author: '시류아'
 categories: Arduino
 tags:
@@ -97,11 +97,11 @@ tags:
    //&nbsp;변수&nbsp;정의
    #define&nbsp;BUTTON1&nbsp;2&nbsp;//&nbsp;BUTTON1은&nbsp;2번&nbsp;PIN
    #define&nbsp;BUTTON2&nbsp;3&nbsp;//&nbsp;BUTTON2는&nbsp;3번&nbsp;PIN
-   
+
    int&nbsp;LED[4]&nbsp;=&nbsp;{6,7,8,9};&nbsp;//&nbsp;LED1~4는&nbsp;6번&nbsp;핀부터&nbsp;9번&nbsp;핀까지&nbsp;순서대로
    int&nbsp;val1&nbsp;=&nbsp;0;&nbsp;//&nbsp;디지털&nbsp;값&nbsp;저장&nbsp;1
    int&nbsp;val2&nbsp;=&nbsp;0;&nbsp;//&nbsp;디지털&nbsp;값&nbsp;저장&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   
+
    //&nbsp;설정
    void&nbsp;setup()&nbsp;{
    &nbsp;&nbsp;Serial.begin(9600);&nbsp;//&nbsp;PC로&nbsp;확인을&nbsp;위한&nbsp;시리얼&nbsp;통신&nbsp;&nbsp;
@@ -211,9 +211,9 @@ tags:
  <p>
   <p>
    int&nbsp;limit&nbsp;=&nbsp;0;&nbsp;//&nbsp;추가&nbsp;버튼&nbsp;입력&nbsp;제한
-   
+
    ...
-   
+
    void&nbsp;loop()&nbsp;{
    &nbsp;&nbsp;//&nbsp;디지털&nbsp;값&nbsp;수신
    &nbsp;&nbsp;val1&nbsp;=&nbsp;digitalRead(BUTTON1);
@@ -405,4 +405,3 @@ tags:
  <p>소스코드에는 정답이 없다. 다양한 생각이 있듯 다양한 방법이 있다. 이 예제들은 그 중 하나일 뿐이다.</p>
 
 </p>
-

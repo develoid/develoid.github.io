@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" 6-4 목록 대화상자'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" 6-4 목록 대화상자'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -126,4 +126,3 @@ tags:
 <p></p>
 <p></p>
 </p>
-

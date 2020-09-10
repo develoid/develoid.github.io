@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" [36] SQLite Administrator 다루기'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [36] SQLite Administrator 다루기'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -91,4 +91,3 @@ tags:
 </p>
 </p>
 </td></tr></tbody></table></p>
-

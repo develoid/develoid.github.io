@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" 2-6 이미지 추가하기'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" 2-6 이미지 추가하기'
 author: 'Snails'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -93,4 +93,3 @@ tags:
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>다음은 Bonus 타임으로 실전으로 만들어 보도록 하겠습니다.(범위 : 2-2~2-6)&nbsp;</p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"아마도 쉬운 안드로이드 어플만들기" 6-2 알림 메세지'
+title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" 6-2 알림 메세지'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
@@ -51,4 +51,3 @@ tags:
 <p>﻿﻿﻿</p>
 <p>﻿﻿﻿다음은 명령 잇기와 그에 따른 계산을 해보겠습니다.</p>
 <p></p>
-

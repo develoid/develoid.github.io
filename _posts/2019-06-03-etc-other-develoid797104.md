@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[사소한 Tip] 단축번호로 1초 만에 전화 거는 법'
+title: '[커뮤니티] 단축번호로 1초 만에 전화 거는 법'
 author: '지나가는V10'
 categories: Etc-Ohter
 tags:
@@ -159,4 +159,3 @@ tags:
  <p>공감과 이웃추가, 댓글은 보다 많은 힘이 됩니다.&nbsp;(Unbox IT=에디터&nbsp;후니)----------------------------------------에디터&nbsp;후니: ssd128gb@naver.comUnbox IT: unbox827@naver.com--------------------------------------------------Copyright @Unbox IT. All rights reserved.</p>
 
 </p>
-

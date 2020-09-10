@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[01] 자바스크립트 소개'
+title: '[커뮤니티] [01] 자바스크립트 소개'
 author: 'ㅎ엘로이ㅎ'
 categories: Programming-JavaScript
 tags:
@@ -61,4 +61,3 @@ tags:
 <p>대부분의 브라우저들은 콘솔 API를 제공한다.&nbsp;코드 실행중에 오류가 발생하면 오류메세지를 콘솔창을 통해서 확인이 가능하고,&nbsp;console.log()함수를 이용하여 콘솔창에 직접 출력도 가능하다. 이 함수는 코드 디버깅할때 유용하다.&nbsp;</p>
 <p>ex) Google Chrome 콘솔 창</p>
 <p><img src="https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fcafeptthumb-phinf.pstatic.net%2F20140509_54%2Fzeroday7_13996140200041IpN2_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2014-05-09_%25BF%25C0%25C8%25C4_2.36.28.png%3Ftype%3Dw740%22&amp;type=cafe_wa740"></p>
-

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Jetbrain, Github 학생인증을 해서 무료혜택을 받아보자'
+title: '[커뮤니티] Jetbrain, Github 학생인증을 해서 무료혜택을 받아보자'
 author: 'ilcm96'
 categories: Etc-Ohter
 tags:
@@ -60,4 +60,3 @@ tags:
 <p>긴 글 읽어주셔서 감사하며, 궁금한점이나 질문있으시면 댓글 달아주시면 도움드리겠습니다.</p>
 <p>감사합니다 :)</p>
 <p></p>
-

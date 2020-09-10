@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#15 SeekBar로 화면 밝기 조절해 보자'
+title: '[커뮤니티] #15 SeekBar로 화면 밝기 조절해 보자'
 author: '미르'
 categories: Android-App-Develop(Eclipse1)
 tags:
@@ -144,4 +144,3 @@ tags:
 <p>네이버 카페에서는 원본글에서만 예제소스 다운로드가 가능합니다</p>
 <p></p>
 <p>이글은 [http://whdghks913.tistory.com/347] 에서 다시 보실수 있으며 원본 글의 저작권은 미르에게 있습니다</p>
-

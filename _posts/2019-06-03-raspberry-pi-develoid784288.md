@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Raspberry Pi 에 OS 설치하기'
+title: '[커뮤니티] Raspberry Pi 에 OS 설치하기'
 author: '시류아'
 categories: Raspberry-Pi
 tags:
@@ -282,4 +282,3 @@ tags:
  <p><a href="https://www.raspberrypi.org/documentation/installation/">https://www.raspberrypi.org/documentation/installation/</a></p>
 
 </p>
-

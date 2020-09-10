@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[배터리] - 배터리 단위는 mAh가 아니다!'
+title: '[커뮤니티] 배터리 단위는 mAh가 아니다!'
 author: '손익끄'
 categories: Etc-Ohter
 tags:
@@ -75,4 +75,3 @@ tags:
 <p>2. Wh는 배터리의 공칭 전압과 mAh값을 곱해주면 알 수 있다.</p>
 <p>입니다.</p>
 <p>긴 글 봐주셔서 감사합니다.</p>
-

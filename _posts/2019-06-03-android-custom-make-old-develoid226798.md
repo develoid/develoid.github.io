@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'CM 빌드/ Apk 컴파일 등에서 나타나는 오류 해결법 [정리]'
+title: '[커뮤니티] CM 빌드/ Apk 컴파일 등에서 나타나는 오류 해결법 [정리]'
 author: '미르'
 categories: Android-Custom-Make(Old)
 tags:
@@ -330,4 +330,3 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space<p><p>이�
 <p>apk manager기준으로 20번 최대 메모리 설정 (heap size)를 기본 60mb을 다른 값으로 변경해 주시면 됩니다</p>
 <p>256mb, 512mb 등으로 말이죠 ㅋㅋ</p>
 </p>
-

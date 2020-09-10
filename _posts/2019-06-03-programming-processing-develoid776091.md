@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '프로세싱 응용 - 아두이노 서보모터 제어하기'
+title: '[커뮤니티] 프로세싱 응용 - 아두이노 서보모터 제어하기'
 author: '시류아'
 categories: Programming-Processing
 tags:
@@ -203,4 +203,3 @@ tags:
  <p>소스코드에 정답은 없다. 다양한 생각이 있듯 다양한 방법이 있고, 그 중 하나일 뿐이다.</p>
 
 </p>
-
