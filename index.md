@@ -8,21 +8,21 @@ page_title: HOME
 
   <ul id="searchResults" class="searchResults"></ul>
 
-  <hr class="pageHr" />
+</div>
 
+<div class="category">
   <ul class="categoryList">
   {% assign pages_list = site.pages %}
   {% for node in pages_list %}
     {% if node.title != null %}
       {% if node.layout == "category" %}
       <a class="categoryLink {% if page.url == node.url %} active{% endif %}"
-      href="{{ site.baseurl }}{{ node.url }}"><li>by <b>{{ node.title }}</b></li></a>
+      href="{{ site.baseurl }}{{ node.url }}"><li><b>{{ node.title }}</b></li></a>
       {% endif %}
     {% endif %}
   {% endfor %}
   </ul>
 </div>
-
 
 
 <!-- Script pointing to jekyll-search.js -->

@@ -345,7 +345,7 @@ function compile(data){
     if( results.length === 0 ){
       return appendToResultsContainer(options.noResultsText)
     }
-    appendToResultsContainer( '<hr class="pageHr" />' );
+    //appendToResultsContainer( '<hr class="pageHr" />' );
     for (var i = 0; i < results.length; i++) {
       appendToResultsContainer( templater.compile(results[i]) )
     }

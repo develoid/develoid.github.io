@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<h1 class="categoryTitle">by {{page.title}}</h1>
-<hr class="postHr" />
+<h1 class="categoryTitle">{{page.title}}</h1>
+<!--<hr class="postHr" />-->
 <ul class="postsList">
   {% assign category = page.category | default: page.title %}
   {% assign products = site.categories[category] | sort: 'title' %}

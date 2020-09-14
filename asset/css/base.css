@@ -32,10 +32,11 @@
 
 /* Body */
 body {
-  background: #FAFAFA;
+  background: #F5F5F5;
   font-family: Core4;
   font-size: 16px;
   color: #212121;
+  letter-spacing: 2px;
 }
 
 a {
