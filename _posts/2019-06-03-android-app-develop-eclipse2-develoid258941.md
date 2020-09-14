@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" 3-1 글자가 화면에 나타나기까지의 과정'
+title: '[커뮤니티] 아마도 쉬운 안드로이드 어플만들기 3-1 글자가 화면에 나타나기까지의 과정'
 author: 'Snails'
 categories: Android-App-Develop(Eclipse2)
 tags:

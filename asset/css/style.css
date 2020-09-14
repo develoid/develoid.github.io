@@ -1,47 +1,19 @@
-@charset "UTF-8";
-/*@import url('https://cdn.rawgit.com/develoid/NanumSquare/master/nanumsquare.css');*/
-@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
-
-*, *:before, *:after {
-  margin: 0;
-  padding: 0;
-  outline: none;
-  text-decoration: none;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.clearfix:before,
-.clearfix:after {
+#main {
   display: table;
-  content: " ";
-}
-.clearfix:after { clear: both; }
-
-body {
-  font-family: "NanumSquare", sans-serif;
-  background: #FAFAFA;
-  font-size: 18px;
-  color: #212121;
+  padding: 60px 10px;
 }
 
-a {
-  text-decoration: none;
-  transition: 0.5s;
-  color: #212121;
+#main {
+  min-height: 30vh;
 }
 
-a:hover {
-  color: #00BCD4;
-}
-
-input {
-  -webkit-border-radius: 0;
-  -webkit-appearance: none;
+#item {
+  width: 100vw;
+  display: table-cell;
 }
 
 /* Nav */
+/*
 #nav {
   width: 100%;
 }
@@ -64,11 +36,6 @@ input {
   font-weight: bold;
   transition: 0.5s;
   color: #9c9b9b;
-  /*
-  background: -webkit-linear-gradient(right, #00E5FF, #00B0FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  */
 }
 
 .navTitle img {
@@ -79,12 +46,14 @@ input {
 }
 
 .navTitle:hover {
-  color:#00E5FF;
-  /*
-  background: -webkit-linear-gradient(right, #00B0FF, #00E5FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  */
+  color:#FF7477;
+}
+*/
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Content */
@@ -106,7 +75,7 @@ input {
 .searchInput {
   width:100%;
   border: 1px solid #dedede;
-  border-radius: 32px;
+  border-radius: 0.25em;
   background: #fff;
   transition: 0.5s;
   font-size: 20px;
@@ -115,8 +84,8 @@ input {
 .searchInput:hover,
 .searchInput:focus,
 .searchInput:active {
-  border: 1px solid #00BCD4;
-  box-shadow: 0 2px 4px 0 #80DEEA;
+  border: 1px solid #FF7477;
+  box-shadow: 0 2px 4px 0 #FFAD93;
 }
 
 .categoryList,
@@ -132,7 +101,7 @@ input {
 .btn,
 .abox {
   border: 1px solid #dedede;
-  border-radius: 12px;
+  border-radius: 0.25em;
   background: #fff;
 }
 
@@ -149,9 +118,9 @@ input {
 .searchResults li:hover,
 .postsList li:hover,
 .btn:hover {
-  border: 1px solid #00BCD4;
-  color: #00BCD4;
-  box-shadow: 0 2px 4px 0 #80DEEA;
+  border: 1px solid #FF7477;
+  color: #FF7477;
+  box-shadow: 0 2px 4px 0 #FFAD93;
 }
 
 .content {
@@ -165,10 +134,11 @@ input {
 .content .pageTitle {
   font-size: 34px;
   padding: 8px 16px;
-  border-left: 12px solid #00BCD4;
+  border-left: 12px solid #FF7477;
   border-bottom: 0;
 }
 
+/*
 .footer {
   margin-top: 64px;
   margin-bottom: 32px;
@@ -189,9 +159,10 @@ input {
 }
 
 .footDesc a:hover {
-  color:#00BCD4;
+  color:#FF7477;
   transition: 0.5s;
 }
+*/
 
 /* HR Line */
 .pageHr {
@@ -241,23 +212,23 @@ input {
 code.highlighter-rouge {
   padding: 2px 8px;
   border: 0;
-  border-radius: 4px;
+  border-radius: 0.25em;
   color: #fff;
-  background: #00BCD4;
+  background: #FF7477;
 }
 
 .content .highlight pre {
   margin: 20px 0;
   padding: 12px;
   border:0;
-  border-radius: 8px;
+  border-radius: 0.25em;
   background: #ECEFF1;
   color: #212121;
   white-space: pre-wrap;
 }
 
 .content a {
-  color: #03A9F4;
+  color: #FF7477;
 }
 
 .content h1 {
@@ -300,7 +271,7 @@ code.highlighter-rouge {
   max-width: 100%;
   margin: 16px auto;
   border: 0;
-  border-radius: 8px;
+  border-radius: 0.25em;
   display: block;
 }
 
@@ -326,7 +297,7 @@ code.highlighter-rouge {
 .content blockquote {
   margin: 16px 4px;
   padding: 12px 8px;
-  border-left:6px solid #00BCD4;
+  border-left:6px solid #FF7477;
 }
 .content blockquote p { word-break:break-all; }
 .content blockquote ol,
@@ -341,7 +312,7 @@ code.highlighter-rouge {
 
 .content table {
   width:100%;
-  border-radius: 8px;
+  border-radius: 0.25em;
   border-collapse: collapse;
 }
 
@@ -364,26 +335,27 @@ code.highlighter-rouge {
 }
 
 .ruleTitle {
-  background:#00BCD4;
+  background:#FF7477;
   color:#fff;
   text-align:center;
 }
 
 .ruleH2 {
-  background:#00BCD4;
+  background:#FF7477;
   color:#fff;
   text-align:center;
 }
 
 /* Phone */
 @media screen and (max-width: 1199px) {
+  /*
   .nav,
   .container,
   .footer {
     margin-left: 8px;
     margin-right: 8px;
   }
-
+  */
   .searchInput,
   .categoryList li,
   .searchResults li,

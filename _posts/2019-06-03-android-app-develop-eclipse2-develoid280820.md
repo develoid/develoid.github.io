@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" 4-2 소리'
+title: '[커뮤니티] 아마도 쉬운 안드로이드 어플만들기 4-2 소리'
 author: 'Snails'
 categories: Android-App-Develop(Eclipse2)
 tags:

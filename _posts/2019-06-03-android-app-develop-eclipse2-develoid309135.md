@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" 6-2 알림 메세지'
+title: '[커뮤니티] 아마도 쉬운 안드로이드 어플만들기 6-2 알림 메세지'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:

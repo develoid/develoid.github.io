@@ -1,13 +1,11 @@
 ---
 layout: post
-title: '[커뮤니티] 삼성 디바이스 관리 '디바이스 보호' 비활성화(사용 동의 철회)방법'
+title: '[커뮤니티] 삼성 디바이스 관리 디바이스 보호 비활성화(사용 동의 철회)방법'
 author: 'HongKui'
 categories: Samsung
 tags:
 - Samsung
 - Device
--
--
 ---
 
 

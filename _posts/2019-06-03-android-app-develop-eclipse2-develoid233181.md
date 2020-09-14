@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [5] 텍스트 출력하기'
+title: '[커뮤니티] 아마도 쉬운 안드로이드 어플만들기 [5] 텍스트 출력하기'
 author: 'Snails'
 categories: Android-App-Develop(Eclipse2)
 tags:

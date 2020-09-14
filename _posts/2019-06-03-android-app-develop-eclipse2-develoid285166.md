@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[커뮤니티] "아마도 쉬운 안드로이드 프로그래밍" 5-1 이벤트 처리(2)'
+title: '[커뮤니티] 아마도 쉬운 안드로이드 프로그래밍 5-1 이벤트 처리(2)'
 author: 'Snails'
 categories: Android-App-Develop(Eclipse2)
 tags:

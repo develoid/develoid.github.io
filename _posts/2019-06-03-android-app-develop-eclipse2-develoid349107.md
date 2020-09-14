@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[커뮤니티] "아마도 쉬운 안드로이드 어플만들기" [37] 데이터 조회하기(1)'
+title: '[커뮤니티] 아마도 쉬운 안드로이드 어플만들기 [37] 데이터 조회하기(1)'
 author: '달팽이들'
 categories: Android-App-Develop(Eclipse2)
 tags:
