@@ -21,6 +21,10 @@
   margin-right: auto;
 }
 
+#main #item {
+  display: table-cell;
+}
+
 /* Mobile */
 @media (max-width: 1024px) {
   #item { width: 75vw; }
