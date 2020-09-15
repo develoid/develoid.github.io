@@ -132,6 +132,10 @@ input {
 */
 
 /* main */
+#main {
+  width: 100vw;
+}
+
 #main h1 {
   font-size: 80px;
   font-family: Core5;
