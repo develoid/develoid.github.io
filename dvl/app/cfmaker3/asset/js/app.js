@@ -5,10 +5,10 @@
 // Sponsor Banner = SB
 // Footer = FT
 
-// TM 0 / BP 1 / EB 2 / BC 3 / SB 4 / FT 5
-let arrayCNT = new Array(9,1,1,5,5,1);
-let arraySET = new Array(1,1,1,5,5,1);
-let arrayCMD = new Array("tm", "bp", "eb", "bc", "sb", "ft");
+// TM 0 / BP 1 / EB 2 / BC 3 / SB 4 / OB 5 / FT 6
+let arrayCNT = new Array(11,1,1,5,5,5,1);
+let arraySET = new Array(1,1,1,5,5,5,1);
+let arrayCMD = new Array("tm", "bp", "eb", "bc", "sb", "ob", "ft");
 let arrayITEM = new Array();
 
 // Resource
@@ -36,13 +36,16 @@ function dropIMG(event, id) {
 
 // 배열 위치 가져오기
 function getTarget(target) {
+  //console.log(target);
+
   var out = 0;
   if(target == "tm") out = 0;
   else if(target == "bp") out = 1;
   else if(target == "eb") out = 2;
   else if(target == "bc") out = 3;
   else if(target == "sb") out = 4;
-  else if(target == "ft") out = 5;
+  else if(target == "ob") out = 5;
+  else if(target == "ft") out = 6;
 
   return out;
 }
@@ -59,7 +62,7 @@ function ItemControl(type, target) {
 
       let targetId = "#" + arrayCMD[num];
 
-      if(num == 3 && i > 2) { // 베스트 & 콘텐츠 중 콘텐츠 영역 색상 구분
+      if((num == 3 && i > 2) || (num == 5 && i > 2)) { // 베스트 & 콘텐츠 중 콘텐츠 영역 색상 구분
         $(targetId).append('<tr id="'+arrayCMD[num]+'_'+arrayCNT[num]+'"><td>'+arrayCNT[num]+'</td><td><input type="url" id="'+arrayCMD[num]+'_i'+arrayCNT[num]+'" ondrop="dropIMG(event, this.id)" class="dvlc"></td><td><input type="url" id="'+arrayCMD[num]+'_u'+arrayCNT[num]+'" ondrop="dropURL(event, this.id)" class="dvlc"></td></tr>');
       } else { // 목록 추가
         $(targetId).append('<tr id="'+arrayCMD[num]+'_'+arrayCNT[num]+'"><td>'+arrayCNT[num]+'</td><td><input type="url" id="'+arrayCMD[num]+'_i'+arrayCNT[num]+'" ondrop="dropIMG(event, this.id)"></td><td><input type="url" id="'+arrayCMD[num]+'_u'+arrayCNT[num]+'" ondrop="dropURL(event, this.id)"></td></tr>');
@@ -77,7 +80,7 @@ function ItemControl(type, target) {
     }
   }
 
-  console.log(arrayCMD[num], arrayCNT[num]); // 현재 카운트 출력
+  //console.log(arrayCMD[num], arrayCNT[num]); // 현재 카운트 출력
 }
 
 /* 데이터 관리 */
@@ -112,7 +115,7 @@ function ItemObjectMake(target) {
     let tempIMG = arrayCMD[num] + "_i" + x;
     let tempURL = arrayCMD[num] + "_u" + x;
 
-    console.log(tempIMG, tempURL);
+    //console.log(tempIMG, tempURL);
 
     // 데이터 가져오기
     temp.img = ItemDataCheckImg(document.getElementById(tempIMG).value);
@@ -135,9 +138,10 @@ function ItemArrayMake() {
   ItemObjectMake('eb');
   ItemObjectMake('bc');
   ItemObjectMake('sb');
+  ItemObjectMake('ob');
   //ItemObjectMake('ft');
 
-  console.log(arrayITEM);
+  //console.log(arrayITEM);
 }
 
 /* JSON 데이터 저장 */
@@ -169,15 +173,17 @@ function ItemSave() {
   json.EB = arrayCNT[2];
   json.BC = arrayCNT[3];
   json.SB = arrayCNT[4];
-  //json.FT = arrayCNT[5];
+  json.OB = arrayCNT[5];
+  //json.FT = arrayCNT[6];
   json.dataTM = arrayITEM['tm'];
   json.dataBP = arrayITEM['bp'];
   json.dataEB = arrayITEM['eb'];
   json.dataBC = arrayITEM['bc'];
   json.dataSB = arrayITEM['sb'];
+  json.dataOB = arrayITEM['ob'];
   //json.dataFT = arrayITEM['ft'];
 
-  console.log(json);
+  //console.log(json);
 
   // JSON 생성
   let content = JSON.stringify(json);
@@ -254,7 +260,7 @@ function FileDataInputWrite(target, data) {
     var tempIMG = arrayCMD[num] + "_i" + (i+1);
     var tempURL = arrayCMD[num] + "_u" + (i+1);
 
-    console.log(arrayCMD[num], i, data[i].img, data[i].url);
+    //console.log(arrayCMD[num], i, data[i].img, data[i].url);
 
     document.getElementById(tempIMG).value = data[i].img;
     document.getElementById(tempURL).value = data[i].url;
@@ -264,26 +270,29 @@ function FileDataInputWrite(target, data) {
 // 파일에서 읽은 데이터 처리
 function FileDataRead(data) {
   let json = JSON.parse(data);
-  console.log(json);
+  //console.log(json);
 
   // 입력 창 생성
-  FileDataInputMake('bp', json.BP - arrayCNT[1]);
-  FileDataInputMake('eb', json.EB - arrayCNT[2]);
-  FileDataInputMake('bc', json.BC - arrayCNT[3]);
-  FileDataInputMake('sb', json.SB - arrayCNT[4]);
+  if(json.BP) FileDataInputMake('bp', json.BP - arrayCNT[1]);
+  if(json.EB) FileDataInputMake('eb', json.EB - arrayCNT[2]);
+  if(json.BC) FileDataInputMake('bc', json.BC - arrayCNT[3]);
+  if(json.SB) FileDataInputMake('sb', json.SB - arrayCNT[4]);
+  if(json.OB) FileDataInputMake('ob', json.OB - arrayCNT[5]);
 
   // 카운트 값 수정
-  arrayCNT[1] = json.BP;
-  arrayCNT[2] = json.EB;
-  arrayCNT[3] = json.BC;
-  arrayCNT[4] = json.SB;
+  if(json.BP) arrayCNT[1] = json.BP;
+  if(json.EB) arrayCNT[2] = json.EB;
+  if(json.BC) arrayCNT[3] = json.BC;
+  if(json.SB) arrayCNT[4] = json.SB;
+  if(json.OB) arrayCNT[5] = json.OB;
 
   // 입력 창에 데이터 입력
-  FileDataInputWrite('tm', json.dataTM);
-  FileDataInputWrite('bp', json.dataBP);
-  FileDataInputWrite('eb', json.dataEB);
-  FileDataInputWrite('bc', json.dataBC);
-  FileDataInputWrite('sb', json.dataSB);
+  if(json.dataTM) FileDataInputWrite('tm', json.dataTM);
+  if(json.dataBP) FileDataInputWrite('bp', json.dataBP);
+  if(json.dataEB) FileDataInputWrite('eb', json.dataEB);
+  if(json.dataBC) FileDataInputWrite('bc', json.dataBC);
+  if(json.dataSB) FileDataInputWrite('sb', json.dataSB);
+  if(json.dataOB) FileDataInputWrite('ob', json.dataOB);
 }
 
 
@@ -367,7 +376,7 @@ function Make() {
     page += "<tr>";
 
     for(j = 0; j<5; j++) {
-      console.log(i, j, i+j);
+      //console.log(i, j, i+j);
 
       page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
     }
@@ -394,6 +403,34 @@ function Make() {
     }
 
     page += "</tr>";
+  }
+
+  // 지난 베스트 및 콘텐츠 아이템 생성
+  //  if(item == "" || item == null || item == undefined || ( item != null && typeof item == "object" && !Object.keys(item).length)){
+  temp = arrayITEM['ob'];
+  if(temp[0].img != resourceBlank) {
+    temp = arrayITEM['tm'];
+
+    page += "<tr>";
+    page += "<td colspan=3><a href='"+temp[9].url+"' target='_blank'><img src='"+temp[9].img+"' style='width: 492px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+    page += "<td colspan=2><a href='"+temp[10].url+"' target='_blank'><img src='"+temp[10].img+"' style='width: 326px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+    page += "</tr>";
+
+    temp = arrayITEM['ob'];
+
+    num = getTarget('ob');
+    for(i = 0; i<temp.length; i+=5) {
+      //console.log(arrayCNT[num]/arraySET[num]);
+      page += "<tr>";
+
+      for(j = 0; j<5; j++) {
+        //console.log(i, j, i+j);
+
+        page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+      }
+
+      page += "</tr>";
+    }
   }
 
   // 하단 생성

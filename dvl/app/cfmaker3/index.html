@@ -220,6 +220,58 @@
 
       <div class="titleBox">
         <div class="left">
+          <h2>지난 디벨 베스트 & 콘텐츠</h2>
+        </div>
+        <div class="right">
+          <button onclick="ItemControl('add', 'ob')"><span class="plus">+</span></button> <button onclick="ItemControl('remove', 'ob')"><span class="minus">-</span></button>
+        </div>
+      </div>
+
+      <table id="ob">
+        <tr>
+          <td width="15%"></td>
+          <td width="55%">Image URL</td>
+          <td width="30%">Link URL</td>
+        </tr>
+        <tr id="ob_best">
+          <td>베스트 메뉴</td>
+          <td><input type="url" id="tm_i10" ondrop="dropIMG(event, this.id)" class="dvlm"></td>
+          <td><input type="url" id="tm_u10" ondrop="dropURL(event, this.id)" class="dvlm"></td>
+        </tr>
+        <tr id="ob_cont">
+          <td>콘텐츠 메뉴</td>
+          <td><input type="url" id="tm_i11" ondrop="dropIMG(event, this.id)" class="dvlm"></td>
+          <td><input type="url" id="tm_u11" ondrop="dropURL(event, this.id)" class="dvlm"></td>
+        </tr>
+        <tr id="ob_1">
+          <td>1</td>
+          <td><input type="url" id="ob_i1" ondrop="dropIMG(event, this.id)"></td>
+          <td><input type="url" id="ob_u1" ondrop="dropURL(event, this.id)"></td>
+        </tr>
+        <tr id="ob_2">
+          <td>2</td>
+          <td><input type="url" id="ob_i2" ondrop="dropIMG(event, this.id)"></td>
+          <td><input type="url" id="ob_u2" ondrop="dropURL(event, this.id)"></td>
+        </tr>
+        <tr id="ob_3">
+          <td>3</td>
+          <td><input type="url" id="ob_i3" ondrop="dropIMG(event, this.id)"></td>
+          <td><input type="url" id="ob_u3" ondrop="dropURL(event, this.id)"></td>
+        </tr>
+        <tr id="ob_4">
+          <td>4</td>
+          <td><input type="url" id="ob_i4" ondrop="dropIMG(event, this.id)" class="dvlc"></td>
+          <td><input type="url" id="ob_u4" ondrop="dropURL(event, this.id)" class="dvlc"></td>
+        </tr>
+        <tr id="ob_5">
+          <td>5</td>
+          <td><input type="url" id="ob_i5" ondrop="dropIMG(event, this.id)" class="dvlc"></td>
+          <td><input type="url" id="ob_u5" ondrop="dropURL(event, this.id)" class="dvlc"></td>
+        </tr>
+      </table>
+
+      <div class="titleBox">
+        <div class="left">
           <h2>하단</h2>
         </div>
         <!--<div class="right">
