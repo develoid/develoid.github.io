@@ -406,9 +406,11 @@ function Make() {
   }
 
   // 지난 베스트 및 콘텐츠 아이템 생성
-  //  if(item == "" || item == null || item == undefined || ( item != null && typeof item == "object" && !Object.keys(item).length)){
   temp = arrayITEM['ob'];
-  if(temp[0].img != resourceBlank) {
+
+  if(typeof temp[0].img == "undefined" || temp[0].img == null || temp[0].img == "") {
+    //console.log("check");
+  } else if(temp[0].img != resourceBlank) {
     temp = arrayITEM['tm'];
 
     page += "<tr>";
