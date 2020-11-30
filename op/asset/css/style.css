@@ -1,84 +1,88 @@
-@charset "UTF-8";
-/*@import url('https://cdn.rawgit.com/develoid/NanumSquare/master/nanumsquare.css');*/
-@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
-
-
-*, *:before, *:after {
-  margin: 0;
-  padding: 0;
-  outline: none;
-  text-decoration: none;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.clearfix:before,
-.clearfix:after {
+#main,
+#list {
   display: table;
-  content: " ";
-}
-.clearfix:after { clear: both; }
-
-body {
-  font-family: "NanumSquare", sans-serif;
-  background: #EAEAEA;
-  font-size: 18px;
-  color: #212121;
 }
 
-a {
-  text-decoration: none;
-  transition: 0.5s;
-  color: #212121;
+#main {
+  padding: 60px 10px;
+  min-height: 30vh;
 }
 
-a:hover {
-  color: #0091EA;
+#list {
+  padding: 20px 10px;
+  min-height: 70vh;
+  width: 100vw;
+  margin-bottom: 80px;
 }
 
-input {
-  -webkit-border-radius: 0;
-  -webkit-appearance: none;
+#item {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* SRA Style DVLOPv1 */
-.container {
-  max-width:900px;
-  margin: 10px auto;
+#main #item {
+  display: table-cell;
 }
 
-.nav,
-.footer {
-  width:100%;
+/* Mobile */
+@media (max-width: 1024px) {
+  #item { width: 75vw; }
+}
+
+@media (max-width: 767px) {
+  #item { width: 94vw; }
+}
+
+/* Content Control */
+#content1,
+#content2,
+#content3 {
+  display: none;
+}
+
+/* Box */
+.boxMain,
+.box {
   padding: 20px;
-  text-align: center;
+  border-radius: 4px;
+  transition: 0.5s;
+  font-weight: bold;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.boxMain {
+  margin: 20px 10px;
 }
 
 .box {
-  margin: 10px;
-  padding: 20px;
-  border-radius: 8px;
-  transition: 0.5s;
-  font-weight: bold;
+  margin: 20px 10px 10px;
 }
 
 .boxText {
   margin: 10px;
-  padding: 20px;
   transition: 0.5s;
-  background-color: #FAFAFA;
-  border: 2px solid #F5F5F5;
-  border-radius: 8px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
   color: #212121;
   font-size: 16px;
+  text-align: left;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.boxText ul {
+.boxText div {
+  padding: 20px;
+}
+
+.boxText div h3 {
+  margin: 10px 0;
+}
+
+.boxText div ul {
   padding: 10px 6px 10px 24px;
 }
 
-.boxText ul li {
+.boxText div ul li {
   margin: 8px 0;
 }
 
@@ -86,6 +90,25 @@ input {
   width: 100%;
   margin: 10px 0;
   padding: 10px;
+  border-radius: 4px;
+}
+
+.btn {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  transition: 0.5s;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btnFirst {
+  margin-top: 20px;
+}
+
+.btnLast {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .bgKakao { background-color: #FFDE03; color: #4E342E; }
@@ -150,3 +173,66 @@ input {
 
 .bgWhite { background-color: #fff; color: #000; }
 .bgGray:hover { background-color: #000; color: #fff; }
+
+.borderKakao { border: 6px solid #FFDE03; color: #FFDE03; }
+.borderKakao:hover { border: 6px solid #FF7F00; color: #FF7F00; }
+
+.borderRed { border: 6px solid #E57373; color: #E57373; }
+.borderRed:hover { border: 6px solid #D32F2F; color: #D32F2F; }
+
+.borderPink { border: 6px solid #F06292; color: #F06292; }
+.borderPink:hover { border: 6px solid #C2185B; color: #C2185B;}
+
+.borderPurple { border: 6px solid #BA68C8; color: #BA68C8; }
+.borderPurple:hover { border: 6px solid #7B1FA2; color: #7B1FA2;}
+
+.borderIndigo { border: 6px solid #7986CB; color: #7986CB; }
+.borderIndigo:hover { border: 6px solid #303F9F; color: #303F9F;}
+
+.borderBlue { border: 6px solid #64B5F6; color: #64B5F6; }
+.borderBlue:hover { border: 6px solid #1976D2; color: #1976D2;}
+
+.borderLightBlue { border: 6px solid #4FC3F7; color: #4FC3F7; }
+.borderLightBlue:hover { border: 6px solid #0288D1; color: #0288D1; }
+
+.borderCyan { border: 6px solid #4DD0E1; color: #4DD0E1; }
+.borderCyan:hover { border: 6px solid #0097A7; color: #0097A7;}
+
+.borderTeal { border: 6px solid #4DB6AC; color: #4DB6AC; }
+.borderTeal:hover { border: 6px solid #00796B; color: #00796B;}
+
+.borderGreen { border: 6px solid #81C784; color: #81C784; }
+.borderGreen:hover { border: 6px solid #388E3C; color: #388E3C;}
+
+.borderLightGreen { border: 6px solid #AED581; color: #AED581; }
+.borderLightGreen:hover { border: 6px solid #689F38; color: #689F38;}
+
+.borderLime { border: 6px solid #DCE775; color: #DCE775; }
+.borderLime:hover { border: 6px solid #AFB42B; color: #AFB42B;}
+
+.borderYellow { border: 6px solid #FFF176; color: #FFF176; }
+.borderYellow:hover { border: 6px solid #FBC02D; color: #FBC02D;}
+
+.borderAmber { border: 6px solid #FFD54F; color: #FFD54F; }
+.borderAmber:hover { border: 6px solid #FFA000; color: #FFA000;}
+
+.borderOrange { border: 6px solid #FFB74D; color: #FFB74D; }
+.borderOrange:hover { border: 6px solid #F57C00; color: #F57C00;}
+
+.borderDeepOrange { border: 6px solid #FFB74D; color: #FFB74D; }
+.borderOrange:hover { border: 6px solid #F57C00; color: #F57C00;}
+
+.borderBrown { border: 6px solid #A1887F; color: #A1887F; }
+.borderBrown:hover { border: 6px solid #5D4037; color: #5D4037;}
+
+.borderGray { border: 6px solid #E0E0E0; color: #E0E0E0; }
+.borderGray:hover { border: 6px solid #616161; color: #616161;}
+
+.borderBlueGray { border: 6px solid #90A4AE; color: #90A4AE; }
+.borderGray:hover { border: 6px solid #455A64; color: #455A64;}
+
+.borderBlack { border: 6px solid #000; color: #212121; }
+.borderBlack:hover { border: 6px solid #fff; color: #212121; }
+
+.borderWhite { border: 6px solid #fff; color: #212121; }
+.borderGray:hover { border: 6px solid #000; color: #212121; }
