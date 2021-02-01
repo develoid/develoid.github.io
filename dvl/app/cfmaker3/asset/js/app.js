@@ -327,11 +327,11 @@ function Make() {
   temp = arrayITEM['tm'];
 
   page += "<tr>";
-  page += "<td width=228><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 228px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
-  page += "<td width=228><a href='"+temp[1].url+"' target='_blank'><img src='"+temp[1].img+"' style='width: 228px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
-  page += "<td width=228><a href='"+temp[2].url+"' target='_blank'><img src='"+temp[2].img+"' style='width: 228px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
-  page += "<td width=57><a href='"+temp[3].url+"' target='_blank'><img src='"+temp[3].img+"' style='width: 57px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
-  page += "<td width=57><a href='"+temp[4].url+"' target='_blank'><img src='"+temp[4].img+"' style='width: 57px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+  page += "<td width=228><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 220px; height: auto;'></a></td>";
+  page += "<td width=228><a href='"+temp[1].url+"' target='_blank'><img src='"+temp[1].img+"' style='width: 220px; height: auto;'></a></td>";
+  page += "<td width=228><a href='"+temp[2].url+"' target='_blank'><img src='"+temp[2].img+"' style='width: 220px; height: auto;'></a></td>";
+  page += "<td width=57><a href='"+temp[3].url+"' target='_blank'><img src='"+temp[3].img+"' style='width: 76px; height: auto;'></a></td>";
+  page += "<td width=57><a href='"+temp[4].url+"' target='_blank'><img src='"+temp[4].img+"' style='width: 76px; height: auto;'></a></td>";
   page += "</tr>";
 
   // 상단 테이블 종료=
@@ -346,7 +346,7 @@ function Make() {
   temp = arrayITEM['bp'];
 
   page += "<tr>";
-  page += "<td colspan=5><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 824px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+  page += "<td colspan=5><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 824px; height: auto;'></a></td>";
   page += "</tr>";
 
   // 이벤트 배너 생성
@@ -355,7 +355,7 @@ function Make() {
   num = getTarget('eb');
   for(i = 0; i<arrayCNT[num]; i++) {
     page += "<tr>";
-    page += "<td colspan=5><a href='"+temp[i].url+"' target='_blank'><img src='"+temp[i].img+"' style='width: 824px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+    page += "<td colspan=5><a href='"+temp[i].url+"' target='_blank'><img src='"+temp[i].img+"' style='width: 824px; height: auto;'></a></td>";
     page += "</tr>";
   }
 
@@ -363,8 +363,8 @@ function Make() {
   temp = arrayITEM['tm'];
 
   page += "<tr>";
-  page += "<td colspan=3><a href='"+temp[5].url+"' target='_blank'><img src='"+temp[5].img+"' style='width: 492px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
-  page += "<td colspan=2><a href='"+temp[6].url+"' target='_blank'><img src='"+temp[6].img+"' style='width: 326px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+  page += "<td colspan=3><a href='"+temp[5].url+"' target='_blank'><img src='"+temp[5].img+"' style='width: 492px; height: auto;'></a></td>";
+  page += "<td colspan=2><a href='"+temp[6].url+"' target='_blank'><img src='"+temp[6].img+"' style='width: 326px; height: auto;'></a></td>";
   page += "</tr>";
 
   // 베스트 및 콘텐츠 아이템 생성
@@ -378,7 +378,7 @@ function Make() {
     for(j = 0; j<5; j++) {
       //console.log(i, j, i+j);
 
-      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></td>";
     }
 
     page += "</tr>";
@@ -388,7 +388,7 @@ function Make() {
   temp = arrayITEM['tm'];
 
   page += "<tr>";
-  page += "<td colspan=5><a href='"+temp[7].url+"' target='_blank'><img src='"+temp[7].img+"' style='width: 824px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+  page += "<td colspan=5><a href='"+temp[7].url+"' target='_blank'><img src='"+temp[7].img+"' style='width: 824px; height: auto;'></a></td>";
   page += "</tr>";
 
   // 스폰서 아이템 생성
@@ -399,7 +399,7 @@ function Make() {
     page += "<tr>";
 
     for(j = 0; j<5; j++) {
-      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></td>";
     }
 
     page += "</tr>";
@@ -414,8 +414,8 @@ function Make() {
     temp = arrayITEM['tm'];
 
     page += "<tr>";
-    page += "<td colspan=3><a href='"+temp[9].url+"' target='_blank'><img src='"+temp[9].img+"' style='width: 492px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
-    page += "<td colspan=2><a href='"+temp[10].url+"' target='_blank'><img src='"+temp[10].img+"' style='width: 326px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+    page += "<td colspan=3><a href='"+temp[9].url+"' target='_blank'><img src='"+temp[9].img+"' style='width: 492px; height: auto;'></a></td>";
+    page += "<td colspan=2><a href='"+temp[10].url+"' target='_blank'><img src='"+temp[10].img+"' style='width: 326px; height: auto;'></a></td>";
     page += "</tr>";
 
     temp = arrayITEM['ob'];
@@ -428,7 +428,7 @@ function Make() {
       for(j = 0; j<5; j++) {
         //console.log(i, j, i+j);
 
-        page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+        page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></td>";
       }
 
       page += "</tr>";
@@ -439,7 +439,7 @@ function Make() {
   temp = arrayITEM['tm'];
 
   page += "<tr>";
-  page += "<td colspan=5><a href='"+temp[8].url+"' target='_blank'><img src='"+temp[8].img+"' style='width: 824px; height: auto; box-shadow: 0px 2px 4px rgb(220, 220, 220); border-radius: 2px;'></a></td>";
+  page += "<td colspan=5><a href='"+temp[8].url+"' target='_blank'><img src='"+temp[8].img+"' style='width: 824px; height: auto;'></a></td>";
   page += "</tr>";
 
   // 콘텐츠 테이블 종료
