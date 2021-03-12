@@ -8,6 +8,11 @@ body {
 
 a {
     color: #ffffff;
+    margin-bottom: 12px;
+}
+
+a:last-child {
+    margin-bottom: 0;
 }
 
 a:hover { /* 마우스 */
@@ -30,7 +35,6 @@ a:hover { /* 마우스 */
 }
 
 .box {
-    margin-bottom: 12px;
     width: 260px;
     height: 46px;
     border: 0;
@@ -83,7 +87,7 @@ a:hover { /* 마우스 */
 
 .page1 .box span {
     position: relative;
-    top: -19px;
+    top: -18px;
 }
 
 .page1 .more {
@@ -130,7 +134,7 @@ a:hover { /* 마우스 */
 .page2 .box span,
 .page2 .col-box span {
     position: relative;
-    top: 13px;
+    top: 14px;
 }
 
 .page2 .back {
