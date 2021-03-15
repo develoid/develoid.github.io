@@ -52,7 +52,7 @@
 
 			config = $.extend({
 					delay: 0,
-					hideOnClick: false,.
+					hideOnClick: false,
 					hideOnEscape: false,
 					hideOnSwipe: false,
 					resetScroll: false,

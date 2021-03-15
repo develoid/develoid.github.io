@@ -2,7 +2,7 @@ body {
     width: 100vw;
     height: 100vh;
     background: #202A45;
-    color: #fafafa;
+    color: #fAFAFA;
     font-size: 14px;
 }
 
@@ -13,10 +13,6 @@ a {
 
 a:last-child {
     margin-bottom: 0;
-}
-
-a:hover { /* 마우스 */
-    color: #ffffff;
 }
 
 /* 0 */
@@ -41,7 +37,7 @@ a:hover { /* 마우스 */
     border: 0;
     border-radius: 23px;
     float: left;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .b-F3A30D {
@@ -79,15 +75,13 @@ a:hover { /* 마우스 */
     z-index: 0;
 }
 
-.page1 .box img {
-    margin: 16px;
-    width: 16px;
-    height: 13px;
+.page1 .box {
+    text-align: center;
 }
 
 .page1 .box span {
     position: relative;
-    top: -18px;
+    top: 14px;
 }
 
 .page1 .more {
@@ -115,7 +109,7 @@ a:hover { /* 마우스 */
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.9);
     z-index: 1;
 }
 
@@ -133,7 +127,7 @@ a:hover { /* 마우스 */
     border: 0;
     border-radius: 23px;
     float: left;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;
 }
 

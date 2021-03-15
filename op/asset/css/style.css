@@ -47,7 +47,7 @@
   padding: 20px;
   border-radius: 4px;
   transition: 0.5s;
-  font-weight: bold;
+  font-weight: 600;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
@@ -98,7 +98,7 @@
   margin: 0;
   padding: 20px;
   transition: 0.5s;
-  font-weight: bold;
+  font-weight: 300;
   text-align: center;
 }
 
