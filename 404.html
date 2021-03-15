@@ -4,7 +4,19 @@ title: 404 Not Found!
 page_title: error
 ---
 
-<script> location.href='/' ; </script>
+
+<script>
+
+let link = document.location.href;
+let make = link.replace(/[^0-9]/g,"");
+
+if(make > 0) {
+  location.href = "https://cafe.naver.com/develoid/" + make;
+}
+else {
+  location.href='/';
+}
+</script>
 
 <div class="error">
   <p class="icon">X</p>

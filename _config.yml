@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 디벨로이드 가이드
+title: 디벨로이드
 author: Develoid
 email: siryua@develoid.net
 keywords: 디벨로이드, Develoid, 스마트 IT 커뮤니티, 개발, 리뷰, 안드로이드, 아이폰, 갤럭시, 트레블, 루팅, 커스텀롬, PC, 프로그래밍
 description: > # this means to ignore newlines until "baseurl:"
-  스마트 IT 커뮤니티 디벨로이드 회원참여형 FAQ 사이트 입니다.
+  스마트 IT 테크 커뮤니티 디벨로이드의 공식 서비스 시스템 사이트입니다.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://develoid.github.io" # the base hostname & protocol for your site, e.g. http://example.com

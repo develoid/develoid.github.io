@@ -1,6 +1,6 @@
 ---
 layout: default
-page_title: HOME
+page_title: DEVELGUIDE
 ---
 
 <div class="search">
