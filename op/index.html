@@ -9,59 +9,53 @@
   <meta name="theme-color" content="#EAEAEA">
   <meta name="author" content="Develoid">
   <meta name="keywords" content="디벨로이드">
-  <meta name="description" content="스마트 IT 커뮤니티 디벨로이드 서포트 채널 입니다.">
+  <meta name="description" content="스마트 IT 테크 커뮤니티 디벨로이드 서포트 시스템 입니다.">
   <title>디벨서포트</title>
   <link rel="stylesheet" href="../asset/css/base.css">
-  <link rel="stylesheet" href="./asset/css/style.css">
+  <link rel="stylesheet" href="./asset/style.css">
   <link rel="shortcut icon" href="../asset/img/logo_light.svg">
-  <link rel="canonical" href="/op">
+  <link rel="canonical" href="/cs_beta/">
 </head>
 <body>
-  <nav id="nav">
-    <div class="navLeft">
-      <a href="{{ '/' | relative_url }}"><img class="logo" src="../asset/img/dvl_light.svg" alt="Logo"></a>
+
+<div id="page1" class="wrap page1">
+    <img src="../asset/img/develsupport.svg" class="logo">
+    <a href="http://pf.kakao.com/_jNylj/chat"><div class="box b-F3A30D"><span>카카오톡으로 문의 · 건의</span></div></a>
+    <a href="javascript:void(0)" onclick="OpenPage2()"><div class="box b-F35521"><span>메일로 문의 · 건의</span></div></a>
+    <a href="https://forms.gle/31vn3DnVHsTjyc6Z7"><div class="box b-EC4444"><span>제휴 문의</span></div></a>
+    <p class="more">조치 해제 요청은 <b class="c-F3A30D">카카오톡</b>으로 문의 바랍니다.</p>
+
+    <p class="copyright">ⓒ 2021 디벨로이드</p>
+</div>
+
+
+<div id="page2" class="wrap page2">
+    <a href="https://goo.gl/forms/5kb71oAXFtlqM8Fj2"><div class="box b-C24242"><span>불량 회원 신고</span></div></a>
+    <div class="col-2">
+        <a href="https://forms.gle/F7Q35szejXc6dcya8"><div class="col-box b-4D79CE"><span>운영 문의</span></div></a>
+        <a href="https://forms.gle/2WgX8qCCPLRmVM3R6"><div class="col-box b-5F64CD"><span>운영 건의</span></div></a>
     </div>
-    <div class="navRight">
-      <!--<a href="javascript:void(0)" class="openMenu" onclick="openMenu()">&#9776;</a>-->
-      <a href="javascript:void(0)" class="openMenu" onclick="openMenu()">MENU</a>
-    </div>
-    <div id="navOverlay" class="navOverlay">
-      <ul class="navOverlayContent">
-        <li><a href="https://cafe.naver.com/develoid" target="_blank">COMMUNITY</a></li>
-        <li><a href="/op" target="_blank">SUPPORT</a></li>
-        <li><a href="/cig" target="_blank">LOGO GUIDE</a></li>
-        <li><a href="/">GUIDE</a></li>
-        <!--<li><a href="https://techclip.github.io" target="_blank">TECHCLIP</a></li>-->
-        <li><a href="javascript:void(0)" class="closeMenu" onclick="closeMenu()">&times;</a></li>
-      </ul>
-    </div>
-  </nav>
 
-  <div id="main">
-    <div id="item" class="itemVerticalMiddle itemCenter">
-      <h1><a href="/op"><img class="logo" src="../asset/img/develsupport_light.svg" alt="Logo"></a></h1>
-    </div>
-  </div>
+    <a href="javascript:void(0)" onclick="ClosePage2()"><div class="back"><img src="../asset/img/no.svg"></div></a>
+</div>
 
-  <!-- Content Start -->
+<script type="text/javascript" src="../asset/js/jquery.js"></script>
+<script type="text/javascript" src="./asset/app.js"></script>
+<script>
+    let page2 = $("#page2");
 
-  <div id="list">
-    <div id="item" class="itemCenter">
-      <a href="./report.html"><div class="boxMain bgRed">불량회원신고</div></a>
-      <a href="./cs.html"><div class="boxMain bgPurple">운영 문의 · 건의</div></a>
-      <a href="./stop.html"><div class="boxMain bgTeal">조치 해제 요청</div></a>
-      <a href="./register.html"><div class="boxMain bgGray">오픈 채팅 · 메뉴 등록<br>(제작자 · 팀 · 서버 등)</div></a>
-      <a href="https://goo.gl/forms/Lrxz08x3oB3XLuJ62"><div class="boxMain bgIndigo">제휴 문의</div></a>
-    </div>
-  </div>
+    $(document).ready(function() {
+        page2.hide();
+    });
 
+    function OpenPage2() {
+        page2.fadeIn();
+    }
 
+    function ClosePage2() {
+        page2.fadeOut();
+    }
+</script>
 
-  <!-- Content End -->
-  <footer id='footer'>
-    ⓒ2021 디벨로이드
-  </footer>
-
-  <script type="text/javascript" src="../asset/js/nav.js"></script>
 </body>
 </html>
