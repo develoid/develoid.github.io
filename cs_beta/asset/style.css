@@ -30,8 +30,9 @@ a:hover { /* 마우스 */
 
 .logo {
     margin-bottom: 50px;
-    width: 48px;
-    height: 48px;
+    width: 300px;
+    height: auto;
+    color: #D9F3FC;
 }
 
 .box {
@@ -41,23 +42,22 @@ a:hover { /* 마우스 */
     border-radius: 23px;
     float: left;
     font-weight: bold;
-    box-shadow: 0px 2px 6px rgba(255,255,255,0.15); /* 그림자 */
 }
 
-.b-FDC022 {
-    background: #FDC022;
+.b-F3A30D {
+    background: #F3A30D;
 }
 
-.c-FDC022 {
-    color: #FDC022;
+.c-F3A30D {
+    color: #F3A30D;
 }
 
-.b-FF774B {
-    background: #FF774B;
+.b-F35521 {
+    background: #F35521;
 }
 
-.b-EC5252 {
-    background: #EC5252;
+.b-EC4444 {
+    background: #EC4444;
 }
 
 .b-C24242 {
@@ -80,9 +80,9 @@ a:hover { /* 마우스 */
 }
 
 .page1 .box img {
-    margin: 12px;
-    width: 22px;
-    height: 22px;
+    margin: 16px;
+    width: 16px;
+    height: 13px;
 }
 
 .page1 .box span {
@@ -134,7 +134,6 @@ a:hover { /* 마우스 */
     border-radius: 23px;
     float: left;
     font-weight: bold;
-    box-shadow: 0px 2px 6px rgba(255,255,255,0.15); /* 그림자 */
     text-align: center;
 }
 
