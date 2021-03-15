@@ -160,6 +160,12 @@ input {
   font-weight: 600
 }
 
+#main h1 .logo {
+  width: 300px;
+  margin-top: -20px;
+  vertical-align: middle;
+}
+
 @media (max-width: 768px) {
   #main h1 { font-size: 36px;  }
 }
