@@ -327,11 +327,11 @@ function Make() {
   temp = arrayITEM['tm'];
 
   page += "<tr>";
-  page += "<td width=214><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 214px; height: auto; box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.14);'></a></td>";
-  page += "<td width=214><a href='"+temp[1].url+"' target='_blank'><img src='"+temp[1].img+"' style='width: 214px; height: auto; box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.14);'></a></td>";
-  page += "<td width=214><a href='"+temp[2].url+"' target='_blank'><img src='"+temp[2].img+"' style='width: 214px; height: auto; box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.14);'></a></td>";
-  page += "<td width=78><a href='"+temp[3].url+"' target='_blank'><img src='"+temp[3].img+"' style='width: 78px; height: auto; box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.14);'></a></td>";
-  page += "<td width=78><a href='"+temp[4].url+"' target='_blank'><img src='"+temp[4].img+"' style='width: 78px; height: auto; box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.14);'></a></td>";
+  page += "<td width=48><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 48px; height: auto;'></a></td>";
+  page += "<td width=288><a href='"+temp[1].url+"' target='_blank'><img src='"+temp[1].img+"' style='width: 288px; height: auto;'></a></td>";
+  page += "<td width=288><a href='"+temp[2].url+"' target='_blank'><img src='"+temp[2].img+"' style='width: 288px; height: auto;'></a></td>";
+  page += "<td width=88><a href='"+temp[3].url+"' target='_blank'><img src='"+temp[3].img+"' style='width: 88px; height: auto;'></a></td>";
+  page += "<td width=88><a href='"+temp[4].url+"' target='_blank'><img src='"+temp[4].img+"' style='width: 88px; height: auto;'></a></td>";
   page += "</tr>";
 
   // 상단 테이블 종료=
