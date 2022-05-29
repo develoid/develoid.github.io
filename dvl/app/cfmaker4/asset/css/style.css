@@ -1,0 +1,139 @@
+html {
+    background: black;
+    color: white;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+}
+
+body {
+    font-family: Interop, sans-serif;
+}
+
+button, input {
+    border: 0;
+    color: white;
+    font-family: Interop, sans-serif;
+    font-weight: 600;
+    font-size: 13pt;
+    letter-spacing: -0.05em;
+    padding: 0;
+}
+
+table {
+    border: 0;
+    border-spacing: 0;
+    text-align: center;
+    width: 960px;
+}
+
+tn {
+    font-size: 32pt;
+}
+
+tnumber {
+    font-size: 24pt;
+}
+
+tm {
+    font-size: 23pt;
+}
+
+tl, .button3, .button4, .button5, .button6 {
+    font-size: 13pt;
+}
+
+tx {
+    font-size: 68pt;
+}
+
+.title {
+    margin-top: 72px;
+}
+
+.number {
+    background: #1D1D1D;
+    height: 64px;
+    width: 64px;
+}
+
+.imageid, .imageid2, .imageid3 {
+    height: 64px;
+    padding: 0 16px;
+}
+
+.imageid, .imageid2 {
+    width: 310px;
+}
+
+.imageid, .imageid3 {
+    background: #333333;
+}
+
+.imageid2 {
+    background: #464646;
+}
+
+.imageid3 {
+    width: 208px;
+}
+
+.linkid, .linkid2, .linkid3, .linkid4, .linkid5 {
+    height: 64px;
+    padding: 0 16px;
+}
+
+.linkid, .linkid3, .linkid5 {
+    background: #464646;
+}
+
+.linkid2, .linkid4 {
+    background: #333333;
+}
+
+.linkid, .linkid2 {
+    width: 522px;
+}
+
+.linkid3, .linkid4 {
+    width: 394px;
+}
+
+.linkid5 {
+    width: 208px;
+}
+
+.button1, .button2, .button3, .button4, .button5, .button6 {
+    height: 64px;
+}
+
+.button1, .button2 {
+    width: 64px;
+}
+
+.button1, .button6 {
+    background: #1D1D1D;
+}
+
+.button3, .button5 {
+    background: #333333;
+}
+
+.button4, .button5 {
+    width: 240px;
+}
+
+.button2 {
+    background: #2F2F2F;
+}
+
+.button3 {
+    width: 480px;
+}
+
+.button4 {
+    background: #464646;
+}
+
+.button6 {
+    width: 960px; 
+}
