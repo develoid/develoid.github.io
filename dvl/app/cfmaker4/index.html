@@ -13,7 +13,7 @@
     <meta name="author" content="DEVELOID">
     <meta name="description" content="DEVELOID Gate Editor">
     <meta name="keywords" content="DEVELOID, Cafe, Community, Front, Maker 4">
-    <!-- 작업중 <meta property="og.image" content="image link"> -->
+    <meta property="og.image" content="./asset/images/opimage.png">
     <link rel="canonical" href="http://develoid.net">
     <link rel="shortcut icon" href="../../../asset/img/favicon.png">
     <link rel="stylesheet" type='text/css' media='all' href="./asset/css/style.css">
@@ -111,8 +111,8 @@
             <td width="64"></td>
             <td width="342"><tl>이미지</tl></td>
             <td width="426"><tl>링크</tl></td>
-            <td width="64" bgcolor="#2F2F2F"><tl>+</tl></td>
-            <td width="64" bgcolor="#1D1D1D"><tl>-</tl></td>
+            <td width="64"><button class="abutton" onclick="ItemControl('add', 'evs')">+</button></td>
+            <td width="64"><button class="rbutton" onclick="ItemControl('remove', 'evs')">-</button></td>
         </tr>
         <tr>
             <td class="number"><tnumber>1</tnumber></td>
@@ -147,8 +147,8 @@
             <td width="64"></td>
             <td width="342"><tl>이미지</tl></td>
             <td width="426"><tl>링크</tl></td>
-            <td width="64" bgcolor="#2F2F2F"><tl>+</tl></td>
-            <td width="64" bgcolor="#1D1D1D"><tl>-</tl></td>
+            <td width="64"><button class="abutton" onclick="ItemControl('add', 'evd')">+</button></td>
+            <td width="64"><button class="rbutton" onclick="ItemControl('remove', 'evd')">-</button></td>
         </tr>
         <tr>
             <td class="number"><tnumber>1</tnumber></td>
@@ -245,8 +245,8 @@
             <td width="64"></td>
             <td width="342"><tl>이미지</tl></td>
             <td width="426"><tl>링크</tl></td>
-            <td width="64" bgcolor="#2F2F2F"><tl>+</tl></td>
-            <td width="64" bgcolor="#1D1D1D"><tl>-</tl></td>
+            <td width="64"><button class="abutton" onclick="ItemControl('add', 'dc')">+</button></td>
+            <td width="64"><button class="rbutton" onclick="ItemControl('remove', 'dc')">-</button></td>
         </tr>
         <tr>
             <td class="number"><tnumber>1</tnumber></td>
@@ -289,8 +289,8 @@
             <td width="64"></td>
             <td width="342"><tl>이미지</tl></td>
             <td width="426"><tl>링크</tl></td>
-            <td width="64" bgcolor="#2F2F2F"><tl>+</tl></td>
-            <td width="64" bgcolor="#1D1D1D"><tl>-</tl></td>
+            <td width="64"><button class="abutton" onclick="ItemControl('add', 'dsu')">+</button></td>
+            <td width="64"><button class="rbutton" onclick="ItemControl('remove', 'dsu')">-</button></td>
         </tr>
         <tr>
             <td class="number"><tnumber>1</tnumber></td>
@@ -333,8 +333,8 @@
             <td width="64"></td>
             <td width="342"><tl>이미지</tl></td>
             <td width="426"><tl>링크</tl></td>
-            <td width="64" bgcolor="#2F2F2F"><tl>+</tl></td>
-            <td width="64" bgcolor="#1D1D1D"><tl>-</tl></td>
+            <td width="64"><button class="abutton" onclick="ItemControl('add', 'ds')">+</button></td>
+            <td width="64"><button class="rbutton" onclick="ItemControl('remove', 'ds')">-</button></td>
         </tr>
         <tr>
             <td class="number"><tnumber>1</tnumber></td>
@@ -446,8 +446,8 @@
             <td width="64"></td>
             <td width="342"><tl>이미지</tl></td>
             <td width="426"><tl>링크</tl></td>
-            <td width="64" bgcolor="#2F2F2F"><tl>+</tl></td>
-            <td width="64" bgcolor="#1D1D1D"><tl>-</tl></td>
+            <td width="64"><button class="abutton" onclick="ItemControl('add', 'bdc')">+</button></td>
+            <td width="64"><button class="rbutton" onclick="ItemControl('remove', 'bdc')">-</button></td>
         </tr>
         <tr>
             <td class="number"><tnumber>1</tnumber></td>
@@ -490,8 +490,8 @@
             <td width="64"></td>
             <td width="342"><tl>이미지</tl></td>
             <td width="426"><tl>링크</tl></td>
-            <td width="64" bgcolor="#2F2F2F"><tl>+</tl></td>
-            <td width="64" bgcolor="#1D1D1D"><tl>-</tl></td>
+            <td width="64"><button class="abutton" onclick="ItemControl('add', 'bdsu')">+</button></td>
+            <td width="64"><button class="rbutton" onclick="ItemControl('remove', 'bdsu')">-</button></td>
         </tr>
         <tr>
             <td class="number"><tnumber>1</tnumber></td>
@@ -577,7 +577,7 @@
     <div style="padding:36px 0;"></div>
 
     <table align="center">
-        <tr>
+        <tr style="cursor:pointer;">
             <td><button class="button3" onclick="MakeNCopy()">생성 및 클립보드에 복사</button></td>
             <td><button class="button4" onclick="ItemSave()">JSON 저장</button></td>
             <td><button class="button5" onclick="FileOpen()">JSON 불러오기</button></td>

@@ -28,6 +28,7 @@ table {
 }
 
 tn {
+    font-weight: 800;
     font-size: 32pt;
 }
 
@@ -105,13 +106,14 @@ tx {
 
 .button1, .button2, .button3, .button4, .button5, .button6 {
     height: 64px;
+    cursor:pointer;
 }
 
 .button1, .button2 {
     width: 64px;
 }
 
-.button1, .button6 {
+.button1, .button6, .rbutton {
     background: #1D1D1D;
 }
 
@@ -121,6 +123,12 @@ tx {
 
 .button4, .button5 {
     width: 240px;
+}
+
+.abutton, .rbutton {
+    width: 64px;
+    height: 42px;
+    cursor:pointer;
 }
 
 .button2 {
@@ -137,4 +145,8 @@ tx {
 
 .button6 {
     width: 960px; 
+}
+
+.abutton {
+    background: #2F2F2F;
 }
