@@ -1,0 +1,102 @@
+html {
+    background: #FAFAFA;
+    color: black;
+    font-weight: bold;
+    letter-spacing: -0.07em;
+}
+
+body {
+    font-family: Interop, sans-serif;
+}
+
+button, input {
+    border: 0;
+    border-radius: 0;
+    color: black;
+    cursor:pointer;
+    font-family: Interop, sans-serif;
+    font-weight: 700;
+    font-size: 13pt;
+    letter-spacing: -0.07em;
+    padding: 0;
+}
+
+table {
+    border: 0;
+    border-spacing: 0;
+    width: 960px;
+}
+
+mt {
+    font-weight: 700;
+    font-size: 42pt;
+}
+
+submt {
+    font-weight: 400;
+    font-size: 14pt;
+    color: #00000099;
+}
+
+submtb {
+    font-weight: 600;
+}
+
+mt2 {
+    font-size: 20pt;
+}
+
+.sub {
+    display: grid;
+    grid-template-areas: "a a";
+    justify-content: center;
+    grid-gap: 60px;
+    grid-auto-flow: row;
+    width: 1fr;
+}
+
+.title {
+    margin-top: 82px;
+}
+
+.paddinga {
+    padding: 6px 0;
+}
+
+.kakaobutton, .cafembutton, .contbutton, .purpbutton {
+    width: 450px;
+    height: 54px;
+    margin-top: 6px;
+}
+
+.kakaobutton {
+    background: #FFDAA3;
+}
+
+.cafembutton {
+    background: #C7DAFF;
+}
+
+.cafesbutton, .cafesfbutton {
+    width: 150px;
+    height: 54px;
+    background: #C7DAFF;
+    color: #000000B3;
+    border-top: solid 2px #0000000D;
+}
+
+.cafesbutton {
+    border-right: solid 2px #0000000D;
+}
+
+.contbutton {
+    background: #FFD4CA;
+}
+
+.purpbutton {
+    background: #CDCCFF;
+}
+
+.cont, .comm {
+    width: 450px;
+}
