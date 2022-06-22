@@ -1,12 +1,24 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+}
+
 html {
-    background: black;
+    background: #000000;
     color: white;
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: -0.05em;
 }
 
 body {
     font-family: Interop, sans-serif;
+}
+
+.section {
+    flex: 1;
+    padding-top: 76px;
 }
 
 button, input {

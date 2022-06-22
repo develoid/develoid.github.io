@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <html>
-    <!-- 푸터 아직 미개발-->
     <!-- 디벨로이드 대문 편집기 -->
     <!-- 제작: 시류아, In Orbit -->
-    <!-- 디벨로이드에서 운영하는 모든 서비스는 저작권법에 의해 보호를 받고 있습니다. -->        
+    <!-- 디벨로이드에서 운영하는 모든 서비스는 저작권법에 의해 보호받고 있습니다. -->        
     <!-- © 2022 디벨로이드 -->        
 <head>
     <meta NAME="ROBOTS" content="NOINDEX, NOFOLLOW">
@@ -24,573 +23,648 @@
     <link rel="shortcut icon" href="../../../asset/img/favicon.png">
     <link rel="stylesheet" type='text/css' media='all' href="./asset/css/style.css">
     <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/fonts.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/header_indark.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/footer.css">
     <title>디벨로이드 대문 편집기</title>
 </head>
 
 <body>
-    <!-- 타이틀 -->
-    <div class="title">
-    <table height="72" align="center">
-        <tr>
-            <td bgcolor="black"><tn>디벨로이드 대문 편집기</tn></td>
-        </tr>
-    </table>
+
+    
+    <!-- Header -->
+
+    <div class="header">
+        <div class="headleftcontent">
+            <div class="headcontent">
+                <img class="headdvllogo" src="../../../asset/images/dvl_dark.svg">
+                    <!-- <span class="arrow">
+                        <svg width="8" height="8" class viewbox="0 0 8 5">
+                        <title>mainMenuDownNonHover</title>
+                        <path d="M.707 1.707l2.586 2.586a1 1 0 001.414 0l2.586-2.586C7.923 1.077 7.477 0 6.586 0H1.414C.524 0 .077 1.077.707 1.707z"></path>
+                        </svg>
+                    </span> -->
+            </div>
+        </div>
+        <div class="headcentercontent">
+            <div class="headitem">
+                <a href="https://www.naver.com">
+                <p>디벨로이드 커뮤니티</p>
+                <span class="headoutlink">
+                    <svg class viewBox="0 0 16 16">
+                        <path fill="#FFFFFF80" fill-rule="evenodd" clip-rule="evenodd" d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 00-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158z">
+                        </path>
+                    </svg>
+                </span>
+                </a>
+            </div>
+            <div class="headitem">
+                <a href="https://www.naver.com">
+                <p>대문 작업 공간</p>
+                <span class="headoutlink">
+                    <svg class viewBox="0 0 16 16">
+                        <path fill="#FFFFFF80" fill-rule="evenodd" clip-rule="evenodd" d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 00-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158z">
+                        </path>
+                    </svg>
+                </span>
+                </a>
+            </div>
+        </div>
     </div>
 
 
-    <!-- 베스트포토 및 공지사항 -->
-    <div style="padding:16px 0;"></div>
+    <div class="section">
 
-    <table height="64" align="center">
-        <tr>
-            <td bgcolor="black"><tm>베스트포토 및 공지사항</tm></td>
-        </tr>
-    </table>
+    <!-- 타이틀 -->
 
-    <table height="420" align="center">
-        <tr>
-            <td bgcolor="#333333" width="576" rowspan="3"><tx>1</tx></td>
-            <td bgcolor="#464646"><tx>2</tx></td>
-            <td bgcolor="#2F2F2F"><tx>3</tx></td>
-        </tr>
-        <tr>
-            <td bgcolor="#2F2F2F"><tx>4</tx></td>
-            <td bgcolor="#464646"><tx>5</tx></td>
-        </tr>
-        <tr>
-            <td bgcolor="#202020" colspan="2"><tx>6</tx></td>
-        </tr>
-    </table>
-
-    <div style="padding:12px 0;"></div>
-
-    <table align="center">
-        <tr height="42" bgcolor="#1D1D1D">
-            <td width="64"></td>
-            <td width="342"><tl>이미지</tl></td>
-            <td width="554"><tl>링크</tl></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>1</tnumber></td>
-            <td><input class="imageid" type="url" id="bp_i1" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="linkid" type="url" id="bp_u1" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>2</tnumber></td>
-            <td><input class="imageid2" type="url" id="bp_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="linkid2" type="url" id="bp_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>3</tnumber></td>
-            <td><input class="imageid" type="url" id="bp_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="linkid" type="url" id="bp_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>4</tnumber></td>
-            <td><input class="imageid2" type="url" id="bp_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="linkid2" type="url" id="bp_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>5</tnumber></td>
-            <td><input class="imageid" type="url" id="bp_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="linkid" type="url" id="bp_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>6</tnumber></td>
-            <td><input class="imageid2" type="url" id="bp_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="linkid2" type="url" id="bp_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-    </table>
+        <div class="title">
+        <table height="72" align="center">
+            <tr>
+                <td bgcolor="black"><tn>디벨로이드 대문 편집기</tn></td>
+            </tr>
+        </table>
+        </div>
 
 
-    <!-- 이벤트 1단 -->
-    <div style="padding:24px 0;"></div>
+        <!-- 베스트포토 및 공지사항 -->
+        <div style="padding:16px 0;"></div>
 
-    <table height="64" align="center">
-        <tr>
-            <td bgcolor="black"><tm>이벤트 1단</tm></td>
-        </tr>
-    </table>
+        <table height="64" align="center">
+            <tr>
+                <td bgcolor="black"><tm>베스트포토 및 공지사항</tm></td>
+            </tr>
+        </table>
 
-    <table align="center">
-        <tr height="42" bgcolor="#1D1D1D">
-            <td width="64"></td>
-            <td width="342"><tl>이미지</tl></td>
-            <td width="426"><tl>링크</tl></td>
-            <td width="64"><button type="button" class="abutton" onclick="ItemControl('add', 'evs')">+</button></td>
-            <td width="64"><button type="button" class="rbutton" onclick="ItemControl('remove', 'evs')">-</button></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>1</tnumber></td>
-            <td><input class="imageid" type="url" id="evs_i1" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="linkid3" type="url" id="evs_u1" ondrop="dropIMG(event, this.id)"></td>
-            <td><button type="button" class="button1">▲</button></td>
-            <td><button type="button" class="button2">▼</button></td>
-        </tr>
-    </table>
+        <table height="420" align="center">
+            <tr>
+                <td bgcolor="#333333" width="576" rowspan="3"><tx>1</tx></td>
+                <td bgcolor="#464646"><tx>2</tx></td>
+                <td bgcolor="#2F2F2F"><tx>3</tx></td>
+            </tr>
+            <tr>
+                <td bgcolor="#2F2F2F"><tx>4</tx></td>
+                <td bgcolor="#464646"><tx>5</tx></td>
+            </tr>
+            <tr>
+                <td bgcolor="#202020" colspan="2"><tx>6</tx></td>
+            </tr>
+        </table>
 
+        <div style="padding:12px 0;"></div>
 
-    <!-- 이벤트 2단 -->
-    <div style="padding:24px 0;"></div>
-
-    <table height="64" align="center">
-        <tr>
-            <td bgcolor="black"><tm>이벤트 2단</tm></td>
-        </tr>
-    </table>
-
-    <table height="140" align="center">
-        <tr>
-            <td width="480" bgcolor="#333333"><tx>1</tx></td>
-            <td width="480" bgcolor="#464646"><tx>2</tx></td>
-        </tr>
-    </table>
-
-    <div style="padding:12px 0;"></div>
-
-    <table align="center">
-        <tr height="42" bgcolor="#1D1D1D">
-            <td width="64"></td>
-            <td width="342"><tl>이미지</tl></td>
-            <td width="426"><tl>링크</tl></td>
-            <td width="64"><button type="button" class="abutton" onclick="ItemControl('add', 'evd')">+</button></td>
-            <td width="64"><button type="button" class="rbutton" onclick="ItemControl('remove', 'evd')">-</button></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>1</tnumber></td>
-            <td><input class="imageid" type="url" id="evd_i1" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="evd_u1" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>2</tnumber></td>
-            <td><input class="imageid2" type="url" id="evd_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="evd_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-    </table>
-
-
-    <!-- 디벨베스트 -->
-    <div style="padding:24px 0;"></div>
-
-    <table height="64" align="center">
-        <tr>
-            <td bgcolor="black"><tm>디벨베스트</tm></td>
-        </tr>
-    </table>
-
-    <table height="384" align="center">
-        <tr>
-            <td bgcolor="#333333" width="384" rowspan="2"><tx>1</tx></td>
-            <td bgcolor="#464646"><tx>2</tx></td>
-            <td bgcolor="#2F2F2F"><tx>3</tx></td>
-            <td bgcolor="#464646"><tx>4</tx></td>
-        </tr>
-        <tr>
-            <td bgcolor="#2F2F2F"><tx>5</tx></td>
-            <td bgcolor="#464646"><tx>6</tx></td>
-            <td bgcolor="#2F2F2F"><tx>7</tx></td>
-        </tr>
-    </table>
-
-    <div style="padding:12px 0;"></div>
-
-    <table align="center">
-        <tr height="42" bgcolor="#1D1D1D">
-            <td width="64"></td>
-            <td width="342"><tl>이미지</tl></td>
-            <td width="554"><tl>링크</tl></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>1</tnumber></td>
-            <td><input class="imageid" type="url" id="eb_i1" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="eb_u1" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>2</tnumber></td>
-            <td><input class="imageid2" type="url" id="eb_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="eb_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>3</tnumber></td>
-            <td><input class="imageid" type="url" id="eb_i3" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="eb_u3" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>4</tnumber></td>
-            <td><input class="imageid2" type="url" id="eb_i4" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="eb_u4" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>5</tnumber></td>
-            <td><input class="imageid" type="url" id="eb_i5" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="eb_u5" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>6</tnumber></td>
-            <td><input class="imageid2" type="url" id="eb_i6" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="eb_u6" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>7</tnumber></td>
-            <td><input class="imageid" type="url" id="eb_i7" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="eb_u7" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-    </table>
+        <table align="center">
+            <tr height="42" bgcolor="#1D1D1D">
+                <td width="64"></td>
+                <td width="342"><tl>이미지</tl></td>
+                <td width="554"><tl>링크</tl></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>1</tnumber></td>
+                <td><input class="imageid" type="url" id="bp_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid" type="url" id="bp_u1" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>2</tnumber></td>
+                <td><input class="imageid2" type="url" id="bp_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid2" type="url" id="bp_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>3</tnumber></td>
+                <td><input class="imageid" type="url" id="bp_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid" type="url" id="bp_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>4</tnumber></td>
+                <td><input class="imageid2" type="url" id="bp_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid2" type="url" id="bp_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>5</tnumber></td>
+                <td><input class="imageid" type="url" id="bp_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid" type="url" id="bp_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>6</tnumber></td>
+                <td><input class="imageid2" type="url" id="bp_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid2" type="url" id="bp_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+        </table>
 
 
-    <!-- 디벨콘텐츠 -->
-    <div style="padding:24px 0;"></div>
+        <!-- 이벤트 1단 -->
+        <div style="padding:24px 0;"></div>
 
-    <table height="64" align="center">
-        <tr>
-            <td bgcolor="black"><tm>디벨콘텐츠</tm></td>
-        </tr>
-    </table>
-    <table align="center">
-        <tr height="42" bgcolor="#1D1D1D">
-            <td width="64"></td>
-            <td width="342"><tl>이미지</tl></td>
-            <td width="426"><tl>링크</tl></td>
-            <td width="64"><button type="button" class="abutton" onclick="ItemControl('add', 'dc')">+</button></td>
-            <td width="64"><button type="button" class="rbutton" onclick="ItemControl('remove', 'dc')">-</button></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>1</tnumber></td>
-            <td><input class="imageid" type="url" id="dc_i1" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="dc_u1" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>2</tnumber></td>
-            <td><input class="imageid2" type="url" id="dc_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="dc_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>3</tnumber></td>
-            <td><input class="imageid" type="url" id="dc_i3" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="dc_u3" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>4</tnumber></td>
-            <td><input class="imageid2" type="url" id="dc_i4" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="dc_u4" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>5</tnumber></td>
-            <td><input class="imageid" type="url" id="dc_i5" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="dc_u5" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-    </table>
-    
+        <table height="64" align="center">
+            <tr>
+                <td bgcolor="black"><tm>이벤트 1단</tm></td>
+            </tr>
+        </table>
 
-    <!-- 디벨서포터즈 -->
-    <div style="padding:24px 0;"></div>
-
-    <table height="64" align="center">
-        <tr>
-            <td bgcolor="black"><tm>디벨서포터즈</tm></td>
-        </tr>
-    </table>
-    <table align="center">
-        <tr height="42" bgcolor="#1D1D1D">
-            <td width="64"></td>
-            <td width="342"><tl>이미지</tl></td>
-            <td width="426"><tl>링크</tl></td>
-            <td width="64"><button type="button" class="abutton" onclick="ItemControl('add', 'dsu')">+</button></td>
-            <td width="64"><button type="button" class="rbutton" onclick="ItemControl('remove', 'dsu')">-</button></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>1</tnumber></td>
-            <td><input class="imageid" type="url" id="dsu_i1" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="dsu_u1" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>2</tnumber></td>
-            <td><input class="imageid2" type="url" id="dsu_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="dsu_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>3</tnumber></td>
-            <td><input class="imageid" type="url" id="dsu_i3" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="dsu_u3" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>4</tnumber></td>
-            <td><input class="imageid2" type="url" id="dsu_i4" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="dsu_u4" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>5</tnumber></td>
-            <td><input class="imageid" type="url" id="dsu_i5" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="dsu_u5" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-    </table>
+        <table align="center">
+            <tr height="42" bgcolor="#1D1D1D">
+                <td width="64"></td>
+                <td width="342"><tl>이미지</tl></td>
+                <td width="426"><tl>링크</tl></td>
+                <td width="64"><button type="button" class="abutton" onclick="ItemControl('add', 'evs')">+</button></td>
+                <td width="64"><button type="button" class="rbutton" onclick="ItemControl('remove', 'evs')">-</button></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>1</tnumber></td>
+                <td><input class="imageid" type="url" id="evs_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid3" type="url" id="evs_u1" ondrop="dropIMG(event, this.id)"></td>
+                <td><button type="button" class="button1">▲</button></td>
+                <td><button type="button" class="button2">▼</button></td>
+            </tr>
+        </table>
 
 
-    <!-- 디벨스폰서 -->
-    <div style="padding:24px 0;"></div>
+        <!-- 이벤트 2단 -->
+        <div style="padding:24px 0;"></div>
 
-    <table height="64" align="center">
-        <tr>
-            <td bgcolor="black"><tm>디벨스폰서</tm></td>
-        </tr>
-    </table>
-    <table align="center">
-        <tr height="42" bgcolor="#1D1D1D">
-            <td width="64"></td>
-            <td width="342"><tl>이미지</tl></td>
-            <td width="426"><tl>링크</tl></td>
-            <td width="64"><button type="button" class="abutton" onclick="ItemControl('add', 'ds')">+</button></td>
-            <td width="64"><button type="button" class="rbutton" onclick="ItemControl('remove', 'ds')">-</button></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>1</tnumber></td>
-            <td><input class="imageid" type="url" id="ds_i1" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="ds_u1" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>2</tnumber></td>
-            <td><input class="imageid2" type="url" id="ds_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="ds_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>3</tnumber></td>
-            <td><input class="imageid" type="url" id="ds_i3" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="ds_u3" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>4</tnumber></td>
-            <td><input class="imageid2" type="url" id="ds_i4" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="ds_u4" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>5</tnumber></td>
-            <td><input class="imageid" type="url" id="ds_i5" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="ds_u5" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-    </table>
+        <table height="64" align="center">
+            <tr>
+                <td bgcolor="black"><tm>이벤트 2단</tm></td>
+            </tr>
+        </table>
+
+        <table height="140" align="center">
+            <tr>
+                <td width="480" bgcolor="#333333"><tx>1</tx></td>
+                <td width="480" bgcolor="#464646"><tx>2</tx></td>
+            </tr>
+        </table>
+
+        <div style="padding:12px 0;"></div>
+
+        <table align="center">
+            <tr height="42" bgcolor="#1D1D1D">
+                <td width="64"></td>
+                <td width="342"><tl>이미지</tl></td>
+                <td width="426"><tl>링크</tl></td>
+                <td width="64"><button type="button" class="abutton" onclick="ItemControl('add', 'evd')">+</button></td>
+                <td width="64"><button type="button" class="rbutton" onclick="ItemControl('remove', 'evd')">-</button></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>1</tnumber></td>
+                <td><input class="imageid" type="url" id="evd_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="evd_u1" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>2</tnumber></td>
+                <td><input class="imageid2" type="url" id="evd_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="evd_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+        </table>
 
 
-    <!-- 지난달 디벨베스트 -->
-    <div style="padding:24px 0;"></div>
+        <!-- 디벨베스트 -->
+        <div style="padding:24px 0;"></div>
 
-    <table height="64" align="center">
-        <tr>
-            <td bgcolor="black"><tm>지난달 디벨베스트</tm></td>
-        </tr>
-    </table>
+        <table height="64" align="center">
+            <tr>
+                <td bgcolor="black"><tm>디벨베스트</tm></td>
+            </tr>
+        </table>
 
-    <table height="384" align="center">
-        <tr>
-            <td bgcolor="#333333" width="384" rowspan="2"><tx>1</tx></td>
-            <td bgcolor="#464646"><tx>2</tx></td>
-            <td bgcolor="#2F2F2F"><tx>3</tx></td>
-            <td bgcolor="#464646"><tx>4</tx></td>
-        </tr>
-        <tr>
-            <td bgcolor="#2F2F2F"><tx>5</tx></td>
-            <td bgcolor="#464646"><tx>6</tx></td>
-            <td bgcolor="#2F2F2F"><tx>7</tx></td>
-        </tr>
-    </table>
+        <table height="384" align="center">
+            <tr>
+                <td bgcolor="#333333" width="384" rowspan="2"><tx>1</tx></td>
+                <td bgcolor="#464646"><tx>2</tx></td>
+                <td bgcolor="#2F2F2F"><tx>3</tx></td>
+                <td bgcolor="#464646"><tx>4</tx></td>
+            </tr>
+            <tr>
+                <td bgcolor="#2F2F2F"><tx>5</tx></td>
+                <td bgcolor="#464646"><tx>6</tx></td>
+                <td bgcolor="#2F2F2F"><tx>7</tx></td>
+            </tr>
+        </table>
 
-    <div style="padding:12px 0;"></div>
+        <div style="padding:12px 0;"></div>
 
-    <table align="center">
-        <tr height="42" bgcolor="#1D1D1D">
-            <td width="64"></td>
-            <td width="342"><tl>이미지</tl></td>
-            <td width="554"><tl>링크</tl></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>1</tnumber></td>
-            <td><input class="imageid" type="url" id="beb_i1" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="beb_u1" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>2</tnumber></td>
-            <td><input class="imageid2" type="url" id="beb_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="beb_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>3</tnumber></td>
-            <td><input class="imageid" type="url" id="beb_i3" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="beb_u3" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>4</tnumber></td>
-            <td><input class="imageid2" type="url" id="beb_i4" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="beb_u4" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>5</tnumber></td>
-            <td><input class="imageid" type="url" id="beb_i5" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="beb_u5" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>6</tnumber></td>
-            <td><input class="imageid2" type="url" id="beb_i6" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="beb_u6" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>7</tnumber></td>
-            <td><input class="imageid" type="url" id="beb_i7" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="beb_u7" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-    </table>
-
-
-    <!-- 지난달 디벨콘텐츠 -->
-    <div style="padding:24px 0;"></div>
-
-    <table height="64" align="center">
-        <tr>
-            <td bgcolor="black"><tm>지난달 디벨콘텐츠</tm></td>
-        </tr>
-    </table>
-    <table align="center">
-        <tr height="42" bgcolor="#1D1D1D">
-            <td width="64"></td>
-            <td width="342"><tl>이미지</tl></td>
-            <td width="426"><tl>링크</tl></td>
-            <td width="64"><button type="button" class="abutton" onclick="ItemControl('add', 'bdc')">+</button></td>
-            <td width="64"><button type="button" class="rbutton" onclick="ItemControl('remove', 'bdc')">-</button></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>1</tnumber></td>
-            <td><input class="imageid" type="url" id="bdc_i1" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="bdc_u1" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>2</tnumber></td>
-            <td><input class="imageid2" type="url" id="bdc_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="bdc_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>3</tnumber></td>
-            <td><input class="imageid" type="url" id="bdc_i3" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="bdc_u3" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>4</tnumber></td>
-            <td><input class="imageid2" type="url" id="bdc_i4" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="bdc_u4" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>5</tnumber></td>
-            <td><input class="imageid" type="url" id="bdc_i5" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="bdc_u5" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-    </table>
-    
-
-    <!-- 지난달 디벨서포터즈 -->
-    <div style="padding:24px 0;"></div>
-
-    <table height="64" align="center">
-        <tr>
-            <td bgcolor="black"><tm>지난달 디벨서포터즈</tm></td>
-        </tr>
-    </table>
-    <table align="center">
-        <tr height="42" bgcolor="#1D1D1D">
-            <td width="64"></td>
-            <td width="342"><tl>이미지</tl></td>
-            <td width="426"><tl>링크</tl></td>
-            <td width="64"><button type="button" class="abutton" onclick="ItemControl('add', 'bdsu')">+</button></td>
-            <td width="64"><button type="button" class="rbutton" onclick="ItemControl('remove', 'bdsu')">-</button></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>1</tnumber></td>
-            <td><input class="imageid" type="url" id="bdsu_i1" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="bdsu_u1" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>2</tnumber></td>
-            <td><input class="imageid2" type="url" id="bdsu_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="bdsu_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>3</tnumber></td>
-            <td><input class="imageid" type="url" id="bdsu_i3" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="bdsu_u3" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>4</tnumber></td>
-            <td><input class="imageid2" type="url" id="bdsu_i4" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid2" type="url" id="bdsu_u4" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr>
-            <td class="number"><tnumber>5</tnumber></td>
-            <td><input class="imageid" type="url" id="bdsu_i5" ondrop="dropIMG(event, this.id)"></td>
-            <td colspan="3"><input class="linkid" type="url" id="bdsu_u5" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-    </table>
+        <table align="center">
+            <tr height="42" bgcolor="#1D1D1D">
+                <td width="64"></td>
+                <td width="342"><tl>이미지</tl></td>
+                <td width="554"><tl>링크</tl></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>1</tnumber></td>
+                <td><input class="imageid" type="url" id="eb_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="eb_u1" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>2</tnumber></td>
+                <td><input class="imageid2" type="url" id="eb_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="eb_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>3</tnumber></td>
+                <td><input class="imageid" type="url" id="eb_i3" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="eb_u3" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>4</tnumber></td>
+                <td><input class="imageid2" type="url" id="eb_i4" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="eb_u4" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>5</tnumber></td>
+                <td><input class="imageid" type="url" id="eb_i5" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="eb_u5" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>6</tnumber></td>
+                <td><input class="imageid2" type="url" id="eb_i6" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="eb_u6" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>7</tnumber></td>
+                <td><input class="imageid" type="url" id="eb_i7" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="eb_u7" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+        </table>
 
 
-    <!-- 베이스 인터페이스 -->
-    <div style="padding:24px 0;"></div>
+        <!-- 디벨콘텐츠 -->
+        <div style="padding:24px 0;"></div>
 
-    <table height="64" align="center">
-        <tr>
-            <td bgcolor="black"><tm>베이스 인터페이스</tm></td>
-        </tr>
-    </table>
-    <table align="center">
-        <tr height="42">
-            <td bgcolor="#595959" colspan="2"><tl>디벨베스트</tl></td>
-            <td bgcolor="#2B2B2B" colspan="2"><tl>디벨콘텐츠</tl></td>
-        </tr>
-        <tr>
-            <td><input class="imageid3" type="url" id="ui_i1" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="linkid5" type="url" id="ui_u1" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="imageid3" type="url" id="ui_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="linkid5" type="url" id="ui_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr height="42">
-            <td bgcolor="#595959" colspan="2"><tl>디벨서포터즈</tl></td>
-            <td bgcolor="#2B2B2B" colspan="2"><tl>디벨스폰서</tl></td>
-        </tr>
-        <tr>
-            <td><input class="imageid3" type="url" id="ui_i1" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="linkid5" type="url" id="ui_u1" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="imageid3" type="url" id="ui_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="linkid5" type="url" id="ui_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr height="42">
-            <td bgcolor="#595959" colspan="2"><tl>지난달 디벨베스트</tl></td>
-            <td bgcolor="#2B2B2B" colspan="2"><tl>지난달 디벨콘텐츠</tl></td>
-        </tr>
-        <tr>
-            <td><input class="imageid3" type="url" id="ui_i1" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="linkid5" type="url" id="ui_u1" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="imageid3" type="url" id="ui_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="linkid5" type="url" id="ui_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-        <tr height="42">
-            <td bgcolor="#595959" colspan="2"><tl>지난달 디벨서포터즈</tl></td>
-            <td bgcolor="#2B2B2B" colspan="2"><tl>하단</tl></td>
-        </tr>
-        <tr>
-            <td><input class="imageid3" type="url" id="ui_i1" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="linkid5" type="url" id="ui_u1" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="imageid3" type="url" id="ui_i2" ondrop="dropIMG(event, this.id)"></td>
-            <td><input class="linkid5" type="url" id="ui_u2" ondrop="dropIMG(event, this.id)"></td>
-        </tr>
-    </table>
-    
+        <table height="64" align="center">
+            <tr>
+                <td bgcolor="black"><tm>디벨콘텐츠</tm></td>
+            </tr>
+        </table>
+        <table align="center">
+            <tr height="42" bgcolor="#1D1D1D">
+                <td width="64"></td>
+                <td width="342"><tl>이미지</tl></td>
+                <td width="426"><tl>링크</tl></td>
+                <td width="64"><button type="button" class="abutton" onclick="ItemControl('add', 'dc')">+</button></td>
+                <td width="64"><button type="button" class="rbutton" onclick="ItemControl('remove', 'dc')">-</button></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>1</tnumber></td>
+                <td><input class="imageid" type="url" id="dc_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="dc_u1" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>2</tnumber></td>
+                <td><input class="imageid2" type="url" id="dc_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="dc_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>3</tnumber></td>
+                <td><input class="imageid" type="url" id="dc_i3" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="dc_u3" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>4</tnumber></td>
+                <td><input class="imageid2" type="url" id="dc_i4" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="dc_u4" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>5</tnumber></td>
+                <td><input class="imageid" type="url" id="dc_i5" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="dc_u5" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+        </table>
+        
 
-    <!-- 제작 -->
-    <div style="padding:36px 0;"></div>
+        <!-- 디벨서포터즈 -->
+        <div style="padding:24px 0;"></div>
 
-    <table align="center">
-        <tr style="cursor:pointer;">
-            <td><button type="button" class="button3" onclick="MakeNCopy()">생성 및 클립보드에 복사</button></td>
-            <td><button type="button" class="button4" onclick="ItemSave()">JSON 저장</button></td>
-            <td><button type="button" class="button5" onclick="FileOpen()">JSON 불러오기</button></td>
-        </tr>
-        <tr>
-            <td colspan="3"><button type="button" class="button6" onclick="window.open('https://cafe.naver.com/ManageGateEditor.nhn?clubid=23370764')";>카페 대문 관리 사이트로 이동 (로그인 필요)</button></td>
-        </tr>
-    </table>
+        <table height="64" align="center">
+            <tr>
+                <td bgcolor="black"><tm>디벨서포터즈</tm></td>
+            </tr>
+        </table>
+        <table align="center">
+            <tr height="42" bgcolor="#1D1D1D">
+                <td width="64"></td>
+                <td width="342"><tl>이미지</tl></td>
+                <td width="426"><tl>링크</tl></td>
+                <td width="64"><button type="button" class="abutton" onclick="ItemControl('add', 'dsu')">+</button></td>
+                <td width="64"><button type="button" class="rbutton" onclick="ItemControl('remove', 'dsu')">-</button></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>1</tnumber></td>
+                <td><input class="imageid" type="url" id="dsu_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="dsu_u1" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>2</tnumber></td>
+                <td><input class="imageid2" type="url" id="dsu_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="dsu_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>3</tnumber></td>
+                <td><input class="imageid" type="url" id="dsu_i3" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="dsu_u3" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>4</tnumber></td>
+                <td><input class="imageid2" type="url" id="dsu_i4" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="dsu_u4" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>5</tnumber></td>
+                <td><input class="imageid" type="url" id="dsu_i5" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="dsu_u5" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+        </table>
+
+
+        <!-- 디벨스폰서 -->
+        <div style="padding:24px 0;"></div>
+
+        <table height="64" align="center">
+            <tr>
+                <td bgcolor="black"><tm>디벨스폰서</tm></td>
+            </tr>
+        </table>
+        <table align="center">
+            <tr height="42" bgcolor="#1D1D1D">
+                <td width="64"></td>
+                <td width="342"><tl>이미지</tl></td>
+                <td width="426"><tl>링크</tl></td>
+                <td width="64"><button type="button" class="abutton" onclick="ItemControl('add', 'ds')">+</button></td>
+                <td width="64"><button type="button" class="rbutton" onclick="ItemControl('remove', 'ds')">-</button></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>1</tnumber></td>
+                <td><input class="imageid" type="url" id="ds_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="ds_u1" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>2</tnumber></td>
+                <td><input class="imageid2" type="url" id="ds_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="ds_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>3</tnumber></td>
+                <td><input class="imageid" type="url" id="ds_i3" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="ds_u3" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>4</tnumber></td>
+                <td><input class="imageid2" type="url" id="ds_i4" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="ds_u4" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>5</tnumber></td>
+                <td><input class="imageid" type="url" id="ds_i5" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="ds_u5" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+        </table>
+
+
+        <!-- 지난달 디벨베스트 -->
+        <div style="padding:24px 0;"></div>
+
+        <table height="64" align="center">
+            <tr>
+                <td bgcolor="black"><tm>지난달 디벨베스트</tm></td>
+            </tr>
+        </table>
+
+        <table height="384" align="center">
+            <tr>
+                <td bgcolor="#333333" width="384" rowspan="2"><tx>1</tx></td>
+                <td bgcolor="#464646"><tx>2</tx></td>
+                <td bgcolor="#2F2F2F"><tx>3</tx></td>
+                <td bgcolor="#464646"><tx>4</tx></td>
+            </tr>
+            <tr>
+                <td bgcolor="#2F2F2F"><tx>5</tx></td>
+                <td bgcolor="#464646"><tx>6</tx></td>
+                <td bgcolor="#2F2F2F"><tx>7</tx></td>
+            </tr>
+        </table>
+
+        <div style="padding:12px 0;"></div>
+
+        <table align="center">
+            <tr height="42" bgcolor="#1D1D1D">
+                <td width="64"></td>
+                <td width="342"><tl>이미지</tl></td>
+                <td width="554"><tl>링크</tl></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>1</tnumber></td>
+                <td><input class="imageid" type="url" id="beb_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="beb_u1" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>2</tnumber></td>
+                <td><input class="imageid2" type="url" id="beb_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="beb_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>3</tnumber></td>
+                <td><input class="imageid" type="url" id="beb_i3" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="beb_u3" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>4</tnumber></td>
+                <td><input class="imageid2" type="url" id="beb_i4" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="beb_u4" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>5</tnumber></td>
+                <td><input class="imageid" type="url" id="beb_i5" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="beb_u5" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>6</tnumber></td>
+                <td><input class="imageid2" type="url" id="beb_i6" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="beb_u6" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>7</tnumber></td>
+                <td><input class="imageid" type="url" id="beb_i7" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="beb_u7" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+        </table>
+
+
+        <!-- 지난달 디벨콘텐츠 -->
+        <div style="padding:24px 0;"></div>
+
+        <table height="64" align="center">
+            <tr>
+                <td bgcolor="black"><tm>지난달 디벨콘텐츠</tm></td>
+            </tr>
+        </table>
+        <table align="center">
+            <tr height="42" bgcolor="#1D1D1D">
+                <td width="64"></td>
+                <td width="342"><tl>이미지</tl></td>
+                <td width="426"><tl>링크</tl></td>
+                <td width="64"><button type="button" class="abutton" onclick="ItemControl('add', 'bdc')">+</button></td>
+                <td width="64"><button type="button" class="rbutton" onclick="ItemControl('remove', 'bdc')">-</button></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>1</tnumber></td>
+                <td><input class="imageid" type="url" id="bdc_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="bdc_u1" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>2</tnumber></td>
+                <td><input class="imageid2" type="url" id="bdc_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="bdc_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>3</tnumber></td>
+                <td><input class="imageid" type="url" id="bdc_i3" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="bdc_u3" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>4</tnumber></td>
+                <td><input class="imageid2" type="url" id="bdc_i4" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="bdc_u4" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>5</tnumber></td>
+                <td><input class="imageid" type="url" id="bdc_i5" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="bdc_u5" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+        </table>
+        
+
+        <!-- 지난달 디벨서포터즈 -->
+        <div style="padding:24px 0;"></div>
+
+        <table height="64" align="center">
+            <tr>
+                <td bgcolor="black"><tm>지난달 디벨서포터즈</tm></td>
+            </tr>
+        </table>
+        <table align="center">
+            <tr height="42" bgcolor="#1D1D1D">
+                <td width="64"></td>
+                <td width="342"><tl>이미지</tl></td>
+                <td width="426"><tl>링크</tl></td>
+                <td width="64"><button type="button" class="abutton" onclick="ItemControl('add', 'bdsu')">+</button></td>
+                <td width="64"><button type="button" class="rbutton" onclick="ItemControl('remove', 'bdsu')">-</button></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>1</tnumber></td>
+                <td><input class="imageid" type="url" id="bdsu_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="bdsu_u1" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>2</tnumber></td>
+                <td><input class="imageid2" type="url" id="bdsu_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="bdsu_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>3</tnumber></td>
+                <td><input class="imageid" type="url" id="bdsu_i3" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="bdsu_u3" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>4</tnumber></td>
+                <td><input class="imageid2" type="url" id="bdsu_i4" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid2" type="url" id="bdsu_u4" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="number"><tnumber>5</tnumber></td>
+                <td><input class="imageid" type="url" id="bdsu_i5" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="bdsu_u5" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+        </table>
+
+
+        <!-- 베이스 인터페이스 -->
+        <div style="padding:24px 0;"></div>
+
+        <table height="64" align="center">
+            <tr>
+                <td bgcolor="black"><tm>베이스 인터페이스</tm></td>
+            </tr>
+        </table>
+        <table align="center">
+            <tr height="42">
+                <td bgcolor="#595959" colspan="2"><tl>디벨베스트</tl></td>
+                <td bgcolor="#2B2B2B" colspan="2"><tl>디벨콘텐츠</tl></td>
+            </tr>
+            <tr>
+                <td><input class="imageid3" type="url" id="ui_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid5" type="url" id="ui_u1" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="imageid3" type="url" id="ui_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid5" type="url" id="ui_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr height="42">
+                <td bgcolor="#595959" colspan="2"><tl>디벨서포터즈</tl></td>
+                <td bgcolor="#2B2B2B" colspan="2"><tl>디벨스폰서</tl></td>
+            </tr>
+            <tr>
+                <td><input class="imageid3" type="url" id="ui_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid5" type="url" id="ui_u1" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="imageid3" type="url" id="ui_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid5" type="url" id="ui_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr height="42">
+                <td bgcolor="#595959" colspan="2"><tl>지난달 디벨베스트</tl></td>
+                <td bgcolor="#2B2B2B" colspan="2"><tl>지난달 디벨콘텐츠</tl></td>
+            </tr>
+            <tr>
+                <td><input class="imageid3" type="url" id="ui_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid5" type="url" id="ui_u1" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="imageid3" type="url" id="ui_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid5" type="url" id="ui_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr height="42">
+                <td bgcolor="#595959" colspan="2"><tl>지난달 디벨서포터즈</tl></td>
+                <td bgcolor="#2B2B2B" colspan="2"><tl>하단</tl></td>
+            </tr>
+            <tr>
+                <td><input class="imageid3" type="url" id="ui_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid5" type="url" id="ui_u1" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="imageid3" type="url" id="ui_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid5" type="url" id="ui_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+        </table>
+        
+
+        <!-- 제작 -->
+        <div style="padding:36px 0;"></div>
+
+        <table align="center">
+            <tr style="cursor:pointer;">
+                <td><button type="button" class="button3" onclick="MakeNCopy()">생성 및 클립보드에 복사</button></td>
+                <td><button type="button" class="button4" onclick="ItemSave()">JSON 저장</button></td>
+                <td><button type="button" class="button5" onclick="FileOpen()">JSON 불러오기</button></td>
+            </tr>
+            <tr>
+                <td colspan="3"><button type="button" class="button6" onclick="window.open('https://cafe.naver.com/ManageGateEditor.nhn?clubid=23370764')";>카페 대문 관리 사이트로 이동 (로그인 필요)</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer -->
+
+    <div style="padding:52px 0;"></div>
+    <div class="footertop">
+        <div class="footleftcontent">
+            <div class="footcontent">
+                <img class="footdvllogo" src="../../../asset/images/dvl_dark_nocolor.svg">
+            </div>
+        </div>
+        <div class="footrightcontent">
+            <div class="footitem">
+                <a href="https://develoid.net/"><p>디벨로이드 커뮤니티</p></a>
+            </div>
+            <div class="footitem">
+                <p>© 2022 디벨로이드</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbot">
+        <div class="textarea">
+            <h1>디벨로이드 대문 편집기</h1>
+            <p>디벨로이드에서 운영하는 모든 서비스는 저작권법에 의해 보호를 받고 있습니다.<br>해당 웹사이트에 관련된 문의는 디벨서포트를 이용해 주시기 바랍니다.</p>
+        </div>
+    </div>
+
 </body>
 </html>
