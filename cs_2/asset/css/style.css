@@ -63,17 +63,21 @@ mt2 {
     padding: 6px 0;
 }
 
-.kakaobutton, .cafembutton, .contbutton, .purpbutton {
+.kakaobutton, .cafekbutton, .cafembutton, .contbutton, .purpbutton {
     width: 450px;
     height: 54px;
-    margin-top: 6px;
+    margin-top: 8px;
 }
 
 .kakaobutton {
     background: #FFDAA3;
 }
 
-.cafembutton {
+.cafembutton, .contbutton {
+    margin-top: 12px;
+}
+
+.cafembutton, .cafekbutton {
     background: #C7DAFF;
 }
 
@@ -87,6 +91,10 @@ mt2 {
 
 .cafesbutton {
     border-right: solid 2px #0000000D;
+}
+
+.cafekbutton {
+    width: 450px;
 }
 
 .contbutton {
