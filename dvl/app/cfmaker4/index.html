@@ -17,7 +17,7 @@
     <meta property="og:url" content="https://develoid.github.io/dvl/app/cfmaker4/">
     <meta property="og:title" content="디벨로이드 대문 편집기">
     <meta property="og:image" content="./asset/images/ogimage.png">
-    <meta property="og:description" content="디벨로이드 커뮤니티 대문을 쉽게 편집해보자!">
+    <meta property="og:description" content="디벨로이드 대문 편집기">
 
     <link rel="canonical" href="http://develoid.net">
     <link rel="shortcut icon" href="../../../asset/img/favicon.png">
@@ -25,6 +25,7 @@
     <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/fonts.css">
     <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/header_indark.css">
     <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/footer.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/base_style.css">
     <title>디벨로이드 대문 편집기</title>
 </head>
 
@@ -36,19 +37,21 @@
     <div class="header">
         <div class="headleftcontent">
             <div class="headcontent">
-                <img class="headdvllogo" src="../../../asset/images/dvl_dark.svg">
-                    <!-- <span class="arrow">
+                <a href="https://develoid.github.io/dvl/app/cfmaker4/">
+                    <img class="headdvllogo" src="./asset/images/logo.svg">
+                        <!-- <span class="arrow">
                         <svg width="8" height="8" class viewbox="0 0 8 5">
                         <title>mainMenuDownNonHover</title>
                         <path d="M.707 1.707l2.586 2.586a1 1 0 001.414 0l2.586-2.586C7.923 1.077 7.477 0 6.586 0H1.414C.524 0 .077 1.077.707 1.707z"></path>
                         </svg>
                     </span> -->
+                </a>
             </div>
         </div>
         <div class="headcentercontent">
             <div class="headitem">
-                <a href="https://www.naver.com">
-                <p>디벨로이드 커뮤니티</p>
+                <a href="https://develoid.net/" target="_blank">
+                <p>커뮤니티</p>
                 <span class="headoutlink">
                     <svg class viewBox="0 0 16 16">
                         <path fill="#FFFFFF80" fill-rule="evenodd" clip-rule="evenodd" d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 00-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158z">
@@ -58,8 +61,8 @@
                 </a>
             </div>
             <div class="headitem">
-                <a href="https://www.naver.com">
-                <p>대문 작업 공간</p>
+                <a href="https://cafe.naver.com/ManageGateEditor.nhn?clubid=23370764" target="_blank">
+                <p>대문 작업 공간 (로그인 필요)</p>
                 <span class="headoutlink">
                     <svg class viewBox="0 0 16 16">
                         <path fill="#FFFFFF80" fill-rule="evenodd" clip-rule="evenodd" d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 00-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158z">
@@ -72,27 +75,21 @@
     </div>
 
 
+    <!-- Section -->
     <div class="section">
 
-    <!-- 타이틀 -->
+        <!-- 타이틀 -->
 
         <div class="title">
-        <table height="72" align="center">
-            <tr>
-                <td bgcolor="black"><tn>디벨로이드 대문 편집기</tn></td>
-            </tr>
-        </table>
+            <tn>디벨로이드 대문 편집기</tn>
         </div>
 
-
         <!-- 베스트포토 및 공지사항 -->
-        <div style="padding:16px 0;"></div>
+        <div class="paddinga"></div>
 
-        <table height="64" align="center">
-            <tr>
-                <td bgcolor="black"><tm>베스트포토 및 공지사항</tm></td>
-            </tr>
-        </table>
+        <div class="subtitle">
+            <tm>베스트포토 및 공지사항</tm>
+        </div>
 
         <table height="420" align="center">
             <tr>
@@ -109,7 +106,7 @@
             </tr>
         </table>
 
-        <div style="padding:12px 0;"></div>
+        <div class="paddinga"></div>
 
         <table align="center">
             <tr height="42" bgcolor="#1D1D1D">
@@ -151,13 +148,11 @@
 
 
         <!-- 이벤트 1단 -->
-        <div style="padding:24px 0;"></div>
+        <div class="paddingb"></div>
 
-        <table height="64" align="center">
-            <tr>
-                <td bgcolor="black"><tm>이벤트 1단</tm></td>
-            </tr>
-        </table>
+        <div class="subtitle">
+            <tm>이벤트 1단</tm>
+        </div>
 
         <table align="center">
             <tr height="42" bgcolor="#1D1D1D">
@@ -178,13 +173,11 @@
 
 
         <!-- 이벤트 2단 -->
-        <div style="padding:24px 0;"></div>
+        <div class="paddingb"></div>
 
-        <table height="64" align="center">
-            <tr>
-                <td bgcolor="black"><tm>이벤트 2단</tm></td>
-            </tr>
-        </table>
+        <div class="subtitle">
+            <tm>이벤트 2단</tm>
+        </div>
 
         <table height="140" align="center">
             <tr>
@@ -193,7 +186,7 @@
             </tr>
         </table>
 
-        <div style="padding:12px 0;"></div>
+        <div class="paddinga"></div>
 
         <table align="center">
             <tr height="42" bgcolor="#1D1D1D">
@@ -217,13 +210,11 @@
 
 
         <!-- 디벨베스트 -->
-        <div style="padding:24px 0;"></div>
+        <div class="paddingb"></div>
 
-        <table height="64" align="center">
-            <tr>
-                <td bgcolor="black"><tm>디벨베스트</tm></td>
-            </tr>
-        </table>
+        <div class="subtitle">
+            <tm>디벨베스트</tm>
+        </div>
 
         <table height="384" align="center">
             <tr>
@@ -239,7 +230,7 @@
             </tr>
         </table>
 
-        <div style="padding:12px 0;"></div>
+        <div class="paddinga"></div>
 
         <table align="center">
             <tr height="42" bgcolor="#1D1D1D">
@@ -286,13 +277,12 @@
 
 
         <!-- 디벨콘텐츠 -->
-        <div style="padding:24px 0;"></div>
+        <div class="paddingb"></div>
 
-        <table height="64" align="center">
-            <tr>
-                <td bgcolor="black"><tm>디벨콘텐츠</tm></td>
-            </tr>
-        </table>
+        <div class="subtitle">
+            <tm>디벨콘텐츠</tm>
+        </div>
+
         <table align="center">
             <tr height="42" bgcolor="#1D1D1D">
                 <td width="64"></td>
@@ -330,13 +320,12 @@
         
 
         <!-- 디벨서포터즈 -->
-        <div style="padding:24px 0;"></div>
+        <div class="paddingb"></div>
 
-        <table height="64" align="center">
-            <tr>
-                <td bgcolor="black"><tm>디벨서포터즈</tm></td>
-            </tr>
-        </table>
+        <div class="subtitle">
+            <tm>디벨서포터즈</tm>
+        </div>
+
         <table align="center">
             <tr height="42" bgcolor="#1D1D1D">
                 <td width="64"></td>
@@ -374,13 +363,12 @@
 
 
         <!-- 디벨스폰서 -->
-        <div style="padding:24px 0;"></div>
+        <div class="paddingb"></div>
 
-        <table height="64" align="center">
-            <tr>
-                <td bgcolor="black"><tm>디벨스폰서</tm></td>
-            </tr>
-        </table>
+        <div class="subtitle">
+            <tm>디벨서포트</tm>
+        </div>
+
         <table align="center">
             <tr height="42" bgcolor="#1D1D1D">
                 <td width="64"></td>
@@ -418,13 +406,11 @@
 
 
         <!-- 지난달 디벨베스트 -->
-        <div style="padding:24px 0;"></div>
+        <div class="paddingb"></div>
 
-        <table height="64" align="center">
-            <tr>
-                <td bgcolor="black"><tm>지난달 디벨베스트</tm></td>
-            </tr>
-        </table>
+        <div class="subtitle">
+            <tm>지난달 디벨베스트</tm>
+        </div>
 
         <table height="384" align="center">
             <tr>
@@ -440,7 +426,7 @@
             </tr>
         </table>
 
-        <div style="padding:12px 0;"></div>
+        <div class="paddinga"></div>
 
         <table align="center">
             <tr height="42" bgcolor="#1D1D1D">
@@ -487,13 +473,12 @@
 
 
         <!-- 지난달 디벨콘텐츠 -->
-        <div style="padding:24px 0;"></div>
+        <div class="paddingb"></div>
 
-        <table height="64" align="center">
-            <tr>
-                <td bgcolor="black"><tm>지난달 디벨콘텐츠</tm></td>
-            </tr>
-        </table>
+        <div class="subtitle">
+            <tm>지난달 디벨콘텐츠</tm>
+        </div>
+
         <table align="center">
             <tr height="42" bgcolor="#1D1D1D">
                 <td width="64"></td>
@@ -531,13 +516,12 @@
         
 
         <!-- 지난달 디벨서포터즈 -->
-        <div style="padding:24px 0;"></div>
+        <div class="paddingb"></div>
 
-        <table height="64" align="center">
-            <tr>
-                <td bgcolor="black"><tm>지난달 디벨서포터즈</tm></td>
-            </tr>
-        </table>
+        <div class="subtitle">
+            <tm>지난달 디벨서포터즈</tm>
+        </div>
+
         <table align="center">
             <tr height="42" bgcolor="#1D1D1D">
                 <td width="64"></td>
@@ -575,13 +559,12 @@
 
 
         <!-- 베이스 인터페이스 -->
-        <div style="padding:24px 0;"></div>
+        <div class="paddingb"></div>
 
-        <table height="64" align="center">
-            <tr>
-                <td bgcolor="black"><tm>베이스 인터페이스</tm></td>
-            </tr>
-        </table>
+        <div class="subtitle">
+            <tm>베이스 인터페이스</tm>
+        </div>
+
         <table align="center">
             <tr height="42">
                 <td bgcolor="#595959" colspan="2"><tl>디벨베스트</tl></td>
@@ -627,7 +610,7 @@
         
 
         <!-- 제작 -->
-        <div style="padding:36px 0;"></div>
+        <div class="paddingc"></div>
 
         <table align="center">
             <tr style="cursor:pointer;">
@@ -636,14 +619,14 @@
                 <td><button type="button" class="button5" onclick="FileOpen()">JSON 불러오기</button></td>
             </tr>
             <tr>
-                <td colspan="3"><button type="button" class="button6" onclick="window.open('https://cafe.naver.com/ManageGateEditor.nhn?clubid=23370764')";>카페 대문 관리 사이트로 이동 (로그인 필요)</button></td>
+                <td colspan="3"><button type="button" class="button6" onclick="window.open('https://cafe.naver.com/ManageGateEditor.nhn?clubid=23370764')";>대문 작업 공간 (로그인 필요)</button></td>
             </tr>
         </table>
     </div>
 
     <!-- Footer -->
 
-    <div style="padding:52px 0;"></div>
+    <div class="paddingfooter"></div>
     <div class="footertop">
         <div class="footleftcontent">
             <div class="footcontent">
@@ -652,9 +635,6 @@
         </div>
         <div class="footrightcontent">
             <div class="footitem">
-                <a href="https://develoid.net/"><p>디벨로이드 커뮤니티</p></a>
-            </div>
-            <div class="footitem">
                 <p>© 2022 디벨로이드</p>
             </div>
         </div>
@@ -662,7 +642,7 @@
     <div class="footerbot">
         <div class="textarea">
             <h1>디벨로이드 대문 편집기</h1>
-            <p>디벨로이드에서 운영하는 모든 서비스는 저작권법에 의해 보호를 받고 있습니다.<br>해당 웹사이트에 관련된 문의는 디벨서포트를 이용해 주시기 바랍니다.</p>
+            <p>디벨로이드에서 운영하는 모든 서비스는 저작권법에 의해 보호를 받고 있습니다.<br>담당자: In Orbit</p>
         </div>
     </div>
 

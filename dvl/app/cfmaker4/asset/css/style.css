@@ -1,46 +1,39 @@
-html, body {
-    height: 100%;
-    display: flex;
-    flex-flow: column;
-    margin: 0;
-}
-
 html {
     background: #000000;
     color: white;
-    font-weight: 700;
     letter-spacing: -0.05em;
 }
 
 body {
-    font-family: Interop, sans-serif;
-}
-
-.section {
-    flex: 1;
-    padding-top: 76px;
+    align-items: center;
 }
 
 button, input {
-    border: 0;
-    border-radius: 0;
     color: white;
-    font-family: Interop, sans-serif;
-    font-weight: 600;
     font-size: 13pt;
     letter-spacing: -0.05em;
-    padding: 0;
+}
+
+button {
+    font-weight: 700;
+    justify-content: center;
+}
+
+input {
+    font-weight: 500;
 }
 
 table {
-    border: 0;
-    border-spacing: 0;
     text-align: center;
     width: 960px;
 }
 
+td {
+    padding: 0;
+}
+
 tn {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 32pt;
 }
 
@@ -49,23 +42,45 @@ tnumber {
 }
 
 tm {
+    font-weight: 700;
     font-size: 23pt;
 }
 
 tl, .button3, .button4, .button5, .button6 {
-    font-size: 13pt;
+    font-weight: 600;
+    font-size: 12pt;
 }
 
 tx {
+    font-weight: 700;
     font-size: 68pt;
 }
 
 .title {
-    margin-top: 72px;
+    margin: 96px 0 32px 0;
+    text-align: center;
+}
+
+.subtitle {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.paddinga {
+    padding: 16px 0;
+}
+
+.paddingb {
+    padding: 32px 0;
+}
+
+.paddingc {
+    padding: 36px 0;
 }
 
 .number {
     background: #1D1D1D;
+    font-weight: 600;
     height: 64px;
     width: 64px;
 }

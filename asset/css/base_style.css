@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    font-family: Interop, sans-serif;
+    margin: 0;
+    /* width: 960px; */
+}
+
+button, input {
+    border: 0;
+    border-radius: 0;
+    font-family: Interop, sans-serif;
+    padding: 0 0 2px 0;
+}
+
+table {
+    border: 0;
+    border-spacing: 0;
+}
+
+.section {
+    flex: 1;
+    padding-top: 76px;
+}
