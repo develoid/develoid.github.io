@@ -10,7 +10,7 @@
 	top: 0;
 	left: 0;
 	right: 0;
-	z-index: 1000;
+	z-index: 800;
 }
 
 .header a {
@@ -69,15 +69,88 @@
 }
 
 .headrightcontent {
-	width: 50px;
+	width: 24px;
 	height: 76px;
 	margin-left: auto;
 	display: table;
 	margin-right: 32px;
 }
 
+.mobile-menu i {
+	display: none;
+    font-size: 1rem;
+}
+
+.menuwrap {
+	display: flex;
+	flex-flow: row wrap;
+	align-content: space-around;
+	justify-content: space-between;
+    position: fixed;
+    z-index: 900;
+    overflow: auto;
+    width: 100%;
+    height: 150px;
+	bottom: -150px;
+    padding: 34px 4%;
+    box-sizing: border-box;
+    border-radius: 20px 20px 0 0;
+    transition: bottom .3s ease-in-out;
+    background-color: #202020;
+}
+
+.menuwrap.on {
+    bottom: 0;
+}
+
+#dimmed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 500;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    -webkit-backdrop-filter: blur(4px);
+	backdrop-filter: blur(4px);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 24px 0 0 0;
+}
+
+.menuwrap svg {
+	width: 12px;
+	height: 12px;
+}
+
+.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap {
+	font-size: 12pt;
+	font-weight: 500;
+	border-radius: 8px;
+}
+
+.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap {
+	background-color: #303030;
+	width: 23.5%;
+	height: 60px;
+	color: white;
+}
+
+.menu_inwrap  {
+	background-color: #303030;
+	width: 23.5%;
+	height: 60px;
+	color: white;
+} 
+
 .headdaynnight svg {
-    cursor:pointer;
+    cursor: pointer;
     width: 24px;
     height: 24px;
     display: inline-block;
@@ -92,4 +165,119 @@
     margin-top: 4px;
 }
 
+@media screen and (max-width: 1124px) {
+    .headdvllogo {
+		width: auto;
+		height: 38px;
+		margin-top: 2px;
+	}
 
+	.headcentercontent {
+		display: none;
+	}
+
+	.mobile-menu i 	{
+		display: block;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap {
+		font-size: 11pt;
+	}
+
+	.menuwrap svg {
+		width: 11px;
+		height: 11px;
+	}
+}
+
+@media screen and (max-width: 690px) {
+	.menuwrap {
+		height: 240px;
+		bottom: -240px;
+	}
+	
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap {
+		font-size: 13pt;
+	}
+
+	.menuwrap svg {
+		width: 13px;
+		height: 13px;
+	}
+	
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap {
+		width: 48%;
+		height: 70px;
+	}
+	
+	.menu_inwrap {
+		width: 48%;
+		height: 70px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.menuwrap {
+		height: 420px;
+		bottom: -420px;
+	}
+	
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap {
+		width: 100%;
+	}
+	
+	.menu_inwrap {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.menuwrap {
+		height: 390px;
+		bottom: -390px;
+	}
+	
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap {
+		font-size: 12pt;
+	}
+
+	.menuwrap svg {
+		width: 12px;
+		height: 12px;
+	}
+	
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap {
+		height: 60px;
+	}
+	
+	.menu_inwrap {
+		height: 60px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.menuwrap {
+		height: 320px;
+		bottom: -320px;
+		padding: 24px 6%;
+	}
+	
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap {
+		font-size: 11pt;
+	}
+
+	.menuwrap svg {
+		width: 11px;
+		height: 11px;
+	}
+	
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap {
+		height: 50px;
+	}
+	
+	.menu_inwrap {
+		height: 50px;
+	}
+}
