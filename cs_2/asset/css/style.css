@@ -1,53 +1,82 @@
 html {
-    background: #FAFAFA;
-    color: black;
+    background: black;
+    color: white;
     font-weight: 700;
-    letter-spacing: -0.07em;
+    letter-spacing: -0.05em;
+	font-size: 15pt;
+}
+.header a {
+    color: white !important;
+}
+
+.bg {
+    background: url(../images/bg_dark.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.section {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: -104px;
 }
 
 button, input {
+    width: 24rem;
+    height: 3rem;
     color: black;
-    cursor:pointer;
+    cursor: pointer;
     font-weight: 700;
-    font-size: 13pt;
-    letter-spacing: -0.07em;
+    font-size: 12.2pt;
+    letter-spacing: -0.04em;
 }
+
+/* Title BETA button Start */
+
+.btpd {
+    padding: 0.3rem 0;
+}
+
+.beta {
+    font-size: 10pt;
+    font-weight: 600;
+    cursor: default;
+    width: 3.5em;
+    height: 1.8em;
+    background-color: #8E77C6;
+    border-radius: 4px;
+    color: white;
+}
+
+/* Title BETA button End */
 
 table {
-    width: 960px;
-}
-
-mt {
-    font-weight: 700;
-    font-size: 42pt;
-}
-
-submt {
-    font-weight: 400;
-    font-size: 14pt;
-    color: #00000099;
-}
-
-submtb {
-    font-weight: 600;
-}
-
-mt2 {
-    font-size: 20pt;
-}
-
-.sub {
-    display: grid;
-    grid-template-areas: "a a";
-    justify-content: center;
-    grid-gap: 60px;
-    grid-auto-flow: row;
-    width: 1fr;
+    width: 100%;
 }
 
 .title {
-    margin: 82px 0 32px 0;
-    line-height: 1.3;
+    padding: 0 60px 40px 60px;
+}
+
+.title h1 {
+    font-weight: 700;
+    font-size: 42pt;
+    margin: 0;
+}
+
+.title p {
+    font-weight: 400;
+    font-size: 14pt;
+    opacity: 60%;
+}
+
+.sub h3 {
+    margin: 0 0 8px 0;
+    font-size: 14pt;
 }
 
 .paddinga {
@@ -59,8 +88,6 @@ mt2 {
 }
 
 .kakaobutton, .cafekbutton, .cafembutton, .contbutton, .purpbutton {
-    width: 450px;
-    height: 54px;
     margin-top: 8px;
 }
 
@@ -77,8 +104,7 @@ mt2 {
 }
 
 .cafesbutton, .cafesfbutton {
-    width: 150px;
-    height: 54px;
+    width: 8rem;
     background: #C7DAFF;
     color: #000000B3;
     border-top: solid 2px #0000000D;
@@ -86,10 +112,6 @@ mt2 {
 
 .cafesbutton {
     border-right: solid 2px #0000000D;
-}
-
-.cafekbutton {
-    width: 450px;
 }
 
 .contbutton {
@@ -101,5 +123,180 @@ mt2 {
 }
 
 .cont, .comm {
-    width: 450px;
+    width: 24rem;
+    padding-right: 60px;
+}
+
+.comm {
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 1124px) {
+    .section {
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        margin: 140px 0 0 0;
+    }
+    
+    .title {
+        padding: 0 0 40px 0;
+        width: 30rem;
+    }
+
+    button {
+        width: 30rem;
+        height: 3.6rem;
+        font-size: 14pt;
+    }
+
+    .cont, .comm {
+        width: 30rem;
+        padding-right: 0;
+    }
+
+    .cafesbutton, .cafesfbutton {
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 690px) {    
+    button, .cont, .comm, .title {
+        width: 24rem;
+    }
+
+    button {
+        font-size: 13pt;
+        height: 3.3rem;
+    }
+
+    .cafesbutton, .cafesfbutton {
+        width: 8rem;
+    }
+}
+
+@media screen and (max-width: 540px) { 
+    /* Title BETA button Start */
+
+    .beta {
+        font-size: 8.5pt;
+    }
+
+    /* Title BETA button End */
+
+    .section h1 {
+        font-size: 34pt;
+        line-height: 1.2;
+    }
+
+    .section p {
+        font-size: 12pt;
+    }
+
+    button, .cont, .comm, .title {
+        width: 21rem;
+    }
+
+    .cafesbutton, .cafesfbutton {
+        width: 7rem;
+    }
+}
+
+@media screen and (max-width: 470px) {    
+
+    /* Title BETA button Start */
+
+    .beta {
+        font-size: 8pt;
+    }
+
+    /* Title BETA button End */
+
+    .section h1 {
+        font-size: 33pt;
+        line-height: 1.15;
+    }
+
+    button {
+        font-size: 12pt;
+        height: 2.8rem;
+    }
+
+    .section p {
+        font-size: 11pt;
+    }
+
+    button, .cont, .comm, .title {
+        width: 18rem;
+    }
+
+    .cafesbutton, .cafesfbutton {
+        width: 6rem;
+    }
+}
+
+@media screen and (max-width: 420px) { 
+       
+    /* Title BETA button Start */
+
+    .beta {
+        font-size: 7pt;
+    }
+
+    /* Title BETA button End */
+
+    .section h1 {
+        font-size: 28pt;
+        line-height: 1.15;
+    }
+
+    button {
+        font-size: 11pt;
+        height: 2.5rem;
+    }
+
+    .section p {
+        font-size: 10.5pt;
+    }
+
+    button, .cont, .comm, .title {
+        width: 16.8rem;
+    }
+
+    .cafesbutton, .cafesfbutton {
+        width: 5.6rem;
+    }
+}
+
+@media screen and (max-width: 380px) { 
+    
+    /* Title BETA button Start */
+
+    .beta {
+        font-size: 6.5pt;
+    }
+
+    /* Title BETA button End */
+
+    .section h1 {
+        font-size: 27pt;
+        line-height: 1.15;
+    }
+
+    button {
+        font-size: 10pt;
+        height: 2.3rem;
+    }
+
+    .section p {
+        font-size: 9.5pt;
+    }
+
+    button, .cont, .comm, .title {
+        width: 15rem;
+    }
+
+    .cafesbutton, .cafesfbutton {
+        width: 5rem;
+    }
 }

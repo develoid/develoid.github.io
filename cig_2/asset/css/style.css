@@ -3,6 +3,7 @@ html {
     color: black;
     font-weight: 700;
     letter-spacing: -0.07em;
+	font-size: 15pt;
 }
 
 .section {
@@ -12,14 +13,14 @@ html {
 
 button, input {
     color: black;
-    cursor:pointer;
+    cursor: pointer;
     font-weight: 700;
     font-size: 13pt;
     letter-spacing: -0.07em;
 }
 
 table {
-    width: 960px;
+    width: 100%;
 }
 
 mt {
@@ -43,10 +44,9 @@ mt2 {
 
 .sub {
     display: grid;
-    grid-template-areas: "a a";
+    grid-template-areas: "a";
     justify-content: center;
-    grid-gap: 60px;
-    grid-auto-flow: row;
+    gap: 4rem;
 }
 
 .title {
@@ -63,9 +63,8 @@ mt2 {
     padding: 42px 0;
 }
 
-
 .kakaobutton, .cafekbutton, .cafembutton, .contbutton, .purpbutton {
-    width: 450px;
+    width: 21rem;
     height: 54px;
     margin-top: 8px;
 }
@@ -83,7 +82,7 @@ mt2 {
 }
 
 .cafesbutton, .cafesfbutton {
-    width: 150px;
+    width: 7rem;
     height: 54px;
     background: #C7DAFF;
     color: #000000B3;
@@ -95,7 +94,7 @@ mt2 {
 }
 
 .cafekbutton {
-    width: 450px;
+    width: 21rem;
 }
 
 .contbutton {
@@ -107,5 +106,9 @@ mt2 {
 }
 
 .cont, .comm {
-    width: 450px;
+    width: 21rem;
 }
+
+/*
+grid-template-areas: "a";
+*/
