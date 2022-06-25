@@ -81,38 +81,47 @@
     font-size: 1rem;
 }
 
-.menuwrap {
+.menuwrap_dvl, .menuwrap {
 	display: flex;
 	flex-flow: row wrap;
 	align-content: space-around;
 	justify-content: space-between;
     position: fixed;
-    z-index: 900;
     overflow: auto;
+    box-sizing: border-box;
+    background-color: #202020;
+}
+
+.menuwrap {
     width: 100%;
     height: 150px;
 	bottom: -150px;
     padding: 34px 4%;
-    box-sizing: border-box;
     border-radius: 20px 20px 0 0;
     transition: bottom .3s ease-in-out;
-    background-color: #202020;
 }
 
-.menuwrap.on {
+.menuwrap {
+	z-index: 1000;
+}
+
+.menuwrap_dvl.on, .menuwrap.on {
     bottom: 0;
 }
 
-#dimmed {
+#dimmed, #dimmed2 {
     position: fixed;
     bottom: 0;
     right: 0;
-    z-index: 500;
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.2);
     -webkit-backdrop-filter: blur(4px);
 	backdrop-filter: blur(4px);
+}
+
+#dimmed2 {
+    z-index: 1100;
 }
 
 ul {
@@ -124,12 +133,12 @@ li {
     padding: 24px 0 0 0;
 }
 
-.menuwrap svg {
+.menuwrap_dvl svg, .menuwrap svg {
 	width: 12px;
 	height: 12px;
 }
 
-.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap {
+.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .section_cancel_inwrap {
 	font-size: 12pt;
 	font-weight: 500;
 	border-radius: 8px;
@@ -142,7 +151,7 @@ li {
 	color: white;
 }
 
-.menu_inwrap  {
+.menu_inwrap, .section_cancel_inwrap  {
 	background-color: #303030;
 	width: 23.5%;
 	height: 60px;
@@ -182,27 +191,27 @@ li {
 }
 
 @media screen and (max-width: 850px) {
-	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap {
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .section_cancel_inwrap {
 		font-size: 11pt;
 	}
 
-	.menuwrap svg {
+	.menuwrap_dvl svg, .menuwrap svg {
 		width: 11px;
 		height: 11px;
 	}
 }
 
 @media screen and (max-width: 690px) {
-	.menuwrap {
+	.menuwrap_dvl, .menuwrap {
 		height: 240px;
 		bottom: -240px;
 	}
 	
-	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap {
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .section_cancel_inwrap {
 		font-size: 13pt;
 	}
 
-	.menuwrap svg {
+	.menuwrap_dvl svg, .menuwrap svg {
 		width: 13px;
 		height: 13px;
 	}
@@ -212,14 +221,14 @@ li {
 		height: 70px;
 	}
 	
-	.menu_inwrap {
+	.menu_inwrap, .section_cancel_inwrap {
 		width: 48%;
 		height: 70px;
 	}
 }
 
 @media screen and (max-width: 540px) {
-	.menuwrap {
+	.menuwrap_dvl, .menuwrap {
 		height: 420px;
 		bottom: -420px;
 	}
@@ -228,22 +237,22 @@ li {
 		width: 100%;
 	}
 	
-	.menu_inwrap {
+	.menu_inwrap, .section_cancel_inwrap {
 		width: 100%;
 	}
 }
 
 @media screen and (max-width: 470px) {
-	.menuwrap {
+	.menuwrap_dvl, .menuwrap {
 		height: 390px;
 		bottom: -390px;
 	}
 	
-	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap {
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .section_cancel_inwrap {
 		font-size: 12pt;
 	}
 
-	.menuwrap svg {
+	.menuwrap_dvl svg, .menuwrap svg {
 		width: 12px;
 		height: 12px;
 	}
@@ -252,23 +261,23 @@ li {
 		height: 60px;
 	}
 	
-	.menu_inwrap {
+	.menu_inwrap, .section_cancel_inwrap {
 		height: 60px;
 	}
 }
 
 @media screen and (max-width: 360px) {
-	.menuwrap {
+	.menuwrap_dvl, .menuwrap {
 		height: 320px;
 		bottom: -320px;
 		padding: 24px 6%;
 	}
 	
-	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap {
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .section_cancel_inwrap {
 		font-size: 11pt;
 	}
 
-	.menuwrap svg {
+	.menuwrap_dvl svg, .menuwrap svg {
 		width: 11px;
 		height: 11px;
 	}
@@ -277,7 +286,7 @@ li {
 		height: 50px;
 	}
 	
-	.menu_inwrap {
+	.menu_inwrap, .section_cancel_inwrap {
 		height: 50px;
 	}
 }
