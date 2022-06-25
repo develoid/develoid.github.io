@@ -138,25 +138,23 @@ li {
 	height: 12px;
 }
 
-.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .section_cancel_inwrap {
+.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
 	font-size: 12pt;
 	font-weight: 500;
 	border-radius: 8px;
-}
-
-.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap {
-	background-color: #303030;
+	color: white;
 	width: 23.5%;
 	height: 60px;
-	color: white;
+	transition: 1s;
 }
 
-.menu_inwrap, .section_cancel_inwrap  {
+.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .section_cancel_inwrap {
 	background-color: #303030;
-	width: 23.5%;
-	height: 60px;
-	color: white;
-} 
+}
+
+.cig_inwrap:hover, .dvl_inwrap:hover, .cafeguide_inwrap:hover, .menu_inwrap:hover, .section_cancel_inwrap:hover {
+	background-color: #3B3B3B;
+}
 
 .headdaynnight svg {
     cursor: pointer;
@@ -191,7 +189,7 @@ li {
 }
 
 @media screen and (max-width: 850px) {
-	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .section_cancel_inwrap {
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
 		font-size: 11pt;
 	}
 
@@ -207,7 +205,7 @@ li {
 		bottom: -240px;
 	}
 	
-	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .section_cancel_inwrap {
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
 		font-size: 13pt;
 	}
 
@@ -221,7 +219,7 @@ li {
 		height: 70px;
 	}
 	
-	.menu_inwrap, .section_cancel_inwrap {
+	.menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
 		width: 48%;
 		height: 70px;
 	}
@@ -237,7 +235,7 @@ li {
 		width: 100%;
 	}
 	
-	.menu_inwrap, .section_cancel_inwrap {
+	.menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
 		width: 100%;
 	}
 }
@@ -248,7 +246,7 @@ li {
 		bottom: -390px;
 	}
 	
-	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .section_cancel_inwrap {
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
 		font-size: 12pt;
 	}
 
@@ -261,7 +259,7 @@ li {
 		height: 60px;
 	}
 	
-	.menu_inwrap, .section_cancel_inwrap {
+	.menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
 		height: 60px;
 	}
 }
@@ -273,7 +271,7 @@ li {
 		padding: 24px 6%;
 	}
 	
-	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .section_cancel_inwrap {
+	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
 		font-size: 11pt;
 	}
 
@@ -286,7 +284,7 @@ li {
 		height: 50px;
 	}
 	
-	.menu_inwrap, .section_cancel_inwrap {
+	.menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
 		height: 50px;
 	}
 }

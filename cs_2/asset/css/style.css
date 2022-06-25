@@ -1,5 +1,5 @@
 html {
-    background: black;
+    background-color: black;
     color: white;
     font-weight: 700;
     letter-spacing: -0.05em;
@@ -79,32 +79,28 @@ table {
     font-size: 14pt;
 }
 
-.paddinga {
-    padding: 6px 0;
-}
-
-.paddingb {
-    padding: 42px 0;
+.sub button {
+    border-radius: 0px;
 }
 
 .kakaobutton, .cafekbutton, .cafekdvlbutton, .contbutton, .purpbutton {
-    margin-top: 8px;
+    margin-top: 12px;
 }
 
 .kakaobutton {
-    background: #FFDAA3;
+    background-color: #FFDAA3;
 }
 
 .cafekbutton, .cafekdvlbutton {
-    background: #C7DAFF;
+    background-color: #C7DAFF;
 }
 
 .contbutton {
-    background: #FFD4CA;
+    background-color: #FFD4CA;
 }
 
 .purpbutton {
-    background: #CDCCFF;
+    background-color: #CDCCFF;
 }
 
 .cont, .comm {
@@ -113,7 +109,7 @@ table {
 }
 
 .comm {
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 /* 누리집 MenuWrap 영역은 header.css와 연계 */
@@ -125,13 +121,28 @@ table {
     padding: 34px 4%;
     border-radius: 20px 20px 0 0;
     transition: bottom .3s ease-in-out;
+    z-index: 1200;
 }
 
-.menuwrap_dvl {
-	z-index: 1200;
+.report_inwrap {
+    background-color: #982222;
+}
+
+.report_inwrap:hover {
+    background-color: #B22828;
+    transition: 1s;
 }
 
 
+.ct1_inwrap, .ct2_inwrap {
+    background-color: #325FB8;
+    transition: 1s;
+}
+
+.ct1_inwrap:hover, .ct2_inwrap:hover {
+    background-color: #3A6FD4;
+    transition: 1s;
+}
 
 @media screen and (max-width: 1124px) {
     .section {
