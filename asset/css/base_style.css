@@ -20,8 +20,6 @@ table {
 }
 
 .section {
-    display: flex;
-    flex: 1;
     line-height: 1.3;
 }
 

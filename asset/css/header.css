@@ -81,7 +81,7 @@
     font-size: 1rem;
 }
 
-.menuwrap_dvl, .menuwrap {
+.menuwrap {
 	display: flex;
 	flex-flow: row wrap;
 	align-content: space-around;
@@ -109,7 +109,7 @@
     bottom: 0;
 }
 
-#dimmed, #dimmed2 {
+#dimmed {
     position: fixed;
     bottom: 0;
     right: 0;
@@ -118,10 +118,6 @@
     background-color: rgba(0,0,0,0.2);
     -webkit-backdrop-filter: blur(4px);
 	backdrop-filter: blur(4px);
-}
-
-#dimmed2 {
-    z-index: 1100;
 }
 
 ul {
@@ -133,26 +129,9 @@ li {
     padding: 24px 0 0 0;
 }
 
-.menuwrap_dvl svg, .menuwrap svg {
+.menuwrap svg {
 	width: 12px;
 	height: 12px;
-}
-
-.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
-	font-size: 12pt;
-	font-weight: 500;
-	border-radius: 8px;
-	color: white;
-	width: 23.5%;
-	height: 80%;
-}
-
-.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .section_cancel_inwrap {
-	background-color: #303030;
-}
-
-.cig_inwrap:hover, .dvl_inwrap:hover, .cafeguide_inwrap:hover, .menu_inwrap:hover, .section_cancel_inwrap:hover {
-	background-color: #2B2B2B;
 }
 
 .headdaynnight svg {
@@ -171,37 +150,6 @@ li {
     margin-top: 4px;
 }
 
-
-@media screen and (min-width: 1182px) {
-    .menuwrap_dvl {
-        width: 590px;
-        height: 100px;
-        bottom: -100px;
-        padding: 0 20px;
-        border-radius: 60px;
-        flex-flow: flex nowrap;
-		transition: none;
-    }
-
-    .menuwrap_dvl.on {
-        bottom: 50%;
-    }
-
-    .report_inwrap, .ct1_inwrap, .ct2_inwrap {
-        width: 150px;
-		height: 60px;
-		border-radius: 60px;
-    }
-
-	.section_cancel_inwrap {
-		width: 60px;
-		height: 60px;
-		border-radius: 60px;
-	}
-}    
-
-
-
 @media screen and (max-width: 1182px) {
     .headdvllogo {
 		width: auto;
@@ -219,44 +167,26 @@ li {
 }
 
 @media screen and (max-width: 850px) {
-	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
-		font-size: 11pt;
-	}
-
-	.menuwrap_dvl svg, .menuwrap svg {
+	.menuwrap svg {
 		width: 11px;
 		height: 11px;
 	}
 }
 
 @media screen and (max-width: 690px) {
-	.menuwrap_dvl, .menuwrap {
+	.menuwrap {
 		height: 240px;
 		bottom: -240px;
 	}
-	
-	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
-		font-size: 13pt;
-	}
 
-	.menuwrap_dvl svg, .menuwrap svg {
+	.menuwrap svg {
 		width: 13px;
 		height: 13px;
-	}
-	
-	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap {
-		width: 48%;
-		height: 70px;
-	}
-	
-	.menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
-		width: 48%;
-		height: 70px;
 	}
 }
 
 @media screen and (max-width: 540px) {
-	.menuwrap_dvl, .menuwrap {
+	.menuwrap {
 		height: 400px;
 		bottom: -400px;
 		padding: 24px 4%;
@@ -265,58 +195,30 @@ li {
 	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap {
 		width: 100%;
 	}
-	
-	.menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
-		width: 100%;
-	}
 }
 
 @media screen and (max-width: 470px) {
-	.menuwrap_dvl, .menuwrap {
+	.menuwrap {
 		height: 340px;
 		bottom: -340px;
 		padding: 18px 4%;
 	}
 	
-	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
-		font-size: 12pt;
-	}
-
-	.menuwrap_dvl svg, .menuwrap svg {
+	.menuwrap svg {
 		width: 12px;
 		height: 12px;
-	}
-	
-	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap {
-		height: 60px;
-	}
-	
-	.menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
-		height: 60px;
 	}
 }
 
 @media screen and (max-width: 360px) {
-	.menuwrap_dvl, .menuwrap {
+	.menuwrap {
 		height: 320px;
 		bottom: -320px;
 		padding: 24px 6%;
 	}
-	
-	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
-		font-size: 11pt;
-	}
 
-	.menuwrap_dvl svg, .menuwrap svg {
+	.menuwrap svg {
 		width: 11px;
 		height: 11px;
-	}
-	
-	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap {
-		height: 50px;
-	}
-	
-	.menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
-		height: 50px;
 	}
 }

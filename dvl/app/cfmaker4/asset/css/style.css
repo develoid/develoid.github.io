@@ -8,6 +8,10 @@ body {
     align-items: center;
 }
 
+.header a {
+    color: white !important;
+}
+
 button, input {
     color: white;
     font-size: 13pt;
@@ -57,7 +61,7 @@ tx {
 }
 
 .title {
-    margin: 96px 0 32px 0;
+    margin: 146px 0 32px 0;
     text-align: center;
 }
 
