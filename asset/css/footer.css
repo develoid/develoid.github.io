@@ -7,7 +7,7 @@
 	height: 80px;
 	background-color: #202020;
 	display: flex;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.04em;
 }
 
 .footertop a {
@@ -63,7 +63,7 @@
 
 .footerbot {
     border-top: solid 2px #FFFFFF1A;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
     width: 100%;
     height: auto;
     background-color: #202020;

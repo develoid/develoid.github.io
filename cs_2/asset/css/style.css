@@ -2,7 +2,7 @@ html {
     background-color: black;
     color: white;
     font-weight: 700;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.04em;
 	font-size: 15pt;
 }
 .header a {
@@ -28,10 +28,10 @@ html {
 button, input {
     width: 24rem;
     height: 3rem;
-    color: black;
+    color: white;
     cursor: pointer;
-    font-weight: 700;
-    font-size: 12.2pt;
+    font-weight: 500;
+    font-size: 12.5pt;
     letter-spacing: -0.04em;
 }
 
@@ -80,27 +80,39 @@ table {
 }
 
 .sub button {
-    border-radius: 0px;
+    border-radius: 60px;
 }
 
 .kakaobutton, .cafekbutton, .cafekdvlbutton, .contbutton, .purpbutton {
-    margin-top: 12px;
+    margin-top: 16px;
 }
 
 .kakaobutton {
-    background-color: #FFDAA3;
+    background: linear-gradient(45deg, #FF7918, #FFB82E);
 }
 
-.cafekbutton, .cafekdvlbutton {
-    background-color: #C7DAFF;
+.cafekdvlbutton {
+    background: linear-gradient(45deg, #FF7918, #FFB82E);
 }
 
 .contbutton {
-    background-color: #FFD4CA;
+    background: linear-gradient(45deg, #FF7918, #FFB82E);
 }
 
 .purpbutton {
-    background-color: #CDCCFF;
+    background: linear-gradient(45deg, #5D398C, #835DD3);
+}
+
+.cafekbutton {
+    background: linear-gradient(45deg, #5D398C, #835DD3);
+}
+
+.kakaobutton:hover, .cafekdvlbutton:hover, .contbutton:hover {
+    background: linear-gradient(45deg, #E56C14, #DB9D24);
+}
+
+.purpbutton:hover, .cafekbutton:hover {
+    background: linear-gradient(45deg, #5D398C, #7351BB);
 }
 
 .cont, .comm {
@@ -124,27 +136,27 @@ table {
     z-index: 1200;
 }
 
+.menuwrap_dvl.on {
+    bottom: 0;
+}
+
 .report_inwrap {
-    background-color: #982222;
+    background: linear-gradient(45deg, #B01C1C, #D84040);
 }
 
 .report_inwrap:hover {
-    background-color: #B22828;
-    transition: 1s;
+    background: linear-gradient(45deg, #9A1717, #C63939);
 }
 
-
 .ct1_inwrap, .ct2_inwrap {
-    background-color: #325FB8;
-    transition: 1s;
+    background: linear-gradient(45deg, #5D398C, #835DD3);
 }
 
 .ct1_inwrap:hover, .ct2_inwrap:hover {
-    background-color: #3A6FD4;
-    transition: 1s;
+    background: linear-gradient(45deg, #5D398C, #7351BB);
 }
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1182px) {
     .section {
         justify-content: center;
         flex-direction: column;
@@ -173,7 +185,12 @@ table {
     }
 }
 
-@media screen and (max-width: 690px) {    
+@media screen and (max-width: 690px) {   
+    .section h1 {
+        font-size: 39pt;
+        line-height: 1.2;
+    }
+
     button, .cont, .comm, .title {
         width: 24rem;
     }
@@ -198,7 +215,7 @@ table {
     /* Title BETA button End */
 
     .section h1 {
-        font-size: 34pt;
+        font-size: 32pt;
         line-height: 1.2;
     }
 
@@ -226,7 +243,7 @@ table {
     /* Title BETA button End */
 
     .section h1 {
-        font-size: 33pt;
+        font-size: 30pt;
         line-height: 1.15;
     }
 
@@ -292,7 +309,7 @@ table {
     /* Title BETA button End */
 
     .section h1 {
-        font-size: 27pt;
+        font-size: 25pt;
         line-height: 1.15;
     }
 

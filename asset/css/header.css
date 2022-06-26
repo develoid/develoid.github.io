@@ -1,8 +1,8 @@
 .header {
 	width: 100%;
 	height: 76px;
-	background-color: #00000008;
-	letter-spacing: -0.07em;
+	background-color: #00000005;
+	letter-spacing: -0.04em;
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);
 	display: flex;
@@ -105,7 +105,7 @@
 	z-index: 1000;
 }
 
-.menuwrap_dvl.on, .menuwrap.on {
+.menuwrap.on {
     bottom: 0;
 }
 
@@ -144,8 +144,7 @@ li {
 	border-radius: 8px;
 	color: white;
 	width: 23.5%;
-	height: 60px;
-	transition: 1s;
+	height: 80%;
 }
 
 .cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .section_cancel_inwrap {
@@ -153,7 +152,7 @@ li {
 }
 
 .cig_inwrap:hover, .dvl_inwrap:hover, .cafeguide_inwrap:hover, .menu_inwrap:hover, .section_cancel_inwrap:hover {
-	background-color: #3B3B3B;
+	background-color: #2B2B2B;
 }
 
 .headdaynnight svg {
@@ -172,7 +171,38 @@ li {
     margin-top: 4px;
 }
 
-@media screen and (max-width: 1124px) {
+
+@media screen and (min-width: 1182px) {
+    .menuwrap_dvl {
+        width: 590px;
+        height: 100px;
+        bottom: -100px;
+        padding: 0 20px;
+        border-radius: 60px;
+        flex-flow: flex nowrap;
+		transition: none;
+    }
+
+    .menuwrap_dvl.on {
+        bottom: 50%;
+    }
+
+    .report_inwrap, .ct1_inwrap, .ct2_inwrap {
+        width: 150px;
+		height: 60px;
+		border-radius: 60px;
+    }
+
+	.section_cancel_inwrap {
+		width: 60px;
+		height: 60px;
+		border-radius: 60px;
+	}
+}    
+
+
+
+@media screen and (max-width: 1182px) {
     .headdvllogo {
 		width: auto;
 		height: 38px;
@@ -227,8 +257,9 @@ li {
 
 @media screen and (max-width: 540px) {
 	.menuwrap_dvl, .menuwrap {
-		height: 420px;
-		bottom: -420px;
+		height: 400px;
+		bottom: -400px;
+		padding: 24px 4%;
 	}
 	
 	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap {
@@ -242,8 +273,9 @@ li {
 
 @media screen and (max-width: 470px) {
 	.menuwrap_dvl, .menuwrap {
-		height: 390px;
-		bottom: -390px;
+		height: 340px;
+		bottom: -340px;
+		padding: 18px 4%;
 	}
 	
 	.cig_inwrap, .dvl_inwrap, .cafeguide_inwrap, .menu_inwrap, .report_inwrap, .ct1_inwrap, .ct2_inwrap, .section_cancel_inwrap {
