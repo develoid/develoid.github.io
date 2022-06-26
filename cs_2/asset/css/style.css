@@ -143,7 +143,6 @@ table {
 	bottom: -150px;
     padding: 34px 4%;
     border-radius: 20px 20px 0 0;
-    transition: bottom .3s ease-in-out;
     z-index: 1200;
 }
 
@@ -209,7 +208,6 @@ table {
         padding: 0 20px;
         border-radius: 60px;
         flex-flow: flex nowrap;
-		transition: none;
     }
 
     .menuwrap_dvl.on {
