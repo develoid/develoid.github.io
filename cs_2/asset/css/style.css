@@ -207,10 +207,20 @@ table {
     background: linear-gradient(45deg, #5D398C, #7351BB);
 }
 
+
+
 @media screen and (max-height: 890px) {
     .section {
         margin-top: 150px;
         align-items: flex-start;
+        height: 100%;
+    }
+}
+
+@media screen and (max-height: 890px) and (max-width: 1182px) {
+    .section {
+        margin-top: 150px;
+        align-items: center;
         height: 100%;
     }
 }
