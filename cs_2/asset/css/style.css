@@ -1,9 +1,16 @@
 html {
-    background-color: black;
+    background-color: #1A1A1A;
     color: white;
     font-weight: 700;
     letter-spacing: -0.04em;
 	font-size: 15pt;
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .header a {
@@ -11,7 +18,7 @@ html {
 }
 
 .bg {
-    background: url(../images/bg_dark.jpg) no-repeat center center fixed;
+    background: /* url(../images/bg_dark.jpg)*/ #1A1A1A no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
