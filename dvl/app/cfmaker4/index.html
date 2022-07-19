@@ -25,7 +25,6 @@
     <link rel="stylesheet" type='text/css' media='all' href="./asset/css/style.css">
     <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/fonts.css">
     <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/header_cfmaker.css">
-    <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/footer.css">
     <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/base_style.css">
     <title>디벨로이드 대문 편집기</title>
 </head>
@@ -36,7 +35,7 @@
     <div class="header">
         <div class="headleftcontent">
             <div class="headcontent">
-                <a href="https://develoid.github.io/cs">
+                <a href="https://develoid.github.io/dvl/app/cfmaker4/">
                 <img class="headdvllogo" src="../../../asset/images/services/cfmaker_logo.svg">
                <!-- <span class="arrow">
                         <svg width="8" height="8" class viewbox="0 0 8 5">
@@ -51,17 +50,6 @@
             <div class="headitem">
                 <a href="https://develoid.net" target="_blank">
                 <p>커뮤니티</p>
-                <span class="headoutlink">
-                    <svg class viewBox="0 0 16 16">
-                        <path fill="#FFFFFF80" fill-rule="evenodd" clip-rule="evenodd" d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 00-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158z">
-                        </path>
-                    </svg>
-                </span>
-                </a>
-            </div>
-            <div class="headitem">
-                <a href="https://cafe.naver.com/ManageGateEditor.nhn?clubid=23370764" target="_blank">
-                <p>대문 작업 공간 (로그인 필요)</p>
                 <span class="headoutlink">
                     <svg class viewBox="0 0 16 16">
                         <path fill="#FFFFFF80" fill-rule="evenodd" clip-rule="evenodd" d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 00-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158z">
@@ -606,45 +594,23 @@
                 <td><input class="linkid5" type="url" id="ui_u2" ondrop="dropIMG(event, this.id)"></td>
             </tr>
         </table>
-        
+    </div>
 
         <!-- 제작 -->
         <div class="paddingc"></div>
-
-        <table align="center">
-            <tr style="cursor:pointer;">
-                <td><button type="button" class="button3" onclick="MakeNCopy()">생성 및 클립보드에 복사</button></td>
-                <td><button type="button" class="button4" onclick="ItemSave()">JSON 저장</button></td>
-                <td><button type="button" class="button5" onclick="FileOpen()">JSON 불러오기</button></td>
-            </tr>
-            <tr>
-                <td colspan="3"><button type="button" class="button6" onclick="window.open('https://cafe.naver.com/ManageGateEditor.nhn?clubid=23370764')";>대문 작업 공간 (로그인 필요)</button></td>
-            </tr>
-        </table>
-    </div>
+        <div class="make">
+            <table align="center">
+                <tr style="cursor:pointer;">
+                    <td><button type="button" class="button3" onclick="MakeNCopy()">만들고 클립보드에 복사하기</button></td>
+                    <td><button type="button" class="button4" onclick="ItemSave()">저장하기</button></td>
+                    <td><button type="button" class="button5" onclick="FileOpen()">불러오기</button></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><button type="button" class="button6" onclick="window.open('https://cafe.naver.com/ManageGateEditor.nhn?clubid=23370764')";>대문 작업 공간 (네이버 로그인 필요)</button></td>
+                </tr>
+            </table>
+        </div>
 
     
-    <!-- Footer -->
-
-    <div class="paddingfooter"></div>
-    <div class="footertop">
-        <div class="footleftcontent">
-            <div class="footcontent">
-                <img class="footdvllogo" src="../../../asset/images/dvl_dark_nocolor.svg">
-            </div>
-        </div>
-        <div class="footrightcontent">
-            <div class="footitem">
-                <p>© 2022 디벨로이드</p>
-            </div>
-        </div>
-    </div>
-    <div class="footerbot">
-        <div class="textarea">
-            <h1>디벨로이드 대문 편집기</h1>
-            <p>디벨로이드에서 운영하는 모든 서비스는 저작권법에 의해 보호를 받고 있습니다.<br>담당자: In Orbit</p>
-        </div>
-    </div>
-
 </body>
 </html>

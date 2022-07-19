@@ -1,0 +1,112 @@
+.paddingfooter {
+    padding: 104px 0 0 0;
+}
+
+.footertop {
+	width: 100%;
+	height: 80px;
+	background-color: #202020;
+	display: flex;
+    letter-spacing: -0.04em;
+}
+
+.footcontent {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.footleftcontent {
+	width: 100px;
+	height: 80px;
+	display: table;
+	margin-left: 32px;  
+}
+
+.footdvllogo {
+	width: 100px;
+	height: auto;
+}
+
+.footitem {
+	margin: 0 32px 0 0;
+}
+
+.footertop p {
+    font-size: 11pt;
+    height: 80px;
+	display: table-cell;
+	vertical-align: middle;
+    font-weight: 400;
+    color: #FFFFFF80;
+}
+
+.footertop p {
+    color: #FFFFFFbc;
+    font-weight: 500;
+}
+
+.footrightcontent {
+    display: flex;
+    height: 80px;
+    justify-content: flex-end;
+    flex: 1;
+    margin-left: auto;
+}
+
+.footerbot {
+    border-top: solid 2px #FFFFFF1A;
+    letter-spacing: -.05em;
+    width: 100%;
+    height: auto;
+    background-color: #202020;
+    display: flex;
+    padding: 12px 0px;
+}
+
+.textarea {
+    margin-left: 32px;
+}
+
+.textarea h1 {
+    color: #FFFFFFd2;
+    font-weight: 700;
+    font-size: 16pt;
+}
+
+.textarea p {
+    color: #FFFFFF99;
+    font-weight: 400;
+    font-size: 10pt;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 468px) {
+    .footitem a {
+        display: none;
+    }
+
+    .textarea h1 {
+        font-size: 16pt;
+    }
+
+    .textarea p {
+        font-size: 9pt; 
+    }
+}
+
+@media screen and (max-width: 434px) {
+    .textarea h1 {
+        font-size: 14pt;
+    }
+
+    .textarea p {
+        font-size: 7pt; 
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .footerbot {
+        display: none;
+    }
+}

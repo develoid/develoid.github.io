@@ -60,8 +60,13 @@ tx {
     font-size: 68pt;
 }
 
+.section {
+    margin-top: 52px;
+    padding-bottom: 254px;
+}
+
 .title {
-    margin: 146px 0 32px 0;
+    margin-bottom: 32px;
     text-align: center;
 }
 
@@ -153,7 +158,9 @@ tx {
 }
 
 .button4, .button5 {
-    width: 240px;
+    width: 120px;
+    height: 52px;
+    font-size: 11pt;
 }
 
 .abutton, .rbutton {
@@ -167,17 +174,35 @@ tx {
 }
 
 .button3 {
-    width: 480px;
+    width: 230px;
+    height: 52px;
+    border-radius: 6px 0 0 0;
+    font-size: 11pt;
 }
 
 .button4 {
     background: #464646;
 }
 
+.button5 {
+    border-radius: 0 6px 0 0;
+}
+
 .button6 {
-    width: 960px; 
+    width: 470px;
+    height: 52px; 
+    border-radius: 0 0 6px 6px;
+    font-size: 11pt;
 }
 
 .abutton {
     background: #2F2F2F;
+}
+
+.make {
+    box-shadow:  0 0 12px rgba(255, 255, 255, 0.076);
+    border-radius: 6px;
+    position: fixed;
+    width: 470px;
+    bottom: 76px;
 }
