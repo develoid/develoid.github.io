@@ -117,11 +117,6 @@ button {
     }
 }
 
-@media screen and (max-height: 520px) {
-    .section {
-        margin: 92px 0 0 0px;
-    }
-}
 
 @media screen and (max-height: 418px) {
     .section {
@@ -146,12 +141,6 @@ button {
 
     .header {
         display: none !important;
-    }
-}
-
-@media screen and (max-height: 296px) {
-    .section {
-        margin: 0 0 -104px 0;
     }
 }
 
