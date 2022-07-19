@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function(){
         }
         
         else {
-            //메뉴 펼침
             document.querySelector('.mail').classList.add('on'),
             document.querySelector('.mainbutton_tabletop').classList.add('on')
         }
