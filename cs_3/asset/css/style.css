@@ -111,6 +111,52 @@ button {
     }
 }
 
+@media screen and (max-width: 540px) {
+    .title h1 {
+        font-size: 32pt;
+    }
+    
+    .title p {
+        font-size: 13pt;
+    }
+
+    button, .cont {
+        width: 18rem;
+    }
+
+    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
+        width: 6rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .title h1 {
+        font-size: 29pt;
+    }
+    
+    .title p {
+        font-size: 11pt;
+    }
+
+    button, .cont {
+        width: 15rem;
+    }
+
+    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
+        width: 5rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .title h1 {
+        font-size: 25pt;
+    }
+    
+    .title p {
+        font-size: 10pt;
+    }
+}
+
 @media screen and (max-height: 476px) {
     .header {
         display: none !important;
