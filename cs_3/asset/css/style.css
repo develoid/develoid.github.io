@@ -52,8 +52,17 @@ button {
     border-bottom: 2px solid #0000000D;
 }
 
+.mainbutton_tabletop.on {
+    border-radius: 8px;
+    border: 0;
+}
+
 .mail {
     display: flex;
+}
+
+.mail.on {
+    display: none;
 }
 
 .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
@@ -186,8 +195,19 @@ button {
     }
 }
 
-@media screen and (max-width: 820px) and (max-height: 324px) {
+@media screen and (max-width: 1080px) and (max-height: 478px) {
+    .section {
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
     .title {
         padding: 32px 0 32px 0;
+    }
+}
+
+@media screen and (max-width: 580px) and (max-height: 297px) {
+    .paddingfooter, .footertop, .footerbot {
+        display: none !important;
     }
 }
