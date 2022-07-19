@@ -3,10 +3,6 @@ html {
     color: #303030;
 }
 
-.header a {
-    color: #303030 !important;
-}
-
 .section {
     display: flex;
     flex: 1;
@@ -65,7 +61,7 @@ button {
     width: 7rem;
     height: 3rem;
     color: #303030;
-    font-size: 13pt;
+    font-size: 11.5pt;
 }
 
 .mainbutton_tablebotleft {
@@ -86,10 +82,25 @@ button {
 	background-color: #E0E0E0;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1020px) and (max-height: 540px) {
+    .title h1 {
+        font-size: 38pt;
+    }
+    
+    .title p {
+        font-size: 15pt;
+    }
+
+    .header {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1020px) and (max-height: 792px) {
     .section {
         justify-content: center;
         flex-direction: column;
+        height: 120vh;
     }
     
     .title {
@@ -106,6 +117,103 @@ button {
     }
 }
 
+@media screen and (max-height: 520px) {
+    .section {
+        margin: 92px 0 0 0px;
+    }
+}
+
+@media screen and (max-height: 418px) {
+    .section {
+        justify-content: space-around;
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    .title {
+        text-align: left;
+        padding: 0;
+    }
+
+    .title h1 {
+        font-size: 34pt;        
+    }
+
+    .title p {
+        font-size: 12pt;
+        margin: 16px 0 0 0;
+    }
+
+    .header {
+        display: none !important;
+    }
+}
+
+@media screen and (max-height: 296px) {
+    .section {
+        margin: 0 0 -104px 0;
+    }
+}
+
+@media screen and (max-width: 900px) and (max-height: 418px) {
+    .title h1 {
+        font-size: 28pt;
+    }
+    
+    .title p {
+        font-size: 12pt;
+    }
+
+    .mainbutton_top, .mainbutton_tabletop, .mainbutton {
+        width: 15rem;
+        height: 2.4rem;
+        font-size: 11pt;
+    }
+
+    .cont {
+        width: 15rem;
+    }
+
+    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
+        width: 5rem;
+        height: 2.4rem;
+        font-size: 10pt;
+    }
+}
+
+
+@media screen and (max-width: 692px) and (max-height: 296px) {
+    .section {
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .title h1 {
+        display: none;
+    }
+
+    .title p {
+        font-size: 10pt;
+        margin: 0 0 18px 0;
+    }
+
+    .mainbutton_top, .mainbutton_tabletop, .mainbutton {
+        height: 2rem;
+        font-size: 10pt;
+    }
+
+    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
+        height: 2rem;
+        font-size: 9pt;
+    }
+}
+
+@media screen and (max-height: 419px) {
+    .title p {
+        margin: 16px 0 24px 0;
+    }
+}
+
 @media screen and (max-width: 650px) {
     .title h1 {
         font-size: 34pt;
@@ -113,13 +221,9 @@ button {
     .title p {
         font-size: 14pt;
     }
-
-    .cont, .mainbutton_top, .mainbutton {
-        width: 21rem;
-    }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
     .title h1 {
         font-size: 30pt;
     }
@@ -127,8 +231,12 @@ button {
         font-size: 12pt;
     }
 
-    .cont, .mainbutton_top, .mainbutton {
+    .cont, .mainbutton_top, .mainbutton_tabletop, .mainbutton {
         width: 18rem;
+    }
+
+    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
+        width: 6rem;
     }
 }
 
@@ -140,7 +248,12 @@ button {
         font-size: 11pt;
     }
 
-    .cont, .mainbutton_top, .mainbutton {
-        width: 16rem;
+    .cont, .mainbutton_top, .mainbutton_tabletop, .mainbutton {
+        width: 15rem;
+    }
+
+    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
+        width: 5rem;
+        font-size: 10pt;
     }
 }
