@@ -102,13 +102,7 @@ button {
     }
 }
 
-@media screen and (max-height: 690px) {
-    .section {
-        height: 110vh;
-    }
-}
-
-@media screen and (max-height: 690px) {
+@media screen and (max-height: 630px) {
     .header {
         display: none !important;
     }
@@ -122,25 +116,6 @@ button {
     .section {
         justify-content: space-around;
         flex-direction: row;
-        height: 100vh;
-    }
-
-    .title {
-        text-align: left;
-        padding: 0;
-    }
-
-    .title h1 {
-        font-size: 34pt;        
-    }
-
-    .title p {
-        font-size: 12pt;
-        margin: 16px 0 0 0;
-    }
-
-    .header {
-        display: none !important;
     }
 }
 
