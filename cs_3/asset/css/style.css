@@ -48,21 +48,21 @@ button {
 }
 
 .mainbutton_tabletop {
-    border-radius: 8px 8px 0 0;
-    border-bottom: 2px solid #0000000D;
-}
-
-.mainbutton_tabletop.on {
     border-radius: 8px;
     border: 0;
 }
 
+.mainbutton_tabletop.on {
+    border-radius: 8px 8px 0 0;
+    border-bottom: 2px solid #0000000D;
+}
+
 .mail {
-    display: flex;
+    display: none;
 }
 
 .mail.on {
-    display: none;
+    display: flex;
 }
 
 .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
