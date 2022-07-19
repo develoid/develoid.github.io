@@ -56,9 +56,16 @@ button {
     border-bottom: 2px solid #0000000D;
 }
 
+.mail {
+    display: flex;
+}
+
 .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
-    width: 7rem;
     background-color: #E7E7E8;
+    width: 7rem;
+    height: 3rem;
+    color: #303030;
+    font-size: 13pt;
 }
 
 .mainbutton_tablebotleft {
