@@ -149,7 +149,7 @@
     margin-top: 4px;
 }
 
-@media screen and (max-width: 900px), (max-height: 540px) {
+@media screen and (max-width: 900px) {
 	.headcentercontent {
 		display: none;
 	}

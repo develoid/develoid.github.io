@@ -10,7 +10,7 @@ html {
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    margin-bottom: -104px;
+    margin-bottom: -20vh;
 }
 
 button {
@@ -21,6 +21,10 @@ button {
     font-size: .9em;
 }
 
+.title {
+    margin: 14px;
+}
+
 .title h1 {
     font-weight: 700;
     font-size: 2.2em;
@@ -28,7 +32,8 @@ button {
 }
 
 .title p {
-    margin: 20px 0 0 0;
+    margin-top: 16px;
+    margin-bottom: 0;
     font-weight: 500;
     font-size: .8em;
     opacity: 50%;
@@ -36,6 +41,7 @@ button {
 
 .cont {
     width: 21rem;
+    padding: 14px;
 }
 
 .mainbutton_top {
@@ -43,7 +49,7 @@ button {
 }
 
 .mainbutton, .mainbutton_tabletop {
-    margin-top: 16px;
+    margin-top: 12px;
     background-color: #E7E7E8;
 }
 
@@ -67,8 +73,10 @@ button {
 
 .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
     background-color: #E7E7E8;
-    width: 7rem;
-    height: 3rem;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
     color: #303030;
     font-size: .75em;
 }
@@ -91,136 +99,123 @@ button {
 	background-color: #E0E0E0;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 960px) {
     .section {
         justify-content: center;
         flex-direction: column;
     }
-    
+
     .title {
         text-align: center;
-        padding: 0 0 52px 0;
     }
 }
 
-@media screen and (max-width: 540px) {
-    .title h1 {
-        font-size: 1.7em;
-    }
-
-    .title p {
-        font-size: 0.7em;
-    }
-
-    button, .cont {
-        width: 18rem;
-    }
-
-    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
-        width: 6rem;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    .title h1 {
-        font-size: 1.7em;
-    }
-
-    .title p {
-        font-size: 0.7em;
-    }
-
-    button, .cont {
-        width: 15rem;
-    }
-
-    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
-        width: 5rem;
-    }
-}
-
-@media screen and (min-height: 554px) and (max-width: 690px) {
-    .title {
-        padding-top: 48px;
-    }
-}
-
-@media screen and (max-height: 476px) {
+@media screen and (max-height: 630px) {
     .header {
         display: none !important;
     }
 }
 
+@media screen and (min-width: 890px) and (max-height: 496px) {
+    .section {
+        justify-content: space-around;
+        flex-direction: row;
+    }
 
-@media screen and (max-width: 1080px) and (max-height: 554px) {
     .title {
         text-align: left;
     }
-
-    button, .cont {
-        width: 18rem;
-    }
-
-    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
-        width: 6rem;
-    }
 }
 
-@media screen and (max-width: 820px) and (max-height: 554px) {
-    .title {
-        padding: 0 0 32px 0;
-    }
-
+@media screen and (max-width: 890px) and (max-height: 496px) {
     .title h1 {
         display: none;
     }
 
-    .title p {
-        margin: 0 !important;
+    .section {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .title {
         text-align: center;
+        margin: 14px 0 12px 0;        
+    }
+
+    .title p {
+        margin-top: 0;
+    }
+
+    button {
+        height: 2.4rem;
+        font-size: .7em;
+    }
+
+    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
+        font-size: .6em;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .title h1 {
+        font-size: 1.9em;
+    }
+
+    .title p {
+        font-size: .7em;
     }
 
     button, .cont {
         width: 18rem;
     }
-
-    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
-        width: 6rem;
-    }
 }
 
-@media screen and (max-width: 820px) and (max-height: 554px) {
-    .title {
-        padding: 0 0 32px 0;
-    }
-
+@media screen and (max-width: 430px) {
     .title h1 {
-        display: none;
+        font-size: 1.8em;
     }
 
     .title p {
-        margin: 0 !important;
-        text-align: center;
-        font-size: 12pt;
+        font-size: .7em;
     }
 
     button, .cont {
         width: 15rem;
     }
 
+    button {
+        height: 2.6rem;
+        font-size: .8em;
+    }
+
     .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
-        width: 5rem;
+        font-size: .6em;
     }
 }
 
-@media screen and (max-width: 1080px) and (max-height: 478px) {
-    .title {
-        padding: 32px 0 32px 0;
+@media screen and (max-width: 320px) and (max-height: 636px) {
+    .header {
+        display: flex !important;
     }
-}
 
-@media screen and (max-width: 580px) and (max-height: 297px) {
-    .paddingfooter, .footertop, .footerbot {
-        display: none !important;
+    .title h1 {
+        font-size: 1.4em;
+    }
+
+    .title p {
+        font-size: .6em;
+    }
+
+    button, .cont {
+        width: 12rem;
+    }
+
+    button {
+        height: 2.2rem;
+        font-size: .75em;
+    }
+
+    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
+        font-size: .5em;
     }
 }
