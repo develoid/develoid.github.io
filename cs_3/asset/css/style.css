@@ -1,5 +1,5 @@
 html {
-    background-color: #E0E0E0;
+    background-color: #ececec;
     color: #303030;
 }
 
@@ -102,96 +102,32 @@ button {
     }
 }
 
-@media screen and (max-height: 630px) {
+@media screen and (max-height: 476px) {
     .header {
         display: none !important;
     }
+}
 
-    .section {
-        height: 100vh;
+@media screen and (max-width: 1080px) and (max-height: 750px) {
+    .header {
+        display: none !important;
     }
 }
 
-@media screen and (max-height: 469px) {
-    .section {
-        justify-content: space-around;
-        flex-direction: row;
+@media screen and (max-width: 1080px) and (max-height: 554px) {
+    .title {
+        text-align: left;
     }
-}
 
-
-@media screen and (max-width: 900px) and (max-height: 418px) {
     .title h1 {
-        font-size: 28pt;
-    }
-    
-    .title p {
-        font-size: 12pt;
-    }
-
-    .mainbutton_top, .mainbutton_tabletop, .mainbutton {
-        width: 15rem;
-        height: 2.4rem;
-        font-size: 11pt;
-    }
-
-    .cont {
-        width: 15rem;
-    }
-
-    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
-        width: 5rem;
-        height: 2.4rem;
-        font-size: 10pt;
-    }
-}
-
-
-@media screen and (max-width: 692px) and (max-height: 296px) {
-    .section {
-        justify-content: center;
-        flex-direction: column;
-    }
-    
-    .title h1 {
-        display: none;
+        font-size: 32pt;
     }
 
     .title p {
-        font-size: 10pt;
-        margin: 0 0 18px 0;
+        font-size: 13pt;
     }
 
-    .mainbutton_top, .mainbutton_tabletop, .mainbutton {
-        height: 2rem;
-        font-size: 10pt;
-    }
-
-    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
-        height: 2rem;
-        font-size: 9pt;
-    }
-}
-
-
-@media screen and (max-width: 650px) {
-    .title h1 {
-        font-size: 34pt;
-    }
-    .title p {
-        font-size: 14pt;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .title h1 {
-        font-size: 30pt;
-    }
-    .title p {
-        font-size: 12pt;
-    }
-
-    .cont, .mainbutton_top, .mainbutton_tabletop, .mainbutton {
+    button, .cont {
         width: 18rem;
     }
 
@@ -200,16 +136,48 @@ button {
     }
 }
 
-@media screen and (max-width: 420px) {
-    .title h1 {
-        font-size: 26pt;
+@media screen and (max-width: 820px) and (max-height: 554px) {
+    .title {
+        padding: 0 0 32px 0;
     }
+
+    .title h1 {
+        display: none;
+    }
+
     .title p {
+        margin: 0 !important;
+        text-align: center;
         font-size: 11pt;
     }
 
-    .cont, .mainbutton_top, .mainbutton_tabletop, .mainbutton {
+    button, .cont {
+        width: 18rem;
+    }
+
+    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
+        width: 6rem;
+    }
+}
+
+@media screen and (max-width: 820px) and (max-height: 554px) {
+    .title {
+        padding: 32px 0 32px 0;
+    }
+
+    .title h1 {
+        display: none;
+    }
+
+    .title p {
+        margin: 0 !important;
+        text-align: center;
+        font-size: 12pt;
+    }
+
+    button, .cont {
         width: 15rem;
+        font-size: 12pt;
     }
 
     .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {

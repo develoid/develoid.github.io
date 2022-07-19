@@ -5,7 +5,7 @@
 .footertop {
 	width: 100%;
 	height: 80px;
-	background-color: #202020;
+	background-color: #e1e1e1;
 	display: flex;
     letter-spacing: -0.04em;
 }
@@ -42,15 +42,15 @@
 	display: table-cell;
 	vertical-align: middle;
     font-weight: 400;
-    color: #FFFFFF80;
+    color: #30303080;
 }
 
 .footertop p {
-    color: #FFFFFF80;
+    color: #303030bc;
 }
 
 .footertop p1 {
-    color: #FFFFFF;
+    color: #303030;
 }
 
 .footrightcontent {
@@ -62,11 +62,11 @@
 }
 
 .footerbot {
-    border-top: solid 2px #FFFFFF1A;
+    border-top: solid 2px #3030301A;
     letter-spacing: -0.02em;
     width: 100%;
     height: auto;
-    background-color: #202020;
+    background-color: #e1e1e1;
     display: flex;
     padding: 12px 0px;
 }
@@ -76,7 +76,7 @@
 }
 
 .textarea h1 {
-    color: #FFFFFFB3;
+    color: #303030B3;
     font-weight: 700;
     font-size: 16pt;
 }
@@ -86,7 +86,7 @@
 }
 
 .textarea p {
-    color: #FFFFFF99;
+    color: #30303099;
     font-weight: 300;
     font-size: 10pt;
     line-height: 1.6;
