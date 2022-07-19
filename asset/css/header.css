@@ -3,7 +3,7 @@
 	height: 76px;
 	background-color: #FFFFFF0D;
 	border-bottom: 2px solid #0000000D;
-	letter-spacing: -0.04em;
+	letter-spacing: -.04em;
 	-webkit-backdrop-filter: blur(12px);
 	backdrop-filter: blur(12px);
 	display: flex;

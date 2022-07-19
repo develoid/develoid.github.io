@@ -7,7 +7,7 @@ html, body {
     font-family: Interop, sans-serif;
     font-size: 15pt;
     font-weight: 700;
-    letter-spacing: -0.08em;
+    letter-spacing: -.04em;
 }
 
 body {
@@ -23,7 +23,7 @@ button, input {
     padding: 0;
     font-family: Interop, sans-serif;
     font-weight: 600;
-    letter-spacing: -0.06em;
+    letter-spacing: -.06em;
 }
 
 table {

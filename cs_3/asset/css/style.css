@@ -19,7 +19,7 @@ button {
     height: 3rem;
     color: #303030;
     font-size: .85em;
-    transition: 0.3s;
+    transition: .3s;
 }
 
 .title {
@@ -30,6 +30,7 @@ button {
     font-weight: 700;
     font-size: 2.2em;
     margin: 0;
+    letter-spacing: -.06em;
 }
 
 .title p {
@@ -69,7 +70,7 @@ button {
 
 .mainbutton_tabletop.on {
     border-radius: 8px 8px 0 0;
-    z-index: 1;
+    z-index: 10;
     position: relative;
     box-shadow:  4px 4px 8px #d4d4d4,
     -4px -4px 8px #ffffff;
@@ -94,19 +95,21 @@ button {
     color: #303030;
     font-size: .75em;
     position: relative;
-    z-index: 0;
 }
 
 .mainbutton_tablebotleft {
     border-radius: 0 0 0 8px;
+    z-index: 2;
 }
 
 .mainbutton_tablebotmid {
     border-radius: 0;
+    z-index: 1;
 }
 
 .mainbutton_tablebotright {
     border-radius: 0 0 8px 0;
+    z-index: 0;
 }
 
 .mainbutton_top:hover, .mainbutton:hover, .mainbutton_tabletop:hover, .mainbutton_tablebotleft:hover, .mainbutton_tablebotmid:hover, .mainbutton_tablebotright:hover {
