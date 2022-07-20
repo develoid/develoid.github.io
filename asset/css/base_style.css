@@ -25,6 +25,10 @@ button, input {
     letter-spacing: -.06em;
 }
 
+input:focus {
+    outline: none;
+}
+
 table {
     width: 100%;
     border: 0;
