@@ -113,12 +113,6 @@
     }
 
     .textarea p {
-        font-size: 7pt; 
-    }
-}
-
-@media screen and (max-width: 370px) {
-    .footerbot {
-        display: none;
+        font-size: 8pt; 
     }
 }

@@ -1,7 +1,7 @@
-/** FOR LIGHT MODE
-html {
+html { /*
     background-color: #ececec;
     color: #303030;
+    */
 }
 
 .section {
@@ -19,7 +19,7 @@ button {
     border-radius: 8px;
     width: 18rem;
     height: 3rem;
-    color: #303030;
+    /* color: #303030; */
     font-size: .85em;
     transition: .3s;
 }
@@ -29,6 +29,7 @@ button {
 }
 
 .title h1 {
+    font-family: 'JetBrains Mono';
     font-weight: 700;
     font-size: 2.2em;
     margin: 0;
@@ -41,199 +42,33 @@ button {
 }
 
 .mainbutton_top {
+    /*
     background-color: #ececec;
     box-shadow:  4px 4px 8px #d4d4d4,
     -4px -4px 8px #ffffff;
+    */
 }
 
-.mainbutton, .mainbutton_tabletop {
+.mainbutton {
     margin-top: 16px;
+    /*
     background-color: #ececec;
     box-shadow:  4px 4px 8px #d4d4d4,
     -4px -4px 8px #ffffff;
+    */
 }
 
-.mainbutton_tabletop {
-    border-radius: 8px;
-    border: 0;
-    z-index: 20;
-    position: relative;
-    box-shadow:  4px 4px 8px #d4d4d4,
-    -4px -4px 8px #ffffff;
-}
-
-.mainbutton_tabletop.on {
-    border-radius: 8px 8px 0 0;
-    z-index: 10;
-    position: relative;
-    box-shadow:  4px 4px 8px #d4d4d4,
-    -4px -4px 8px #ffffff;
-}
-
-.mainbutton_top:hover, .mainbutton:hover {
+/* .mainbutton_top:hover, .mainbutton:hover {
 	background-color: #e4e4e4;
-}
-
-@media screen and (max-width: 960px) {
-    .section {
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .title {
-        text-align: center;
-    }
-}
-@media screen and (max-width: 960px) and (min-height: 496px) { 
-    .title p {
-        margin-bottom: 32px;
-    }
-}
-
-@media screen and (max-height: 630px) {
-    .header {
-        display: none !important;
-    }
-}
-
-@media screen and (min-width: 890px) and (max-height: 496px) {
-    .section {
-        justify-content: space-around;
-        flex-direction: row;
-    }
-
-    .title {
-        text-align: left;
-    }
-}
-
-@media screen and (max-width: 890px) and (max-height: 496px) {
-    .section {
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .title {
-        display: none;     
-    }
-
-    button {
-        width: 15rem;
-        height: 2.4rem;
-        font-size: .7em;
-    }
-
-    .cont {
-        width: 15rem;
-    }
-
-    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
-        font-size: .6em;
-    }
-}
-
-
-@media screen and (max-width: 890px) and (max-height: 300px) {
-    .cont {
-        width: 12rem;
-    }
-
-    button {
-        width: 12rem;
-        height: 2rem;
-    }
-}
-
-
-@media screen and (max-width: 530px) {
-    .title h1 {
-        font-size: 1.9em;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    .title h1 {
-        font-size: 1.8em;
-    }
-
-    button, .cont {
-        width: 15rem;
-    }
-
-    button {
-        height: 2.6rem;
-        font-size: .8em;
-    }
-
-    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
-        font-size: .6em;
-    }
-}
-
-@media screen and (max-width: 320px) and (max-height: 636px) {
-    .header {
-        display: flex !important;
-    }
-
-    .title h1 {
-        font-size: 1.4em;
-    }
-
-    button, .cont {
-        width: 12rem;
-    }
-
-    button {
-        height: 2.2rem;
-        font-size: .75em;
-    }
-
-    .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
-        font-size: .5em;
-    }
-}
-
-**/
+} */
 
 html {
     background-color: #222222;
     color: #FFFFFF;
 }
 
-.section {
-    display: flex;
-    flex: 1;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh;
-    margin-bottom: -20vh;
-}
-
 button {
-    cursor: pointer;
-    border-radius: 8px;
-    width: 18rem;
-    height: 3rem;
     color: #FFFFFF;
-    font-size: .85em;
-    transition: .3s;
-}
-
-.title {
-    margin: 14px;
-}
-
-.title h1 {
-    font-weight: 700;
-    font-size: 2.2em;
-    margin: 0;
-    letter-spacing: -.06em;
-}
-
-.cont {
-    width: 18rem;
-    padding: 14px;
 }
 
 .mainbutton_top {
@@ -241,7 +76,6 @@ button {
 }
 
 .mainbutton {
-    margin-top: 16px;
     background-color: #333333;
 }
 

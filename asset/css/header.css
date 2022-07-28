@@ -147,6 +147,10 @@
 	height: 12px;
 }
 
+.headdaynnight {
+	color: #023423;
+}
+
 .headdaynnight svg {
     cursor: pointer;
     width: 24px;
@@ -161,6 +165,35 @@
     display: inline-block;
  	margin-left: 4px;
     margin-top: 4px;
+}
+
+.header[data-theme='dark'] {
+	background-color: #0000000D;
+	border-bottom: 2px solid #FFFFFF0D;
+}
+
+.header a[data-theme='dark'] {
+	color: #FFFFFF;
+}
+
+.menuwrap[data-theme='dark'] {
+	background: #222222;
+}
+
+.inwrap[data-theme='dark'] {
+    background-color: #333333;
+}
+
+.inwrap:hover[data-theme='dark'] {
+	background-color: #404040;
+}
+
+#dimmed[data-theme='dark'] {
+	background-color: #00000033;
+}
+
+.headdaynnight[data-theme='dark'] {
+	color: #000000;
 }
 
 @media screen and (max-width: 900px) {
