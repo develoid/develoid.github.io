@@ -51,6 +51,7 @@
 
 .textarea {
     margin-left: 48px;
+    cursor: default;
 }
 
 .textarea p {

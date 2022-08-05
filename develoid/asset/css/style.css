@@ -25,6 +25,7 @@ button {
 }
 
 .title {
+    cursor: default;
     height: 250px;
     margin: 14px 0 86px 0;
 }
