@@ -24,7 +24,7 @@
     <link rel="stylesheet" type='text/css' media='all' href="./asset/css/style.css">
     <link rel="stylesheet" type='text/css' media='all' href="../asset/css/fonts.css">
     <link rel="stylesheet" type='text/css' media='all' href="../asset/css/header_dark.css">
-    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/footer_dark.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/footer.css">
     <link rel="stylesheet" type='text/css' media='all' href="../asset/css/base_style.css">
     <link rel="stylesheet" type='text/css' media='all' href="../asset/css/fontawesome.min.css">
     <title>디벨로이드</title>
@@ -139,7 +139,9 @@
     </div>
     <div class="section">
         <div class="title">
-            <h1>build it:<br>make(develoid)</h1>
+            <div class="console-container">
+                <span id='text'></span><div class='console-underscore' id='console'>&#95;</div>
+            </div>
         </div>
         <div class="cont">
             <button type="button" class="mainbutton_top" onclick="window.open('https://develoid.net/')";>커뮤니티 바로가기</button>
@@ -149,13 +151,7 @@
     </div>
     <div class="paddingfooter"></div>
     <div class="footertop">
-        <div class="footleftcontent">
-            <div class="footcontent">
-                <img class="footdvllogo" src="../asset/images/dvl_dark_nocolor.svg">
-            </div>
-        </div>
-
-        <div class="footrightcontent">
+        <div class="footcontent">
             <div class="footitem">
                 <a href="https://cafe.naver.com/develoid/menu/1"><p1>공지사항</p1></a>
             </div>
@@ -163,19 +159,20 @@
                 <a href="https://develoid.net"><p1>커뮤니티</p1></a>
             </div>
             <div class="footitem">
-                <p>© 2022 디벨로이드</p>
+                <a href="https://develoid.net"><p1>커뮤니티</p1></a>
             </div>
         </div>
     </div>
     <div class="footerbot">
-        <div class="textarea">
-            <h1>디벨로이드</h1>
-            <p>디벨로이드에서 운영하는 모든 서비스는 저작권법에 의해 보호를 받고 있습니다.</p>
+        <div class="footcontent2">
+            <img class="footdvllogo" src="../asset/images/dvl_dark_nocolor.svg">
+            <div class="textarea">
+                <p>디벨로이드에서 운영하는 모든 서비스는 저작권법에 의해 보호를 받고 있습니다.<br>© 2022 디벨로이드. 모든 권리 보유.</p>
+            </div>
         </div>
     </div>
     </div>
 </body>
 <script type="text/javascript" src="../asset/js/header_wrap.js"></script>
-<script type="text/javascript" src="../asset/js/color_toggle.js"></script>
-<script type="text/javascript" src="../asset/js/color_select.js"></script>
+<script type="text/javascript" src="./asset/js/title_console.js"></script>
 </html>

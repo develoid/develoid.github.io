@@ -25,15 +25,28 @@ button {
 }
 
 .title {
-    margin: 14px;
+    height: 250px;
+    margin: 14px 0 86px 0;
 }
 
-.title h1 {
-    font-family: 'JetBrains Mono';
+.console-container {
+    letter-spacing: -.06em;
+    font-family: 'JetBrains Mono', -apple-system, Interop, sans-serif;
     font-weight: 700;
     font-size: 2.2em;
-    margin: 0;
-    letter-spacing: -.06em;
+    width: 360px;
+    white-space: pre-wrap;
+}
+
+.console-underscore {
+    display: inline-block;
+    position: relative;
+    top: -0.14em;
+    left: 4px;
+}
+
+.hidden {
+    opacity: 0;
 }
 
 .cont {
