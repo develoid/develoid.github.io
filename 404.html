@@ -5,40 +5,25 @@
     <meta NAME="ROBOTS" content="NOINDEX, NOFOLLOW">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <link rel="icon" href="./asset/images/favicon.svg">
-    <link rel="stylesheet" type='text/css' media='all' href="./asset/css/style_404.css">
     <link rel="stylesheet" type='text/css' media='all' href="./asset/css/fonts.css">
     <link rel="stylesheet" type='text/css' media='all' href="./asset/css/base_style.css">
+    <link rel="stylesheet" type='text/css' media='all' href="./asset/css/style_404.css">
     <title>페이지를 찾을 수 없습니다.</title>
 </head>
 <body>
-    <div class="full">
-    <div class="section">
+  <div class="section">
       <div class="title">
-        <h2>HTTP 오류 404.</h2><h1>주소를 확인해 주세요.</h1>
-        <p><span id="timer">15</span>초 후 자동으로 커뮤니티로 이동합니다.</p>
+          <h2>HTTP 오류 404.</h2><h1>주소를 확인해 주세요.</h1>
+          <p><span id="timer">15</span>초 후 자동으로 커뮤니티로 이동합니다.</p>
       </div>
       <div class="cont">
-        <p>여기를 찾으시나요?</p>
-        <button type="button" class="mainbutton_top" onclick="window.open('https://develoid.net/')";>커뮤니티</button>
-        <button type="button" class="mainbutton" onclick="window.open('https://develoid.github.io')";>디벨가이드</button>
-        <button type="button" class="mainbutton" onclick="window.open('https://develoid.github.io/cs')";>디벨서포트</button>
+          <p>여기를 찾으시나요?</p>
+          <button type="button" class="mainbutton_top" onclick="window.open('https://develoid.net/')";>커뮤니티</button>
+          <button type="button" class="mainbutton" onclick="window.open('https://develoid.github.io')";>디벨가이드</button>
+          <button type="button" class="mainbutton" onclick="window.open('https://develoid.github.io/cs')";>디벨서포트</button>
       </div>
-        <button type="button" class="history_back" onclick="history.back()">돌아가기</button>
-    </div>
-    </div>
-<script>
-    var count = 15;
-    var counter = setInterval(timer, 1000);
-    function timer() {
-      count--;
-      if (count <= 0) {
-        clearInterval(counter);
-        document.getElementById("timer").innerHTML = "0";
-        window.location.replace('http://develoid.net')
-        return;
-      }
-      document.getElementById("timer").innerHTML = count;
-    }
-</script>
+      <button type="button" class="history_back" onclick="history.back()">돌아가기</button>
+  </div>
+<script type="text/javascript" src="./asset/js/timer.js"></script>
 </body>
 </html>
