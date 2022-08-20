@@ -1,24 +1,47 @@
----
-layout: default
-title: 404 Not Found!
-page_title: error
----
-
-
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta NAME="ROBOTS" content="NOINDEX, NOFOLLOW">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="icon" href="../asset/images/favicon.svg">
+    <link rel="stylesheet" type='text/css' media='all' href="./asset/css/style_404.css">
+    <link rel="stylesheet" type='text/css' media='all' href="./asset/css/fonts.css">
+    <link rel="stylesheet" type='text/css' media='all' href="./asset/css/header_dark.css">
+    <link rel="stylesheet" type='text/css' media='all' href="./asset/css/footer.css">
+    <link rel="stylesheet" type='text/css' media='all' href="./asset/css/base_style.css">
+    <link rel="stylesheet" type='text/css' media='all' href="./asset/css/fontawesome.min.css">
+    <title>페이지를 찾을 수 없습니다.</title>
+</head>
+<body>
+    <div class="full">
+    <div class="section">
+      <div class="title">
+        <h1>HTTP 오류 404<br>주소를 확인해 주세요.</h1>
+        <p><span id="timer">15</span>초 후 자동으로 커뮤니티로 이동합니다.</p>
+      </div>
+      <div class="cont">
+        <p>여기를 찾으시나요?</p>
+        <button type="button" class="mainbutton_top" onclick="window.open('https://develoid.net/')";>커뮤니티</button>
+        <button type="button" class="mainbutton" onclick="window.open('https://develoid.github.io')";>디벨가이드</button>
+        <button type="button" class="mainbutton" onclick="window.open('https://develoid.github.io/cs')";>디벨서포트</button>
+      </div>
+        <button type="button" class="history_back" onclick="history.back()">이전 페이지</button>
+    </div>
+    </div>
 <script>
-
-let link = document.location.href;
-let make = link.replace(/[^0-9]/g,"");
-
-if(make > 0) {
-  location.href = "https://cafe.naver.com/develoid/" + make;
-}
-else {
-  location.href='/';
-}
+    var count = 1000;
+    var counter = setInterval(timer, 1000);
+    function timer() {
+      count--;
+      if (count <= 0) {
+        clearInterval(counter);
+        document.getElementById("timer").innerHTML = "0";
+        window.location.replace('http://develoid.net')
+        return;
+      }
+      document.getElementById("timer").innerHTML = count;
+    }
 </script>
-
-<div class="error">
-  <p class="icon">X</p>
-  <p class="box"><span class="code">404 Not Found</span><br /><br /><span class="log">요청하신 내용을 찾을 수 없습니다..<br />ㅠㅜ</span></p>
-</div>
+</body>
+</html>
