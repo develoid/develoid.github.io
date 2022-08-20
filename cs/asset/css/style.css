@@ -1,5 +1,5 @@
 html {
-    background-color: #ececec;
+    background-color: #ECECEC;
     color: #303030;
 }
 
@@ -37,7 +37,7 @@ button {
 .title p {
     margin-top: 16px;
     margin-bottom: 0;
-    font-weight: 500;
+    font-weight:700;
     font-size: .8em;
     opacity: 50%;
 }
@@ -48,16 +48,16 @@ button {
 }
 
 .mainbutton_top {
-    background-color: #ececec;
-    box-shadow:  4px 4px 8px #d4d4d4,
-    -4px -4px 8px #ffffff;
+    background-color: #ECECEC;
+    box-shadow:  4px 4px 8px #D4D4D4,
+    -4px -4px 8px #FFF;
 }
 
 .mainbutton, .mainbutton_tabletop {
     margin-top: 16px;
-    background-color: #ececec;
-    box-shadow:  4px 4px 8px #d4d4d4,
-    -4px -4px 8px #ffffff;
+    background-color: #ECECEC;
+    box-shadow:  4px 4px 8px #D4D4D4,
+    -4px -4px 8px #FFF;
 }
 
 .mainbutton_tabletop {
@@ -65,16 +65,16 @@ button {
     border: 0;
     z-index: 20;
     position: relative;
-    box-shadow:  4px 4px 8px #d4d4d4,
-    -4px -4px 8px #ffffff;
+    box-shadow:  4px 4px 8px #D4D4D4,
+    -4px -4px 8px #FFF;
 }
 
 .mainbutton_tabletop.on {
     border-radius: 8px 8px 0 0;
     z-index: 10;
     position: relative;
-    box-shadow:  4px 4px 8px #d4d4d4,
-    -4px -4px 8px #ffffff;
+    box-shadow:  4px 4px 8px #D4D4D4,
+    -4px -4px 8px #FFF;
 }
 
 .mail {
@@ -86,9 +86,9 @@ button {
 }
 
 .mainbutton_tablebotleft, .mainbutton_tablebotmid, .mainbutton_tablebotright {
-    background-color: #ececec;
-    box-shadow:  4px 4px 8px #d4d4d4,
-    -4px -4px 8px #ffffff;
+    background-color: #ECECEC;
+    box-shadow:  4px 4px 8px #D4D4D4,
+    -4px -4px 8px #FFF;
     display: flex;
     flex-grow: 1;
     align-items: center;

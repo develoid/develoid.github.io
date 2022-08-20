@@ -34,19 +34,20 @@
 }
 
 .footertop p1 {
+    color: #FFF;
     font-size: 11pt;
-    height: 60px;
-    font-weight: 400;
-    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 2;
     text-align: center;
+    height: 60px;
 }
 
 .footerbot {
+    background-color: #191919;
     letter-spacing: -.02em;
+    padding: 16px 0px;
     width: 100%;
     height: auto;
-    background-color: #191919;
-    padding: 16px 0px;
 }
 
 .textarea {
@@ -55,8 +56,8 @@
 }
 
 .textarea p {
-    color: #FFFFFF;
-    font-weight: 300;
+    color: #FFF;
+    font-weight: 500;
     font-size: 11pt;
     line-height: 1.6;
 }

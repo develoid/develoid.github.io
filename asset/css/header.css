@@ -96,9 +96,9 @@
     padding: 34px 4%;
 	z-index: 1000;
 	border-radius: 24px 24px 0 0;
-	background: #ececec;
-	box-shadow:  6px 6px 12px #d4d4d4,
-				 -6px -6px 12px #ffffff;
+	background: #ECECEC;
+	box-shadow:  6px 6px 12px #D4D4D4,
+				 -6px -6px 12px #FFF;
 }
 
 .menuwrap.on {
@@ -106,9 +106,9 @@
 }
 
 .inwrap {
-    background-color: #ececec;
-    box-shadow:  4px 4px 8px #d4d4d4,
-    -4px -4px 8px #ffffff;
+    background-color: #ECECEC;
+    box-shadow:  4px 4px 8px #D4D4D4,
+    -4px -4px 8px #FFF;
 	font-size: 12pt;
 	font-weight: 700;
 	border-radius: 8px;
@@ -173,15 +173,15 @@
 }
 
 .header a[data-theme='dark'] {
-	color: #FFFFFF;
+	color: #FFF;
 }
 
 .menuwrap[data-theme='dark'] {
-	background: #222222;
+	background: #222;
 }
 
 .inwrap[data-theme='dark'] {
-    background-color: #333333;
+    background-color: #333;
 }
 
 .inwrap:hover[data-theme='dark'] {
