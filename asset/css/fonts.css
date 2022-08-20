@@ -1,84 +1,70 @@
 @font-face {
-  font-family: 'JetBrains Mono';
-  src: url('../font/JetBrainsMono-Regular.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
+	font-family: 'Pretendard Variable';
+	font-weight: 45 920;
+	font-style: normal;
+	font-display: swap;
+	src: local('Pretendard Variable'), url('../font/PretendardVariable.woff2') format('woff2-variations');
 }
 
 @font-face {
-  font-family: 'JetBrains Mono';
-  src: url('../font/JetBrainsMono-SemiBold.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
+	font-family: 'Pretendard';
+	font-weight: 900;
+	font-display: swap;
+	src: local('Pretendard Black'), url('../font/Pretendard-Black.subset.woff2') format('woff2'), url('./woff-subset/Pretendard-Black.subset.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'JetBrains Mono';
-  src: url('../font/JetBrainsMono-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
+	font-family: 'Pretendard';
+	font-weight: 800;
+	font-display: swap;
+	src: local('Pretendard ExtraBold'), url('../font/Pretendard-ExtraBold.subset.woff2') format('woff2'), url('./woff-subset/Pretendard-ExtraBold.subset.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Interop';
-  src: url('../font/Interop-Light.woff2') format('woff2'),
-    url('../font/Interop-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
+	font-family: 'Pretendard';
+	font-weight: 700;
+	font-display: swap;
+	src: local('Pretendard Bold'), url('../font/Pretendard-Bold.subset.woff2') format('woff2'), url('./woff-subset/Pretendard-Bold.subset.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Interop';
-  src: url('../font/Interop-ExtraBold.woff2') format('woff2'),
-    url('../font/Interop-ExtraBold.woff') format('woff');
-  font-weight: 800;
-  font-style: normal;
+	font-family: 'Pretendard';
+	font-weight: 600;
+	font-display: swap;
+	src: local('Pretendard SemiBold'), url('../font/Pretendard-SemiBold.subset.woff2') format('woff2'), url('./woff-subset/Pretendard-SemiBold.subset.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Interop';
-  src: url('../font/Interop-Bold.woff2') format('woff2'),
-    url('../font/Interop-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
+	font-family: 'Pretendard';
+	font-weight: 500;
+	font-display: swap;
+	src: local('Pretendard Medium'), url('../font/Pretendard-Medium.subset.woff2') format('woff2'), url('./woff-subset/Pretendard-Medium.subset.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Interop';
-  src: url('../font/Interop-ExtraLight.woff2') format('woff2'),
-    url('../font/Interop-ExtraLight.woff') format('woff');
-  font-weight: 200;
-  font-style: normal;
+	font-family: 'Pretendard';
+	font-weight: 400;
+	font-display: swap;
+	src: local('Pretendard Regular'), url('../font/Pretendard-Regular.subset.woff2') format('woff2'), url('./woff-subset/Pretendard-Regular.subset.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Interop';
-  src: url('../font/Interop-Medium.woff2') format('woff2'),
-    url('../font/Interop-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
+	font-family: 'Pretendard';
+	font-weight: 300;
+	font-display: swap;
+	src: local('Pretendard Light'), url('../font/Pretendard-Light.subset.woff2') format('woff2'), url('./woff-subset/Pretendard-Light.subset.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Interop';
-  src: url('../font/Interop-Regular.woff2') format('woff2'),
-    url('../font/Interop-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Pretendard';
+	font-weight: 200;
+	font-display: swap;
+	src: local('Pretendard ExtraLight'), url('../font/Pretendard-ExtraLight.subset.woff2') format('woff2'), url('./woff-subset/Pretendard-ExtraLight.subset.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Interop';
-  src: url('../font/Interop-SemiBold.woff2') format('woff2'),
-    url('../font/Interop-SemiBold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Interop';
-  src: url('../font/Interop-Thin.woff2') format('woff2'),
-    url('../font/Interop-Thin.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
+	font-family: 'Pretendard';
+	font-weight: 100;
+	font-display: swap;
+	src: local('Pretendard Thin'), url('../font/Pretendard-Thin.subset.woff2') format('woff2'), url('./woff-subset/Pretendard-Thin.subset.woff') format('woff');
 }

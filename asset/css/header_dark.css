@@ -63,7 +63,7 @@
 
 .header p, .headoutlink {
 	font-size: 12pt;
-	font-weight: 600;
+	font-weight: 700;
 	height: 76px;
 	display: table-cell;
 	vertical-align: middle;
@@ -106,7 +106,7 @@
 .inwrap {
     background-color: #333333;
 	font-size: 12pt;
-	font-weight: 600;
+	font-weight: 700;
 	border-radius: 8px;
 	color: #FFFFFF;
 	width: 23.5%;

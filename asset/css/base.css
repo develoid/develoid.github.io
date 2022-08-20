@@ -15,67 +15,10 @@
 }
 .clearfix:after { clear: both; }
 
-/* Font */
-@font-face {
-  font-family: PAYW Pro;
-  src: url('../font/PAYW-Pro-Light.woff2') format("woff2"), url('../font/PAYW-Pro-Light.woff') format("woff");
-  font-weight: 300;
-  font-style: normal
-}
-@font-face {
-  font-family: PAYW Pro;
-  src: url('../font/PAYW-Pro-Bold.woff2') format("woff2"), url('../font/PAYW-Pro-Bold.woff') format("woff");
-  font-weight: 700;
-  font-style: normal
-}
-@font-face {
-  font-family: PAYW Pro;
-  src: url('../font/PAYW-Pro-ExtraLight.woff2') format("woff2"), url('../font/PAYW-Pro-ExtraLight.woff') format("woff");
-  font-weight: 200;
-  font-style: normal
-}
-@font-face {
-  font-family: PAYW Pro;
-  src: url('../font/PAYW-Pro-Medium.woff2') format("woff2"), url('../font/PAYW-Pro-Medium.woff') format("woff");
-  font-weight: 500;
-  font-style: normal
-}
-@font-face {
-  font-family: PAYW Pro;
-  src: url('../font/PAYW-Pro-Regular.woff2') format("woff2"), url('../font/PAYW-Pro-Regular.woff') format("woff");
-  font-weight: 400;
-  font-style: normal
-}
-@font-face {
-  font-family: PAYW Pro;
-  src: url('../font/PAYW-Pro-SemiBold.woff2') format("woff2"), url('../font/PAYW-Pro-SemiBold.woff') format("woff");
-  font-weight: 600;
-  font-style: normal
-}
-@font-face {
-  font-family: PAYW Pro;
-  src: url('../font/PAYW-Pro-Thin.woff2') format("woff2"), url('../font/PAYW-Pro-Thin.woff') format("woff");
-  font-weight: 100;
-  font-style: normal
-}
-
-/* Core4 */
-@font-face { font-family:Core1; src:local(※), url("../font/COREGTD1.OTF") format("opentype"); font-style:normal; font-weight:normal; }
-@font-face { font-family:Core2; src:local(※), url("../font/COREGTD2.OTF") format("opentype"); font-style:normal; font-weight:normal; }
-@font-face { font-family:Core3; src:local(※), url("../font/COREGTD3.OTF") format("opentype"); font-style:normal; font-weight:normal; }
-@font-face { font-family:Core4; src:local(※), url("../font/COREGTD4.OTF") format("opentype"); font-style:normal; font-weight:normal; }
-@font-face { font-family:Core5; src:local(※), url("../font/COREGTD5.OTF") format("opentype"); font-style:normal; font-weight:normal; }
-@font-face { font-family:Core6; src:local(※), url("../font/COREGTD6.OTF") format("opentype"); font-style:normal; font-weight:normal; }
-@font-face { font-family:Core7; src:local(※), url("../font/COREGTD7.OTF") format("opentype"); font-style:normal; font-weight:normal; }
-@font-face { font-family:Core8; src:local(※), url("../font/COREGTD8.OTF") format("opentype"); font-style:normal; font-weight:normal; }
-@font-face { font-family:Core9; src:local(※), url("../font/COREGTD9.OTF") format("opentype"); font-style:normal; font-weight:normal; }
-
-
-
 /* Body */
 body {
   background: #FAFAFA;
-  font-family: '-apple-system', 'BlinkMacSystemFont', 'PAYW Pro', 'Apple SD Gothic Neo', 'Segoe UI', 'system-ui', Sans-Serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'Pretendard Variable', 'Pretendard', 'Apple SD Gothic Neo', 'Segoe UI', 'system-ui', Sans-Serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-weight: 300;
   font-size: 16px;
   color: #212121;
@@ -101,7 +44,7 @@ input {
   right: 0;
   color: #FFF;
   padding: 16px;
-  font-family: '-apple-system', 'BlinkMacSystemFont', 'PAYW Pro', 'Apple SD Gothic Neo', 'Segoe UI', 'system-ui', Sans-Serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'Pretendard Variable', 'Pretendard', 'Apple SD Gothic Neo', 'Segoe UI', 'system-ui', Sans-Serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 16px;
 }
 
@@ -168,7 +111,7 @@ input {
 }
 
 #main h1, main h1 span {
-  font-family: '-apple-system', 'BlinkMacSystemFont', 'PAYW Pro', 'Apple SD Gothic Neo', 'Segoe UI', 'system-ui', Sans-Serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'Pretendard Variable', 'Pretendard', 'Apple SD Gothic Neo', 'Segoe UI', 'system-ui', Sans-Serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 80px;
   font-weight: 600
 }

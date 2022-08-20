@@ -51,7 +51,7 @@ tm {
 }
 
 tl, .button3, .button4, .button5, .button6 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 12pt;
 }
 
@@ -89,7 +89,7 @@ tx {
 
 .number {
     background: #1D1D1D;
-    font-weight: 600;
+    font-weight: 700;
     height: 64px;
     width: 64px;
 }
