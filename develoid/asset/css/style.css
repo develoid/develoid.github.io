@@ -84,20 +84,20 @@ button {
 } */
 
 html {
-    background-color: #222222;
-    color: #FFFFFF;
+    background-color: #222;
+    color: #FFF;
 }
 
 button {
-    color: #FFFFFF;
+    color: #FFF;
 }
 
 .mainbutton_top {
-    background-color: #333333;
+    background-color: #333;
 }
 
 .mainbutton {
-    background-color: #333333;
+    background-color: #333;
 }
 
 .mainbutton_top:hover, .mainbutton:hover {
