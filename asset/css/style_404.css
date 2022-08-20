@@ -1,3 +1,8 @@
+html {
+    background: #333;
+    color: #FFF;
+}
+
 .section {
     display: flex;
     flex: 1;
@@ -58,7 +63,7 @@ button {
 }
 
 .mainbutton_top, .mainbutton {
-    background-color: #333333;
+    background-color: #333;
     box-shadow:  4px 4px 8px #FFFFFF4D,
     -4px -4px 8px #FFFFFF4D;
 }
