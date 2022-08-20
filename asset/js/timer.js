@@ -5,7 +5,7 @@ function timer() {
   if (count <= 0) {
     clearInterval(counter);
     document.getElementById("timer").innerHTML = "0";
-    window.location.replace('링크')
+    window.location.replace('https://develoid.net')
     return;
   }
   document.getElementById("timer").innerHTML = count;
