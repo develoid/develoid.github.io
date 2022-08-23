@@ -5,10 +5,22 @@
 // Sponsor Banner = SB
 // Footer = FT
 
-// TM 0 / BP 1 / EB 2 / BC 3 / SB 4 / OB 5 / FT 6
+// 베스트포토 및 공지사항 bp
+// 이벤트 1단 evs
+// 이벤트 2단 evd
+// 디벨베스트 eb
+// 디벨콘텐츠 dc
+// 디벨서포터즈 dsu
+// 디벨스폰서 ds
+// 지난달: 접두사 b
+// 베이스 인터페이스 ui
+
+
+
+// bp 0 / evs 1 / evd 2 / eb 3 / dc 4 / dsu 5 / ds 6 / beb 7 / bdc 8 / bdsu 9 / ui 10
 let arrayCNT = new Array(11,1,1,5,5,5,1);
 let arraySET = new Array(1,1,1,5,5,5,1);
-let arrayCMD = new Array("tm", "bp", "eb", "bc", "sb", "ob", "ft");
+let arrayCMD = new Array("bp", "evs", "evd", "eb", "dc", "dsu", "ds", "deb", "bdc", "bdsu", "ui");
 let arrayITEM = new Array();
 
 // Resource
@@ -39,13 +51,17 @@ function getTarget(target) {
   //console.log(target);
 
   var out = 0;
-  if(target == "tm") out = 0;
-  else if(target == "bp") out = 1;
-  else if(target == "eb") out = 2;
-  else if(target == "bc") out = 3;
-  else if(target == "sb") out = 4;
-  else if(target == "ob") out = 5;
-  else if(target == "ft") out = 6;
+  if(target == "bp") out = 0;
+  else if(target == "evs") out = 1;
+  else if(target == "evd") out = 2;
+  else if(target == "eb") out = 3;
+  else if(target == "dc") out = 4;
+  else if(target == "dsu") out = 5;
+  else if(target == "ds") out = 6;
+  else if(target == "beb") out = 7;
+  else if(target == "bdc") out = 8;
+  else if(target == "bdsu") out = 9;
+  else if(target == "ui") out = 10;
 
   return out;
 }
@@ -129,16 +145,24 @@ function ItemObjectMake(target) {
   arrayITEM[id] = out;
 }
 
-// 전체 아이템 오브젝트 배열 생성
+// 전체 아이템 오브젝트 배열 생성 및 코드 복사
 function ItemArrayMake() {
   arrayITEM = new Array();
 
-  ItemObjectMake('tm');
   ItemObjectMake('bp');
+  ItemObjectMake('evs');
+  ItemObjectMake('evd');
   ItemObjectMake('eb');
-  ItemObjectMake('bc');
-  ItemObjectMake('sb');
-  ItemObjectMake('ob');
+  ItemObjectMake('dc');
+  ItemObjectMake('dsu');
+  ItemObjectMake('ds');
+  ItemObjectMake('beb');
+  ItemObjectMake('bdc');
+  ItemObjectMake('bdsu');
+  ItemObjectMake('ui');
+  var copyText = document.getElementById("codeHTTPS");
+  copyText.select();
+  document.execCommand("copy");
   //ItemObjectMake('ft');
 
   //console.log(arrayITEM);
@@ -169,22 +193,34 @@ function ItemSave() {
   let json = new Object;
   json.time = ""+y+m+d+h+mm+s;
   //json.TM = arrayCNT[0];
-  json.BP = arrayCNT[1];
-  json.EB = arrayCNT[2];
-  json.BC = arrayCNT[3];
-  json.SB = arrayCNT[4];
-  json.OB = arrayCNT[5];
+  json.bp = arrayCNT[1];
+  json.evs = arrayCNT[2];
+  json.evd = arrayCNT[3];
+  json.eb = arrayCNT[4];
+  json.dc = arrayCNT[5];
+  json.dsu = arrayCNT[6];
+  json.ds = arrayCNT[7];
+  json.beb = arrayCNT[8];
+  json.bdc = arrayCNT[9];
+  json.bdsu = arrayCNT[10];
+  json.ui = arrayCNT[11];
   //json.FT = arrayCNT[6];
-  json.dataTM = arrayITEM['tm'];
-  json.dataBP = arrayITEM['bp'];
-  json.dataEB = arrayITEM['eb'];
-  json.dataBC = arrayITEM['bc'];
-  json.dataSB = arrayITEM['sb'];
-  json.dataOB = arrayITEM['ob'];
+  json.databp = arrayITEM['bp'];
+  json.dataevs = arrayITEM['evs'];
+  json.dataevd = arrayITEM['evd'];
+  json.dataeb = arrayITEM['eb'];
+  json.datadc = arrayITEM['dc'];
+  json.datadsu = arrayITEM['dsu'];
+  json.datads = arrayITEM['ds'];
+  json.databeb = arrayITEM['beb'];
+  json.databdc = arrayITEM['bdc'];
+  json.databdsu = arrayITEM['bdsu'];
+  json.dataui = arrayITEM['ui'];
   //json.dataFT = arrayITEM['ft'];
 
   //console.log(json);
 
+  
   // JSON 생성
   let content = JSON.stringify(json);
 
@@ -273,36 +309,47 @@ function FileDataRead(data) {
   //console.log(json);
 
   // 입력 창 생성
-  if(json.BP) FileDataInputMake('bp', json.BP - arrayCNT[1]);
-  if(json.EB) FileDataInputMake('eb', json.EB - arrayCNT[2]);
-  if(json.BC) FileDataInputMake('bc', json.BC - arrayCNT[3]);
-  if(json.SB) FileDataInputMake('sb', json.SB - arrayCNT[4]);
-  if(json.OB) FileDataInputMake('ob', json.OB - arrayCNT[5]);
+  if(json.bp) FileDataInputMake('bp', json.bp - arrayCNT[1]);
+  if(json.evs) FileDataInputMake('evs', json.evs - arrayCNT[2]);
+  if(json.evd) FileDataInputMake('evd', json.evd - arrayCNT[3]);
+  if(json.eb) FileDataInputMake('eb', json.eb - arrayCNT[4]);
+  if(json.dc) FileDataInputMake('dc', json.dc - arrayCNT[5]);
+  if(json.dsu) FileDataInputMake('dsu', json.dsu - arrayCNT[6]);
+  if(json.ds) FileDataInputMake('ds', json.ds - arrayCNT[7]);
+  if(json.beb) FileDataInputMake('beb', json.beb - arrayCNT[8]);
+  if(json.bdc) FileDataInputMake('bdc', json.bdc - arrayCNT[9]);
+  if(json.bdsu) FileDataInputMake('bdsu', json.bdsu - arrayCNT[10]);
+  if(json.ui) FileDataInputMake('ui', json.ui - arrayCNT[11]);
 
   // 카운트 값 수정
-  if(json.BP) arrayCNT[1] = json.BP;
-  if(json.EB) arrayCNT[2] = json.EB;
-  if(json.BC) arrayCNT[3] = json.BC;
-  if(json.SB) arrayCNT[4] = json.SB;
-  if(json.OB) arrayCNT[5] = json.OB;
+  if(json.bp) arrayCNT[1] = json.bp;
+  if(json.evs) arrayCNT[2] = json.evs;
+  if(json.evd) arrayCNT[3] = json.evd;
+  if(json.eb) arrayCNT[4] = json.eb;
+  if(json.dc) arrayCNT[5] = json.dc;
+  if(json.dsu) arrayCNT[6] = json.dsu;
+  if(json.ds) arrayCNT[7] = json.ds;
+  if(json.beb) arrayCNT[8] = json.beb;
+  if(json.bdc) arrayCNT[9] = json.bdc;
+  if(json.bdsu) arrayCNT[10] = json.bdsu;
+  if(json.ui) arrayCNT[11] = json.ui;
 
   // 입력 창에 데이터 입력
-  if(json.dataTM) FileDataInputWrite('tm', json.dataTM);
-  if(json.dataBP) FileDataInputWrite('bp', json.dataBP);
-  if(json.dataEB) FileDataInputWrite('eb', json.dataEB);
-  if(json.dataBC) FileDataInputWrite('bc', json.dataBC);
-  if(json.dataSB) FileDataInputWrite('sb', json.dataSB);
-  if(json.dataOB) FileDataInputWrite('ob', json.dataOB);
+  if(json.databp) FileDataInputWrite('bp', json.databp);
+  if(json.dataevs) FileDataInputWrite('evs', json.dataevs);
+  if(json.dataevd) FileDataInputWrite('evd', json.dataevd);
+  if(json.dataeb) FileDataInputWrite('eb', json.dataeb);
+  if(json.datadc) FileDataInputWrite('dc', json.datadc);
+  if(json.datadsu) FileDataInputWrite('dsu', json.datadsu);
+  if(json.datads) FileDataInputWrite('ds', json.datads);
+  if(json.databeb) FileDataInputWrite('beb', json.databeb);
+  if(json.databdc) FileDataInputWrite('bdc', json.databdc);
+  if(json.databdsu) FileDataInputWrite('bdsu', json.databdsu);
+  if(json.dataui) FileDataInputWrite('ui', json.dataui);
 }
 
 
 /* 코드 관련 */
-// 코드 복사
-function CodeCopy() {
-  var copyText = document.getElementById("codeHTTPS");
-  copyText.select();
-  document.execCommand("copy");
-}
 
 /* 레이아웃 생성 */
 function Make() {
@@ -314,7 +361,7 @@ function Make() {
   let temp;
 
   // 페이지 생성 시작
-  let page = "<!-- Develoid Front v2020.08 / Produced by SIRYUA & 딸기푸딩 -->";
+  let page = "<!-- develoid community gate | produced by SIRYUA & heart -->";
 
   // 중앙 정렬
   page += "<center>";

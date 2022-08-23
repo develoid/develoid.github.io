@@ -6,6 +6,10 @@ body {
     align-items: center;
 }
 
+.out {
+    display: none;
+}
+
 .section {
     display: initial !important;
     margin: 120px 0 0 0 !important;
