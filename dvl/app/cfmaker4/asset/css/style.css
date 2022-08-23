@@ -13,6 +13,12 @@ body {
     height: auto !important;
 }
 
+.section2 {
+    display: initial !important;
+    margin: 24px 0 !important;
+    height: auto !important;
+}
+
 button, input {
     font-size: .8em;
     letter-spacing: -0.05em;
@@ -38,7 +44,7 @@ td, tr {
 intro_number {
     cursor: default;
     font-weight: 700;
-    font-size: 68pt;
+    font-size: 60pt;
 }
 
 .title {
@@ -56,6 +62,7 @@ intro_number {
 .title h2 {
     font-size: 1.5em;
     font-weight: 800;
+    margin-top: 0;
     margin-bottom: 24px;
 }
 
@@ -194,7 +201,7 @@ table_number {
     }
 
     .padding, .padding2 {
-        background-color: #303030;
+        background-color: #222;
     }
 
     td {

@@ -11,7 +11,6 @@ button {
     font-size: .85em;
     width: 18rem;
     height: 3rem;
-    transition: .3s;
 }
 
 .title, .title_dvl {
