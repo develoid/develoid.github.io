@@ -1,0 +1,80 @@
+@media (prefers-color-scheme: light) {
+    .dvl_header_slash {
+        fill: #1F84FF;
+    }
+
+    .dvl_footer_slash {
+        fill: #303030;
+    }
+
+    .dvl_hexagon {
+        fill: #303030;
+    }
+
+    .support_hexagon {
+        fill: #8E77C6;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .dvl_header_slash {
+        fill: #FFF;
+    }
+
+    .dvl_footer_slash {
+        fill: #FFF;
+    }   
+
+    .dvl_hexagon {
+        fill: #FFF;
+    }
+
+    .support_hexagon {
+        fill: #8E77C6;
+    }
+}
+
+/* HTML LIGHT */
+
+html[data-theme="light"]
+    .dvl_header_slash {
+        fill: #1F84FF;
+    }
+
+html[data-theme="light"]    
+    .dvl_footer_slash {
+        fill: #303030;
+    }
+
+html[data-theme="light"]
+    .dvl_hexagon {
+        fill: #303030;
+    }
+
+html[data-theme="light"]
+    .support_hexagon {
+        fill: #8E77C6;
+    }
+
+
+/* HTML DARK */
+
+html[data-theme="dark"]
+    .dvl_header_slash {
+        fill: #FFF;
+    }
+
+html[data-theme="dark"]
+    .dvl_footer_slash {
+        fill: #FFF;
+    }    
+
+html[data-theme="dark"]
+    .dvl_hexagon {
+        fill: #FFF;
+    }
+
+html[data-theme="dark"]    
+    .support_hexagon {
+        fill: #8E77C6;
+    }

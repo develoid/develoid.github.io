@@ -1,6 +1,4 @@
 html {
-    background-color: #111111;
-    color: white;
     letter-spacing: -0.05em;
 }
 
@@ -8,23 +6,24 @@ body {
     align-items: center;
 }
 
-.header a {
-    color: white !important;
+.section {
+    display: initial !important;
+    margin: 52px 0 0 0 !important;
+    padding-bottom: 254px !important;
+    height: auto !important;
 }
 
 button, input {
-    color: white;
-    font-size: 13pt;
+    font-size: .8em;
     letter-spacing: -0.05em;
 }
 
 button {
-    font-weight: 700;
     justify-content: center;
 }
 
 input {
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 
 table {
@@ -32,177 +31,240 @@ table {
     width: 960px;
 }
 
-td {
+td, tr {
     padding: 0;
 }
 
-tn {
-    font-weight: 700;
-    font-size: 32pt;
-}
-
-tnumber {
-    font-size: 24pt;
-}
-
-tm {
-    font-weight: 700;
-    font-size: 23pt;
-}
-
-tl, .button3, .button4, .button5, .button6 {
-    font-weight: 700;
-    font-size: 12pt;
-}
-
-tx {
+intro_number {
+    cursor: default;
     font-weight: 700;
     font-size: 68pt;
 }
 
-.section {
-    margin-top: 52px;
-    padding-bottom: 254px;
-}
-
 .title {
+    cursor: default;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 2.6em;
+    font-weight: 800;
     margin-bottom: 32px;
-    text-align: center;
 }
 
-.subtitle {
+.title h2 {
+    font-size: 1.5em;
+    font-weight: 800;
     margin-bottom: 24px;
-    text-align: center;
 }
 
-.paddinga {
+table_title {
+    line-height: 2;
+    font-size: .8em;
+    font-weight: 700;
+}
+
+.btn_copy, .btn_save, .btn_load, .btn_gate {
+    line-height: 2;
+    font-size: .8em;
+    font-weight: 700;
+}
+
+table_number {
+    font-size: 1.6em;
+}
+
+.padding {
     padding: 16px 0;
 }
 
-.paddingb {
-    padding: 32px 0;
-}
-
-.paddingc {
-    padding: 36px 0;
+.padding2 {
+    padding: 48px 0;
 }
 
 .number {
-    background: #1D1D1D;
     font-weight: 700;
     height: 64px;
     width: 64px;
 }
 
-.imageid, .imageid2, .imageid3 {
+.imageid, .imageid_base {
     height: 64px;
     padding: 0 16px;
 }
 
-.imageid, .imageid2 {
+.imageid {
     width: 310px;
 }
 
-.imageid, .imageid3 {
-    background: #333;
-}
-
-.imageid2 {
-    background: #464646;
-}
-
-.imageid3 {
+.imageid_base {
     width: 208px;
 }
 
-.linkid, .linkid2, .linkid3, .linkid4, .linkid5 {
+.linkid, .linkid_event_A, .linkid_base {
     height: 64px;
     padding: 0 16px;
 }
 
-.linkid, .linkid3, .linkid5 {
-    background: #464646;
-}
-
-.linkid2, .linkid4 {
-    background: #333;
-}
-
-.linkid, .linkid2 {
+.linkid {
     width: 522px;
 }
 
-.linkid3, .linkid4 {
+.linkid_event_A {
     width: 394px;
 }
 
-.linkid5 {
+.linkid_base {
     width: 208px;
 }
 
-.button1, .button2, .button3, .button4, .button5, .button6 {
+.btn_up, .btn_down, .btn_copy, .btn_save, .btn_load, .btn_gate {
+    cursor: pointer;
     height: 64px;
-    cursor:pointer;
 }
 
-.button1, .button2 {
+.make {
+    z-index: 10;
+}
+
+.btn_up, .btn_down {
     width: 64px;
 }
 
-.button1, .button6, .rbutton {
-    background: #1D1D1D;
+.btn_plus, .btn_minus {
+    cursor: pointer;
+    width: 64px;
+    height: 42px;
 }
 
-.button3, .button5 {
-    background: #333;
-}
-
-.button4, .button5 {
+.btn_save, .btn_load {
     width: 120px;
     height: 52px;
     font-size: 11pt;
 }
 
-.abutton, .rbutton {
-    width: 64px;
-    height: 42px;
-    cursor:pointer;
-}
-
-.button2 {
-    background: #2F2F2F;
-}
-
-.button3 {
-    width: 230px;
-    height: 52px;
-    border-radius: 6px 0 0 0;
-    font-size: 11pt;
-}
-
-.button4 {
-    background: #464646;
-}
-
-.button5 {
-    border-radius: 0 6px 0 0;
-}
-
-.button6 {
-    width: 470px;
-    height: 52px; 
-    border-radius: 0 0 6px 6px;
-    font-size: 11pt;
-}
-
-.abutton {
-    background: #2F2F2F;
-}
-
 .make {
-    box-shadow:  0 0 12px rgba(255, 255, 255, 0.076);
-    border-radius: 6px;
     position: fixed;
-    width: 470px;
+    width: 486px;
     bottom: 76px;
 }
+
+.btn_copy {
+    width: 240px;
+    height: 52px;
+    font-size: 11pt;
+}
+
+.btn_gate {
+    width: 484px;
+    height: 52px;
+    font-size: 11pt;
+}
+
+@media (prefers-color-scheme: light) {
+    td, .number, .imageid, .imageid_base, .linkid, .linkid_event_A, .linkid_base, .btn_up, .btn_down, .btn_plus, .btn_minus {
+        background-color: #e9e9e9;
+    }
+
+    td {
+        border: .5px solid #0000001A;
+    }
+
+    .btn_copy, .btn_save, .btn_load, .btn_gate {
+        background-color: #e4e4e4;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    td, .number, .imageid, .imageid_base, .linkid, .linkid_event_A, .linkid_base, .btn_up, .btn_down, .btn_plus, .btn_minus {
+        background-color: #2A2A2A;
+    }
+
+    td {
+        border: .5px solid #FFFFFF1A;
+    }
+
+    .btn_copy, .btn_save, .btn_load, .btn_gate {
+        background-color: #333;
+    }
+}
+
+html[data-theme="light"]
+    td {
+        background-color: #e9e9e9;
+        border: .5px solid #0000001A;
+    }
+    html[data-theme="light"]
+    .section {
+        background-color: #ECECEC;
+    }
+    html[data-theme="light"]
+    .number {
+        background-color: #e9e9e9;
+    }
+    html[data-theme="light"]
+    .imageid {
+        background-color: #e9e9e9;
+    }
+    html[data-theme="light"]
+    .imageid_base {
+        background-color: #e9e9e9;
+    }
+    html[data-theme="light"]
+    .linkid {
+        background-color: #e9e9e9;
+    }
+    html[data-theme="light"]
+    .linkid_event_A {
+        background-color: #e9e9e9;
+    }
+    html[data-theme="light"]
+    .linkid_base {
+        background-color: #e9e9e9;
+    }
+    html[data-theme="light"]
+    .btn_up {
+        background-color: #e9e9e9;
+    }
+    html[data-theme="light"]
+    .btn_down {
+        background-color: #e9e9e9;
+    }
+    html[data-theme="light"]
+    .btn_plus {
+        background-color: #e9e9e9;
+    }
+    html[data-theme="light"]
+    .btn_minus {
+        background-color: #e9e9e9;
+    }
+    html[data-theme="light"]
+    .btn_copy {
+        background-color: #e4e4e4;
+    }
+    html[data-theme="light"]
+    .btn_save {
+        background-color: #e4e4e4;
+    }
+    html[data-theme="light"]
+    .btn_load {
+        background-color: #e4e4e4;
+    }
+    html[data-theme="light"]
+    .btn_gate {
+        background-color: #e4e4e4;
+    }
+
+html[data-theme="dark"]
+    td, .number, .imageid, .imageid_base, .linkid, .linkid_event_A, .linkid_base, .btn_up, .btn_down, .btn_plus, .btn_minus {
+        background-color: #2A2A2A;
+    }
+
+    td {
+        border: .5px solid #FFFFFF1A;
+    }
+
+    .btn_copy, .btn_save, .btn_load, .btn_gate {
+        background-color: #333;
+    }
