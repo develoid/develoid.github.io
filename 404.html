@@ -1,5 +1,18 @@
 <!DOCTYPE HTML>
 <html lang="ko">
+<style>
+    html, body {
+        height: 100%;
+    }
+
+    .mbtn_top, .history_back {
+        border-radius: 100px !important;
+    }
+
+    .mbtn {
+        border-radius: 100px !important;
+    }
+</style>
 <head>
     <meta charset="UTF-8">
     <meta NAME="ROBOTS" content="NOINDEX, NOFOLLOW">
@@ -7,20 +20,20 @@
     <link rel="icon" href="./asset/images/favicon.svg">
     <link rel="stylesheet" type='text/css' media='all' href="./asset/css/fonts.css">
     <link rel="stylesheet" type='text/css' media='all' href="./asset/css/base_style.css">
-    <link rel="stylesheet" type='text/css' media='all' href="./asset/css/style_404.css">
+    <link rel="stylesheet" type='text/css' media='all' href="./asset/css/style_def.css">
     <title>페이지를 찾을 수 없습니다.</title>
 </head>
 <body>
-    <div class="section">
+    <div class="section" style="margin-bottom: 0;">
         <div class="title">
-            <h2>HTTP 오류 404.</h2><h1>주소를 확인해 주세요.</h1>
+            <h2><span class="error_html">HTTP 오류 404.</span></h2><h1>주소를 확인해 주세요.</h1>
             <p><span id="timer">15</span>초 후 자동으로 커뮤니티로 이동합니다.</p>
         </div>
         <div class="cont">
             <p>여기를 찾으세요?</p>
-            <button type="button" class="mainbutton_top" onclick="window.open('https://develoid.net')";>커뮤니티</button>
-            <button type="button" class="mainbutton" onclick="window.open('https://develoid.github.io')";>디벨가이드</button>
-            <button type="button" class="mainbutton" onclick="window.open('https://develoid.github.io/cs')";>디벨서포트</button>
+            <button type="button" class="mbtn_top" onclick="window.open('https://develoid.net')";>커뮤니티</button>
+            <button type="button" class="mbtn" onclick="window.open('https://develoid.github.io')";>디벨가이드</button>
+            <button type="button" class="mbtn" onclick="window.open('https://develoid.github.io/cs')";>디벨서포트</button>
         </div>
         <button type="button" class="history_back" onclick="history.back()">돌아가기</button>
     </div>
