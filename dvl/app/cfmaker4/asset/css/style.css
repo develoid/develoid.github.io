@@ -167,18 +167,34 @@ table_number {
         background-color: #e9e9e9;
     }
 
+    input:focus, .btn_up:hover, .btn_down:hover, .btn_plus:hover, .btn_minus:hover, .btn_copy:hover, .btn_save:hover, .btn_load:hover, .btn_gate:hover {
+        background-color: #DEDEDE;
+    }
+
+    .padding, .padding2 {
+        background-color: #ECECEC;
+    }
+
     td {
         border: .5px solid #0000001A;
     }
 
     .btn_copy, .btn_save, .btn_load, .btn_gate {
-        background-color: #e4e4e4;
+        background-color: #E4E4E4;
     }
 }
 
 @media (prefers-color-scheme: dark) {
     td, .number, .imageid, .imageid_base, .linkid, .linkid_event_A, .linkid_base, .btn_up, .btn_down, .btn_plus, .btn_minus {
         background-color: #2A2A2A;
+    }
+
+    input:focus, .btn_up:hover, .btn_down:hover, .btn_plus:hover, .btn_minus:hover, .btn_copy:hover, .btn_save:hover, .btn_load:hover, .btn_gate:hover {
+        background-color: #3C3C3C;
+    }
+
+    .padding, .padding2 {
+        background-color: #303030;
     }
 
     td {
@@ -197,6 +213,14 @@ html[data-theme="light"]
     }
     html[data-theme="light"]
     .section {
+        background-color: #ECECEC;
+    }
+    html[data-theme="light"]
+    .padding {
+        background-color: #ECECEC;
+    }
+    html[data-theme="light"]
+    .padding2 {
         background-color: #ECECEC;
     }
     html[data-theme="light"]
@@ -232,12 +256,28 @@ html[data-theme="light"]
         background-color: #e9e9e9;
     }
     html[data-theme="light"]
+    .btn_up:hover {
+        background-color: #DEDEDE;
+    }
+    html[data-theme="light"]
+    .btn_down:hover {
+        background-color: #DEDEDE;
+    }
+    html[data-theme="light"]
     .btn_plus {
         background-color: #e9e9e9;
     }
     html[data-theme="light"]
     .btn_minus {
         background-color: #e9e9e9;
+    }
+    html[data-theme="light"]
+    .btn_plus:hover {
+        background-color: #DEDEDE;
+    }
+    html[data-theme="light"]
+    .btn_minus:hover {
+        background-color: #DEDEDE;
     }
     html[data-theme="light"]
     .btn_copy {
@@ -255,16 +295,134 @@ html[data-theme="light"]
     .btn_gate {
         background-color: #e4e4e4;
     }
+    html[data-theme="light"]
+    input:focus {
+        background-color: #DEDEDE;
+    }
+    html[data-theme="light"]
+    .btn_copy:hover {
+        background-color: #DEDEDE;
+    }
+    html[data-theme="light"]
+    .btn_save:hover {
+        background-color: #DEDEDE;
+    }
+    html[data-theme="light"]
+    .btn_load:hover {
+        background-color: #DEDEDE;
+    }
+    html[data-theme="light"]
+    .btn_gate:hover {
+        background-color: #DEDEDE;
+    }
+
 
 html[data-theme="dark"]
-    td, .number, .imageid, .imageid_base, .linkid, .linkid_event_A, .linkid_base, .btn_up, .btn_down, .btn_plus, .btn_minus {
-        background-color: #2A2A2A;
-    }
-
     td {
+        background-color: #2A2A2A;
         border: .5px solid #FFFFFF1A;
     }
-
-    .btn_copy, .btn_save, .btn_load, .btn_gate {
+    html[data-theme="dark"]
+    .section {
+        background-color: #222;
+    }
+    html[data-theme="dark"]
+    .padding {
+        background-color: #222;
+    }
+    html[data-theme="dark"]
+    .padding2 {
+        background-color: #222;
+    }
+    html[data-theme="dark"]
+    .number {
+        background-color: #2A2A2A;
+    }
+    html[data-theme="dark"]
+    .imageid {
+        background-color: #2A2A2A;
+    }
+    html[data-theme="dark"]
+    .imageid_base {
+        background-color: #2A2A2A;
+    }
+    html[data-theme="dark"]
+    .linkid {
+        background-color: #2A2A2A;
+    }
+    html[data-theme="dark"]
+    .linkid_event_A {
+        background-color: #2A2A2A;
+    }
+    html[data-theme="dark"]
+    .linkid_base {
+        background-color: #2A2A2A;
+    }
+    html[data-theme="dark"]
+    .btn_up {
+        background-color: #2A2A2A;
+    }
+    html[data-theme="dark"]
+    .btn_down {
+        background-color: #2A2A2A;
+    }
+    html[data-theme="dark"]
+    .btn_up:hover {
+        background-color: #3C3C3C;
+    }
+    html[data-theme="dark"]
+    .btn_down:hover {
+        background-color: #3C3C3C;
+    }
+    html[data-theme="dark"]
+    .btn_plus {
+        background-color: #2A2A2A;
+    }
+    html[data-theme="dark"]
+    .btn_minus {
+        background-color: #2A2A2A;
+    }
+    html[data-theme="dark"]
+    .btn_plus:hover {
+        background-color: #3C3C3C;
+    }
+    html[data-theme="dark"]
+    .btn_minus:hover {
+        background-color: #3C3C3C;
+    }
+    html[data-theme="dark"]
+    .btn_copy {
         background-color: #333;
+    }
+    html[data-theme="dark"]
+    .btn_save {
+        background-color: #333;
+    }
+    html[data-theme="dark"]
+    .btn_load {
+        background-color: #333;
+    }
+    html[data-theme="dark"]
+    .btn_gate {
+        background-color: #333;
+    }
+    html[data-theme="dark"]
+    input:focus {
+        background-color: #333;
+    }
+    html[data-theme="dark"]
+    .btn_copy:hover {
+        background-color: #3C3C3C;
+    }
+    html[data-theme="dark"]
+    .btn_save:hover {
+        background-color: #3C3C3C;
+    }
+    html[data-theme="dark"]
+    .btn_load:hover {
+        background-color: #3C3C3C;
+    }
+    html[data-theme="dark"]
+    .btn_gate:hover {
+        background-color: #3C3C3C;
     }

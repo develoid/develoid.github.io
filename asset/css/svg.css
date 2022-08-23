@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: light) {
     .dvl_header_slash {
-        fill: #1F84FF;
+        fill: #719BD8;
     }
 
     .dvl_footer_slash {
@@ -12,13 +12,13 @@
     }
 
     .support_hexagon {
-        fill: #8E77C6;
+        fill: #9C83DB;
     }
 }
 
 @media (prefers-color-scheme: dark) {
     .dvl_header_slash {
-        fill: #FFF;
+        fill: #719BD8;
     }
 
     .dvl_footer_slash {
@@ -30,7 +30,7 @@
     }
 
     .support_hexagon {
-        fill: #8E77C6;
+        fill: #9C83DB;
     }
 }
 
@@ -38,7 +38,7 @@
 
 html[data-theme="light"]
     .dvl_header_slash {
-        fill: #1F84FF;
+        fill: #719BD8;
     }
 
 html[data-theme="light"]    
@@ -53,7 +53,7 @@ html[data-theme="light"]
 
 html[data-theme="light"]
     .support_hexagon {
-        fill: #8E77C6;
+        fill: #9C83DB;
     }
 
 
@@ -61,7 +61,7 @@ html[data-theme="light"]
 
 html[data-theme="dark"]
     .dvl_header_slash {
-        fill: #FFF;
+        fill: #719BD8;
     }
 
 html[data-theme="dark"]
@@ -76,5 +76,5 @@ html[data-theme="dark"]
 
 html[data-theme="dark"]    
     .support_hexagon {
-        fill: #8E77C6;
+        fill: #9C83DB;
     }
