@@ -6,8 +6,21 @@ body {
     align-items: center;
 }
 
-.out {
-    display: none;
+.out input {
+    cursor: default !important;
+    background-color: #00000000 !important;
+    border: 0 !important;
+    color: #00000000 !important;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.out input:focus {
+    background-color: #00000000 !important;
 }
 
 .section {
