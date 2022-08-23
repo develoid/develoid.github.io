@@ -5,7 +5,7 @@ const onClick = () => {
   theme.value = theme.value === 'dark'
     ? 'light'
     : 'dark'
-
+  
   setPreference()
 }
 
@@ -26,10 +26,12 @@ const setPreference = () => {
 const reflectPreference = () => {
   document.firstElementChild
     .setAttribute('data-theme', theme.value)
+    
 
   document
     .querySelector('#theme-toggle')
     ?.setAttribute('aria-label', theme.value)
+    
 }
 
 const theme = {
