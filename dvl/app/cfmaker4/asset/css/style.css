@@ -8,14 +8,14 @@ body {
 
 .section {
     display: initial !important;
-    margin: 52px 0 0 0 !important;
-    padding-bottom: 254px !important;
+    margin: 120px 0 0 0 !important;
+    padding-bottom: 262px !important;
     height: auto !important;
 }
 
 .section2 {
     display: initial !important;
-    margin: 24px 0 !important;
+    margin: 96px 0 116px 0 !important;
     height: auto !important;
 }
 
