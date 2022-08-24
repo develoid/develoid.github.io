@@ -15,7 +15,7 @@ let arrayCMD = new Array("bp", "evs", "evd", "ebseven", "ebfive", "edc", "dsu", 
 let arrayITEM = new Array();
 
 // Resource
-let resourceBlank = "https://cafefiles.pstatic.net/MjAyMjA4MjRfMTM0/MDAxNjYxMzMwNTk4MjI2.-maVNpXJQVCzjdd05D_X5cSBBIWS4AD0DfA0zDQZ15Mg.FbBHST4Y4GPMxt2hYpLt0i6P3boNdAlZVeW5RlNc_Rgg.PNG/universal_icon.png";
+let resourceBlank = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjk0/MDAxNTkyMjMxMDEwNzE5.0geDSpRciQhBcP9UHLDMnMLNyUP56IFYjyGFo50Lr18g.3tQdIO2P1RPfbjcjwXlHu_erEhS92QtqgmRUMF_C_hQg.PNG/blank.png";
 
 // URL 드랍 이벤트
 function dropURL(event, id) {
