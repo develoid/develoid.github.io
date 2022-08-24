@@ -8,9 +8,9 @@
 // 지난달: 접두사 b
 // 베이스 인터페이스 ui
 
-// bp 0 / evs 1 / evd 2 / ebseven 3 / ebfive 4 / edc 5 / dsu 5 / ds 6 / bebseven 7 / bebfive 8 / bdc 9 / bdsu 10 / ui 11
+// bp 0 / evs 1 / evd 2 / ebseven 3 / ebfive 4 / edc 5 / dsu 6 / ds 7 / bebseven 8 / bebfive 9 / bdc 10 / bdsu 11 / ui 12
 let arrayCNT = new Array(6,0,0,7,0,0,0,0,7,0,0,0,8);
-let arraySET = new Array(1,1,2,7,5,5,5,5,7,5,5,5,1);
+let arraySET = new Array(1,1,2,1,5,5,5,5,1,5,5,5,1);
 let arrayCMD = new Array("bp", "evs", "evd", "ebseven", "ebfive", "edc", "dsu", "ds", "bebseven", "bebfive", "bdc", "bdsu", "ui");
 let arrayITEM = new Array();
 
@@ -183,19 +183,20 @@ function ItemSave() {
   // 전체 아이템 오브젝트 배열 생성
   ItemArrayMake();
 
+  // bp 0 / evs 1 / evd 2 / ebseven 3 / ebfive 4 / edc 5 / dsu 6 / ds 7 / bebseven 8 / bebfive 9 / bdc 10 / bdsu 11 / ui 12
   // 오브젝트 생성
   let json = new Object;
   json.time = ""+y+m+d+h+mm;
   //json.TM = arrayCNT[0];
   json.EVS = arrayCNT[1];
   json.EVD = arrayCNT[2];
-  json.EBFIVE = arrayCNT[3];
-  json.EDC = arrayCNT[4];
-  json.DSU = arrayCNT[5];
-  json.DS = arrayCNT[6];
-  json.BEBFIVE = arrayCNT[7];
-  json.BDC = arrayCNT[8];
-  json.BDSU = arrayCNT[9];
+  json.EBFIVE = arrayCNT[4];
+  json.EDC = arrayCNT[5];
+  json.DSU = arrayCNT[6];
+  json.DS = arrayCNT[7];
+  json.BEBFIVE = arrayCNT[9];
+  json.BDC = arrayCNT[10];
+  json.BDSU = arrayCNT[11];
   //json.FT = arrayCNT[6];
   json.dataBP = arrayITEM['bp'];
   json.dataEVS = arrayITEM['evs'];
@@ -302,27 +303,28 @@ function FileDataRead(data) {
   let json = JSON.parse(data);
   //console.log(json);
 
+  // bp 0 / evs 1 / evd 2 / ebseven 3 / ebfive 4 / edc 5 / dsu 6 / ds 7 / bebseven 8 / bebfive 9 / bdc 10 / bdsu 11 / ui 12
   // 입력 창 생성
   if(json.EVS) FileDataInputMake('evs', json.EVS - arrayCNT[1]);
   if(json.EVD) FileDataInputMake('evd', json.EVD - arrayCNT[2]);
-  if(json.EBFIVE) FileDataInputMake('ebfive', json.EBFIVE - arrayCNT[3]);
-  if(json.EDC) FileDataInputMake('edc', json.EDC - arrayCNT[4]);
-  if(json.DSU) FileDataInputMake('dsu', json.DSU - arrayCNT[5]);
-  if(json.DS) FileDataInputMake('ds', json.DS - arrayCNT[6]);
-  if(json.BEBFIVE) FileDataInputMake('bebfive', json.BEBFIVE - arrayCNT[7]);
-  if(json.BDC) FileDataInputMake('bdc', json.BDC - arrayCNT[8]);
-  if(json.BDSU) FileDataInputMake('bdsu', json.BDSU - arrayCNT[9]);
+  if(json.EBFIVE) FileDataInputMake('ebfive', json.EBFIVE - arrayCNT[4]);
+  if(json.EDC) FileDataInputMake('edc', json.EDC - arrayCNT[5]);
+  if(json.DSU) FileDataInputMake('dsu', json.DSU - arrayCNT[6]);
+  if(json.DS) FileDataInputMake('ds', json.DS - arrayCNT[7]);
+  if(json.BEBFIVE) FileDataInputMake('bebfive', json.BEBFIVE - arrayCNT[9]);
+  if(json.BDC) FileDataInputMake('bdc', json.BDC - arrayCNT[10]);
+  if(json.BDSU) FileDataInputMake('bdsu', json.BDSU - arrayCNT[11]);
 
   // 카운트 값 수정
   if(json.EVS) arrayCNT[1] = json.EVS;
   if(json.EVD) arrayCNT[2] = json.EVD;
-  if(json.EBFIVE) arrayCNT[3] = json.EBFIVE;
-  if(json.EDC) arrayCNT[4] = json.EDC;
-  if(json.DSU) arrayCNT[5] = json.DSU;
-  if(json.DS) arrayCNT[6] = json.DS;
-  if(json.BEBFIVE) arrayCNT[7] = json.BEBFIVE;
-  if(json.BDC) arrayCNT[8] = json.BDC;
-  if(json.BDSU) arrayCNT[9] = json.BDSU;
+  if(json.EBFIVE) arrayCNT[4] = json.EBFIVE;
+  if(json.EDC) arrayCNT[5] = json.EDC;
+  if(json.DSU) arrayCNT[6] = json.DSU;
+  if(json.DS) arrayCNT[7] = json.DS;
+  if(json.BEBFIVE) arrayCNT[9] = json.BEBFIVE;
+  if(json.BDC) arrayCNT[10] = json.BDC;
+  if(json.BDSU) arrayCNT[11] = json.BDSU;
 
   // 입력 창에 데이터 입력
   if(json.dataBP) FileDataInputWrite('bp', json.dataBP);
@@ -361,7 +363,8 @@ function Make() {
   // 페이지 생성 시작
   let page = "<!-- develoid community gate | responsible: heart -->";
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<center>"
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>" 
 
   // 베스트포토 및 공지사항 생성
@@ -382,7 +385,7 @@ function Make() {
 
 
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>" 
 
   // 이벤트 1단 생성
@@ -399,7 +402,7 @@ function Make() {
 
 
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>" 
 
   // 이벤트 2단
@@ -423,7 +426,7 @@ function Make() {
 
 
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>"
 
   // 디벨베스트 메뉴 생성
@@ -437,7 +440,7 @@ function Make() {
 
 
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>" 
 
   // 디벨베스트 아이템 생성 (7)
@@ -447,7 +450,7 @@ function Make() {
   for(i = 0; i<temp.length; i+=7) {
     //console.log(arrayCNT[num]/arraySET[num]);
     page += "<tr>";
-    page += "<td rowspan=2><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 326px; height: auto;'></a></td>";
+    page += "<td colspan=2 rowspan=2><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 326px; height: auto;'></a></td>";
 
     for(j = 1; j<4; j++) {
       //console.log(i, j, i+j);
@@ -483,7 +486,7 @@ function Make() {
 
 
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>"
 
   // 디벨콘텐츠 메뉴 생성
@@ -497,7 +500,7 @@ function Make() {
 
 
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>" 
 
   // 디벨콘텐츠 아이템 생성
@@ -522,7 +525,7 @@ function Make() {
 
 /* 
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>"
 
   // 디벨서포터즈 메뉴 생성
@@ -536,7 +539,7 @@ function Make() {
 
 
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>" 
   
   // 디벨서포터즈 아이템 생성
@@ -559,7 +562,7 @@ function Make() {
 
 
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>"
 
   // 디벨스폰서 메뉴 생성
@@ -573,7 +576,7 @@ function Make() {
 
 
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>" 
 
   // 디벨스폰서 아이템 생성
@@ -594,7 +597,7 @@ function Make() {
 
 
  // 상단 테이블 생성
- page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+ page += "<table width=836 cellspacing=6 cellpadding=0>";
  page += "<tbody>"
 
  // 지난달 디벨베스트 메뉴 생성
@@ -608,7 +611,7 @@ function Make() {
 
 
  // 상단 테이블 생성
- page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+ page += "<table width=836 cellspacing=6 cellpadding=0>";
  page += "<tbody>" 
 
  // 지난달 디벨베스트 아이템 생성 (7)
@@ -618,7 +621,7 @@ function Make() {
  for(i = 0; i<temp.length; i+=7) {
    //console.log(arrayCNT[num]/arraySET[num]);
    page += "<tr>";
-   page += "<td rowspan=2><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 326px; height: auto;'></a></td>";
+   page += "<td colspan=2 rowspan=2><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 326px; height: auto;'></a></td>";
 
    for(j = 1; j<4; j++) {
      //console.log(i, j, i+j);
@@ -650,9 +653,9 @@ function Make() {
    page += "</tr>";
  }
 
-
+/* 
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>"
   
   // 지난달 디벨콘텐츠 메뉴 생성
@@ -666,7 +669,7 @@ function Make() {
 
 
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>" 
 
   // 지난달 디벨콘텐츠 아이템 생성
@@ -685,10 +688,10 @@ function Make() {
   
   page += "</tbody></table>";
 
-
+*/
   /*
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>"
 
   // 지난달 디벨서포터즈 메뉴 생성
@@ -702,7 +705,7 @@ function Make() {
 
 
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>" 
   
   // 지난달 디벨서포터즈 아이템 생성
@@ -725,7 +728,7 @@ function Make() {
 
 
   // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+  page += "<table width=836 cellspacing=6 cellpadding=0>";
   page += "<tbody>"
   
   // 하단 생성
@@ -738,6 +741,7 @@ function Make() {
   // 콘텐츠 테이블 종료
   page += "</tbody>";
   page += "</table>";
+  page += "</center>"
 
   // 페이지 생성 완료
 
