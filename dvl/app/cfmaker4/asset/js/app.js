@@ -83,7 +83,7 @@ function ItemControl(type, target) {
         arrayCNT[num]--; // 카운트 감소
       }
     } else {
-      alert('굳이 누를 필요가 없어보입니다.');
+      alert('한번 더 누르시면 IQ 추적을 해버리겠습니다.');
     }
   }
 
@@ -170,7 +170,7 @@ function ItemSave() {
   let h = now.getHours();
   let mm = now.getMinutes();
 
-  y = y - '2000'; // ㅋㅋ, YYYY -> YY
+  y = y - '2000'; // YYYY -> YY
   h = h > 9 ? h : '0' + h; // h -> hh
   mm = mm > 9 ? mm : '0' + mm; // m -> mm
 
