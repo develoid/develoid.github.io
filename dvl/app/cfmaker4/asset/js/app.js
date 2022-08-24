@@ -8,14 +8,14 @@
 // 지난달: 접두사 b
 // 베이스 인터페이스 ui
 
-// bp 0 / evs 1 / evd 2 / ebseven 3 / edc 4 / dsu 5 / ds 6 / bebseven 7 / bdc 8 / bdsu 9 / ui 10
-let arrayCNT = new Array(6,1,2,7,5,5,5,7,5,5,8);
-let arraySET = new Array(1,1,2,7,5,5,5,7,5,5,1);
-let arrayCMD = new Array("bp", "evs", "evd", "ebseven", "edc", "dsu", "ds", "bebseven", "bdc", "bdsu", "ui");
+// bp 0 / evs 1 / evd 2 / ebseven 3 / ebfive 4 / edc 5 / dsu 5 / ds 6 / bebseven 7 / bebfive 8 / bdc 9 / bdsu 10 / ui 11
+let arrayCNT = new Array(6,0,0,7,0,0,0,0,7,0,0,0,8);
+let arraySET = new Array(1,1,2,7,5,5,5,5,7,5,5,5,1);
+let arrayCMD = new Array("bp", "evs", "evd", "ebseven", "ebfive", "edc", "dsu", "ds", "bebseven", "bebfive", "bdc", "bdsu", "ui");
 let arrayITEM = new Array();
 
 // Resource
-let resourceBlank = "https://cafefiles.pstatic.net/MjAyMDA2MTVfMjk0/MDAxNTkyMjMxMDEwNzE5.0geDSpRciQhBcP9UHLDMnMLNyUP56IFYjyGFo50Lr18g.3tQdIO2P1RPfbjcjwXlHu_erEhS92QtqgmRUMF_C_hQg.PNG/blank.png";
+let resourceBlank = "https://cafefiles.pstatic.net/MjAyMjA4MjRfMTM0/MDAxNjYxMzMwNTk4MjI2.-maVNpXJQVCzjdd05D_X5cSBBIWS4AD0DfA0zDQZ15Mg.FbBHST4Y4GPMxt2hYpLt0i6P3boNdAlZVeW5RlNc_Rgg.PNG/universal_icon.png";
 
 // URL 드랍 이벤트
 function dropURL(event, id) {
@@ -46,13 +46,15 @@ function getTarget(target) {
   else if(target == "evs") out = 1;
   else if(target == "evd") out = 2;
   else if(target == "ebseven") out = 3;
-  else if(target == "edc") out = 4;
-  else if(target == "dsu") out = 5;
-  else if(target == "ds") out = 6;
-  else if(target == "bebseven") out = 7;
-  else if(target == "bdc") out = 8;
-  else if(target == "bdsu") out = 9;
-  else if(target == "ui") out = 10;
+  else if(target == "ebfive") out = 4;
+  else if(target == "edc") out = 5;
+  else if(target == "dsu") out = 6;
+  else if(target == "ds") out = 7;
+  else if(target == "bebseven") out = 8;
+  else if(target == "bebfive") out = 9;
+  else if(target == "bdc") out = 10;
+  else if(target == "bdsu") out = 11;
+  else if(target == "ui") out = 12;
 
   return out;
 }
@@ -142,10 +144,12 @@ function ItemArrayMake() {
   ItemObjectMake('evs');
   ItemObjectMake('evd');
   ItemObjectMake('ebseven');
+  ItemObjectMake('ebfive');
   ItemObjectMake('edc');
   ItemObjectMake('dsu');
   ItemObjectMake('ds');
   ItemObjectMake('bebseven');
+  ItemObjectMake('bebfive');
   ItemObjectMake('bdc');
   ItemObjectMake('bdsu');
   ItemObjectMake('ui');
@@ -185,20 +189,24 @@ function ItemSave() {
   //json.TM = arrayCNT[0];
   json.EVS = arrayCNT[1];
   json.EVD = arrayCNT[2];
-  json.EDC = arrayCNT[3];
-  json.DSU = arrayCNT[4];
-  json.DS = arrayCNT[5];
-  json.BDC = arrayCNT[6];
-  json.BDSU = arrayCNT[7];
+  json.EBFIVE = arrayCNT[3];
+  json.EDC = arrayCNT[4];
+  json.DSU = arrayCNT[5];
+  json.DS = arrayCNT[6];
+  json.BEBFIVE = arrayCNT[7];
+  json.BDC = arrayCNT[8];
+  json.BDSU = arrayCNT[9];
   //json.FT = arrayCNT[6];
   json.dataBP = arrayITEM['bp'];
   json.dataEVS = arrayITEM['evs'];
   json.dataEVD = arrayITEM['evd'];
   json.dataEBSEVEN = arrayITEM['ebseven'];
+  json.dataEBFIVE = arrayITEM['ebfive'];
   json.dataEDC = arrayITEM['edc'];
   json.dataDSU = arrayITEM['dsu'];
   json.dataDS = arrayITEM['ds'];
   json.dataBEBSEVEN = arrayITEM['bebseven'];
+  json.dataBEBFIVE = arrayITEM['bebfive'];
   json.dataBDC = arrayITEM['bdc'];
   json.dataBDSU = arrayITEM['bdsu'];
   json.dataUI = arrayITEM['ui'];
@@ -297,30 +305,36 @@ function FileDataRead(data) {
   // 입력 창 생성
   if(json.EVS) FileDataInputMake('evs', json.EVS - arrayCNT[1]);
   if(json.EVD) FileDataInputMake('evd', json.EVD - arrayCNT[2]);
-  if(json.EDC) FileDataInputMake('edc', json.EDC - arrayCNT[3]);
-  if(json.DSU) FileDataInputMake('dsu', json.DSU - arrayCNT[4]);
-  if(json.DS) FileDataInputMake('ds', json.DS - arrayCNT[5]);
-  if(json.BDC) FileDataInputMake('bdc', json.BDC - arrayCNT[6]);
-  if(json.BDSU) FileDataInputMake('bdsu', json.BDSU - arrayCNT[7]);
+  if(json.EBFIVE) FileDataInputMake('ebfive', json.EBFIVE - arrayCNT[3]);
+  if(json.EDC) FileDataInputMake('edc', json.EDC - arrayCNT[4]);
+  if(json.DSU) FileDataInputMake('dsu', json.DSU - arrayCNT[5]);
+  if(json.DS) FileDataInputMake('ds', json.DS - arrayCNT[6]);
+  if(json.BEBFIVE) FileDataInputMake('bebfive', json.BEBFIVE - arrayCNT[7]);
+  if(json.BDC) FileDataInputMake('bdc', json.BDC - arrayCNT[8]);
+  if(json.BDSU) FileDataInputMake('bdsu', json.BDSU - arrayCNT[9]);
 
   // 카운트 값 수정
   if(json.EVS) arrayCNT[1] = json.EVS;
   if(json.EVD) arrayCNT[2] = json.EVD;
-  if(json.EDC) arrayCNT[3] = json.EDC;
-  if(json.DSU) arrayCNT[4] = json.DSU;
-  if(json.DS) arrayCNT[5] = json.DS;
-  if(json.BDC) arrayCNT[6] = json.BDC;
-  if(json.BDSU) arrayCNT[7] = json.BDSU;
+  if(json.EBFIVE) arrayCNT[3] = json.EBFIVE;
+  if(json.EDC) arrayCNT[4] = json.EDC;
+  if(json.DSU) arrayCNT[5] = json.DSU;
+  if(json.DS) arrayCNT[6] = json.DS;
+  if(json.BEBFIVE) arrayCNT[7] = json.BEBFIVE;
+  if(json.BDC) arrayCNT[8] = json.BDC;
+  if(json.BDSU) arrayCNT[9] = json.BDSU;
 
   // 입력 창에 데이터 입력
   if(json.dataBP) FileDataInputWrite('bp', json.dataBP);
   if(json.dataEVS) FileDataInputWrite('evs', json.dataEVS);
   if(json.dataEVD) FileDataInputWrite('evd', json.dataEVD);
   if(json.dataEBSEVEN) FileDataInputWrite('ebseven', json.dataEBSEVEN);
+  if(json.dataEBFIVE) FileDataInputWrite('ebfive', json.dataEBFIVE);
   if(json.dataEDC) FileDataInputWrite('edc', json.dataEDC);
   if(json.dataDSU) FileDataInputWrite('dsu', json.dataDSU);
   if(json.dataDS) FileDataInputWrite('ds', json.dataDS);
   if(json.dataBEBSEVEN) FileDataInputWrite('bebseven', json.dataBEBSEVEN);
+  if(json.dataBEBFIVE) FileDataInputWrite('bebfive', json.dataBEBFIVE);
   if(json.dataBDC) FileDataInputWrite('bdc', json.dataBDC);
   if(json.dataBDSU) FileDataInputWrite('bdsu', json.dataBDSU);
   if(json.dataUI) FileDataInputWrite('ui', json.dataUI);
@@ -354,14 +368,14 @@ function Make() {
   temp = arrayITEM['bp'];
 
   page += "<tr>";
-  page += "<td width=492 rowspan=3><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 492px; height: 492px;'></a></td>";
-  page += "<td width=160><a href='"+temp[1].url+"' target='_blank'><img src='"+temp[1].img+"' style='width: 160px; height: 160px;'></a></td>";
-  page += "<td width=160><a href='"+temp[2].url+"' target='_blank'><img src='"+temp[2].img+"' style='width: 160px; height: 160px;'></a></td>";
+  page += "<td width=492 rowspan=3><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 492px; height: auto;'></a></td>";
+  page += "<td width=160><a href='"+temp[1].url+"' target='_blank'><img src='"+temp[1].img+"' style='width: 160px; height: auto;'></a></td>";
+  page += "<td width=160><a href='"+temp[2].url+"' target='_blank'><img src='"+temp[2].img+"' style='width: 160px; height: auto;'></a></td>";
   page += "</tr><tr>";
-  page += "<td width=160><a href='"+temp[3].url+"' target='_blank'><img src='"+temp[3].img+"' style='width: 160px; height: 160px;'></a></td>";
-  page += "<td width=160><a href='"+temp[4].url+"' target='_blank'><img src='"+temp[4].img+"' style='width: 160px; height: 160px;'></a></td>";
+  page += "<td width=160><a href='"+temp[3].url+"' target='_blank'><img src='"+temp[3].img+"' style='width: 160px; height: auto;'></a></td>";
+  page += "<td width=160><a href='"+temp[4].url+"' target='_blank'><img src='"+temp[4].img+"' style='width: 160px; height: auto;'></a></td>";
   page += "</tr><tr>";
-  page += "<td width=326 colspan=2><a href='"+temp[5].url+"' target='_blank'><img src='"+temp[5].img+"' style='width: 326px; height: 160px;'></a></td>";
+  page += "<td width=326 colspan=2><a href='"+temp[5].url+"' target='_blank'><img src='"+temp[5].img+"' style='width: 326px; height: auto;'></a></td>";
   page += "</tr>";
 
   page += "</tbody></table>";
@@ -416,7 +430,7 @@ function Make() {
   temp = arrayITEM['ui'];
 
   page += "<tr>";
-  page += "<td colspan=5><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 824px; height: 64px;'></a></td>";
+  page += "<td colspan=5><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 824px; height: auto;'></a></td>";
   page += "</tr>";
 
   page += "</tbody></table>";
@@ -433,20 +447,37 @@ function Make() {
   for(i = 0; i<temp.length; i+=7) {
     //console.log(arrayCNT[num]/arraySET[num]);
     page += "<tr>";
-    page += "<td rowspan=2><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 326px; height: 326px;'></a></td>";
+    page += "<td rowspan=2><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 326px; height: auto;'></a></td>";
 
     for(j = 1; j<4; j++) {
       //console.log(i, j, i+j);
-      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: 160px;'></a></td>";
+      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></td>";
     }
     page += "</tr>";
     page += "<tr>";
     for(j = 4; j<7; j++) {
       //console.log(i, j, i+j);
-      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: 160px;'></a></td>";
+      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></td>";
     }
     page += "</tr>";
   }  
+
+  // 디벨베스트 아이템 생성 (5)
+  temp = arrayITEM['ebfive'];
+
+  num = getTarget('ebfive');
+  for(i = 0; i<temp.length; i+=5) {
+    //console.log(arrayCNT[num]/arraySET[num]);
+    page += "<tr>";
+
+    for(j = 0; j<5; j++) {
+      //console.log(i, j, i+j);
+
+      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></td>";
+    }
+
+    page += "</tr>";
+  }
 
   page += "</tbody></table>";
 
@@ -459,7 +490,7 @@ function Make() {
   temp = arrayITEM['ui'];
 
   page += "<tr>";
-  page += "<td colspan=5><a href='"+temp[1].url+"' target='_blank'><img src='"+temp[1].img+"' style='width: 824px; height: 64px;'></a></td>";
+  page += "<td colspan=5><a href='"+temp[1].url+"' target='_blank'><img src='"+temp[1].img+"' style='width: 824px; height: auto;'></a></td>";
   page += "</tr>";
 
   page += "</tbody></table>";
@@ -480,7 +511,7 @@ function Make() {
     for(j = 0; j<5; j++) {
       //console.log(i, j, i+j);
 
-      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: 160px;'></a></td>";
+      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></td>";
     }
 
     page += "</tr>";
@@ -489,6 +520,7 @@ function Make() {
   page += "</tbody></table>";
 
 
+/* 
   // 상단 테이블 생성
   page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
   page += "<tbody>"
@@ -497,7 +529,7 @@ function Make() {
   temp = arrayITEM['ui'];
 
   page += "<tr>";
-  page += "<td colspan=5><a href='"+temp[2].url+"' target='_blank'><img src='"+temp[2].img+"' style='width: 824px; height: 64px;'></a></td>";
+  page += "<td colspan=5><a href='"+temp[2].url+"' target='_blank'><img src='"+temp[2].img+"' style='width: 824px; height: auto;'></a></td>";
   page += "</tr>";
 
   page += "</tbody></table>";
@@ -515,13 +547,15 @@ function Make() {
     page += "<tr>";
 
     for(j = 0; j<5; j++) {
-      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: 160px;'></a></td>";
+      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></td>";
     }
 
     page += "</tr>";
   }
 
   page += "</tbody></table>";
+
+*/
 
 
   // 상단 테이블 생성
@@ -532,7 +566,7 @@ function Make() {
   temp = arrayITEM['ui'];
 
   page += "<tr>";
-  page += "<td colspan=5><a href='"+temp[3].url+"' target='_blank'><img src='"+temp[3].img+"' style='width: 824px; height: 64px;'></a></td>";
+  page += "<td colspan=5><a href='"+temp[3].url+"' target='_blank'><img src='"+temp[3].img+"' style='width: 824px; height: auto;'></a></td>";
   page += "</tr>";
 
   page += "</tbody></table>";
@@ -550,7 +584,7 @@ function Make() {
     page += "<tr>";
 
     for(j = 0; j<5; j++) {
-      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: 160px;'></a></td>";
+      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></td>";
     }
 
     page += "</tr>";
@@ -559,47 +593,62 @@ function Make() {
   page += "</tbody></table>";
 
 
-  // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
-  page += "<tbody>"
+ // 상단 테이블 생성
+ page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+ page += "<tbody>"
 
-  // 지난달 디벨베스트 메뉴 생성
-  temp = arrayITEM['ui'];
+ // 지난달 디벨베스트 메뉴 생성
+ temp = arrayITEM['ui'];
 
-  page += "<tr>";
-  page += "<td colspan=5><a href='"+temp[4].url+"' target='_blank'><img src='"+temp[4].img+"' style='width: 824px; height: 64px;'></a></td>";
-  page += "</tr>";
+ page += "<tr>";
+ page += "<td colspan=5><a href='"+temp[4].url+"' target='_blank'><img src='"+temp[4].img+"' style='width: 824px; height: auto;'></a></td>";
+ page += "</tr>";
 
-  page += "</tbody></table>";
+ page += "</tbody></table>";
 
 
-  // 상단 테이블 생성
-  page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
-  page += "<tbody>" 
+ // 상단 테이블 생성
+ page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
+ page += "<tbody>" 
 
-  // 지난달 디벨베스트 아이템 생성 (7)
-  temp = arrayITEM['bebseven'];
+ // 지난달 디벨베스트 아이템 생성 (7)
+ temp = arrayITEM['bebseven'];
 
-  num = getTarget('bebseven');
-  for(i = 0; i<temp.length; i+=7) {
-    //console.log(arrayCNT[num]/arraySET[num]);
-    page += "<tr>";
-    page += "<td rowspan=2><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 326px; height: 326px;'></a></td>";
+ num = getTarget('bebseven');
+ for(i = 0; i<temp.length; i+=7) {
+   //console.log(arrayCNT[num]/arraySET[num]);
+   page += "<tr>";
+   page += "<td rowspan=2><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 326px; height: auto;'></a></td>";
 
-    for(j = 1; j<4; j++) {
-      //console.log(i, j, i+j);
-      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: 160px;'></a></td>";
-    }
-    page += "</tr>";
-    page += "<tr>";
-    for(j = 4; j<7; j++) {
-      //console.log(i, j, i+j);
-      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: 160px;'></a></td>";
-    }
-    page += "</tr>";
-  }  
+   for(j = 1; j<4; j++) {
+     //console.log(i, j, i+j);
+     page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></td>";
+   }
+   page += "</tr>";
+   page += "<tr>";
+   for(j = 4; j<7; j++) {
+     //console.log(i, j, i+j);
+     page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></td>";
+   }
+   page += "</tr>";
+ }  
 
-  page += "</tbody></table>";
+ // 지난달 디벨베스트 아이템 생성 (5)
+ temp = arrayITEM['bebfive'];
+
+ num = getTarget('bebfive');
+ for(i = 0; i<temp.length; i+=5) {
+   //console.log(arrayCNT[num]/arraySET[num]);
+   page += "<tr>";
+
+   for(j = 0; j<5; j++) {
+     //console.log(i, j, i+j);
+
+     page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></td>";
+   }
+
+   page += "</tr>";
+ }
 
 
   // 상단 테이블 생성
@@ -610,7 +659,7 @@ function Make() {
   temp = arrayITEM['ui'];
 
   page += "<tr>";
-  page += "<td colspan=5><a href='"+temp[5].url+"' target='_blank'><img src='"+temp[5].img+"' style='width: 824px; height: 64px;'></a></td>";
+  page += "<td colspan=5><a href='"+temp[5].url+"' target='_blank'><img src='"+temp[5].img+"' style='width: 824px; height: auto;'></a></td>";
   page += "</tr>";
 
   page += "</tbody></table>";
@@ -628,7 +677,7 @@ function Make() {
     page += "<tr>";
 
     for(j = 0; j<5; j++) {
-      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: 160px;'></a></td>";
+      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></td>";
     }
 
     page += "</tr>";
@@ -637,6 +686,7 @@ function Make() {
   page += "</tbody></table>";
 
 
+  /*
   // 상단 테이블 생성
   page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
   page += "<tbody>"
@@ -645,7 +695,7 @@ function Make() {
   temp = arrayITEM['ui'];
 
   page += "<tr>";
-  page += "<td colspan=5><a href='"+temp[6].url+"' target='_blank'><img src='"+temp[6].img+"' style='width: 824px; height: 64px;'></a></td>";
+  page += "<td colspan=5><a href='"+temp[6].url+"' target='_blank'><img src='"+temp[6].img+"' style='width: 824px; height: auto;'></a></td>";
   page += "</tr>";
 
   page += "</tbody></table>";
@@ -654,7 +704,7 @@ function Make() {
   // 상단 테이블 생성
   page += "<table width=836 cellspacing=6 cellpadding=0 align=center>";
   page += "<tbody>" 
-
+  
   // 지난달 디벨서포터즈 아이템 생성
   temp = arrayITEM['bdsu'];
 
@@ -663,13 +713,15 @@ function Make() {
     page += "<tr>";
 
     for(j = 0; j<5; j++) {
-      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: 160px;'></a></td>";
+      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></td>";
     }
 
     page += "</tr>";
   }
 
   page += "</tbody></table>";
+
+  */
 
 
   // 상단 테이블 생성
@@ -680,7 +732,7 @@ function Make() {
   temp = arrayITEM['ui'];
 
   page += "<tr>";
-  page += "<td colspan=5><a href='"+temp[7].url+"' target='_blank'><img src='"+temp[7].img+"' style='width: 824px; height: 64px;'></a></td>";
+  page += "<td colspan=5><a href='"+temp[7].url+"' target='_blank'><img src='"+temp[7].img+"' style='width: 824px; height: auto;'></a></td>";
   page += "</tr>";
 
   // 콘텐츠 테이블 종료
