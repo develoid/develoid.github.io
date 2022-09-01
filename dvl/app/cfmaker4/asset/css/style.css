@@ -26,7 +26,7 @@ body {
 .section {
     display: initial !important;
     margin: 120px 0 0 0 !important;
-    padding-bottom: 262px !important;
+    padding-bottom: 200px !important;
     height: auto !important;
 }
 
@@ -51,11 +51,14 @@ input {
 
 table {
     text-align: center;
-    width: 960px;
 }
 
 td, tr {
     padding: 0;
+}
+
+.number {
+    font-weight: 700;
 }
 
 intro_number {
@@ -80,7 +83,7 @@ intro_number {
     font-size: 1.5em;
     font-weight: 800;
     margin-top: 0;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 }
 
 table_title {
@@ -100,66 +103,71 @@ table_number {
 }
 
 .padding {
-    padding: 16px 0;
+    padding: 32px 0;
 }
 
-.padding2 {
-    padding: 48px 0;
-}
-
-.number {
-    font-weight: 700;
-    height: 64px;
-    width: 64px;
-}
-
-.imageid, .imageid_base {
-    height: 64px;
-    padding: 0 16px;
-}
-
-.imageid {
-    width: 310px;
-}
-
-.imageid_base {
-    width: 208px;
-}
-
-.linkid, .linkid_event_A, .linkid_base {
-    height: 64px;
-    padding: 0 16px;
-}
-
-.linkid {
-    width: 522px;
-}
-
-.linkid_event_A {
-    width: 394px;
-}
-
-.linkid_base {
-    width: 208px;
-}
-
-.btn_up, .btn_down, .btn_copy, .btn_save, .btn_load, .btn_gate {
+.btn_plus, .btn_minus, .btn_up, .btn_down, .btn_copy, .btn_save, .btn_load, .btn_gate {
     cursor: pointer;
-    height: 64px;
 }
 
 .make {
     z-index: 10;
 }
 
-.btn_up, .btn_down {
-    width: 64px;
+button {
+    width: 100%;
 }
 
-.btn_plus, .btn_minus {
-    cursor: pointer;
-    width: 64px;
+.section {
+    width: 80%;
+}
+
+input {
+    width: 88%;
+}
+
+.imageid, .imageid_base, .linkid, .linkid_base {
+    padding: 0 6%;
+}
+
+.section {
+    padding: 0 32px;
+}
+
+button, .number_top, .imageid_top, .linkid_top, .linkid_pma, .btn_pma, .row_control, .uitop {
     height: 42px;
+}
+
+.number, .imageid, .linkid, .imageid_base, .linkid_base {
+    height: 64px;
+}
+
+.number_top, .number {
+    width: 8%;
+}
+
+.imageid_top {
+    width: 42%;
+}
+
+.linkid_top {
+    width: 50%;
+}
+
+.linkid_pma {
+    width: 30%;
+}
+
+.row_control {
+    width: 80%;
+}
+
+.btn_pma {
+    width: 10%;
+}
+
+.uitop {
+    width: 25%;
 }
 
 .btn_save, .btn_load {
@@ -340,7 +348,6 @@ html[data-theme="light"]
         background-color: #DEDEDE;
     }
 
-
 html[data-theme="dark"]
     td {
         background-color: #2A2A2A;
@@ -450,3 +457,44 @@ html[data-theme="dark"]
     .btn_gate:hover {
         background-color: #3C3C3C;
     }
+
+@media screen and (min-width: 1920px) {
+    .section {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1520px) and (max-width: 1920px) {
+    .section {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .section {
+        width: 96%;
+    }
+
+    .btn_save, .btn_load {
+        width: 100%;
+        height: 64px;
+        font-size: 11pt;
+    }
+
+    .make {
+        width: 100%;
+        bottom: 0px;
+    }
+
+    .btn_copy {
+        width: 100%;
+        height: 64px;
+        font-size: 11pt;
+    }
+
+    .btn_gate {
+        width: 100%;
+        height: 64px;
+        font-size: 11pt;
+    }    
+}

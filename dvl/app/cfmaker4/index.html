@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="ko" data-theme="dark">
-    <!-- 디벨로이드 대문 편집기 -->
+    <!-- 디벨로이드 Front Designer -->
     <!-- 책임: heart -->
-    <!-- 개발중 -->
+    <!-- 배포일: 22년 8월 28일 -->
     <!-- 디벨로이드에서 운영하는 모든 서비스는 저작권법에 의해 보호받고 있습니다. -->        
     <!-- © 2022 디벨로이드 -->      
 <head>
@@ -12,14 +12,14 @@
     <meta NAME="ROBOTS" content="NOINDEX, NOFOLLOW">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <meta name="author" content="DEVELOID">
-    <meta name="description" content="DEVELOID Gate Editor">
-    <meta name="keywords" content="DEVELOID, Cafe, Community, Front, Maker">
+    <meta name="description" content="DEVELOID Front Designer">
+    <meta name="keywords" content="DEVELOID, Cafe, Community, Front, Designer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://develoid.github.io/dvl/app/cfmaker4/">
-    <meta property="og:title" content="디벨로이드 대문 편집기">
+    <meta property="og:title" content="디벨로이드 Front Designer">
     <meta property="og:image" content="./asset/images/ogimage.png">
-    <meta property="og:description" content="디벨로이드 대문 편집기">
+    <meta property="og:description" content="디벨로이드 Front Designer">
     <link rel="canonical" href="http://develoid.net">
     <link rel="icon" href="../../../asset/images/favicon.svg">
     <link rel=”mask-icon” href="../../../asset/images/transparent.svg" color="#000000">
@@ -29,7 +29,7 @@
     <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/fonts.css">
     <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/header.css">
     <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/base_style.css">
-    <title>디벨로이드 대문 편집기</title>
+    <title>디벨로이드 Front Designer</title>
 </head>
 
 <body>
@@ -91,7 +91,7 @@
         <!-- 타이틀 -->
 
         <div class="title">
-            <h1>디벨로이드 대문 편집기</h1>
+            <h1>Front Designer</h1>
         </div>
 
         <div class="padding"></div>
@@ -104,10 +104,10 @@
 
 
         <table id="bp">
-            <tr height="42">
-                <td width="64"></td>
-                <td width="342"><table_title>이미지</table_title></td>
-                <td width="554"><table_title>링크</table_title></td>
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_top"><table_title>링크</table_title></td>
             </tr>
             <tr id="bp_1">
                 <td class="number"><table_number>1</table_number></td>
@@ -150,12 +150,12 @@
         </div>
 
         <table id="evs">
-            <tr height="42">
-                <td width="64"></td>
-                <td width="342"><table_title>이미지</table_title></td>
-                <td width="426"><table_title>링크</table_title></td>
-                <td width="64"><button type="button" class="btn_plus" onclick="ItemControl('add', 'evs')">+</button></td>
-                <td width="64"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'evs')">-</button></td>
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_pma"><table_title>링크</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'evs')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'evs')">-</button></td>
             </tr>
         </table>
 
@@ -168,12 +168,12 @@
         </div>
 
         <table id="evd">
-            <tr height="42">
-                <td width="64"></td>
-                <td width="342"><table_title>이미지</table_title></td>
-                <td width="426"><table_title>링크</table_title></td>
-                <td width="64"><button type="button" class="btn_plus" onclick="ItemControl('add', 'evd')">+</button></td>
-                <td width="64"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'evd')">-</button></td>
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_pma"><table_title>링크</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'evd')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'evd')">-</button></td>
             </tr>
         </table>
 
@@ -186,15 +186,15 @@
         </div>
 
         <table id="ebseven">
-            <tr height="42">
-                <td width="64"></td>
-                <td width="342"><table_title>이미지</table_title></td>
-                <td width="554"><table_title>링크</table_title></td>
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_top"><table_title>링크</table_title></td>
             </tr>
             <tr id="ebseven_1">
                 <td class="number"><table_number>1</table_number></td>
                 <td><input class="imageid" type="url" id="ebseven_i1" ondrop="dropIMG(event, this.id)"></td>
-                <td colspan="3"><input class="linkid" type="url" id="ebseven_u1" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid" type="url" id="ebseven_u1" ondrop="dropIMG(event, this.id)"></td>
             </tr>
             <tr id="ebseven_2">
                 <td class="number"><table_number>2</table_number></td>
@@ -228,10 +228,10 @@
             </tr>
         </table>
         <table>
-            <tr height="42">
-                <td width="832"><table_title>5열 관리</table_title></td>
-                <td width="64"><button type="button" class="btn_plus" onclick="ItemControl('add', 'ebfive')">+</button></td>
-                <td width="64"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'ebfive')">-</button></td>
+            <tr>
+                <td class="row_control"><table_title>5열 관리</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'ebfive')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'ebfive')">-</button></td>
             </tr>
         </table>
         <table id="ebfive">
@@ -246,10 +246,10 @@
         </div>
 
         <table id="bebseven">
-            <tr height="42">
-                <td width="64"></td>
-                <td width="342"><table_title>이미지</table_title></td>
-                <td width="554"><table_title>링크</table_title></td>
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_top"><table_title>링크</table_title></td>
             </tr>
             <tr id="bebseven_1">
                 <td class="number"><table_number>1</table_number></td>
@@ -288,10 +288,10 @@
             </tr>
         </table>
         <table>
-            <tr height="42">
-                <td width="832"><table_title>5열 관리</table_title></td>
-                <td width="64"><button type="button" class="btn_plus" onclick="ItemControl('add', 'bebfive')">+</button></td>
-                <td width="64"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'bebfive')">-</button></td>
+            <tr>
+                <td class="row_control"><table_title>5열 관리</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'bebfive')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'bebfive')">-</button></td>
             </tr>
         </table>
         <table id="bebfive">
@@ -306,12 +306,12 @@
         </div>
 
         <table id="edc">
-            <tr height="42">
-                <td width="64"></td>
-                <td width="342"><table_title>이미지</table_title></td>
-                <td width="426"><table_title>링크</table_title></td>
-                <td width="64"><button type="button" class="btn_plus" onclick="ItemControl('add', 'edc')">+</button></td>
-                <td width="64"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'edc')">-</button></td>
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_pma"><table_title>링크</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'edc')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'edc')">-</button></td>
             </tr>
         </table>
 
@@ -324,12 +324,12 @@
         </div>
 
         <table id="bdc">
-            <tr height="42">
-                <td width="64"></td>
-                <td width="342"><table_title>이미지</table_title></td>
-                <td width="426"><table_title>링크</table_title></td>
-                <td width="64"><button type="button" class="btn_plus" onclick="ItemControl('add', 'bdc')">+</button></td>
-                <td width="64"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'bdc')">-</button></td>
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_pma"><table_title>링크</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'bdc')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'bdc')">-</button></td>
             </tr>
         </table>
         
@@ -342,12 +342,12 @@
         </div>
 
         <table id="dsu">
-            <tr height="42">
-                <td width="64"></td>
-                <td width="342"><table_title>이미지</table_title></td>
-                <td width="426"><table_title>링크</table_title></td>
-                <td width="64"><button type="button" class="btn_plus" onclick="ItemControl('add', 'dsu')">+</button></td>
-                <td width="64"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'dsu')">-</button></td>
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_pma"><table_title>링크</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'dsu')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'dsu')">-</button></td>
             </tr>
         </table>
         
@@ -360,12 +360,12 @@
         </div>
 
         <table id="bdsu">
-            <tr height="42">
-                <td width="64"></td>
-                <td width="342"><table_title>이미지</table_title></td>
-                <td width="426"><table_title>링크</table_title></td>
-                <td width="64"><button type="button" class="btn_plus" onclick="ItemControl('add', 'bdsu')">+</button></td>
-                <td width="64"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'bdsu')">-</button></td>
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_pma"><table_title>링크</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'bdsu')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'bdsu')">-</button></td>
             </tr>
         </table>
 
@@ -378,12 +378,12 @@
         </div>
 
         <table id="ds">
-            <tr height="42">
-                <td width="64"></td>
-                <td width="342"><table_title>이미지</table_title></td>
-                <td width="426"><table_title>링크</table_title></td>
-                <td width="64"><button type="button" class="btn_plus" onclick="ItemControl('add', 'ds')">+</button></td>
-                <td width="64"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'ds')">-</button></td>
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_pma"><table_title>링크</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'ds')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'ds')">-</button></td>
             </tr>
         </table>
 
@@ -396,9 +396,9 @@
         </div>
 
         <table class="ui">
-            <tr height="42">
-                <td colspan="2"><table_title>디벨베스트</table_title></td>
-                <td colspan="2"><table_title>디벨콘텐츠</table_title></td>
+            <tr>
+                <td class="uitop" colspan="2"><table_title>디벨베스트</table_title></td>
+                <td class="uitop" colspan="2"><table_title>디벨콘텐츠</table_title></td>
             </tr>
             <tr>
                 <td><input class="imageid_base" type="url" id="ui_i1" ondrop="dropIMG(event, this.id)"></td>
@@ -406,9 +406,9 @@
                 <td><input class="imageid_base" type="url" id="ui_i2" ondrop="dropIMG(event, this.id)"></td>
                 <td><input class="linkid_base" type="url" id="ui_u2" ondrop="dropIMG(event, this.id)"></td>
             </tr>
-            <tr height="42">
-                <td colspan="2"><table_title>디벨서포터즈</table_title></td>
-                <td colspan="2"><table_title>디벨스폰서</table_title></td>
+            <tr>
+                <td class="uitop" colspan="2"><table_title>디벨서포터즈</table_title></td>
+                <td class="uitop" colspan="2"><table_title>디벨스폰서</table_title></td>
             </tr>
             <tr>
                 <td><input class="imageid_base" type="url" id="ui_i3" ondrop="dropIMG(event, this.id)"></td>
@@ -416,9 +416,9 @@
                 <td><input class="imageid_base" type="url" id="ui_i4" ondrop="dropIMG(event, this.id)"></td>
                 <td><input class="linkid_base" type="url" id="ui_u4" ondrop="dropIMG(event, this.id)"></td>
             </tr>
-            <tr height="42">
-                <td colspan="2"><table_title>지난달 디벨베스트</table_title></td>
-                <td colspan="2"><table_title>지난달 디벨콘텐츠</table_title></td>
+            <tr>
+                <td class="uitop" colspan="2"><table_title>지난달 디벨베스트</table_title></td>
+                <td class="uitop" colspan="2"><table_title>지난달 디벨콘텐츠</table_title></td>
             </tr>
             <tr>
                 <td><input class="imageid_base" type="url" id="ui_i5" ondrop="dropIMG(event, this.id)"></td>
@@ -426,9 +426,9 @@
                 <td><input class="imageid_base" type="url" id="ui_i6" ondrop="dropIMG(event, this.id)"></td>
                 <td><input class="linkid_base" type="url" id="ui_u6" ondrop="dropIMG(event, this.id)"></td>
             </tr>
-            <tr height="42">
-                <td colspan="2"><table_title>지난달 디벨서포터즈</table_title></td>
-                <td colspan="2"><table_title>하단</table_title></td>
+            <tr>
+                <td class="uitop" colspan="2"><table_title>지난달 디벨서포터즈</table_title></td>
+                <td class="uitop" colspan="2"><table_title>하단</table_title></td>
             </tr>
             <tr>
                 <td><input class="imageid_base" type="url" id="ui_i7" ondrop="dropIMG(event, this.id)"></td>
