@@ -94,7 +94,7 @@ table_title {
 
 .btn_copy, .btn_save, .btn_load, .btn_gate {
     line-height: 2;
-    font-size: .8em;
+    font-size: .75em;
     font-weight: 700;
 }
 
@@ -112,10 +112,6 @@ table_number {
 
 .make {
     z-index: 10;
-}
-
-button {
-    width: 100%;
 }
 
 .section {
@@ -143,11 +139,11 @@ button, .number_top, .imageid_top, .linkid_top, .linkid_pma, .btn_pma, .row_cont
 }
 
 .number_top, .number {
-    width: 8%;
+    width: 10%;
 }
 
 .imageid_top {
-    width: 42%;
+    width: 40%;
 }
 
 .linkid_top {
@@ -166,6 +162,10 @@ button, .number_top, .imageid_top, .linkid_top, .linkid_pma, .btn_pma, .row_cont
     width: 10%;
 }
 
+.btn_plus, .btn_minus {
+    width: 100%;
+}
+
 .uitop {
     width: 25%;
 }
@@ -173,7 +173,6 @@ button, .number_top, .imageid_top, .linkid_top, .linkid_pma, .btn_pma, .row_cont
 .btn_save, .btn_load {
     width: 120px;
     height: 52px;
-    font-size: 11pt;
 }
 
 .make {
@@ -185,13 +184,11 @@ button, .number_top, .imageid_top, .linkid_top, .linkid_pma, .btn_pma, .row_cont
 .btn_copy {
     width: 240px;
     height: 52px;
-    font-size: 11pt;
 }
 
 .btn_gate {
     width: 484px;
     height: 52px;
-    font-size: 11pt;
 }
 
 @media (prefers-color-scheme: light) {
@@ -471,14 +468,12 @@ html[data-theme="dark"]
 }
 
 @media screen and (max-width: 900px) {
-    .section {
-        width: 96%;
+    table_number {
+        font-size: 1.2em;
     }
 
-    .btn_save, .btn_load {
-        width: 100%;
-        height: 64px;
-        font-size: 11pt;
+    .section {
+        width: 96%;
     }
 
     .make {
@@ -486,15 +481,20 @@ html[data-theme="dark"]
         bottom: 0px;
     }
 
+    .btn_copy, .btn_save, .btn_load, .btn_gate {
+        font-size: .65em;
+        height: 52px;
+    }
+
+    .btn_save, .btn_load {
+        width: 100%;
+    }
+
     .btn_copy {
         width: 100%;
-        height: 64px;
-        font-size: 11pt;
     }
 
     .btn_gate {
         width: 100%;
-        height: 64px;
-        font-size: 11pt;
     }    
 }
