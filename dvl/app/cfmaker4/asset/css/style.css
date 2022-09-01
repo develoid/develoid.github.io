@@ -26,7 +26,7 @@ body {
 .section {
     display: initial !important;
     margin: 120px 0 0 0 !important;
-    padding-bottom: 200px !important;
+    padding-bottom: 190px !important;
     height: auto !important;
 }
 
@@ -174,7 +174,7 @@ button, .number_top, .imageid_top, .linkid_top, .linkid_pma, .btn_pma, .row_cont
 .make {
     position: fixed;
     width: 486px;
-    bottom: 76px;
+    bottom: 60px;
 }
 
 .btn_copy {
@@ -474,6 +474,30 @@ html[data-theme="dark"]
 }
 
 @media screen and (max-width: 650px) {
+    .make {
+        width: 100%;
+        bottom: 0px;
+    }
+
+    .btn_copy, .btn_save, .btn_load, .btn_gate {
+        font-size: .65em;
+        height: 52px;
+    }
+
+    .btn_save, .btn_load {
+        width: 100%;
+    }
+
+    .btn_copy {
+        width: 100%;
+    }
+
+    .btn_gate {
+        width: 100%;
+    }    
+}
+
+@media screen and (max-height: 630px) {
     .make {
         width: 100%;
         bottom: 0px;
