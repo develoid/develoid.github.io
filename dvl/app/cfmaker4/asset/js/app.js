@@ -72,7 +72,7 @@ function ItemControl(type, target) {
       let targetId = "#" + arrayCMD[num];
 
       $(targetId).append(
-        '<tr id="'+arrayCMD[num]+'_'+arrayCNT[num]+'"><td class="number"><table_number>'+arrayCNT[num]+'</table_number></td><td width="40%"><input class="imageid" type="url" id="'+arrayCMD[num]+'_i'+arrayCNT[num]+'" ondrop="dropIMG(event, this.id)"></td><td width="50%" colspan="3"><input class="linkid" type="url" id="'+arrayCMD[num]+'_u'+arrayCNT[num]+'" ondrop="dropURL(event, this.id)"></td></tr>');
+        '<tr id="'+arrayCMD[num]+'_'+arrayCNT[num]+'"><td class="number"><table_number>'+arrayCNT[num]+'</table_number></td><td><input class="imageid" type="url" id="'+arrayCMD[num]+'_i'+arrayCNT[num]+'" ondrop="dropIMG(event, this.id)"></td><td width="50%" colspan="3"><input class="linkid" type="url" id="'+arrayCMD[num]+'_u'+arrayCNT[num]+'" ondrop="dropURL(event, this.id)"></td></tr>');
 
     }
   } else if(type == "remove") { // 목록 제거 할 경우

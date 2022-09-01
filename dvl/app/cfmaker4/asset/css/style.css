@@ -115,7 +115,7 @@ table_number {
 }
 
 .section {
-    width: 80%;
+    width: 1080px;
 }
 
 input {
@@ -135,11 +135,11 @@ button, .number_top, .imageid_top, .linkid_top, .linkid_pma, .btn_pma, .row_cont
 }
 
 .number_top, .number {
-    width: 10%;
+    width: 6%;
 }
 
 .imageid_top {
-    width: 40%;
+    width: 44%;
 }
 
 .linkid_top {
@@ -451,25 +451,23 @@ html[data-theme="dark"]
         background-color: #3C3C3C;
     }
 
-@media screen and (min-width: 1920px) {
+@media screen and (max-width: 1080px) {
     .section {
-        width: 50%;
+        width: 96%;
     }
 }
 
-@media screen and (min-width: 1520px) and (max-width: 1920px) {
-    .section {
-        width: 60%;
-    }
-}
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 840px) {
     table_number {
         font-size: 1.2em;
     }
 
-    .section {
-        width: 96%;
+    .number_top, .number {
+        width: 10%;
+    }
+    
+    .imageid_top {
+        width: 40%;
     }
 }
 
