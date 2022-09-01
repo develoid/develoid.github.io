@@ -83,7 +83,7 @@ function ItemControl(type, target) {
         arrayCNT[num]--; // 카운트 감소
       }
     } else {
-      alert('한번 더 누르시면 IQ 추적을 해버리겠습니다.');
+      alert('한번 더 누르시면 서피스 프로 X 구매를 독촉하겠습니다.');
     }
   }
 
