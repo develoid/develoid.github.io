@@ -126,10 +126,6 @@ input {
     padding: 0 6%;
 }
 
-.section {
-    padding: 0 32px;
-}
-
 button, .number_top, .imageid_top, .linkid_top, .linkid_pma, .btn_pma, .row_control, .uitop {
     height: 42px;
 }
@@ -475,7 +471,9 @@ html[data-theme="dark"]
     .section {
         width: 96%;
     }
+}
 
+@media screen and (max-width: 650px) {
     .make {
         width: 100%;
         bottom: 0px;
