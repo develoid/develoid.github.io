@@ -115,7 +115,7 @@ table_number {
 }
 
 .section {
-    width: 1080px;
+    width: 1080px !important;
 }
 
 input {
@@ -453,7 +453,7 @@ html[data-theme="dark"]
 
 @media screen and (max-width: 1080px) {
     .section {
-        width: 96%;
+        width: 96% !important;
     }
 }
 
