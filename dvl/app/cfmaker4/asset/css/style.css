@@ -6,6 +6,16 @@ body {
     align-items: center;
 }
 
+.history_back {
+    cursor: pointer;
+    position: fixed;
+    font-size: .7em;
+    bottom: 48px;
+    width: 4.6rem;
+    height: 2.4rem;
+    border-radius: 100px;
+}
+
 .out input {
     cursor: default !important;
     background-color: #00000000 !important;
@@ -31,8 +41,8 @@ body {
 }
 
 .section2 {
-    display: initial !important;
-    margin: 96px 0 116px 0 !important;
+    text-align: center;
+    margin: 96px 0 142px 0 !important;
     height: auto !important;
 }
 
@@ -115,7 +125,7 @@ table_number {
 }
 
 .section {
-    width: 1080px !important;
+    width: 1020px !important;
 }
 
 input {
@@ -207,6 +217,16 @@ button, .number_top, .imageid_top, .linkid_top, .linkid_pma, .btn_pma, .row_cont
     .btn_copy, .btn_save, .btn_load, .btn_gate {
         background-color: #E4E4E4;
     }
+        
+    .history_back {
+        background-color: #ECECEC;
+        box-shadow: 4px 4px 8px #D4D4D4,
+        -4px -4px 8px #FFF;
+    }
+    
+    .history_back:hover {
+        background-color: #E4E4E4;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -228,6 +248,15 @@ button, .number_top, .imageid_top, .linkid_top, .linkid_pma, .btn_pma, .row_cont
 
     .btn_copy, .btn_save, .btn_load, .btn_gate {
         background-color: #333;
+    }
+
+    .history_back {
+        background-color: #333;
+        box-shadow: none;
+    }
+    
+    .history_back:hover {
+        background-color: #404040;
     }
 }
 
@@ -340,6 +369,16 @@ html[data-theme="light"]
     .btn_gate:hover {
         background-color: #DEDEDE;
     }
+    html[data-theme="light"]
+    .history_back {
+        background-color: #ECECEC;
+        box-shadow: 4px 4px 8px #D4D4D4,
+        -4px -4px 8px #FFF;
+    }
+    html[data-theme="light"]
+    .history_back:hover {
+        background-color: #E4E4E4;
+    }
 
 html[data-theme="dark"]
     td {
@@ -450,10 +489,19 @@ html[data-theme="dark"]
     .btn_gate:hover {
         background-color: #3C3C3C;
     }
+    html[data-theme="dark"]
+    .history_back {
+        background-color: #333;
+        box-shadow: none;
+    }
+    html[data-theme="dark"]
+    .history_back:hover {
+        background-color: #404040;
+    }
 
 @media screen and (max-width: 1080px) {
     .section {
-        width: 96% !important;
+        width: 94% !important;
     }
 }
 
@@ -517,4 +565,16 @@ html[data-theme="dark"]
     .btn_gate {
         width: 100%;
     }    
+}
+
+@media screen and (max-width: 960px) and (max-height: 700px) {
+    .history_back {
+        display: none;     
+    }
+}
+
+@media screen and (min-width: 890px) and (max-height: 496px) {
+    .history_back {
+        display: none;     
+    }
 }
