@@ -1,8 +1,43 @@
-@font-face {
-    font-family: 'JetBrains Mono';
-    src: url('../../../asset/font/JetBrainsMono-Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
+.s1_arrow {
+    position: relative;
+    text-align: center;
+    animation: arrow_down 1.5s infinite;
+}
+
+.scroll-arrow {
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    animation: arrow-wave 1s;
+    animation-direction: alternate;
+}
+
+.scroll-arrow:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.scroll-arrow:nth-child(2) {
+    margin-top: 6px;
+    animation-delay: 0.2s;
+}
+
+.scroll-arrow:nth-child(3) {
+    margin-top: 6px;
+    animation-delay: 0.3s;
+}
+
+@keyframes arrow-wave {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes arrow_down{
+    0%{top: 28px;}
+    50%{top: 40px;}
+    100%{top: 28px;}
 }
 
 html, body {
@@ -12,6 +47,7 @@ html, body {
 .sectionfull {
     display: flex;
     width: 100% !important;
+    animation: arrow-wave 1s;
 }
 
 .section, .section2, .section3 {
@@ -26,11 +62,12 @@ html, body {
 
 .section2 {
     height: 100vh;
+    animation: arrow-wave 1s;
 }
 
 .section3 {
     height: 100%;
-    padding-top: 3em;
+    padding-top: 6em;
     padding-bottom: 2.5em;
 }
 
@@ -82,7 +119,7 @@ html, body {
     width: 100%;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0;
+    box-shadow: none;
 }
 
 .tiles2 article > .image img {
@@ -109,9 +146,9 @@ button {
 }
 
 .title h1 {
-    font-size: 2.2em;
+    font-size: 2.4em;
     font-weight: 800;
-    letter-spacing: -.04em;
+    letter-spacing: -.02em;
     margin: 0;
 }
 
@@ -137,14 +174,13 @@ button {
     font-size: 4em;
     font-weight: 600;
     letter-spacing: -.04em;
-    opacity: 80%;
     margin: 0;   
 }
 
 .title p {
-    font-size: .8em;
+    font-size: .9em;
     font-weight: 700;
-    opacity: 50%;
+    opacity: 70%;
     margin: 16px 0 0 0;
 }
 
@@ -233,6 +269,16 @@ button {
 }
 
 @media (prefers-color-scheme: light) {
+    .scroll-arrow {
+        border-right: 3px solid #303030;
+        border-bottom: 3px solid #303030;
+    }
+
+    .image {
+        box-shadow: 4px 4px 8px #D4D4D4,
+        -4px -4px 8px #FFF;
+    }
+    
     .sectionfull {
         background-image: url(../images/light.jpg);
         background-repeat: no-repeat;
@@ -282,11 +328,20 @@ button {
 }
 
 @media (prefers-color-scheme: dark) {
+    .scroll-arrow {
+        border-right: 3px solid white;
+        border-bottom: 3px solid white;
+    }
+
     .sectionfull {
         background-image: url(../images/dark.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+    }
+
+    .image {
+        box-shadow: none;
     }
 
     .mbtn_top, .mbtn, .mbtn_ttop, .mbtn_ttop.on, .mbtn_tbotleft, .mbtn_tbotmid, .mbtn_tbotright {
@@ -338,12 +393,23 @@ button {
 }
 
 html[data-theme="light"]
+    .scroll-arrow {
+        border-right: 3px solid #303030;
+        border-bottom: 3px solid #303030;
+    }
+    html[data-theme="light"]
+    .image {
+        box-shadow: 4px 4px 8px #D4D4D4,
+        -4px -4px 8px #FFF;
+    }
+    html[data-theme="light"]    
     .sectionfull {
         background-image: url(../images/light.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
     }
+    html[data-theme="light"]
     .mbtn_top {
         background-color: #ECECEC;
         box-shadow: 4px 4px 8px #D4D4D4,
@@ -442,6 +508,15 @@ html[data-theme="light"]
     
 
 html[data-theme="dark"]
+    .scroll-arrow {
+        border-right: 3px solid white;
+        border-bottom: 3px solid white;
+    }
+    html[data-theme="dark"]
+    .image {
+        box-shadow: none;
+    }
+    html[data-theme="dark"]
     .sectionfull {
         background-image: url(../images/dark.jpg);
         background-repeat: no-repeat;
