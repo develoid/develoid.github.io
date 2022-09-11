@@ -94,6 +94,7 @@ html, body {
 }
 
 .tiles2 article {
+    cursor: pointer;
     position: relative;
     width: calc(33.33333% - 1em);
     margin: 1em 0 0 1em;
