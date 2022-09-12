@@ -416,7 +416,7 @@ function Make() {
     for(j = 0; j<2; j++) {
       //console.log(i, j, i+j);
 
-      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 409px; height: 166px;'></a></td>";
+      page += "<td><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 409px; height: auto;'></a></td>";
     }
 
     page += "</tr>";
