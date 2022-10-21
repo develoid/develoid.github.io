@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html style="height:100%; margin:0; padding:0">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>시계</title>
+        <link rel="canonical" href="http://develoid.net">
+        <link rel="icon" href="../asset/images/favicon.svg">
+        <link rel=”mask-icon” href="../asset/images/transparent.svg" color="#000000">
+        <link rel="apple-touch-icon" href="../asset/images/universal_icon.png">
+        <style>
+            html {
+                background: #000000;
+                font-family: sans-serif;
+                font-weight: bold;
+                color: #FFFFFF;
+            }
+        </style>
+    </head>
+    <body style="display:flex; height:100%; margin:0; padding:0; justify-content:center; align-items:center">
+        <span id="clocktext" style="font-kerning:none"></span>
+        <script>
+            "use strict";
+            
+            let textElem = document.getElementById("clocktext");
+            const targetWidth = 0.7;
+            let curFontSize = 20;
+            
+            function updateClock() {
+                const d = new Date();
+                let s = "";
+                s += (10 > d.getHours  () ? "0" : "") + d.getHours  () + ":";
+                s += (10 > d.getMinutes() ? "0" : "") + d.getMinutes();
+                textElem.textContent = s;
+                setTimeout(updateClock, 60000 - d.getTime() % 60000 + 100);
+            }
+            
+            function updateTextSize() {
+                for (let i = 0; 3 > i; i++) {
+                    curFontSize *= targetWidth / (textElem.offsetWidth / textElem.parentNode.offsetWidth);
+                    textElem.style.fontSize = curFontSize + "pt";
+                }
+            }
+            
+            updateClock();
+            updateTextSize();
+            window.addEventListener("resize", updateTextSize);
+        </script>
+    </body>
+</html>
+  
