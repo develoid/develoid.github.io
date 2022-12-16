@@ -54,3 +54,29 @@ document.addEventListener('DOMContentLoaded', function(){
             document.querySelector('#search-wrap-bg').remove();
         }
     });
+
+
+
+
+
+
+
+
+
+
+    var cols = document.querySelectorAll(".theme-toggle");
+    [].forEach.call(cols, function(col) {
+        col.addEventListener("click", function(e){
+            if ( document.querySelector('body').classList.contains('dark-mode') ){
+                document.querySelector('body').classList.remove('dark-mode');
+                col.classList.remove('iSun');
+                col.classList.add('iMoon');
+
+            } else {
+                //메뉴펼침
+                document.querySelector('body').classList.add('dark-mode');
+                col.classList.remove('iMoon');
+                col.classList.add('iSun');
+            }
+        });
+    });

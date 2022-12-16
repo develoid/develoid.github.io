@@ -31,14 +31,14 @@
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
     --bs-body-color: #fff;
-    --bs-body-bg: #1E1E1E;
+    --bs-body-bg: #000;
     --bs-border-color: #dee2e6;
     --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
     --bs-code-color: #d63384;
     --bs-highlight-bg: #fff3cd;
     --bs-header-wrap-bg: #202020;
     --bs-header-wrap-dropdown-bg: #2f2f2f;
-    --bs-header-dropdown-bg: #00000080;
+    --bs-header-dropdown-bg: #ffffff1a;
     --bs-footer-bg: #171717;
     --bs-link-color: var(--bs-body-color);
     --bs-link-hover-color: var(--bs-body-color);
@@ -56,12 +56,15 @@
 }
 
 body {
+    overflow: auto;
+    height: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: auto;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+    transition: all .2s ease-in-out;
 }
 
 .btn {

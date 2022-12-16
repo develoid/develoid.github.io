@@ -1,38 +1,26 @@
-// Hide Header on on scroll down
-var didScroll;
 var lastScrollTop = 0;
-var delta = 5;
-var navbarHeight = $('header').outerHeight();
+ 
+$(window).scroll(function(){
 
-$(window).scroll(function(event){
-    didScroll = true;
-});
-
-setInterval(function() {
-    if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-    }
-}, 250);
-
-function hasScrolled() {
-    var st = $(this).scrollTop();
+    var _scrollTop = $(this).scrollTop(); //현재 스크롤값
+    var _navHeight = $('header').height(); //Nav 높이값 
     
-    // Make sure they scroll more than delta
-    if(Math.abs(lastScrollTop - st) <= delta)
-        return;
-    
-    // If they scrolled down and are past the navbar, add class .nav-up.
-    // This is necessary so you never see what is "behind" the navbar.
-    if (st > lastScrollTop && st > navbarHeight){
-        // Scroll Down
-        $('header').removeClass('nav-down').addClass('nav-up');
-    } else {
-        // Scroll Up
-        if(st + $(window).height() < $(document).height()) {
-            $('header').removeClass('nav-up').addClass('nav-down');
+    if(_scrollTop >= 0) { 
+        if ((_scrollTop > lastScrollTop) && (lastScrollTop>0)) { 
+            $('header').addClass('off');
+        } else {
+            $('header').removeClass('off');
         }
+		lastScrollTop = _scrollTop;
+    }
+
+    var Top = $(document).scrollTop();
+
+    if(Top <= 0) {
+        $('header').css({'border-bottom': '1px solid transparent'});
+    }
+    else {
+        $('header').css({'border-bottom': '1px solid var(--bs-box-border-color)'});
     }
     
-    lastScrollTop = st;
-}
+});

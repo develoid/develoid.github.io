@@ -3,6 +3,7 @@ footer {
     --margin-foot-item: 24px;
     padding-top: 48px;
     padding-bottom: 48px;
+    transition: all .2s ease-in-out;
 }
 
 footer .footer-menu {
@@ -40,6 +41,7 @@ footer .footer-copy {
 }
 
 .footer-copy p {
+    color: var(--bs-body-color);
     opacity: .6;
     font-size: 9pt;
     font-weight: 400;
