@@ -55,15 +55,6 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     });
 
-
-
-
-
-
-
-
-
-
     var cols = document.querySelectorAll(".theme-toggle");
     [].forEach.call(cols, function(col) {
         col.addEventListener("click", function(e){

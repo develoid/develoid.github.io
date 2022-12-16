@@ -8,8 +8,10 @@ $(window).scroll(function(){
     if(_scrollTop >= 0) { 
         if ((_scrollTop > lastScrollTop) && (lastScrollTop>0)) { 
             $('header').addClass('off');
+            $('.header-mid-dropdown').css({'display': 'none'});
         } else {
             $('header').removeClass('off');
+            $('.header-mid-dropdown').css({'display': ''});
         }
 		lastScrollTop = _scrollTop;
     }

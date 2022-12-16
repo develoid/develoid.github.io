@@ -1,37 +1,28 @@
-<!DOCTYPE HTML>
-<html lang="ko" data-theme="dark">
-    <!-- 디벨로이드 Front Designer -->
-    <!-- 책임: heart -->
-    <!-- 배포일: 22년 8월 28일 -->
-    <!-- 디벨로이드에서 운영하는 모든 서비스는 저작권법에 의해 보호받고 있습니다. -->        
-    <!-- © 2022 디벨로이드 -->      
-<head>
-    <meta charset="UTF-8">
-    <meta content="#ECECEC" name="theme-color" media="(prefers-color-scheme: light)">
-    <meta content="#222" name="theme-color" media="(prefers-color-scheme: dark)">
-    <meta NAME="ROBOTS" content="NOINDEX, NOFOLLOW">
-    <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <meta name="author" content="DEVELOID">
-    <meta name="description" content="DEVELOID Front Designer">
-    <meta name="keywords" content="DEVELOID, Cafe, Community, Front, Designer">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://develoid.github.io/dvl/app/cfmaker4/">
-    <meta property="og:title" content="디벨로이드 Front Designer">
-    <meta property="og:image" content="./asset/images/ogimage.png">
-    <meta property="og:description" content="디벨로이드 Front Designer">
-    <link rel="canonical" href="http://develoid.net">
-    <link rel="icon" href="../../../asset/images/favicon.svg">
-    <link rel=”mask-icon” href="../../../asset/images/transparent.svg" color="#000000">
-    <link rel="apple-touch-icon" href="../../../asset/images/services/cfmaker_icon.png">
-    <link rel="stylesheet" type='text/css' media='all' href="./asset/css/style.css">
-    <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/header_def.css">
-    <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/svg.css">
-    <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/fonts.css">
-    <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/header.css">
-    <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/base_style.css">
-    <title>디벨로이드 Front Designer</title>
-</head>
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="noindex,nofollow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#FAFAFA">
+        <meta name="author" content="Develoid">
+        <meta name="keywords" content="Develoid, Community, Service, Management, Solutions">
+        <meta name="description" content="Develoid community management support service">
+        <title>@ViewData["Title"] | 디벨로이드</title>
+        <link rel="stylesheet" href="~/css/bootstrap.css"/>
+        <link rel="stylesheet" href="~/css/bootstrap-icons.css"/>
+        <link rel="stylesheet" href="~/css/fonts.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/DevelManager.styles.css" asp-append-version="true" />
+    </head>
+    <body>
+        <partial name="~/Views/Shared/_Header.cshtml"/>
+        <div class="container">
+            <main role="main">
+                @RenderBody()
+            </main>
+        </div>
+        <partial name="~/Views/Shared/_Footer.cshtml" />
 
 <body>
     <div class="header">
@@ -459,8 +450,8 @@
             </table>
         </div>
 
-<script type="text/javascript" src="../../../asset/js/jquery.js"></script>
-<script type="text/javascript" src="./asset/js/app.js"></script>
-<script src="../../../asset/js/theme-toggle.js"></script>
+        <script src="~/js/jquery-3.6.1.min.js"></script>
+        <script src="~/js/bootstrap.min.js"></script>
+        <script src="~/js/app.js" asp-append-version="true"></script>
 </body>
 </html>
