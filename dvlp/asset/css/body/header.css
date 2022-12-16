@@ -23,11 +23,10 @@ header .header-all {
 
 /* header left options */
 header .header-left {
-    margin-top: 4px;
+    margin-top: 2px;
 }
 
 header .header-left a {
-
 }
 
 header .header-left i {
@@ -37,6 +36,12 @@ header .header-left i {
 
 header .header-left i:hover {
     background-color: transparent;
+}
+
+@media (max-width: 1023.98px) {
+    header .header-left {
+        margin-top: 4px;
+    }
 }
 
 /* header middle options */
