@@ -145,6 +145,16 @@ a {
     text-decoration: none;
 }
 
+i {
+    line-height: 1;
+    padding: 6px 6px 4px 6px;
+}
+
+i:hover {
+    background-color: var(--bs-btn2-hover-bg);
+    border-radius: 8px;
+}
+
 /* button */
 .btn {
     --bs-btn-font-weight: 600;

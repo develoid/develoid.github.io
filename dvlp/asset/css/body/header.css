@@ -23,11 +23,20 @@ header .header-all {
 
 /* header left options */
 header .header-left {
-    height: 0;
+    margin-top: 4px;
+}
+
+header .header-left a {
+
 }
 
 header .header-left i {
     font-size: 2rem;
+    padding: 0;
+}
+
+header .header-left i:hover {
+    background-color: transparent;
 }
 
 /* header middle options */
@@ -105,8 +114,8 @@ header .header-right {
 
 header .header-right i {
     cursor: pointer;
-    margin-top: 4px;
-    font-size: 1.8rem;
+    margin-top: 2px;
+    font-size: 1.6rem;
 }
 
 .header-right .desktop {
@@ -114,19 +123,20 @@ header .header-right i {
 }
 
 .desktop .header-search {
-    margin-right: 16px;
+    margin-right: 8px;
 }
 
 .desktop .theme-toggle {
-    margin-right: 20px;
-    font-size: 1.8rem;
+    margin-right: 18px;
 }
 
 .desktop .btn-login {
     background-color: var(--bs-btn-bg);
     border: 0;
-    padding: 4px 10px;
-    font-size: 11pt;
+    padding: 0 12px;
+    font-size: 10pt;
+    font-weight: 600;
+    letter-spacing: 1pt;
 }
 
 .desktop .btn-login:hover {
@@ -149,7 +159,7 @@ header .header-right i {
     }
 
     .mobile .header-search, .theme-toggle {
-        margin-right: 12px;
+        margin-right: 8px;
     }
 }
 
@@ -171,12 +181,12 @@ header .header-right i {
 
 .mobile-wrap .wrap-close {
     text-align: right;
-    margin-top: calc(var(--header-height) / 3);
+    font-size: 1.6rem;
+    margin-top: calc(var(--header-height) / 4 - 1px);
 }
 
 .mobile-wrap .wrap-close i {
     cursor: pointer;
-    font-size: 1.8rem;
 }
 
 .mobile-wrap h6 {
@@ -270,9 +280,6 @@ header .header-right i {
 
 .mobile-wrap-detail-menu-dropdown h6:hover {
     font-weight: 700;
-}
-
-.mobile-wrap-detail-footer-copy {
 }
 
 .mobile-wrap-detail-footer-copy p {

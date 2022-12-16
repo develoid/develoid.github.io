@@ -26,15 +26,7 @@
 
 .search-bar i {
     cursor: pointer;
-    padding: 16px;
-}
-
-.search-bar .back {
-    padding-right: 12px;
-}
-
-.search-bar .search {
-    padding-left: 12px;
+    margin: 8px;
 }
 
 .search-bar .input-search-bar {

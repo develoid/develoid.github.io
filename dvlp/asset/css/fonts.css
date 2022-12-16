@@ -13,6 +13,7 @@
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 1;
+	vertical-align: middle;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -1003,2098 +1004,2098 @@ i.iThin {
   
   /* Icon */
   i.iCircle::before {
-	vertical-align: top;
+	
 	content: "\E000";
   }
   i.iSquare::before {
-	vertical-align: top;
+	
 	content: "\E001";
   }
   i.iClose::before {
-	vertical-align: top;
+	
 	content: "\E020";
   }
   i.iCloseCircle::before {
-	vertical-align: top;
+	
 	content: "\E021";
   }
   i.iCloseSquare::before {
-	vertical-align: top;
+	
 	content: "\E022";
   }
   i.iCheck::before {
-	vertical-align: top;
+	
 	content: "\E024";
   }
   i.iCheckCircle::before {
-	vertical-align: top;
+	
 	content: "\E025";
   }
   i.iCheckSquare::before {
-	vertical-align: top;
+	
 	content: "\E026";
   }
   i.iAdd::before {
-	vertical-align: top;
+	
 	content: "\E028";
   }
   i.iAddCircle::before {
-	vertical-align: top;
+	
 	content: "\E029";
   }
   i.iAddSquare::before {
-	vertical-align: top;
+	
 	content: "\E02A";
   }
   i.iRemove::before {
-	vertical-align: top;
+	
 	content: "\E02C";
   }
   i.iRemoveCircle::before {
-	vertical-align: top;
+	
 	content: "\E02D";
   }
   i.iRemoveSquare::before {
-	vertical-align: top;
+	
 	content: "\E02E";
   }
   i.iInfo::before {
-	vertical-align: top;
+	
 	content: "\E030";
   }
   i.iInfoCircle::before {
-	vertical-align: top;
+	
 	content: "\E031";
   }
   i.iInfoSquare::before {
-	vertical-align: top;
+	
 	content: "\E032";
   }
   i.iWarning::before {
-	vertical-align: top;
+	
 	content: "\E034";
   }
   i.iWarningCircle::before {
-	vertical-align: top;
+	
 	content: "\E035";
   }
   i.iWarningSquare::before {
-	vertical-align: top;
+	
 	content: "\E036";
   }
   i.iQuestion::before {
-	vertical-align: top;
+	
 	content: "\E038";
   }
   i.iQuestionCircle::before {
-	vertical-align: top;
+	
 	content: "\E039";
   }
   i.iQuestionSquare::before {
-	vertical-align: top;
+	
 	content: "\E03A";
   }
   i.iMenu::before {
-	vertical-align: top;
+	
 	content: "\E03C";
   }
   i.iMenuCircle::before {
-	vertical-align: top;
+	
 	content: "\E03D";
   }
   i.iMenuSquare::before {
-	vertical-align: top;
+	
 	content: "\E03E";
   }
   i.iMenuLeft::before {
-	vertical-align: top;
+	
 	content: "\E040";
   }
   i.iMenuCenter::before {
-	vertical-align: top;
+	
 	content: "\E044";
   }
   i.iMenuRight::before {
-	vertical-align: top;
+	
 	content: "\E048";
   }
   i.iMoreHoriz::before {
-	vertical-align: top;
+	
 	content: "\E04C";
   }
   i.iMoreHorizCircle::before {
-	vertical-align: top;
+	
 	content: "\E04D";
   }
   i.iMoreHorizSquare::before {
-	vertical-align: top;
+	
 	content: "\E04E";
   }
   i.iMoreVert::before {
-	vertical-align: top;
+	
 	content: "\E050";
   }
   i.iMoreVertCircle::before {
-	vertical-align: top;
+	
 	content: "\E051";
   }
   i.iMoreVertSquare::before {
-	vertical-align: top;
+	
 	content: "\E052";
   }
   i.iDragHoriz::before {
-	vertical-align: top;
+	
 	content: "\E054";
   }
   i.iDragVert::before {
-	vertical-align: top;
+	
 	content: "\E058";
   }
   i.iApps::before {
-	vertical-align: top;
+	
 	content: "\E05C";
   }
   i.iPlay::before {
-	vertical-align: top;
+	
 	content: "\E060";
   }
   i.iPlayCircle::before {
-	vertical-align: top;
+	
 	content: "\E061";
   }
   i.iPlaySquare::before {
-	vertical-align: top;
+	
 	content: "\E062";
   }
   i.iStop::before {
-	vertical-align: top;
+	
 	content: "\E064";
   }
   i.iStopCircle::before {
-	vertical-align: top;
+	
 	content: "\E065";
   }
   i.iStopSquare::before {
-	vertical-align: top;
+	
 	content: "\E066";
   }
   i.iPause::before {
-	vertical-align: top;
+	
 	content: "\E068";
   }
   i.iPauseCircle::before {
-	vertical-align: top;
+	
 	content: "\E069";
   }
   i.iPauseSquare::before {
-	vertical-align: top;
+	
 	content: "\E06A";
   }
   i.iRecode::before {
-	vertical-align: top;
+	
 	content: "\E06C";
   }
   i.iRecodeCircle::before {
-	vertical-align: top;
+	
 	content: "\E06D";
   }
   i.iRecodeSquare::before {
-	vertical-align: top;
+	
 	content: "\E06F";
   }
   i.iSkipNext::before {
-	vertical-align: top;
+	
 	content: "\E070";
   }
   i.iSkipPrevious::before {
-	vertical-align: top;
+	
 	content: "\E074";
   }
   i.iFastForward::before {
-	vertical-align: top;
+	
 	content: "\E078";
   }
   i.iFastRewind::before {
-	vertical-align: top;
+	
 	content: "\E07C";
   }
   i.iCamera::before {
-	vertical-align: top;
+	
 	content: "\E090";
   }
   i.iImage::before {
-	vertical-align: top;
+	
 	content: "\E094";
   }
   i.iVideocam::before {
-	vertical-align: top;
+	
 	content: "\E098";
   }
   i.iFavorite::before {
-	vertical-align: top;
+	
 	content: "\E09C";
   }
   i.iStar::before {
-	vertical-align: top;
+	
 	content: "\E0A0";
   }
   i.iStarHalf::before {
-	vertical-align: top;
+	
 	content: "\E0A4";
   }
   i.iSetting::before {
-	vertical-align: top;
+	
 	content: "\E0B0";
   }
   i.iEdit::before {
-	vertical-align: top;
+	
 	content: "\E0B4";
   }
   i.iShare::before {
-	vertical-align: top;
+	
 	content: "\E0B8";
   }
   i.iArrowShare::before {
-	vertical-align: top;
+	
 	content: "\E0BC";
   }
   i.iContentCopy::before {
-	vertical-align: top;
+	
 	content: "\E0C0";
   }
   i.iSend::before {
-	vertical-align: top;
+	
 	content: "\E0C4";
   }
   i.iMail::before {
-	vertical-align: top;
+	
 	content: "\E0C8";
   }
   i.iMailOpen::before {
-	vertical-align: top;
+	
 	content: "\E0CC";
   }
   i.iInbox::before {
-	vertical-align: top;
+	
 	content: "\E0D0";
   }
   i.iSchedule::before {
-	vertical-align: top;
+	
 	content: "\E0D4";
   }
   i.iUpdate::before {
-	vertical-align: top;
+	
 	content: "\E0D8";
   }
   i.iLink::before {
-	vertical-align: top;
+	
 	content: "\E0DC";
   }
   i.iReply::before {
-	vertical-align: top;
+	
 	content: "\E0E0";
   }
   i.iForward::before {
-	vertical-align: top;
+	
 	content: "\E0E4";
   }
   i.iCloseFullscreen::before {
-	vertical-align: top;
+	
 	content: "\E0E8";
   }
   i.iOpenInFull::before {
-	vertical-align: top;
+	
 	content: "\E0EC";
   }
   i.iOpenInNew::before {
-	vertical-align: top;
+	
 	content: "\E0F0";
   }
   i.iLanguage::before {
-	vertical-align: top;
+	
 	content: "\E0F8";
   }
   i.iCall::before {
-	vertical-align: top;
+	
 	content: "\E0FC";
   }
   i.iShoppingCart::before {
-	vertical-align: top;
+	
 	content: "\E100";
   }
   i.iShoppingBag::before {
-	vertical-align: top;
+	
 	content: "\E104";
   }
   i.iLocalShipping::before {
-	vertical-align: top;
+	
 	content: "\E108";
   }
   i.iHome::before {
-	vertical-align: top;
+	
 	content: "\E10C";
   }
   i.iHome2::before {
-	vertical-align: top;
+	
 	content: "\E110";
   }
   i.iWifi::before {
-	vertical-align: top;
+	
 	content: "\E114";
   }
   i.iRssFeed::before {
-	vertical-align: top;
+	
 	content: "\E118";
   }
   i.iBluetooth::before {
-	vertical-align: top;
+	
 	content: "\E11C";
   }
   i.iMap::before {
-	vertical-align: top;
+	
 	content: "\E120";
   }
   i.iFaceId::before {
-	vertical-align: top;
+	
 	content: "\E124";
   }
   i.iFingerprint::before {
-	vertical-align: top;
+	
 	content: "\E128";
   }
   i.iLock::before {
-	vertical-align: top;
+	
 	content: "\E12C";
   }
   i.iLockOpen::before {
-	vertical-align: top;
+	
 	content: "\E130";
   }
   i.iNavigation::before {
-	vertical-align: top;
+	
 	content: "\E134";
   }
   i.iNearMe::before {
-	vertical-align: top;
+	
 	content: "\E138";
   }
   i.iNearMeOff::before {
-	vertical-align: top;
+	
 	content: "\E13B";
   }
   i.iExplore::before {
-	vertical-align: top;
+	
 	content: "\E13C";
   }
   i.iExploreOff::before {
-	vertical-align: top;
+	
 	content: "\E13F";
   }
   i.iMyLocation::before {
-	vertical-align: top;
+	
 	content: "\E140";
   }
   i.iMyLocationOff::before {
-	vertical-align: top;
+	
 	content: "\E143";
   }
   i.iVisibility::before {
-	vertical-align: top;
+	
 	content: "\E144";
   }
   i.iVisibilityOff::before {
-	vertical-align: top;
+	
 	content: "\E147";
   }
   i.iFilter::before {
-	vertical-align: top;
+	
 	content: "\E148";
   }
   i.iCategory::before {
-	vertical-align: top;
+	
 	content: "\E14C";
   }
   i.iRefresh::before {
-	vertical-align: top;
+	
 	content: "\E150";
   }
   i.iSync::before {
-	vertical-align: top;
+	
 	content: "\E154";
   }
   i.iUndo::before {
-	vertical-align: top;
+	
 	content: "\E158";
   }
   i.iRedo::before {
-	vertical-align: top;
+	
 	content: "\E15C";
   }
   i.iList::before {
-	vertical-align: top;
+	
 	content: "\E160";
   }
   i.iArrowEndUp::before {
-	vertical-align: top;
+	
 	content: "\E800";
   }
   i.iArrowEndDown::before {
-	vertical-align: top;
+	
 	content: "\E801";
   }
   i.iArrowEndLeft::before {
-	vertical-align: top;
+	
 	content: "\E802";
   }
   i.iArrowEndRight::before {
-	vertical-align: top;
+	
 	content: "\E803";
   }
   i.iArrowStartUp::before {
-	vertical-align: top;
+	
 	content: "\E808";
   }
   i.iArrowStartDown::before {
-	vertical-align: top;
+	
 	content: "\E809";
   }
   i.iArrowStartLeft::before {
-	vertical-align: top;
+	
 	content: "\E80A";
   }
   i.iArrowStartRight::before {
-	vertical-align: top;
+	
 	content: "\E80B";
   }
   i.iArrowAlignUp::before {
-	vertical-align: top;
+	
 	content: "\E810";
   }
   i.iArrowAlignDown::before {
-	vertical-align: top;
+	
 	content: "\E811";
   }
   i.iArrowAlignLeft::before {
-	vertical-align: top;
+	
 	content: "\E812";
   }
   i.iArrowAlignRight::before {
-	vertical-align: top;
+	
 	content: "\E813";
   }
   i.iArrowAlignCenterVert::before {
-	vertical-align: top;
+	
 	content: "\E818";
   }
   i.iArrowAlignCenterHoriz::before {
-	vertical-align: top;
+	
 	content: "\E819";
   }
   i.iSwapVert::before {
-	vertical-align: top;
+	
 	content: "\E820";
   }
   i.iSwapHoriz::before {
-	vertical-align: top;
+	
 	content: "\E821";
   }
   i.iUnfoldMore::before {
-	vertical-align: top;
+	
 	content: "\E828";
   }
   i.iUnfoldLess::before {
-	vertical-align: top;
+	
 	content: "\E829";
   }
   i.iArrowInUp::before {
-	vertical-align: top;
+	
 	content: "\E830";
   }
   i.iArrowInDown::before {
-	vertical-align: top;
+	
 	content: "\E831";
   }
   i.iArrowInLeft::before {
-	vertical-align: top;
+	
 	content: "\E832";
   }
   i.iArrowInRight::before {
-	vertical-align: top;
+	
 	content: "\E833";
   }
   i.iArrowOutUp::before {
-	vertical-align: top;
+	
 	content: "\E838";
   }
   i.iArrowOutDown::before {
-	vertical-align: top;
+	
 	content: "\E839";
   }
   i.iArrowOutLeft::before {
-	vertical-align: top;
+	
 	content: "\E83A";
   }
   i.iArrowOutRight::before {
-	vertical-align: top;
+	
 	content: "\E83B";
   }
   i.iArrowUp::before {
-	vertical-align: top;
+	
 	content: "\E880";
   }
   i.iArrowDown::before {
-	vertical-align: top;
+	
 	content: "\E881";
   }
   i.iArrowLeft::before {
-	vertical-align: top;
+	
 	content: "\E882";
   }
   i.iArrowRight::before {
-	vertical-align: top;
+	
 	content: "\E883";
   }
   i.iArrowUpLeft::before {
-	vertical-align: top;
+	
 	content: "\E884";
   }
   i.iArrowUpRight::before {
-	vertical-align: top;
+	
 	content: "\E885";
   }
   i.iArrowDownLeft::before {
-	vertical-align: top;
+	
 	content: "\E886";
   }
   i.iArrowDownRight::before {
-	vertical-align: top;
+	
 	content: "\E887";
   }
   i.iArrowUpCircle::before {
-	vertical-align: top;
+	
 	content: "\E888";
   }
   i.iArrowDownCircle::before {
-	vertical-align: top;
+	
 	content: "\E889";
   }
   i.iArrowLeftCircle::before {
-	vertical-align: top;
+	
 	content: "\E88A";
   }
   i.iArrowRightCircle::before {
-	vertical-align: top;
+	
 	content: "\E88B";
   }
   i.iArrowUpLeftCircle::before {
-	vertical-align: top;
+	
 	content: "\E88C";
   }
   i.iArrowUpRightCircle::before {
-	vertical-align: top;
+	
 	content: "\E88D";
   }
   i.iArrowDownLeftCircle::before {
-	vertical-align: top;
+	
 	content: "\E88E";
   }
   i.iArrowDownRightCircle::before {
-	vertical-align: top;
+	
 	content: "\E88F";
   }
   i.iArrowUpSquare::before {
-	vertical-align: top;
+	
 	content: "\E890";
   }
   i.iArrowDownSquare::before {
-	vertical-align: top;
+	
 	content: "\E891";
   }
   i.iArrowLeftSquare::before {
-	vertical-align: top;
+	
 	content: "\E892";
   }
   i.iArrowRightSquare::before {
-	vertical-align: top;
+	
 	content: "\E893";
   }
   i.iArrowUpLeftSquare::before {
-	vertical-align: top;
+	
 	content: "\E894";
   }
   i.iArrowUpRightSquare::before {
-	vertical-align: top;
+	
 	content: "\E895";
   }
   i.iArrowDownLeftSquare::before {
-	vertical-align: top;
+	
 	content: "\E896";
   }
   i.iArrowDownRightSquare::before {
-	vertical-align: top;
+	
 	content: "\E897";
   }
   i.iArrowThickUp::before {
-	vertical-align: top;
+	
 	content: "\E8A0";
   }
   i.iArrowThickDown::before {
-	vertical-align: top;
+	
 	content: "\E8A1";
   }
   i.iArrowThickLeft::before {
-	vertical-align: top;
+	
 	content: "\E8A2";
   }
   i.iArrowThickRight::before {
-	vertical-align: top;
+	
 	content: "\E8A3";
   }
   i.iArrowThickUpLeft::before {
-	vertical-align: top;
+	
 	content: "\E8A4";
   }
   i.iArrowThickUpRight::before {
-	vertical-align: top;
+	
 	content: "\E8A5";
   }
   i.iArrowThickDownLeft::before {
-	vertical-align: top;
+	
 	content: "\E8A6";
   }
   i.iArrowDownThickRight::before {
-	vertical-align: top;
+	
 	content: "\E8A7";
   }
   i.iArrowKeyUp::before {
-	vertical-align: top;
+	
 	content: "\E8C0";
   }
   i.iArrowKeyDown::before {
-	vertical-align: top;
+	
 	content: "\E8C1";
   }
   i.iArrowKeyLeft::before {
-	vertical-align: top;
+	
 	content: "\E8C2";
   }
   i.iArrowKeyRight::before {
-	vertical-align: top;
+	
 	content: "\E8C3";
   }
   i.iArrowKeyUpCircle::before {
-	vertical-align: top;
+	
 	content: "\E8C8";
   }
   i.iArrowKeyDownCircle::before {
-	vertical-align: top;
+	
 	content: "\E8C9";
   }
   i.iArrowKeyLeftCircle::before {
-	vertical-align: top;
+	
 	content: "\E8CA";
   }
   i.iArrowKeyRightCircle::before {
-	vertical-align: top;
+	
 	content: "\E8CB";
   }
   i.iArrowKeyUpSquare::before {
-	vertical-align: top;
+	
 	content: "\E8D0";
   }
   i.iArrowKeyDownSquare::before {
-	vertical-align: top;
+	
 	content: "\E8D1";
   }
   i.iArrowKeyLeftSquare::before {
-	vertical-align: top;
+	
 	content: "\E8D2";
   }
   i.iArrowKeyRightSquare::before {
-	vertical-align: top;
+	
 	content: "\E8D3";
   }
   i.iArrowKeyDoubleUp::before {
-	vertical-align: top;
+	
 	content: "\E8E0";
   }
   i.iArrowKeyDoubleDown::before {
-	vertical-align: top;
+	
 	content: "\E8E1";
   }
   i.iArrowKeyDoubleLeft::before {
-	vertical-align: top;
+	
 	content: "\E8E2";
   }
   i.iArrowKeyDoubleRight::before {
-	vertical-align: top;
+	
 	content: "\E8E3";
   }
   i.iArrowDropUp::before {
-	vertical-align: top;
+	
 	content: "\E900";
   }
   i.iArrowDropDown::before {
-	vertical-align: top;
+	
 	content: "\E901";
   }
   i.iArrowDropLeft::before {
-	vertical-align: top;
+	
 	content: "\E902";
   }
   i.iArrowDropRight::before {
-	vertical-align: top;
+	
 	content: "\E903";
   }
   i.iArrowDropUpCircle::before {
-	vertical-align: top;
+	
 	content: "\E908";
   }
   i.iArrowDropDownCircle::before {
-	vertical-align: top;
+	
 	content: "\E909";
   }
   i.iArrowDropLeftCircle::before {
-	vertical-align: top;
+	
 	content: "\E90A";
   }
   i.iArrowDropRightCircle::before {
-	vertical-align: top;
+	
 	content: "\E90B";
   }
   i.iArrowDropUpSquare::before {
-	vertical-align: top;
+	
 	content: "\E910";
   }
   i.iArrowDropDownSquare::before {
-	vertical-align: top;
+	
 	content: "\E911";
   }
   i.iArrowDropLeftSquare::before {
-	vertical-align: top;
+	
 	content: "\E912";
   }
   i.iArrowDropRightSquare::before {
-	vertical-align: top;
+	
 	content: "\E913";
   }
   i.iFormatAlignJustify::before {
-	vertical-align: top;
+	
 	content: "\EA00";
   }
   i.iFormatAlignLeft::before {
-	vertical-align: top;
+	
 	content: "\EA01";
   }
   i.iFormatAlignCenter::before {
-	vertical-align: top;
+	
 	content: "\EA02";
   }
   i.iFormatAlignRight::before {
-	vertical-align: top;
+	
 	content: "\EA03";
   }
   i.iFormatAlignTopLeft::before {
-	vertical-align: top;
+	
 	content: "\EA04";
   }
   i.iFormatAlignTopCenter::before {
-	vertical-align: top;
+	
 	content: "\EA05";
   }
   i.iFormatAlignTopRight::before {
-	vertical-align: top;
+	
 	content: "\EA06";
   }
   i.iFormatAlignBottomLeft::before {
-	vertical-align: top;
+	
 	content: "\EA07";
   }
   i.iFormatAlignBottomCenter::before {
-	vertical-align: top;
+	
 	content: "\EA08";
   }
   i.iFormatAlignBottomRight::before {
-	vertical-align: top;
+	
 	content: "\EA09";
   }
   i.iFormatTitle::before {
-	vertical-align: top;
+	
 	content: "\EA0A";
   }
   i.iFormatBold::before {
-	vertical-align: top;
+	
 	content: "\EA0B";
   }
   i.iFormatItalic::before {
-	vertical-align: top;
+	
 	content: "\EA0C";
   }
   i.iFormatUnderlined::before {
-	vertical-align: top;
+	
 	content: "\EA0D";
   }
   i.iFormatSize::before {
-	vertical-align: top;
+	
 	content: "\EA0E";
   }
   i.iFormatStrikethrough::before {
-	vertical-align: top;
+	
 	content: "\EA0F";
   }
   i.iKeyCommand::before {
-	vertical-align: top;
+	
 	content: "\EA40";
   }
   i.iKeyOption::before {
-	vertical-align: top;
+	
 	content: "\EA42";
   }
   i.iKeyTab::before {
-	vertical-align: top;
+	
 	content: "\EA43";
   }
   i.iKeyControl::before {
-	vertical-align: top;
+	
 	content: "\EA44";
   }
   i.iKeyReturn::before {
-	vertical-align: top;
+	
 	content: "\EA45";
   }
   i.iKeySpaceBar::before {
-	vertical-align: top;
+	
 	content: "\EA46";
   }
   i.iViewGrid::before {
-	vertical-align: top;
+	
 	content: "\EA80";
   }
   i.iViewList::before {
-	vertical-align: top;
+	
 	content: "\EA81";
   }
   i.iViewTable::before {
-	vertical-align: top;
+	
 	content: "\EA82";
   }
   i.iFaceAdd::before {
-	vertical-align: top;
+	
 	content: "\EB00";
   }
   i.iFaceHappy::before {
-	vertical-align: top;
+	
 	content: "\EB01";
   }
   i.iFaceSad::before {
-	vertical-align: top;
+	
 	content: "\EB02";
   }
   i.iFaceNeutral::before {
-	vertical-align: top;
+	
 	content: "\EB03";
   }
   i.iFaceSmiley::before {
-	vertical-align: top;
+	
 	content: "\EB04";
   }
   i.iFaceBad::before {
-	vertical-align: top;
+	
 	content: "\EB05";
   }
   i.iFaceGrinning::before {
-	vertical-align: top;
+	
 	content: "\EB06";
   }
   i.iFaceAngry::before {
-	vertical-align: top;
+	
 	content: "\EB07";
   }
   i.iFace2Add::before {
-	vertical-align: top;
+	
 	content: "\EB40";
   }
   i.iFace2Happy::before {
-	vertical-align: top;
+	
 	content: "\EB41";
   }
   i.iFace2Sad::before {
-	vertical-align: top;
+	
 	content: "\EB42";
   }
   i.iFace2Neutral::before {
-	vertical-align: top;
+	
 	content: "\EB43";
   }
   i.iFace2Smiley::before {
-	vertical-align: top;
+	
 	content: "\EB44";
   }
   i.iFace2Bad::before {
-	vertical-align: top;
+	
 	content: "\EB45";
   }
   i.iFace2Grinning::before {
-	vertical-align: top;
+	
 	content: "\EB46";
   }
   i.iFace2Angry::before {
-	vertical-align: top;
+	
 	content: "\EB47";
   }
   i.iHandThumbUp::before {
-	vertical-align: top;
+	
 	content: "\EB80";
   }
   i.iHandThumbDown::before {
-	vertical-align: top;
+	
 	content: "\EB81";
   }
   i.iSearch::before {
-	vertical-align: top;
+	
 	content: "\EE00";
   }
   i.iSearchClose::before {
-	vertical-align: top;
+	
 	content: "\EE02";
   }
   i.iSearchCheck::before {
-	vertical-align: top;
+	
 	content: "\EE03";
   }
   i.iSearchAdd::before {
-	vertical-align: top;
+	
 	content: "\EE04";
   }
   i.iSearchRemove::before {
-	vertical-align: top;
+	
 	content: "\EE05";
   }
   i.iSearchNote::before {
-	vertical-align: top;
+	
 	content: "\EE06";
   }
   i.iSearchMore::before {
-	vertical-align: top;
+	
 	content: "\EE07";
   }
   i.iDate::before {
-	vertical-align: top;
+	
 	content: "\EE20";
   }
   i.iDateClose::before {
-	vertical-align: top;
+	
 	content: "\EE22";
   }
   i.iDateCheck::before {
-	vertical-align: top;
+	
 	content: "\EE23";
   }
   i.iDateAdd::before {
-	vertical-align: top;
+	
 	content: "\EE24";
   }
   i.iDateRemove::before {
-	vertical-align: top;
+	
 	content: "\EE25";
   }
   i.iDateNote::before {
-	vertical-align: top;
+	
 	content: "\EE26";
   }
   i.iDateMore::before {
-	vertical-align: top;
+	
 	content: "\EE27";
   }
   i.iDateToday::before {
-	vertical-align: top;
+	
 	content: "\EE28";
   }
   i.iDateRange::before {
-	vertical-align: top;
+	
 	content: "\EE29";
   }
   i.iDatePlay::before {
-	vertical-align: top;
+	
 	content: "\EE2A";
   }
   i.iDateStop::before {
-	vertical-align: top;
+	
 	content: "\EE2B";
   }
   i.iDatePause::before {
-	vertical-align: top;
+	
 	content: "\EE2C";
   }
   i.iDateInfo::before {
-	vertical-align: top;
+	
 	content: "\EE2D";
   }
   i.iDateWarning::before {
-	vertical-align: top;
+	
 	content: "\EE2E";
   }
   i.iDateQuestion::before {
-	vertical-align: top;
+	
 	content: "\EE2F";
   }
   i.iDelete::before {
-	vertical-align: top;
+	
 	content: "\EE40";
   }
   i.iDeleteClose::before {
-	vertical-align: top;
+	
 	content: "\EE42";
   }
   i.iDeleteCheck::before {
-	vertical-align: top;
+	
 	content: "\EE43";
   }
   i.iDeleteAdd::before {
-	vertical-align: top;
+	
 	content: "\EE44";
   }
   i.iDeleteRemove::before {
-	vertical-align: top;
+	
 	content: "\EE45";
   }
   i.iDeleteInfo::before {
-	vertical-align: top;
+	
 	content: "\EE4D";
   }
   i.iDeleteWarning::before {
-	vertical-align: top;
+	
 	content: "\EE4E";
   }
   i.iDeleteQuestion::before {
-	vertical-align: top;
+	
 	content: "\EE4F";
   }
   i.iTimer::before {
-	vertical-align: top;
+	
 	content: "\EE60";
   }
   i.iTimerOff::before {
-	vertical-align: top;
+	
 	content: "\EE61";
   }
   i.iTimerClose::before {
-	vertical-align: top;
+	
 	content: "\EE62";
   }
   i.iTimerCheck::before {
-	vertical-align: top;
+	
 	content: "\EE63";
   }
   i.iTimerAdd::before {
-	vertical-align: top;
+	
 	content: "\EE64";
   }
   i.iTimerRemove::before {
-	vertical-align: top;
+	
 	content: "\EE65";
   }
   i.iTimerMore::before {
-	vertical-align: top;
+	
 	content: "\EE67";
   }
   i.iTimerPlay::before {
-	vertical-align: top;
+	
 	content: "\EE6A";
   }
   i.iTimerStop::before {
-	vertical-align: top;
+	
 	content: "\EE6B";
   }
   i.iTimerPause::before {
-	vertical-align: top;
+	
 	content: "\EE6C";
   }
   i.iTimerInfo::before {
-	vertical-align: top;
+	
 	content: "\EE6D";
   }
   i.iTimerWarning::before {
-	vertical-align: top;
+	
 	content: "\EE6E";
   }
   i.iTimerQuestion::before {
-	vertical-align: top;
+	
 	content: "\EE6F";
   }
   i.iChat2::before {
-	vertical-align: top;
+	
 	content: "\EE80";
   }
   i.iChat2Close::before {
-	vertical-align: top;
+	
 	content: "\EE82";
   }
   i.iChat2Check::before {
-	vertical-align: top;
+	
 	content: "\EE83";
   }
   i.iChat2Add::before {
-	vertical-align: top;
+	
 	content: "\EE84";
   }
   i.iChat2Remove::before {
-	vertical-align: top;
+	
 	content: "\EE85";
   }
   i.iChat2Note::before {
-	vertical-align: top;
+	
 	content: "\EE86";
   }
   i.iChat2More::before {
-	vertical-align: top;
+	
 	content: "\EE87";
   }
   i.iChat2Play::before {
-	vertical-align: top;
+	
 	content: "\EE8A";
   }
   i.iChat2Stop::before {
-	vertical-align: top;
+	
 	content: "\EE8B";
   }
   i.iChat2Pause::before {
-	vertical-align: top;
+	
 	content: "\EE8C";
   }
   i.iChat2Info::before {
-	vertical-align: top;
+	
 	content: "\EE8D";
   }
   i.iChat2Warning::before {
-	vertical-align: top;
+	
 	content: "\EE8E";
   }
   i.iChat2Question::before {
-	vertical-align: top;
+	
 	content: "\EE8F";
   }
   i.iShield::before {
-	vertical-align: top;
+	
 	content: "\EEA0";
   }
   i.iShieldOff::before {
-	vertical-align: top;
+	
 	content: "\EEA1";
   }
   i.iShieldClose::before {
-	vertical-align: top;
+	
 	content: "\EEA2";
   }
   i.iShieldCheck::before {
-	vertical-align: top;
+	
 	content: "\EEA3";
   }
   i.iShieldAdd::before {
-	vertical-align: top;
+	
 	content: "\EEA4";
   }
   i.iShieldRemove::before {
-	vertical-align: top;
+	
 	content: "\EEA5";
   }
   i.iShieldNote::before {
-	vertical-align: top;
+	
 	content: "\EEA6";
   }
   i.iShieldMore::before {
-	vertical-align: top;
+	
 	content: "\EEA7";
   }
   i.iShieldPlay::before {
-	vertical-align: top;
+	
 	content: "\EEAA";
   }
   i.iShieldStop::before {
-	vertical-align: top;
+	
 	content: "\EEAB";
   }
   i.iShieldPause::before {
-	vertical-align: top;
+	
 	content: "\EEAC";
   }
   i.iShieldInfo::before {
-	vertical-align: top;
+	
 	content: "\EEAD";
   }
   i.iShieldWarning::before {
-	vertical-align: top;
+	
 	content: "\EEAE";
   }
   i.iShieldQuestion::before {
-	vertical-align: top;
+	
 	content: "\EEAF";
   }
   i.iMemo::before {
-	vertical-align: top;
+	
 	content: "\EEC0";
   }
   i.iMemoClose::before {
-	vertical-align: top;
+	
 	content: "\EEC2";
   }
   i.iMemoCheck::before {
-	vertical-align: top;
+	
 	content: "\EEC3";
   }
   i.iMemoAdd::before {
-	vertical-align: top;
+	
 	content: "\EEC4";
   }
   i.iMemoRemove::before {
-	vertical-align: top;
+	
 	content: "\EEC5";
   }
   i.iMemoNote::before {
-	vertical-align: top;
+	
 	content: "\EEC6";
   }
   i.iMemoMore::before {
-	vertical-align: top;
+	
 	content: "\EEC7";
   }
   i.iMemoPlay::before {
-	vertical-align: top;
+	
 	content: "\EECA";
   }
   i.iMemoStop::before {
-	vertical-align: top;
+	
 	content: "\EECB";
   }
   i.iMemoPause::before {
-	vertical-align: top;
+	
 	content: "\EECC";
   }
   i.iMemoInfo::before {
-	vertical-align: top;
+	
 	content: "\EECD";
   }
   i.iMemoWarning::before {
-	vertical-align: top;
+	
 	content: "\EECE";
   }
   i.iMemoQuestion::before {
-	vertical-align: top;
+	
 	content: "\EECF";
   }
   i.iFolder::before {
-	vertical-align: top;
+	
 	content: "\EEE0";
   }
   i.iFolderClose::before {
-	vertical-align: top;
+	
 	content: "\EEE2";
   }
   i.iFolderCheck::before {
-	vertical-align: top;
+	
 	content: "\EEE3";
   }
   i.iFolderAdd::before {
-	vertical-align: top;
+	
 	content: "\EEE4";
   }
   i.iFolderRemove::before {
-	vertical-align: top;
+	
 	content: "\EEE5";
   }
   i.iFolderNote::before {
-	vertical-align: top;
+	
 	content: "\EEE6";
   }
   i.iFolderMore::before {
-	vertical-align: top;
+	
 	content: "\EEE7";
   }
   i.iFolderPlay::before {
-	vertical-align: top;
+	
 	content: "\EEEA";
   }
   i.iFolderStop::before {
-	vertical-align: top;
+	
 	content: "\EEEB";
   }
   i.iFolderPause::before {
-	vertical-align: top;
+	
 	content: "\EEEC";
   }
   i.iFolderInfo::before {
-	vertical-align: top;
+	
 	content: "\EEED";
   }
   i.iFolderWarning::before {
-	vertical-align: top;
+	
 	content: "\EEEE";
   }
   i.iFolderQuestion::before {
-	vertical-align: top;
+	
 	content: "\EEEF";
   }
   i.iCoupon::before {
-	vertical-align: top;
+	
 	content: "\EF00";
   }
   i.iCouponClose::before {
-	vertical-align: top;
+	
 	content: "\EF02";
   }
   i.iCouponCheck::before {
-	vertical-align: top;
+	
 	content: "\EF03";
   }
   i.iCouponAdd::before {
-	vertical-align: top;
+	
 	content: "\EF04";
   }
   i.iCouponRemove::before {
-	vertical-align: top;
+	
 	content: "\EF05";
   }
   i.iCouponNote::before {
-	vertical-align: top;
+	
 	content: "\EF06";
   }
   i.iCouponMore::before {
-	vertical-align: top;
+	
 	content: "\EF07";
   }
   i.iCouponPlay::before {
-	vertical-align: top;
+	
 	content: "\EF0A";
   }
   i.iCouponStop::before {
-	vertical-align: top;
+	
 	content: "\EF0B";
   }
   i.iCouponPause::before {
-	vertical-align: top;
+	
 	content: "\EF0C";
   }
   i.iCouponInfo::before {
-	vertical-align: top;
+	
 	content: "\EF0D";
   }
   i.iCouponWarning::before {
-	vertical-align: top;
+	
 	content: "\EF0E";
   }
   i.iCouponQuestion::before {
-	vertical-align: top;
+	
 	content: "\EF0F";
   }
   i.iPerson::before {
-	vertical-align: top;
+	
 	content: "\EF20";
   }
   i.iPersonClose::before {
-	vertical-align: top;
+	
 	content: "\EF22";
   }
   i.iPersonCheck::before {
-	vertical-align: top;
+	
 	content: "\EF23";
   }
   i.iPersonAdd::before {
-	vertical-align: top;
+	
 	content: "\EF24";
   }
   i.iPersonRemove::before {
-	vertical-align: top;
+	
 	content: "\EF25";
   }
   i.iPersonCircle::before {
-	vertical-align: top;
+	
 	content: "\EF28";
   }
   i.iPersonSquare::before {
-	vertical-align: top;
+	
 	content: "\EF29";
   }
   i.iNotifications::before {
-	vertical-align: top;
+	
 	content: "\EF40";
   }
   i.iNotificationsOff::before {
-	vertical-align: top;
+	
 	content: "\EF41";
   }
   i.iNotificationsClose::before {
-	vertical-align: top;
+	
 	content: "\EF42";
   }
   i.iNotificationsCheck::before {
-	vertical-align: top;
+	
 	content: "\EF43";
   }
   i.iNotificationsAdd::before {
-	vertical-align: top;
+	
 	content: "\EF44";
   }
   i.iNotificationsRemove::before {
-	vertical-align: top;
+	
 	content: "\EF45";
   }
   i.iNotificationsPlay::before {
-	vertical-align: top;
+	
 	content: "\EF4A";
   }
   i.iNotificationsStop::before {
-	vertical-align: top;
+	
 	content: "\EF4B";
   }
   i.iNotificationsPause::before {
-	vertical-align: top;
+	
 	content: "\EF4C";
   }
   i.iNotificationsInfo::before {
-	vertical-align: top;
+	
 	content: "\EF4D";
   }
   i.iNotificationsWarning::before {
-	vertical-align: top;
+	
 	content: "\EF4E";
   }
   i.iNotificationsQuestion::before {
-	vertical-align: top;
+	
 	content: "\EF4F";
   }
   i.iAlarm::before {
-	vertical-align: top;
+	
 	content: "\EF60";
   }
   i.iAlarmOff::before {
-	vertical-align: top;
+	
 	content: "\EF61";
   }
   i.iAlarmClose::before {
-	vertical-align: top;
+	
 	content: "\EF62";
   }
   i.iAlarmCheck::before {
-	vertical-align: top;
+	
 	content: "\EF63";
   }
   i.iAlarmAdd::before {
-	vertical-align: top;
+	
 	content: "\EF64";
   }
   i.iAlarmRemove::before {
-	vertical-align: top;
+	
 	content: "\EF65";
   }
   i.iAlarmMore::before {
-	vertical-align: top;
+	
 	content: "\EF67";
   }
   i.iAlarmPlay::before {
-	vertical-align: top;
+	
 	content: "\EF6A";
   }
   i.iAlarmStop::before {
-	vertical-align: top;
+	
 	content: "\EF6B";
   }
   i.iAlarmPause::before {
-	vertical-align: top;
+	
 	content: "\EF6C";
   }
   i.iAlarmInfo::before {
-	vertical-align: top;
+	
 	content: "\EF6D";
   }
   i.iAlarmWarning::before {
-	vertical-align: top;
+	
 	content: "\EF6E";
   }
   i.iAlarmQuestion::before {
-	vertical-align: top;
+	
 	content: "\EF6F";
   }
   i.iChat::before {
-	vertical-align: top;
+	
 	content: "\EF80";
   }
   i.iChatClose::before {
-	vertical-align: top;
+	
 	content: "\EF82";
   }
   i.iChatCheck::before {
-	vertical-align: top;
+	
 	content: "\EF83";
   }
   i.iChatAdd::before {
-	vertical-align: top;
+	
 	content: "\EF84";
   }
   i.iChatRemove::before {
-	vertical-align: top;
+	
 	content: "\EF85";
   }
   i.iChatNote::before {
-	vertical-align: top;
+	
 	content: "\EF86";
   }
   i.iChatMore::before {
-	vertical-align: top;
+	
 	content: "\EF87";
   }
   i.iChatPlay::before {
-	vertical-align: top;
+	
 	content: "\EF88";
   }
   i.iChatStop::before {
-	vertical-align: top;
+	
 	content: "\EF8B";
   }
   i.iChatPause::before {
-	vertical-align: top;
+	
 	content: "\EF8C";
   }
   i.iChatInfo::before {
-	vertical-align: top;
+	
 	content: "\EF8D";
   }
   i.iChatWarning::before {
-	vertical-align: top;
+	
 	content: "\EF8E";
   }
   i.iChatQuestion::before {
-	vertical-align: top;
+	
 	content: "\EF8F";
   }
   i.iLocation::before {
-	vertical-align: top;
+	
 	content: "\EFA0";
   }
   i.iLocationOff::before {
-	vertical-align: top;
+	
 	content: "\EFA1";
   }
   i.iLocationClose::before {
-	vertical-align: top;
+	
 	content: "\EFA2";
   }
   i.iLocationCheck::before {
-	vertical-align: top;
+	
 	content: "\EFA3";
   }
   i.iLocationAdd::before {
-	vertical-align: top;
+	
 	content: "\EFA4";
   }
   i.iLocationRemove::before {
-	vertical-align: top;
+	
 	content: "\EFA5";
   }
   i.iLocationMore::before {
-	vertical-align: top;
+	
 	content: "\EFA7";
   }
   i.iLocationPlay::before {
-	vertical-align: top;
+	
 	content: "\EFAA";
   }
   i.iLocationStop::before {
-	vertical-align: top;
+	
 	content: "\EFAB";
   }
   i.iLocationPause::before {
-	vertical-align: top;
+	
 	content: "\EFAC";
   }
   i.iLocationInfo::before {
-	vertical-align: top;
+	
 	content: "\EFAD";
   }
   i.iLocationWarning::before {
-	vertical-align: top;
+	
 	content: "\EFAE";
   }
   i.iLocationQuestion::before {
-	vertical-align: top;
+	
 	content: "\EFAF";
   }
   i.iInventory::before {
-	vertical-align: top;
+	
 	content: "\EFC0";
   }
   i.iInventoryClose::before {
-	vertical-align: top;
+	
 	content: "\EFC2";
   }
   i.iInventoryCheck::before {
-	vertical-align: top;
+	
 	content: "\EFC3";
   }
   i.iInventoryAdd::before {
-	vertical-align: top;
+	
 	content: "\EFC4";
   }
   i.iInventoryRemove::before {
-	vertical-align: top;
+	
 	content: "\EFC5";
   }
   i.iInventoryNote::before {
-	vertical-align: top;
+	
 	content: "\EFC6";
   }
   i.iInventoryMore::before {
-	vertical-align: top;
+	
 	content: "\EFC7";
   }
   i.iInventoryPlay::before {
-	vertical-align: top;
+	
 	content: "\EFCA";
   }
   i.iInventoryStop::before {
-	vertical-align: top;
+	
 	content: "\EFCB";
   }
   i.iInventoryPause::before {
-	vertical-align: top;
+	
 	content: "\EFCC";
   }
   i.iInventoryInfo::before {
-	vertical-align: top;
+	
 	content: "\EFCD";
   }
   i.iInventoryWarning::before {
-	vertical-align: top;
+	
 	content: "\EFCE";
   }
   i.iInventoryQuestion::before {
-	vertical-align: top;
+	
 	content: "\EFCF";
   }
   i.iFile::before {
-	vertical-align: top;
+	
 	content: "\EFE0";
   }
   i.iFileClose::before {
-	vertical-align: top;
+	
 	content: "\EFE2";
   }
   i.iFileCheck::before {
-	vertical-align: top;
+	
 	content: "\EFE3";
   }
   i.iFileAdd::before {
-	vertical-align: top;
+	
 	content: "\EFE4";
   }
   i.iFileRemove::before {
-	vertical-align: top;
+	
 	content: "\EFE5";
   }
   i.iFileNote::before {
-	vertical-align: top;
+	
 	content: "\EFE6";
   }
   i.iFileMore::before {
-	vertical-align: top;
+	
 	content: "\EFE7";
   }
   i.iFilePlay::before {
-	vertical-align: top;
+	
 	content: "\EFEA";
   }
   i.iFileStop::before {
-	vertical-align: top;
+	
 	content: "\EFEB";
   }
   i.iFilePause::before {
-	vertical-align: top;
+	
 	content: "\EFEC";
   }
   i.iFileInfo::before {
-	vertical-align: top;
+	
 	content: "\EFED";
   }
   i.iFileWarning::before {
-	vertical-align: top;
+	
 	content: "\EFEE";
   }
   i.iFileQuestion::before {
-	vertical-align: top;
+	
 	content: "\EFEF";
   }
   i.iStamp::before {
-	vertical-align: top;
+	
 	content: "\F000";
   }
   i.iStampClose::before {
-	vertical-align: top;
+	
 	content: "\F002";
   }
   i.iStampCheck::before {
-	vertical-align: top;
+	
 	content: "\F003";
   }
   i.iStampAdd::before {
-	vertical-align: top;
+	
 	content: "\F004";
   }
   i.iStampRemove::before {
-	vertical-align: top;
+	
 	content: "\F005";
   }
   i.iStampNote::before {
-	vertical-align: top;
+	
 	content: "\F006";
   }
   i.iStampMore::before {
-	vertical-align: top;
+	
 	content: "\F007";
   }
   i.iStampPlay::before {
-	vertical-align: top;
+	
 	content: "\F00A";
   }
   i.iStampStop::before {
-	vertical-align: top;
+	
 	content: "\F00B";
   }
   i.iStampPause::before {
-	vertical-align: top;
+	
 	content: "\F00C";
   }
   i.iStampInfo::before {
-	vertical-align: top;
+	
 	content: "\F00D";
   }
   i.iStampWarning::before {
-	vertical-align: top;
+	
 	content: "\F00E";
   }
   i.iStampQuestion::before {
-	vertical-align: top;
+	
 	content: "\F00F";
   }
   i.iBookmark::before {
-	vertical-align: top;
+	
 	content: "\F020";
   }
   i.iBookmarkClose::before {
-	vertical-align: top;
+	
 	content: "\F022";
   }
   i.iBookmarkCheck::before {
-	vertical-align: top;
+	
 	content: "\F023";
   }
   i.iBookmarkAdd::before {
-	vertical-align: top;
+	
 	content: "\F024";
   }
   i.iBookmarkRemove::before {
-	vertical-align: top;
+	
 	content: "\F025";
   }
   i.iBookmarkNote::before {
-	vertical-align: top;
+	
 	content: "\F026";
   }
   i.iBookmarkMore::before {
-	vertical-align: top;
+	
 	content: "\F027";
   }
   i.iBookmarkPlay::before {
-	vertical-align: top;
+	
 	content: "\F02A";
   }
   i.iBookmarkStop::before {
-	vertical-align: top;
+	
 	content: "\F02B";
   }
   i.iBookmarkPause::before {
-	vertical-align: top;
+	
 	content: "\F02C";
   }
   i.iBookmarkInfo::before {
-	vertical-align: top;
+	
 	content: "\F02D";
   }
   i.iBookmarkWarning::before {
-	vertical-align: top;
+	
 	content: "\F02E";
   }
   i.iBookmarkQuestion::before {
-	vertical-align: top;
+	
 	content: "\F02F";
   }
   
   i.iMoon::before {
-	vertical-align: top;
+	
 	content: "\E0AC";
   }
   i.iSun::before {
-	vertical-align: top;
+	
 	content: "\E0A8";
   }
   i.iStore::before {
-	vertical-align: top;
+	
 	content: "\E0f4";
   }
   
   i.iCard::before {
-	vertical-align: top;
+	
 	content: "\E164";
   }
   i.iPhone::before {
-	vertical-align: top;
+	
 	content: "\E168";
   }
   i.iCurrencySterling::before {
-	vertical-align: top;
+	
 	content: "\EC00";
   }
   i.iCurrencySterlingCircle::before {
-	vertical-align: top;
+	
 	content: "\EC01";
   }
   i.iCurrencySterlingSquare::before {
-	vertical-align: top;
+	
 	content: "\EC02";
   }
   i.iCurrencyDollar::before {
-	vertical-align: top;
+	
 	content: "\EC04";
   }
   i.iCurrencyDollarCircle::before {
-	vertical-align: top;
+	
 	content: "\EC05";
   }
   i.iCurrencyDollarSquare::before {
-	vertical-align: top;
+	
 	content: "\EC06";
   }
   i.iCurrencyYen::before {
-	vertical-align: top;
+	
 	content: "\EC08";
   }
   i.iCurrencyYenCircle::before {
-	vertical-align: top;
+	
 	content: "\EC09";
   }
   i.iCurrencyYenSquare::before {
-	vertical-align: top;
+	
 	content: "\EC0A";
   }
   i.iCurrencyWon::before {
-	vertical-align: top;
+	
 	content: "\EC0C";
   }
   i.iCurrencyWonCircle::before {
-	vertical-align: top;
+	
 	content: "\EC0D";
   }
   i.iCurrencyWonSquare::before {
-	vertical-align: top;
+	
 	content: "\EC0E";
   }
   i.iCurrencyEuro::before {
-	vertical-align: top;
+	
 	content: "\EC10";
   }
   i.iCurrencyEuroCircle::before {
-	vertical-align: top;
+	
 	content: "\EC11";
   }
   i.iCurrencyEuroSquare::before {
-	vertical-align: top;
+	
 	content: "\EC12";
   }
   i.iCurrencyBitcoin::before {
-	vertical-align: top;
+	
 	content: "\EC14";
   }
   i.iCurrencyBitcoinCircle::before {
-	vertical-align: top;
+	
 	content: "\EC15";
   }
   i.iCurrencyBitcoinSquare::before {
-	vertical-align: top;
+	
 	content: "\EC16";
   }
   i.iCurrencyFranc::before {
-	vertical-align: top;
+	
 	content: "\EC18";
   }
   i.iCurrencyFrancCircle::before {
-	vertical-align: top;
+	
 	content: "\EC19";
   }
   i.iCurrencyFrancSquare::before {
-	vertical-align: top;
+	
 	content: "\EC1A";
   }
   i.iCurrencyRuble::before {
-	vertical-align: top;
+	
 	content: "\EC1C";
   }
   i.iCurrencyRubleCircle::before {
-	vertical-align: top;
+	
 	content: "\EC1D";
   }
   i.iCurrencyRubleSquare::before {
-	vertical-align: top;
+	
 	content: "\EC1E";
   }
   i.iCurrencyLira::before {
-	vertical-align: top;
+	
 	content: "\EC20";
   }
   i.iCurrencyLiraCircle::before {
-	vertical-align: top;
+	
 	content: "\EC21";
   }
   i.iCurrencyLiraSquare::before {
-	vertical-align: top;
+	
 	content: "\EC22";
   }
   i.iCurrencyRupee::before {
-	vertical-align: top;
+	
 	content: "\EC24";
   }
   i.iCurrencyRupeeCircle::before {
-	vertical-align: top;
+	
 	content: "\EC25";
   }
   i.iCurrencyRupeeSquare::before {
-	vertical-align: top;
+	
 	content: "\EC26";
   }
   
   i.iBrandPlaystore::before {
-	vertical-align: top;
+	
 	content: "\F8E0";
   }
   i.iBrandAppstore::before {
-	vertical-align: top;
+	
 	content: "\F8E1";
   }
   i.iBrandSlack::before {
-	vertical-align: top;
+	
 	content: "\F8E2";
   }
   i.iBrandSnapchat::before {
-	vertical-align: top;
+	
 	content: "\F8E3";
   }
   i.iBrandMessenger::before {
-	vertical-align: top;
+	
 	content: "\F8E4";
   }
   i.iBrandAmazon::before {
-	vertical-align: top;
+	
 	content: "\F8E5";
   }
   i.iBrandBehance::before {
-	vertical-align: top;
+	
 	content: "\F8E6";
   }
   i.iBrandAndroid::before {
-	vertical-align: top;
+	
 	content: "\F8E7";
   }
   i.iBrandMicrosoft::before {
-	vertical-align: top;
+	
 	content: "\F8E8";
   }
   i.iBrandDiscord::before {
-	vertical-align: top;
+	
 	content: "\F8E9";
   }
   i.iBrandSpotify::before {
-	vertical-align: top;
+	
 	content: "\F8EA";
   }
   i.iBrandReddit::before {
-	vertical-align: top;
+	
 	content: "\F8EB";
   }
   i.iBrandMeta::before {
-	vertical-align: top;
+	
 	content: "\F8EC";
   }
   i.iBrandFigma::before {
-	vertical-align: top;
+	
 	content: "\F8ED";
   }
   i.iBrandTwitch::before {
-	vertical-align: top;
+	
 	content: "\F8EE";
   }
   i.iBrandDribbble::before {
-	vertical-align: top;
+	
 	content: "\F8EF";
   }
   i.iBrandTiktok::before {
-	vertical-align: top;
+	
 	content: "\F8F0";
   }
   i.iBrandTumblr::before {
-	vertical-align: top;
+	
 	content: "\F8F1";
   }
   i.iBrandSkype::before {
-	vertical-align: top;
+	
 	content: "\F8F2";
   }
   i.iBrandMedium::before {
-	vertical-align: top;
+	
 	content: "\F8F3";
   }
   i.iBrandGithub::before {
-	vertical-align: top;
+	
 	content: "\F8F4";
   }
   i.iBrandYoutube::before {
-	vertical-align: top;
+	
 	content: "\F8F5";
   }
   i.iBrandPinterest::before {
-	vertical-align: top;
+	
 	content: "\F8F6";
   }
   i.iBrandLinkedin::before {
-	vertical-align: top;
+	
 	content: "\F8F7";
   }
   i.iBrandNotion::before {
-	vertical-align: top;
+	
 	content: "\F8F8";
   }
   i.iBrandInstagram::before {
-	vertical-align: top;
+	
 	content: "\F8F9";
   }
   i.iBrandTwitter::before {
-	vertical-align: top;
+	
 	content: "\F8FA";
   }
   i.iBrandGoogle::before {
-	vertical-align: top;
+	
 	content: "\F8FB";
   }
   i.iBrandFacebook::before {
-	vertical-align: top;
+	
 	content: "\F8FC";
   }
   i.iBrandNaver::before {
-	vertical-align: top;
+	
 	content: "\F8FD";
   }
   i.iBrandKakao::before {
-	vertical-align: top;
+	
 	content: "\F8FE";
   }
   i.iBrandApple::before {
-	vertical-align: top;
+	
 	content: "\F8FF";
   }
   
