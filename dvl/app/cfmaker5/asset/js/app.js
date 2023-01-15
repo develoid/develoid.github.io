@@ -171,7 +171,7 @@ function ItemSave() {
   if(d < 10) d = "0" + d;
 
   // 파일 명 생성
-  let fileName = "CF4_"+y+m+d+"_"+h+""+mm+".json";
+  let fileName = "CF5_"+y+m+d+"_"+h+""+mm+".json";
 
   // 전체 아이템 오브젝트 배열 생성
   ItemArrayMake();
