@@ -1,0 +1,370 @@
+<!DOCTYPE HTML>
+<html lang="ko" data-theme="dark">
+    <!-- 디벨로이드 Front Designer -->
+    <!-- 책임: heart -->
+    <!-- 배포일: 22년 8월 28일 -->
+    <!-- 디벨로이드에서 운영하는 모든 서비스는 저작권법에 의해 보호받고 있습니다. -->
+    <!-- © 2022 디벨로이드 -->
+<head>
+    <meta charset="UTF-8">
+    <meta content="#ECECEC" name="theme-color" media="(prefers-color-scheme: light)">
+    <meta content="#222" name="theme-color" media="(prefers-color-scheme: dark)">
+    <meta NAME="ROBOTS" content="NOINDEX, NOFOLLOW">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta name="author" content="DEVELOID">
+    <meta name="description" content="DEVELOID Front Designer">
+    <meta name="keywords" content="DEVELOID, Cafe, Community, Front, Designer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://develoid.github.io/dvl/app/cfmaker4/">
+    <meta property="og:title" content="디벨로이드 Front Designer">
+    <meta property="og:image" content="./asset/images/ogimage.png">
+    <meta property="og:description" content="디벨로이드 Front Designer">
+    <link rel="canonical" href="http://develoid.net">
+    <link rel="icon" href="../../../asset/images/favicon.svg">
+    <link rel=”mask-icon” href="../../../asset/images/transparent.svg" color="#000000">
+    <link rel="apple-touch-icon" href="../../../asset/images/services/cfmaker_icon.png">
+    <link rel="stylesheet" type='text/css' media='all' href="./asset/css/style.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/header_def.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/svg.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/fonts.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/header.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../../../asset/css/base_style.css">
+    <title>디벨로이드 Front Designer</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="headleftcontent">
+            <div class="headcontent">
+                <a href="https://develoid.github.io/dvl/app/cfmaker4/">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 28">
+                        <path class="dvl_hexagon" d="M36.5625 13C39 13 40.5117 11.4961 40.5117 8.99609C40.5117 6.5 39 5 36.5586 5H33.6055V13H36.5625ZM35.5391 11.3516V6.64844H36.4609C37.8359 6.64844 38.5742 7.27344 38.5742 8.99609C38.5742 10.7266 37.8359 11.3516 36.4883 11.3516H35.5391ZM41.2006 13H46.7787V11.4297H43.1342V9.78516H46.4936V8.21094H43.1342V6.57031H46.7787V5H41.2006V13ZM49.3661 5H47.202L49.9012 13H52.4755L55.1747 5H53.0106L51.2216 10.8594H51.1552L49.3661 5ZM55.596 13H61.1741V11.4297H57.5296V9.78516H60.889V8.21094H57.5296V6.57031H61.1741V5H55.596V13ZM61.9451 13H67.2068V11.4297H63.8787V5H61.9451V13ZM75.007 9C75.007 6.35547 73.3352 4.89062 71.1867 4.89062C69.0305 4.89062 67.3703 6.35547 67.3703 9C67.3703 11.6328 69.0305 13.1094 71.1867 13.1094C73.3352 13.1094 75.007 11.6445 75.007 9ZM73.0305 9C73.0305 10.5664 72.343 11.4141 71.1867 11.4141C70.0344 11.4141 69.343 10.5664 69.343 9C69.343 7.43359 70.0344 6.58594 71.1867 6.58594C72.343 6.58594 73.0305 7.43359 73.0305 9ZM77.6295 5H75.6959V13H77.6295V5ZM81.3604 13C83.7979 13 85.3096 11.4961 85.3096 8.99609C85.3096 6.5 83.7979 5 81.3565 5H78.4034V13H81.3604ZM80.337 11.3516V6.64844H81.2589C82.6339 6.64844 83.3721 7.27344 83.3721 8.99609C83.3721 10.7266 82.6339 11.3516 81.2862 11.3516H80.337Z"></path>
+                        <path class="dvl_header_slash" d="M39.293 18.5273H40.5313C40.2617 16.9687 38.9297 15.8906 37.2031 15.8906C35.1328 15.8906 33.6211 17.4492 33.6211 20.0039C33.6211 22.5352 35.0898 24.1094 37.2578 24.1094C39.1992 24.1094 40.5859 22.8359 40.5859 20.8164V19.9062H37.4414V20.9023H39.418C39.3906 22.1914 38.5391 23.0078 37.2578 23.0078C35.8477 23.0078 34.8203 21.9414 34.8203 19.9961C34.8203 18.0586 35.8555 16.9922 37.2109 16.9922C38.2734 16.9922 38.9922 17.5781 39.293 18.5273ZM42.1069 24L42.8412 21.8828H45.9662L46.6967 24H47.978L45.0991 16H43.7045L40.8256 24H42.1069ZM43.1928 20.8672L44.3725 17.4531H44.435L45.6147 20.8672H43.1928ZM47.3427 17.0391H49.8348V24H51.038V17.0391H53.5341V16H47.3427V17.0391ZM54.4622 24H59.5247V22.9609H55.6693V20.5117H59.2161V19.4766H55.6693V17.0391H59.4779V16H54.4622V24ZM63.1213 24H68.1838V22.9609H64.3283V20.5117H67.8752V19.4766H64.3283V17.0391H68.1369V16H63.1213V24ZM71.8991 24C74.3366 24 75.7467 22.4883 75.7467 19.9883C75.7467 17.5 74.3366 16 71.9811 16H69.3092V24H71.8991ZM70.5163 22.9453V17.0547H71.9069C73.6569 17.0547 74.5592 18.1016 74.5592 19.9883C74.5592 21.8828 73.6569 22.9453 71.8327 22.9453H70.5163ZM78.0147 16H76.8077V24H78.0147V16ZM78.938 17.0391H81.4302V24H82.6333V17.0391H85.1294V16H78.938V17.0391ZM92.6738 20C92.6738 17.4414 91.1425 15.8906 89.0722 15.8906C86.9941 15.8906 85.4668 17.4414 85.4668 20C85.4668 22.5547 86.9941 24.1094 89.0722 24.1094C91.1425 24.1094 92.6738 22.5586 92.6738 20ZM91.4785 20C91.4785 21.9492 90.4472 23.0078 89.0722 23.0078C87.6933 23.0078 86.666 21.9492 86.666 20C86.666 18.0508 87.6933 16.9922 89.0722 16.9922C90.4472 16.9922 91.4785 18.0508 91.4785 20ZM93.7387 24H94.9457V20.9727H96.6645L98.2895 24H99.6645L97.891 20.7617C98.8715 20.3984 99.3598 19.582 99.3598 18.5078C99.3598 17.0352 98.4457 16 96.5902 16H93.7387V24ZM94.9457 19.9336V17.0352H96.4613C97.6527 17.0352 98.1449 17.6016 98.1449 18.5078C98.1449 19.4102 97.6527 19.9336 96.477 19.9336H94.9457Z"></path>
+                        <path class="dvl_hexagon" d="M12.5999 28C11.9283 28.0008 11.2683 27.8243 10.6863 27.4882L1.91359 22.4062C1.3325 22.0684 0.849954 21.5835 0.514156 21C0.178358 20.4165 0.00106861 19.7549 0 19.0811L0 8.91894C0.00106861 8.2452 0.178358 7.58353 0.514156 7.00004C0.849954 6.41655 1.3325 5.93168 1.91359 5.59387L10.6863 0.512775C11.2685 0.176814 11.9283 0 12.6 0C13.2716 0 13.9315 0.176814 14.5136 0.512775L23.2863 5.59387C23.8674 5.93168 24.35 6.41655 24.6858 7.00004C25.0216 7.58353 25.1989 8.2452 25.1999 8.91894V19.0811C25.1989 19.7549 25.0216 20.4165 24.6858 21C24.35 21.5835 23.8674 22.0684 23.2863 22.4062L14.5136 27.4882C13.9316 27.8243 13.2715 28.0009 12.5999 28ZM12.5999 1.46188C12.184 1.46155 11.7754 1.57105 11.4151 1.77938L2.64189 6.86047C2.282 7.06965 1.98315 7.36996 1.77524 7.73135C1.56733 8.09275 1.45764 8.50257 1.45715 8.91984V19.082C1.45764 19.4993 1.56733 19.9091 1.77524 20.2705C1.98315 20.6319 2.282 20.9322 2.64189 21.1414L11.4144 26.2225C11.7749 26.4305 12.1834 26.5399 12.5992 26.5399C13.0151 26.5399 13.4236 26.4305 13.7841 26.2225L22.5566 21.1414C22.9165 20.9322 23.2153 20.6319 23.4233 20.2705C23.6312 19.9091 23.7409 19.4993 23.7413 19.082V8.91894C23.7407 8.50183 23.6309 8.09219 23.423 7.73097C23.2151 7.36974 22.9164 7.06957 22.5566 6.86047L13.7848 1.77938C13.4245 1.57103 13.0158 1.46153 12.5999 1.46188Z"></path>
+                        <path class="dvl_header_slash" d="M9.37105 20.3406C9.24317 20.3405 9.11757 20.3066 9.00686 20.2423C8.89616 20.1781 8.80425 20.0858 8.74035 19.9747C8.67645 19.8635 8.64281 19.7375 8.64282 19.6092C8.64283 19.4809 8.67648 19.3549 8.74039 19.2438L15.1963 8.02555C15.2439 7.94188 15.3075 7.86847 15.3835 7.80954C15.4595 7.75061 15.5463 7.70732 15.639 7.68217C15.7317 7.65701 15.8285 7.65048 15.9237 7.66295C16.019 7.67542 16.1108 7.70665 16.194 7.75484C16.2771 7.80302 16.35 7.86722 16.4084 7.94374C16.4667 8.02026 16.5094 8.1076 16.534 8.20073C16.5587 8.29386 16.5647 8.39096 16.5518 8.48643C16.5389 8.58191 16.5073 8.67388 16.4588 8.75708L10.0026 19.9749C9.93865 20.0862 9.8466 20.1785 9.73572 20.2427C9.62485 20.3069 9.49907 20.3407 9.37105 20.3406Z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="headcentercontent">
+            <div class="headitem">
+                <a href="tutorial.html" target="_blank">
+                <p>레이아웃</p>
+                <span class="headoutlink">
+                    <svg class viewBox="0 0 16 16">
+                        <path class="link" d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 00-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158z">
+                        </path>
+                    </svg>
+                </span>
+                </a>
+            </div>
+        </div>
+        <div class="headrightcontent">
+            <div class="headcontent">
+                <div class="rightitem">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="auto" aria-live="polite">
+                        <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                        <mask class="moon" id="moon-mask">
+                            <rect x="0" y="0" width="100%" height="100%" fill="white" />
+                            <circle cx="24" cy="10" r="6" fill="black" />
+                        </mask>
+                        <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
+                        <g class="sun-beams" stroke="currentColor">
+                            <line x1="12" y1="1" x2="12" y2="3" />
+                            <line x1="12" y1="21" x2="12" y2="23" />
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                            <line x1="1" y1="12" x2="3" y2="12" />
+                            <line x1="21" y1="12" x2="23" y2="12" />
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                        </g>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+
+        <!-- 타이틀 -->
+
+        <div class="title">
+            <h1>Front Designer</h1>
+        </div>
+
+        <div class="padding"></div>
+
+        <!-- 메뉴 -->
+
+        <div class="title">
+            <h2>메뉴</h2>
+        </div>
+
+
+        <table id="menu">
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_pma"><table_title>링크</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'menu')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'menu')">-</button></td>
+            </tr>
+        </table>
+
+        <!-- 베스트포토 및 이벤트 1단 -->
+        <div class="padding"></div>
+
+        <div class="title">
+            <h2>베스트포토 및 이벤트 1단</h2>
+        </div>
+
+        <table id="evs">
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_pma"><table_title>링크</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'evs')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'evs')">-</button></td>
+            </tr>
+        </table>
+
+
+        <!-- 이벤트 2단 -->
+        <div class="padding"></div>
+
+        <div class="title">
+            <h2>이벤트 2단</h2>
+        </div>
+
+        <table id="evd">
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_pma"><table_title>링크</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'evd')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'evd')">-</button></td>
+            </tr>
+        </table>
+
+
+        <!-- 디벨베스트 -->
+        <div class="padding"></div>
+
+        <div class="title">
+            <h2>디벨베스트</h2>
+        </div>
+
+        <table id="ebseven">
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_top"><table_title>링크</table_title></td>
+            </tr>
+            <tr id="ebseven_1">
+                <td class="number"><table_number>1</table_number></td>
+                <td><input class="imageid" type="url" id="ebseven_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid" type="url" id="ebseven_u1" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr id="ebseven_2">
+                <td class="number"><table_number>2</table_number></td>
+                <td><input class="imageid" type="url" id="ebseven_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="ebseven_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr id="ebseven_3">
+                <td class="number"><table_number>3</table_number></td>
+                <td><input class="imageid" type="url" id="ebseven_i3" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="ebseven_u3" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr id="ebseven_4">
+                <td class="number"><table_number>4</table_number></td>
+                <td><input class="imageid" type="url" id="ebseven_i4" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="ebseven_u4" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr id="ebseven_5">
+                <td class="number"><table_number>5</table_number></td>
+                <td><input class="imageid" type="url" id="ebseven_i5" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="ebseven_u5" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr id="ebseven_6">
+                <td class="number"><table_number>6</table_number></td>
+                <td><input class="imageid" type="url" id="ebseven_i6" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="ebseven_u6" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr id="ebseven_7">
+                <td class="number"><table_number>7</table_number></td>
+                <td><input class="imageid" type="url" id="ebseven_i7" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="ebseven_u7" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="row_control"><table_title>5열 관리</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'ebfive')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'ebfive')">-</button></td>
+            </tr>
+        </table>
+        <table id="ebfive">
+        </table>
+
+
+        <!-- 지난달 디벨베스트 -->
+        <div class="padding"></div>
+
+        <div class="title">
+            <h2>지난달 디벨베스트</h2>
+        </div>
+
+        <table id="bebseven">
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_top"><table_title>링크</table_title></td>
+            </tr>
+            <tr id="bebseven_1">
+                <td class="number"><table_number>1</table_number></td>
+                <td><input class="imageid" type="url" id="bebseven_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="bebseven_u1" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr id="bebseven_2">
+                <td class="number"><table_number>2</table_number></td>
+                <td><input class="imageid" type="url" id="bebseven_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="bebseven_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr id="bebseven_3">
+                <td class="number"><table_number>3</table_number></td>
+                <td><input class="imageid" type="url" id="bebseven_i3" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="bebseven_u3" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr id="bebseven_4">
+                <td class="number"><table_number>4</table_number></td>
+                <td><input class="imageid" type="url" id="bebseven_i4" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="bebseven_u4" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr id="bebseven_5">
+                <td class="number"><table_number>5</table_number></td>
+                <td><input class="imageid" type="url" id="bebseven_i5" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="bebseven_u5" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr id="bebseven_6">
+                <td class="number"><table_number>6</table_number></td>
+                <td><input class="imageid" type="url" id="bebseven_i6" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="bebseven_u6" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr id="bebseven_7">
+                <td class="number"><table_number>7</table_number></td>
+                <td><input class="imageid" type="url" id="bebseven_i7" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="3"><input class="linkid" type="url" id="bebseven_u7" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="row_control"><table_title>5열 관리</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'bebfive')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'bebfive')">-</button></td>
+            </tr>
+        </table>
+        <table id="bebfive">
+        </table>
+
+
+        <!-- 디벨콘텐츠 -->
+        <div class="padding"></div>
+
+        <div class="title">
+            <h2>디벨콘텐츠</h2>
+        </div>
+
+        <table id="edc">
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_pma"><table_title>링크</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'edc')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'edc')">-</button></td>
+            </tr>
+        </table>
+
+
+        <!-- 디벨스폰서 -->
+        <div class="padding"></div>
+
+        <div class="title">
+            <h2>디벨스폰서</h2>
+        </div>
+
+        <table id="ds">
+            <tr>
+                <td class="number_top"></td>
+                <td class="imageid_top"><table_title>이미지</table_title></td>
+                <td class="linkid_pma"><table_title>링크</table_title></td>
+                <td class="btn_pma"><button type="button" class="btn_plus" onclick="ItemControl('add', 'ds')">+</button></td>
+                <td class="btn_pma"><button type="button" class="btn_minus" onclick="ItemControl('remove', 'ds')">-</button></td>
+            </tr>
+        </table>
+
+
+        <!-- 베이스 인터페이스 -->
+        <div class="padding"></div>
+
+        <div class="title">
+            <h2>베이스 인터페이스</h2>
+        </div>
+
+        <table class="ui">
+            <tr>
+                <td class="uitop" colspan="2"><table_title>디벨베스트</table_title></td>
+                <td class="uitop" colspan="2"><table_title>디벨콘텐츠</table_title></td>
+            </tr>
+            <tr>
+                <td><input class="imageid_base" type="url" id="ui_i1" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid_base" type="url" id="ui_u1" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="imageid_base" type="url" id="ui_i2" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid_base" type="url" id="ui_u2" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="uitop" colspan="2"><table_title>디벨스폰서</table_title></td>
+                <td class="uitop" colspan="2"><table_title>지난달 디벨베스트</table_title></td>
+            </tr>
+            <tr>
+                <td><input class="imageid_base" type="url" id="ui_i3" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid_base" type="url" id="ui_u3" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="imageid_base" type="url" id="ui_i4" ondrop="dropIMG(event, this.id)"></td>
+                <td><input class="linkid_base" type="url" id="ui_u4" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+            <tr>
+                <td class="uitop" colspan="4"><table_title>하단</table_title></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input class="imageid_base" type="url" id="ui_i5" ondrop="dropIMG(event, this.id)"></td>
+                <td colspan="2"><input class="linkid_base" type="url" id="ui_u5" ondrop="dropIMG(event, this.id)"></td>
+            </tr>
+        </table>
+
+    </div>
+    <div id="out" class="out">
+        <input id="codeHTTPS" class="codeHTTPS" readonly="readonly"></textarea>
+        <input id="codeHTTP" class="codeHTTP" readonly="readonly"></textarea>
+      </div>
+
+        <!-- 제작 -->
+        <div class="make">
+            <table>
+                <tr style="cursor:pointer;">
+                    <td><button type="button" class="btn_copy" onclick="Make()">만들고 클립보드에 복사하기</button></td>
+                    <td><button type="button" class="btn_save" onclick="ItemSave()">저장하기</button></td>
+                    <td><button type="button" class="btn_load" onclick="FileOpen()">불러오기</button></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><button type="button" class="btn_gate" onclick="window.open('https://cafe.naver.com/ManageGateEditor.nhn?clubid=23370764')";>커뮤니티 대문 작업 공간</button></td>
+                </tr>
+            </table>
+        </div>
+
+<script type="text/javascript" src="../../../asset/js/jquery.js"></script>
+<script type="text/javascript" src="./asset/js/app.js"></script>
+<script src="../../../asset/js/theme-toggle.js"></script>
+</body>
+</html>
