@@ -79,7 +79,21 @@ function ItemControl(type, target) {
         arrayCNT[num]--; // 카운트 감소
       }
     } else {
-      alert('한번 더 누르시면 서피스 프로 9 (SQ3) 및 서피스 듀오 2 구매를 독촉하겠습니다.');
+        var alert_description = new Array (
+                "그만 누르십시오.",
+                "한 번 더 누르시면 서피스 프로 9 (SQ3) 및 서피스 듀오 2 구매를 독촉하는 수가 있습니다.",
+                "더 이상 누르지 마십시오.",
+                "눌러서 좋을 게 없습니다.",
+                "중국식 레몬 닭고기: 얇게 썬 닭고기 가슴살 450그램. 옥수수전분 1작은술. 간장 3큰술. 레몬 1쪽.",
+                "마지막 경고입니다.",
+                "실제 펜으로 필기를 하는 것처럼 자연스럽게 사용 가능한 Surface 슬림 펜 2는 키보드에 항상 안전하게 보관하면서 무선으로 충전을 할 수 있습니다.",
+                "노트북의 강력한 성능과 유동적으로 활용 가능한 태블릿 모드를 겸비한 Surface Pro 9만 있으면 업무 처리, 콘텐츠 스트리밍, 여가 시간 활용 등 원하는 모든 작업을 수행할 수 있습니다.",
+                "한 번 더 누르시면 IP 추적과 DDOS 공격을 주저하지 않겠습니다."
+        );
+
+      i = Math.floor(Math.random()*alert_description.length);
+      alert(alert_description[i]);
+
     }
   }
 
@@ -354,11 +368,11 @@ function Make() {
   // 상단 메뉴
   temp = arrayITEM['menu'];
 
-  page += "<div style='display: flex; justify-content: center; gap: 6px; width: 824px;'>";
+  page += "<div style='display: flex; justify-content: center; gap: 6px; max-width: 824px;'>";
 
   num = getTarget('menu');
   for(i = 0; i<arrayCNT[num]; i++) {
-      page += "<a href='"+temp[i].url+"' target='_blank'><img src='"+temp[i].img+"' style='width: auto; height: 48px;'></a>";
+      page += "<a href='"+temp[i].url+"' target='_blank'><img src='"+temp[i].img+"' style='width: auto; max-height: 48px; border-radius: 4px;'></a>";
   }
 
   page += "</div>";
@@ -367,11 +381,11 @@ function Make() {
   // 베스트포토 및 이벤트 1단
   temp = arrayITEM['evs'];
 
-  page += "<div style='display:flex; flex-direction: column; flex: 1; justify-content:center; gap:6px; width:824px;'>";
+  page += "<div style='display:flex; flex-direction: column; flex: 1; justify-content:center; gap:6px; max-width:824px;'>";
 
   num = getTarget('evs');
   for(i = 0; i<arrayCNT[num]; i++) {
-    page += "<a href='"+temp[i].url+"' target='_blank'><img src='"+temp[i].img+"' style='width: 824px; height: auto;'></a>";
+      page += "<a href='"+temp[i].url+"' target='_blank'><img src='"+temp[i].img+"' style='width: 824px; height: auto; border-radius: 4px;'></a>";
   }
 
   page += "</div>";
@@ -382,11 +396,11 @@ function Make() {
   num = getTarget('evd');
   for(i = 0; i<temp.length; i+=2) {
       //console.log(arrayCNT[num]/arraySET[num]);
-      page += "<div style='display: flex; flex: 1; justify-content: center; gap: 6px; width: 824px;'>"
+      page += "<div style='display: flex; flex: 1; justify-content: center; gap: 6px; max-width: 824px;'>"
       for(j = 0; j<2; j++) {
           //console.log(i, j, i+j);
 
-          page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 409px; height: auto;'></a></div>";
+          page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 409px; height: auto; border-radius: 4px;'></a></div>";
       }
       page += "</div>";
   }
@@ -395,8 +409,14 @@ function Make() {
   // 디벨베스트 메뉴
   temp = arrayITEM['ui'];
 
-  page += "<div>";
-  page += "<a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 824px; height: auto;'></a>";
+  page += "<div style='display: flex; justify-content: space-between; align-items: center; width: 824px; height: 38px;'>";
+  page += "<div style='width: 6px; height: 6px; padding: 12px;'></div>";
+  page += "<div style='max-height: 100%;'>"
+    page += "<a href='"+temp[0].url+"' target='_blank' style='display: block; font-size: 0;'><img src='"+temp[0].img+"' style='max-width: auto; max-height: 16px;'></a>";
+  page += "</div>";
+  page += "<div>"
+  page += "<a href='https://cafe.naver.com/develoid/menu/1363' target='_blank'><img src='https://bard.develoid.net/arrow_external.png' style='max-width: auto; height: 6px; padding: 16px;'></a>";
+  page += "</div>";
   page += "</div>";
 
 
@@ -407,16 +427,16 @@ function Make() {
   num = getTarget('ebseven');
   for(i = 0; i<temp.length; i+=7) {
     //console.log(arrayCNT[num]/arraySET[num]);
-    page += "<div style='grid-row: auto / span 2;'><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 326px; height: auto;'></a></div>";
+      page += "<div style='grid-row: auto / span 2; width: 326px; height: 326px;'><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' width='326' height='326' style='max-width: 326px; max-height: 326px; border-radius: 4px;'></a></div>";
 
     for(j = 1; j<7; j++) {
       //console.log(i, j, i+j);
-      page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></div>";
+        page += "<div style='width: 160px; height: 160px;'><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' width='160' height='160' style='max-width: 160px; max-height: 160px; border-radius: 4px;'></a></div>";
     }
   }
   page += "</div>"
 
-  // 지난달 디벨베스트 아이템 생성 (5)
+  // 디벨베스트 아이템 생성 (5)
   temp = arrayITEM['ebfive'];
   num = getTarget('ebfive');
   for(i = 0; i<temp.length; i+=5) {
@@ -425,7 +445,7 @@ function Make() {
       for(j = 0; j<5; j++) {
           //console.log(i, j, i+j);
 
-          page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></div>";
+          page += "<div style='width: 160px; height: 160px;'><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' width='160' height='160' style='max-width: 160px; max-height: 160px; border-radius: 4px;'></a></div>";
       }
       page += "</div>";
   }
@@ -434,12 +454,18 @@ function Make() {
   // 디벨콘텐츠 메뉴 생성
   temp = arrayITEM['ui'];
 
-  page += "<div>";
-    page += "<a href='"+temp[1].url+"' target='_blank'><img src='"+temp[1].img+"' style='width: 824px; height: auto;'></a>";
+  page += "<div style='display: flex; justify-content: space-between; align-items: center; width: 824px;'>";
+  page += "<div style='width: 6px; height: 6px; padding: 12px;'></div>";
+  page += "<div style='max-height: 100%;'>"
+    page += "<a href='"+temp[1].url+"' target='_blank' style='display: block; font-size: 0;'><img src='"+temp[1].img+"' style='max-width: auto; max-height: 16px;'></a>";
+  page += "</div>";
+  page += "<div>"
+    page += "<a href='https://cafe.naver.com/develoid/menu/1312' target='_blank'><img src='https://bard.develoid.net/arrow_external.png' style='max-width: auto; height: 6px; padding: 16px;'></a>";
+  page += "</div>";
   page += "</div>";
 
 
-  // 지난달 디벨베스트 아이템 생성 (5)
+  // 디벨콘텐츠 아이템 생성 (5)
     temp = arrayITEM['edc'];
     num = getTarget('edc');
     for(i = 0; i<temp.length; i+=5) {
@@ -448,7 +474,7 @@ function Make() {
         for(j = 0; j<5; j++) {
             //console.log(i, j, i+j);
 
-            page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></div>";
+            page += "<div style='width: 160px; height: 160px;'><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' width='160' height='160' style='max-width: 160px; max-height: 160px; border-radius: 4px;'></a></div>";
         }
         page += "</div>";
     }
@@ -456,12 +482,14 @@ function Make() {
   // 디벨스폰서 메뉴 생성
   temp = arrayITEM['ui'];
 
-  page += "<div>";
-    page += "<a href='"+temp[2].url+"' target='_blank'><img src='"+temp[2].img+"' style='width: 824px; height: auto;'></a>";
-  page += "</div>";
+    page += "<div style='display: flex; justify-content: center; align-items: center; width: 824px; height: 38px;'>";
+    page += "<div style='max-height: 100%;'>"
+    page += "<a href='"+temp[2].url+"' target='_blank' style='display: block; font-size: 0;'><img src='"+temp[2].img+"' style='max-width: auto; max-height: 16px;'></a>";
+    page += "</div>";
+    page += "</div>";
 
 
-  // 지난달 디벨베스트 아이템 생성 (5)
+  // 디벨스폰서 생성
     temp = arrayITEM['ds'];
     num = getTarget('ds');
     for(i = 0; i<temp.length; i+=5) {
@@ -470,7 +498,7 @@ function Make() {
         for(j = 0; j<5; j++) {
             //console.log(i, j, i+j);
 
-            page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></div>";
+            page += "<div style='width: 160px; height: 160px;'><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' width='160' height='160' style='max-width: 160px; max-height: 160px; border-radius: 4px;'></a></div>";
         }
         page += "</div>";
     }
@@ -479,23 +507,25 @@ function Make() {
  // 지난달 디벨베스트 메뉴 생성
  temp = arrayITEM['ui'];
 
- page += "<div>";
- page += "<a href='"+temp[3].url+"' target='_blank'><img src='"+temp[3].img+"' style='width: 824px; height: auto;'></a>";
- page += "</div>";
+    page += "<div style='display: flex; justify-content: center; align-items: center; width: 824px; height: 38px;'>";
+    page += "<div style='max-height: 100%;'>"
+    page += "<a href='"+temp[3].url+"' target='_blank' style='display: block; font-size: 0;'><img src='"+temp[3].img+"' style='max-width: auto; max-height: 16px;'></a>";
+    page += "</div>";
+    page += "</div>";
 
 
- // 디벨베스트 아이템 생성 (7)
+ // 지난달 디벨베스트 아이템 생성 (7)
     temp = arrayITEM['bebseven'];
 
     page += "<div style='display: grid; grid-template-columns: 326px repeat(3, 160px); grid-template-rows: repeat(2, 160px); gap: 6px;'>";
     num = getTarget('bebseven');
     for(i = 0; i<temp.length; i+=7) {
         //console.log(arrayCNT[num]/arraySET[num]);
-        page += "<div style='grid-row: auto / span 2;'><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' style='width: 326px; height: auto;'></a></div>";
+        page += "<div style='grid-row: auto / span 2; width: 326px; height: 326px;'><a href='"+temp[0].url+"' target='_blank'><img src='"+temp[0].img+"' width='326' height='326' style='max-width: 326px; max-height: 326px; border-radius: 4px;'></a></div>";
 
         for(j = 1; j<7; j++) {
             //console.log(i, j, i+j);
-            page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></div>";
+            page += "<div style='width: 160px; height: 160px;'><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' width='160' height='160' style='max-width: 160px; max-height: 160px; border-radius: 4px;'></a></div>";
         }
     }
     page += "</div>"
@@ -509,7 +539,7 @@ function Make() {
      for(j = 0; j<5; j++) {
          //console.log(i, j, i+j);
 
-         page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='width: 160px; height: auto;'></a></div>";
+         page += "<div style='width: 160px; height: 160px;'><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' width='160' height='160' style='max-width: 160px; max-height: 160px; border-radius: 4px;'></a></div>";
      }
      page += "</div>";
  }
@@ -518,9 +548,11 @@ function Make() {
   // 하단 생성
   temp = arrayITEM['ui'];
 
-  page += "<div>";
-    page += "<a href='"+temp[4].url+"' target='_blank'><img src='"+temp[4].img+"' style='width: 824px; height: auto;'></a>";
-  page += "</div>";
+     page += "<div style='display: flex; justify-content: center; align-items: center; width: 824px; padding: 12px;'>";
+     page += "<div style='max-height: 100%;'>"
+        page += "<a href='"+temp[4].url+"' target='_blank'><img src='"+temp[4].img+"' style='max-width: auto; max-height: 30px;'></a>";
+     page += "</div>";
+     page += "</div>";
 
   // 콘텐츠 테이블 종료
   page += "</div>";
