@@ -460,7 +460,7 @@ function Make() {
     page += "<a href='"+temp[1].url+"' target='_blank' style='image-rendering: high-quality; display: block; font-size: 0;'><img src='"+temp[1].img+"' style='image-rendering: high-quality; max-width: auto; max-height: 16px;'></a>";
   page += "</div>";
   page += "<div>"
-    page += "<a href='https://cafe.naver.com/develoid/menu/1312' target='_blank'><img src='https://bard.develoid.net/arrow_external.png' style='image-rendering: high-quality; max-width: 6px; max-height: 6px; padding: 16px;'></a>";
+    page += "<a href='https://cafe.naver.com/develoid/menu/1312' target='_blank'><img src='https://go.develoid.net/gate/ui/arrow_external.png' style='image-rendering: high-quality; max-width: 6px; max-height: 6px; padding: 16px;'></a>";
   page += "</div>";
   page += "</div>";
 
