@@ -1,0 +1,57 @@
+.Navigation-Bar {
+    top: 0;
+    width: 100%;
+    height: 44px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 8px;
+    z-index: 1;
+    position: relative;
+}
+
+    .Navigation-Bar.on {
+        display: flex;
+    }
+
+.back {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-left: 4px;
+    flex-wrap: nowrap;
+}
+   
+    .back.on {
+        display: flex;
+    }
+
+    .back > i {
+        font-size: 31px;
+        color: var(--Develoid);
+    }
+
+    .back > p {
+        color: var(--Develoid);
+    }
+
+    @media (max-width: 339.98px) {
+        .back > p {
+            display: none;
+        }
+    }
+
+.title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    padding: 0;
+    position: absolute;
+}

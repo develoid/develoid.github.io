@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="kakao" data-name="kakao" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 10.98">
+  <defs>
+    <style>
+      .kakao {
+        fill: #000;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="kakao" d="M6,0C2.69,0,0,2.03,0,4.54c0,1.56,1.04,2.94,2.62,3.76l-.67,2.38c-.06,.21,.19,.38,.38,.26l2.92-1.89c.25,.02,.5,.04,.75,.04,3.31,0,6-2.03,6-4.54S9.31,0,6,0Z"/>
+  </g>
+</svg>

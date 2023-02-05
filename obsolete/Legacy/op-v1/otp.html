@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta NAME="ROBOTS" content="NOINDEX, NOFOLLOW">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1;">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+  <meta http-equiv="Cache-Control" content="private, max-age=86400">
+  <meta name="theme-color" content="#FAFAFA">
+  <meta name="author" content="Develoid">
+  <meta name="keywords" content="디벨로이드">
+  <meta name="description" content="스마트 IT 커뮤니티 디벨로이드 운영 보조 사이트 입니다.">
+  <title>디벨서포트 OTP 코드 생성기</title>
+  <link rel="stylesheet" href="./asset/css/style.css">
+  <link rel="shortcut icon" href="./asset/img/favicon.png">
+</head>
+<body>
+  <nav><div id="nav" class="nav"><a href="/op">디벨서포트</a></div></nav>
+  <div class="container">
+    <div class="list">
+		<div class="list-box">
+		  <center>
+		  <h1 id="otpcode">버튼을 눌러주세요 :)<h1>
+		  </center>
+		</div>
+		<button onclick="getcode()" class="item bgkakao">코드생성</button>
+    </div>
+  </div>
+  <footer><div class="footer">Copyright&copy;2018 <b><a href="https://cafe.naver.com/develoid">Develoid</a></b>.</div></footer>
+  <script type="text/javascript">
+	function getcode() {
+      var x1 = Math.floor((Math.random() * 9) + 1);
+      var x2 = Math.floor((Math.random() * 9) + 1);
+      var x3 = Math.floor((Math.random() * 9) + 1);
+      var x4 = Math.floor((Math.random() * 9) + 1);
+      var x5 = Math.floor((Math.random() * 9) + 1);
+      var x6 = Math.floor((Math.random() * 9) + 1);
+
+      document.getElementById("otpcode").innerHTML = "" + x1 + x2 + x3 + x4 + x5 + x6;
+	}
+  </script>
+</body>
+</html>

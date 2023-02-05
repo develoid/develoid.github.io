@@ -1,0 +1,88 @@
+main {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 48px 16px 80px 16px;
+    position: relative;
+    gap: 12px;
+}
+
+@media (min-width: 768px) {
+    main {
+        flex-direction: row;
+        padding: 48px 16px !important;
+    }
+
+    body .h1-with-account, body .div-search {
+        display: none !important;
+    }
+
+    .Activity {
+        padding-top: 0 !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    body .h1-with-account, body .div-search {
+        display: flex !important;
+    }
+
+    main {
+        width: 1120px;
+        padding-top: 128px !important;
+        flex-direction: column !important;
+    }
+}
+
+.h1-with-account {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+.Activity {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1 0 0px;
+    position: relative;
+    gap: 16px;
+}
+
+.text {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: visible;
+    position: relative;
+    padding: 0;
+    gap: 6px;
+}
+
+    .text-column {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .text-row {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .text h3 {
+        color: var(--Develoid);
+    }

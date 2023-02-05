@@ -1,0 +1,161 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #202A45;
+    color: #fAFAFA;
+    font-size: 14px;
+}
+
+a {
+    color: #FFF;
+    margin-bottom: 12px;
+}
+
+a:last-child {
+    margin-bottom: 0;
+}
+
+/* 0 */
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-bottom: 50px;
+    width: 300px;
+    height: auto;
+    color: #D9F3FC;
+}
+
+.box {
+    width: 260px;
+    height: 46px;
+    border: 0;
+    border-radius: 23px;
+    float: left;
+    font-weight: 500;
+}
+
+.b-F3A30D {
+    background: #F3A30D;
+}
+
+.c-F3A30D {
+    color: #F3A30D;
+}
+
+.b-F35521 {
+    background: #F35521;
+}
+
+.b-EC4444 {
+    background: #EC4444;
+}
+
+.b-C24242 {
+    background: #C24242;
+}
+
+.b-4D79CE {
+    background: #4D79CE;
+}
+
+.b-5F64CD {
+    background: #5F64CD;
+}
+
+/*** 1 ***/
+
+.page1 {
+    height: 100%;
+    z-index: 0;
+}
+
+.page1 .box {
+    text-align: center;
+}
+
+.page1 .box span {
+    position: relative;
+    top: 14px;
+}
+
+.page1 .more {
+    margin: 38px 20px 0;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.page1 .copyright {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    opacity: 0.7;
+    margin: 20px;
+    font-size: 10px;
+}
+
+/*** 2 ***/
+
+.page2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+}
+
+.page2 .col-2 {
+    margin-bottom: 12px;
+    width: 260px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page2 .col-box {
+    width: 124px;
+    height: 46px;
+    border: 0;
+    border-radius: 23px;
+    float: left;
+    font-weight: 700;
+    text-align: center;
+}
+
+.page2 .box {
+    text-align: center;
+}
+
+.page2 .box span,
+.page2 .col-box span {
+    position: relative;
+    top: 14px;
+}
+
+.page2 .back {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 200px;
+    margin-left: -32px;
+    width: 64px;
+    height: 64px;
+    background: rgba(32, 42, 69, 0.7);
+    border: 0;
+    border-radius: 32px;
+}
+
+.page2 .back img {
+    width: 20px;
+    height: 20px;
+    margin: 22px;
+}

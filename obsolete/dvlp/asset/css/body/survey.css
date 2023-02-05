@@ -1,0 +1,141 @@
+.survey {
+    --bs-form-btn-bg: #AA4646;
+    --bs-form-btn-hover-bg: #933b3b;
+    --bs-form-btn-color: #FFF;
+    --bs-form-focus-bg: var(--bs-body-bg);
+}
+
+.form {
+    display: grid;
+}
+
+.form > h1 {
+    margin-bottom: 3rem;
+}
+
+.form .warning > h5 {
+    letter-spacing: -.6pt;
+    margin-bottom: 1rem;
+}
+
+.form .warning p {
+    border: 1px solid var(--bs-box-border-color);
+    background-color: var(--bs-form-bg);
+    border-radius: var(--bs-form-border-radius);
+    padding: 24px;
+    margin: 0;
+}
+
+.form .confirm {
+    display: flex;
+    margin-top: 1.2rem;
+    margin-bottom: .6rem;
+}
+
+.form .question {
+    margin-top: 1.8rem;
+}
+
+.form .question > h6 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    letter-spacing: -.4pt;
+}
+
+.form-check-input {
+    border: 1.6px solid var(--bs-box-border-color);
+    width: 24px;
+    height: 24px;
+    margin-top: 0;
+    background-color: var(--bs-btn-bg);
+  }
+
+  .form-check-input[type=checkbox] {
+    border-radius: 4px;
+  }
+
+  .form-check-input:focus {
+    border: 1.6px solid var(--bs-box-border-color);
+    background-color: var(--bs-btn-bg);
+    outline: none;
+    box-shadow: none;
+  }
+
+  .form-check-input:checked {
+    background-color: var(--bs-form-btn-bg);
+    border-color: var(--bs-form-btn-bg);
+  }
+
+  .form-check-input:checked[type=checkbox] {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
+  }
+
+  .form-check-label {
+    padding-left: 8px;
+  }
+
+.form .form-text-input {
+    color: var(--bs-body-color);
+    border: var(--bs-form-border);
+    background-color: var(--bs-form-bg);
+    border-radius: var(--bs-form-border-radius);
+    padding: 14px 18px;
+    font-size: 1rem;
+    letter-spacing: var(--bs-small-letter-spacing);
+}
+
+.form .form-text-input:focus {
+    background-color: var(--bs-form-focus-bg);
+    outline: none;
+}
+
+.form .form-text-input::placeholder {
+    opacity: .7;
+    color: var(--bs-body-color);
+    font-weight: 350;
+    border: 0;
+}
+
+
+.form textarea {
+    resize: none;
+    color: var(--bs-body-color);
+    border: var(--bs-form-border);
+    background-color: var(--bs-form-bg);
+    border-radius: var(--bs-form-border-radius);
+    padding: 14px 18px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: var(--bs-small-letter-spacing);
+}
+
+.form textarea:focus {
+    background-color: var(--bs-form-focus-bg);
+    outline: none;
+}
+
+.form textarea::placeholder {
+    opacity: .6;
+    color: var(--bs-body-color);
+    font-weight: 300;
+    border: 0;
+}
+
+.btn-submit {
+    background-color: var(--bs-form-btn-bg);
+    color: var(--bs-form-btn-color);
+    margin-top: 1.8rem;
+    border: 0;
+    font-size: 12pt;
+    font-weight: 600;
+    width: 96px;
+    height: 2.6rem;
+    letter-spacing: 1.2pt;
+}
+
+.btn-submit:hover {
+    background-color: var(--bs-form-btn-hover-bg);
+    color: var(--bs-form-btn-color);
+}

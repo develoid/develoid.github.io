@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta NAME="ROBOTS" content="NOINDEX, NOFOLLOW">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1;">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+  <link rel="canonical" href="http://develoid.net">
+  <meta name="author" content="DEVELOID">
+  <meta name="keywords" content="DEVELOID, Cafe, Community, Front, Maker">
+  <meta name="description" content="DEVELOID's Front Maker">
+  <title>DEVELOID - CFMaker</title>
+  <link rel="stylesheet" type='text/css' media='all' href="./asset/css/style.css">
+  <link rel="shortcut icon" href="../../../asset/img/favicon.png">
+</head>
+
+<body>
+  <div class="container">
+    <div id="write" class="write">
+      <h1>DEVELOID CFMaker</h1>
+      <h3>Best Photo</h3>
+      <table id="bp">
+        <tr>
+          <td width="5%"></td>
+          <td width="65%">Image url</td>
+          <td width="30%">Post url number</td>
+        </tr>
+        <tr id="bp_1">
+          <td>1</td>
+          <td><input type="text" id="bp_i1"></td>
+          <td><input type="number" id="bp_u1"></td>
+        </tr>
+      </table>
+      <div class="btn_interface"><button onclick="ControlBp('add')">Add</button> <button onclick="ControlBp('rm')">Remove</button></div>
+
+      <h3>AD Banner</h3>
+      <table id="ad">
+        <tr>
+          <td width="5%"></td>
+          <td width="65%">Image url</td>
+          <td width="30%">Link url</td>
+        </tr>
+        <tr id="ad_1">
+          <td>1</td>
+          <td><input type="text" id="ad_i1"></td>
+          <td><input type="text" id="ad_u1"></td>
+        </tr>
+        <tr id="ad_2">
+          <td>2</td>
+          <td><input type="text" id="ad_i2"></td>
+          <td><input type="text" id="ad_u2"></td>
+        </tr>
+      </table>
+      <div class="btn_interface"><button onclick="ControlAd('add')">Add</button> <button onclick="ControlAd('rm')">Remove</button></div>
+
+      <h3>Youtube</h3>
+      <table id="yt">
+        <tr>
+          <td width="5%"></td>
+          <td width="95%">Youtube url</td>
+        </tr>
+        <tr id="yt_1">
+          <td>1</td>
+          <td><input type="text" id="yt_u1"></td>
+        </tr>
+        <tr id="yt_2">
+          <td>2</td>
+          <td><input type="text" id="yt_u2"></td>
+        </tr>
+      </table>
+      <div class="btn_interface"><button onclick="ControlYt('add')">Add</button> <button onclick="ControlYt('rm')">Remove</button></div>
+
+      <h3>Best</h3>
+      <table id="bt">
+        <tr>
+          <td width="5%"></td>
+          <td width="65%">Image url</td>
+          <td width="30%">Post number</td>
+        </tr>
+        <tr id="bt_1">
+          <td>1</td>
+          <td><input type="text" id="bt_i1"></td>
+          <td><input type="number" id="bt_u1"></td>
+        </tr>
+        <tr id="bt_2">
+          <td>2</td>
+          <td><input type="text" id="bt_i2"></td>
+          <td><input type="number" id="bt_u2"></td>
+        </tr>
+        <tr id="bt_3">
+          <td>3</td>
+          <td><input type="text" id="bt_i3"></td>
+          <td><input type="number" id="bt_u3"></td>
+        </tr>
+        <tr id="bt_4">
+          <td>4</td>
+          <td><input type="text" id="bt_i4"></td>
+          <td><input type="number" id="bt_u4"></td>
+        </tr>
+      </table>
+      <div class="btn_interface"><button onclick="ControlBt('add')">Add</button> <button onclick="ControlBt('rm')">Remove</button></div>
+
+      <h3>Sponsor</h3>
+      <table id="sp">
+        <tr>
+          <td width="5%"></td>
+          <td width="65%">Image url</td>
+          <td width="30%">Link url</td>
+        </tr>
+        <tr id="sp_1">
+          <td>1</td>
+          <td><input type="text" id="sp_i1"></td>
+          <td><input type="text" id="sp_u1"></td>
+        </tr>
+        <tr id="sp_2">
+          <td>2</td>
+          <td><input type="text" id="sp_i2"></td>
+          <td><input type="text" id="sp_u2"></td>
+        </tr>
+        <tr id="sp_3">
+          <td>3</td>
+          <td><input type="text" id="sp_i3"></td>
+          <td><input type="text" id="sp_u3"></td>
+        </tr>
+        <tr id="sp_4">
+          <td>4</td>
+          <td><input type="text" id="sp_i4"></td>
+          <td><input type="text" id="sp_u4"></td>
+        </tr>
+      </table>
+      <div class="btn_interface"><button onclick="ControlSp('add')">Add</button> <button onclick="ControlSp('rm')">Remove</button></div>
+
+      <h3>Post</h3>
+      <table id="pt">
+        <tr>
+          <td width="5%"></td>
+          <td width="65%">Image url</td>
+          <td width="30%">Post number</td>
+        </tr>
+        <tr id="pt_1">
+          <td>1</td>
+          <td><input type="text" id="pt_i1"></td>
+          <td><input type="number" id="pt_u1"></td>
+        </tr>
+        <tr id="pt_2">
+          <td>2</td>
+          <td><input type="text" id="pt_i2"></td>
+          <td><input type="number" id="pt_u2"></td>
+        </tr>
+        <tr id="pt_3">
+          <td>3</td>
+          <td><input type="text" id="pt_i3"></td>
+          <td><input type="number" id="pt_u3"></td>
+        </tr>
+        <tr id="pt_4">
+          <td>4</td>
+          <td><input type="text" id="pt_i4"></td>
+          <td><input type="number" id="pt_u4"></td>
+        </tr>
+
+      </table>
+      <div class="btn_interface"><button onclick="ControlPt('add')">Add</button> <button onclick="ControlPt('rm')">Remove</button></div>
+    </div>
+    <div id="out" class="out">
+      <button onclick="Make()">Code Make</button> <button onclick="CodeCopy()">Code Copy</button> <button onclick="CodeSave()">Code Save</button> <button onclick="JSONSave()">JSON Save</button> <button onclick="openFile()">JSON Read</button><br />
+      <br><br>
+      <h3 style="float:left">HTTPS</h3>
+      <textarea id="codeHTTPS" readonly="readonly"></textarea>
+      <h3 style="float:left">HTTP</h3>
+      <textarea id="codeHTTP" readonly="readonly"></textarea>
+      <!--<textarea id="jsondata" readonly="readonly">JSON DATA</textarea>-->
+    </div>
+    <div id="view" class="view">
+      Press the 'Code Make' button to print.
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="../../../asset/js/jquery.js"></script>
+  <script type="text/javascript" src="./asset/js/app.js"></script>
+</body>
+</html>

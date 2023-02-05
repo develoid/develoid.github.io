@@ -1,0 +1,128 @@
+.box-dl-bg {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: var(--Elevated-Primary);
+    overflow: visible;
+    position: relative;
+    padding: 0;
+    gap: 0;
+    border-radius: 8px;
+}
+
+.box_go > i {
+    opacity: .6;
+    font-size: 16px;
+}
+
+.box-with-footnote {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.FootnoteTitle {
+    padding: 0 16px;
+}
+
+.box-A {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px;
+    background-color: var(--Elevated-Primary);
+    flex: 1 0 0px;
+    position: relative;
+    gap: 16px;
+    border-radius: 8px;
+}
+    .box-A:hover {
+        background-color: var(--Elevated-Secondary);
+    }
+
+    .first {
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    .last {
+        border-radius: 0px 0px 8px 8px;
+    }
+
+    .box_icon-A {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--Elevated-Secondary);
+        overflow: visible;
+        position: relative;
+        padding: 0;
+        gap: 10px;
+        border-radius: 6px;
+    }
+
+        .box_icon-A > i {
+            font-size: 16px;
+        }
+
+        .box_icontext {
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+    .box_text-A {
+        flex: 1 0 0px;
+        width: 100%;
+        height: min-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: relative;
+        padding: 0;
+        gap: 2px;
+    }
+
+    .box_divider-A {
+        width: calc(100% - 64px);
+        border-top: 1px solid var(--border-color);
+    }
+
+    .box_divider-A-small {
+        width: calc(100% - 16px);
+        border-top: 1px solid var(--border-color);
+    }
+
+.box-C {
+    flex: 1 0 0px;
+    width: 1px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background-color: var(--Elevated-Primary);
+    position: relative;
+    gap: 8px;
+    border-radius: 8px;
+}
+
+    .box-C:hover {
+        background-color: var(--Elevated-Secondary);
+    }
+
+    .box-C > i {
+        font-size: 20px;
+    }
+

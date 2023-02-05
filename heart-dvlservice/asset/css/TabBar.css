@@ -1,0 +1,297 @@
+.Mobile-Tab-Bar {
+    width: 100%;
+    height: 64px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 16px;
+    background-color: var(--body-bg);
+    border-top: 1px solid var(--border-color);
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+    .Mobile-Tab-Bar > a {
+        flex: 1 0 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 0;
+        text-decoration: none;
+        color: var(--body-color);
+        opacity: .6;
+    }
+
+    .Mobile-TabText {
+        text-align: center;
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: -.2px;
+        line-height: 12px;
+    }
+
+    @media (max-width: 339.98px) {
+        .Mobile-Tab-Bar {
+            height: 58px;
+            padding: 0px 8px;
+        }
+
+        .item > p {
+            display: none !important;
+        }
+    }
+
+.on {
+    opacity: var(--opacity-100) !important;
+    font-feature-settings: "ss09" on;
+}
+
+.Side-Bar {
+    top: 0;
+    left: 0;
+    width: 30vw;
+    max-width: 324px;
+    height: 100%;
+    backdrop-filter: blur(20px);
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: var(--Seperated-Transparent);
+    position: fixed;
+    padding: 0 16px;
+    border-right: 1px solid var(--border-color);
+    z-index: 2;
+}
+
+    .top {
+        width: 100%;
+    }
+
+    .bottom {
+        width: 100%;
+    }
+
+    .sidemenu {
+        width: 100%;
+        height: min-content;
+        padding: 16px 0;
+    }
+
+        .sidemenu > i {
+            font-size: 18px;
+        }
+
+    .text-menu {
+        padding-top: 48px;
+        padding-bottom: 12px;
+    }
+
+    .item-row {
+        width: 100%;
+        height: min-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex: 1 0 0px;
+        position: relative;
+    }
+
+        .item-row > a {
+            flex: 1 0 0px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            padding: 0;
+            text-decoration: none;
+            color: var(--body-color);
+            opacity: .6;
+        }
+
+        .item-row .item {
+            width: 100%;
+            height: min-content;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 10px 12px 10px 12px;
+            flex: 1 0 0px;
+            position: relative;
+            gap: 12px;
+            border-radius: 8px;
+        }
+
+    .sidebar-on {
+        background-color: var(--Tertiary);
+        opacity: var(--opacity-100) !important;
+        font-feature-settings: "ss09" on;
+    }
+
+    .mt-12px {
+        margin-top: 12px;
+    }
+
+    .subtext {
+        width: 100%;
+        height: auto;
+        padding: 12px 8px;
+    }
+
+    .bottom > .box-A {
+        padding: 16px 0;
+        background-color: transparent;
+        border-radius: 0;
+    }
+
+.Side-Bar_dummy {
+    top: 0;
+    left: 0;
+    margin-left: -8px;
+    width: 30vw;
+    max-width: 324px;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 767.98px) {
+    .Mobile-Tab-Bar {
+        display: flex;
+    }
+
+    .Side-Bar {
+        display: none !important;
+    }
+
+    .Side-Bar_dummy {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1279.98px) {
+    .Side-Bar {
+        display: flex;
+    }
+
+    .Side-Bar_dummy {
+        display: flex;
+    }
+
+    .PC-Header {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .PC-Header {
+        width: 1120px;
+    }
+}
+
+.item > i {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.item .iLogo {
+    margin: 0 2.5px 0 2.5px !important;
+    font-size: 21px;
+}
+
+.PC-Header {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 24px;
+    z-index: 10;
+}
+
+    .Fix {
+        width: 100%;
+        height: 60px;
+        background-color: var(--Seperated-Transparent);
+        border-bottom: 1px solid var(--border-color);
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+        top: 0;
+    }
+
+    .Container {
+        display: flex;
+        justify-content: space-between;
+        width: 1120px;
+        padding: 0px 9px 0 16px;
+    }
+
+    .HeaderLeft i {
+        font-size: 24px;
+    }
+
+    .HeaderMid {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .HeaderMid > a {
+            height: auto;
+            margin: 0 26px;
+        }
+
+        .HeaderMid a > p {
+            opacity: .6;
+        }
+
+        .HeaderMid a > p:hover {
+            opacity: 1;
+        }
+
+    .HeaderRight > a {
+        height: auto;
+        display: initial;
+        margin-left: 4px;
+    }
+
+    .HeaderRight a > i {
+        font-size: 24px;
+        padding: 4px 3px 2px 3px;
+    }
+        .HeaderRight a > i:hover {
+            background-color: var(--Tertiary);
+            border-radius: 4px;
+        }
+
+.PC-SemiHeader {
+    width: 100%;
+    height: 36px;
+    background-color: var(--Seperated-Transparent);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 60px;
+    z-index: 10;
+}
