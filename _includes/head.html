@@ -8,8 +8,15 @@
   <meta name="keywords" content="{{ site.title | escape }}">
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 200 | escape }}">
   <title>{% if page.title %}{{ site.title | escape }} : {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <link rel="stylesheet" href="{{ "/asset/css/base.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/asset/css/style.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/asset/css/Box.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/asset/css/Card.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/asset/css/MainActivity.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/asset/css/MainLayout.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/asset/css/NavBar.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/asset/css/Search.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/asset/css/System.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/asset/css/SystemFont.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/asset/css/TabBar.css" | relative_url }}">
   <link rel="shortcut icon" href="{{ "/asset/img/logo_light.svg" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   {% include googleAnalytics.html %}
