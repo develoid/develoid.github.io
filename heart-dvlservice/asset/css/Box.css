@@ -18,6 +18,13 @@
     font-size: 16px;
 }
 
+@media (max-width: 380.98px) {
+    .box_go {
+        display: none;
+    }
+
+}
+
 .box-with-footnote {
     width: 100%;
     height: min-content;
@@ -43,10 +50,9 @@
     position: relative;
     gap: 16px;
     border-radius: 8px;
-    transition: all .2s ease-in-out;
 }
     .box-A:hover {
-        background: var(--Elevated-Secondary);
+        background: var(--Elevated-Secondary-NotTransparent);
     }
 
     .first {
@@ -108,6 +114,12 @@
         border-top: 1px solid var(--border-color);
     }
 
+    @media (min-width: 1280px) {
+        .box_text-A {
+            gap: 4px;
+        }
+    }
+
 .box-C {
     flex: 1 0 0px;
     width: 1px;
@@ -121,11 +133,10 @@
     position: relative;
     gap: 8px;
     border-radius: 8px;
-    transition: all .2s ease-in-out;
 }
 
     .box-C:hover {
-        background: var(--Elevated-Secondary);
+        background: var(--Elevated-Secondary-NotTransparent);
     }
 
     .box-C > i {

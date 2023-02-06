@@ -6,22 +6,25 @@
     --border-color: var(--black-80);
     --Elevated-Primary: #1C1C1E;
     --Elevated-Secondary: #2C2C2E;
+    --Elevated-Secondary-NotTransparent: var(--Elevated-Secondary);
     --Label-Secondary: #EBEBF599;
     --Tertiary: #7676803D;
     --Seperated-Transparent: #1E1E1EBF;
     --Develoid: #1F84FF;
     --white: #FFF;
     --body-bg: var(--black);
+    --body-bg-80: var(--body-bg)CC;
     --body-color: var(--white);
     --font-sans-serif: -apple-system, "Pretendard Variable", system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --font-size: 12px;
 }
 
-.light-theme {
+.light {
     --border-color: #00000033;
     --Elevated-Primary: #F2F2F7;
     --Elevated-Secondary: #7474801A;
+    --Elevated-Secondary-NotTransparent: #e9e9ed;
     --Label-Secondary: #EBEBF599;
     --Tertiary: #7676801F;
     --Seperated-Transparent: #FFFFFFBF;
@@ -95,12 +98,6 @@ i {
     line-height: 41px;
 }
 
-@media (min-width: 1280px) {
-    .LargeTitle {
-        font-size: 48px;
-    }
-}
-
 .Title1 {
     font-size: 28px;
     font-weight: 600;
@@ -134,6 +131,79 @@ i {
     font-weight: 400;
     letter-spacing: -.5px;
     line-height: 22px;
+}
+
+@media (max-width: 380.98px) {
+    .LargeTitle {
+        font-size: 30px;
+    }
+
+    .Title2 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .Title3 {
+        font-size: 17px;
+    }
+
+    .Subheadline {
+        font-size: 13px;
+    }
+
+    .Body {
+        font-size: 15px;
+    }
+
+    .Footnote {
+        font-size: 12px !important;
+    }
+
+    .Caption1 {
+        font-size: 10px !important;
+    }
+
+    .Caption2 {
+        font-size: 11px !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .LargeTitle {
+        font-size: 48px;
+    }
+
+    .Title2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .Title3 {
+        font-size: 22px;
+    }
+
+    .Subheadline {
+        font-size: 17px;
+    }
+
+    .Body {
+        font-size: 17px;
+        letter-spacing: -.3px;
+    }
+
+    .Footnote {
+        font-size: 15px !important;
+    }
+
+    .Caption1 {
+        font-size: 13.5px !important;
+        letter-spacing: -.1px !important;
+        line-height: 18px;
+    }
+
+    .Caption2 {
+        font-size: 13px !important;
+    }
 }
 
 .Footnote {
@@ -213,6 +283,19 @@ i {
     position: relative;
     padding: 0px;
     gap: 8px;
+}
+
+@media (max-width: 369.98px) {
+    .small {
+        flex-direction: column !important;
+        gap: 16px;
+    }
+}
+
+@media (max-width: 1279.98px) {
+    .row-3-col {
+        flex-direction: column !important;
+    }
 }
 
 /* Opacity */
