@@ -3,7 +3,7 @@
     --black-90: #1A1A1A;
     --black-80: #333333;
     --black-70: #4D4D4D;
-    --border-color: #FFFFFF33;
+    --border-color: var(--black-80);
     --Elevated-Primary: #1C1C1E;
     --Elevated-Secondary: #2C2C2E;
     --Label-Secondary: #EBEBF599;
@@ -42,7 +42,7 @@
 }
 
 html {
-    background-color: var(--body-bg);
+    background: var(--body-bg);
     color: var(--body-color);
 }
 
@@ -93,6 +93,12 @@ i {
     font-weight: 600;
     letter-spacing: -.5px;
     line-height: 41px;
+}
+
+@media (min-width: 1280px) {
+    .LargeTitle {
+        font-size: 48px;
+    }
 }
 
 .Title1 {
@@ -236,4 +242,9 @@ i {
 
 .opacity-40 {
     opacity: .4;
+}
+
+/* Others */
+.display-none {
+    display: none !important;
 }

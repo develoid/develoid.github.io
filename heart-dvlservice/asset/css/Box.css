@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    background-color: var(--Elevated-Primary);
+    background: var(--Elevated-Primary);
     overflow: visible;
     position: relative;
     padding: 0;
@@ -38,18 +38,23 @@
     justify-content: flex-start;
     align-items: center;
     padding: 16px;
-    background-color: var(--Elevated-Primary);
+    background: var(--Elevated-Primary);
     flex: 1 0 0px;
     position: relative;
     gap: 16px;
     border-radius: 8px;
+    transition: all .2s ease-in-out;
 }
     .box-A:hover {
-        background-color: var(--Elevated-Secondary);
+        background: var(--Elevated-Secondary);
     }
 
     .first {
         border-radius: 8px 8px 0px 0px;
+    }
+
+    .middle {
+        border-radius: 0;
     }
 
     .last {
@@ -63,7 +68,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        background-color: var(--Elevated-Secondary);
+        background: var(--Elevated-Secondary);
         overflow: visible;
         position: relative;
         padding: 0;
@@ -112,14 +117,15 @@
     justify-content: center;
     align-items: center;
     padding: 12px;
-    background-color: var(--Elevated-Primary);
+    background: var(--Elevated-Primary);
     position: relative;
     gap: 8px;
     border-radius: 8px;
+    transition: all .2s ease-in-out;
 }
 
     .box-C:hover {
-        background-color: var(--Elevated-Secondary);
+        background: var(--Elevated-Secondary);
     }
 
     .box-C > i {

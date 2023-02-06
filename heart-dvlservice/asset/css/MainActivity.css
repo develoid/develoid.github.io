@@ -10,14 +10,25 @@ main {
     gap: 12px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767.98px) {
+    main {
+        flex-direction: column !important;
+        padding: 48px 16px 80px 16px !important;
+    }
+
+    body .h1-with-account, body .div-search {
+        display: flex !important;
+    }
+}
+
+@media (max-width: 1279.98px) {
     main {
         flex-direction: row;
         padding: 48px 16px !important;
     }
 
     body .h1-with-account, body .div-search {
-        display: none !important;
+        display: none;
     }
 
     .Activity {
@@ -26,13 +37,9 @@ main {
 }
 
 @media (min-width: 1280px) {
-    body .h1-with-account, body .div-search {
-        display: flex !important;
-    }
-
     main {
         width: 1120px;
-        padding-top: 128px !important;
+        padding-top: 134px !important;
         flex-direction: column !important;
     }
 }
@@ -47,6 +54,12 @@ main {
     position: relative;
     padding: 0;
     margin-bottom: 8px;
+}
+
+@media (min-width: 1280px) {
+    .h1-with-account {
+        margin-bottom: 56px;
+    }
 }
 
 .Activity {

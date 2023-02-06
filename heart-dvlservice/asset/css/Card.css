@@ -70,7 +70,7 @@
         justify-content: flex-start;
         align-items: flex-start;
         padding: 16px;
-        background-color: var(--Elevated-Primary);
+        background: var(--Elevated-Primary);
         position: relative;
         gap: 4px;
         border-radius: 0px 0px 8px 8px;
@@ -83,7 +83,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 16px;
-    background-color: var(--Elevated-Primary);
+    background: var(--Elevated-Primary);
     position: relative;
     border-radius: 8px;
 }

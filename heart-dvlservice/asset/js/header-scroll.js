@@ -1,12 +1,9 @@
-const Header = document.querySelector('PC-Header')
-
-let lastScroll = document.documentElement.scrollTop || 0
 document.addEventListener('scroll', function(){
-  let scrollTop = document.documentElement.scrollTop
-  if(scrollTop > lastScroll) {
-    // down
-  } else {
-    //up
-  }
-  lastScroll = scrollTop
-})
+    let scroll = document.body.scrollTop
+    if (scroll > 16) {
+        document.querySelector('.PC-Header').classList.add('Fix');
+    }
+    else {
+        document.querySelector('.PC-Header').classList.remove('Fix');
+    } 
+});

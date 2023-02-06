@@ -6,11 +6,12 @@
     justify-content: space-around;
     align-items: center;
     padding: 0px 16px;
-    background-color: var(--body-bg);
+    background: var(--body-bg);
     border-top: 1px solid var(--border-color);
     position: fixed;
     bottom: 0;
     z-index: 1;
+    transition: all .4s ease-in-out;
 }
 
     .Mobile-Tab-Bar > a {
@@ -26,6 +27,7 @@
         text-decoration: none;
         color: var(--body-color);
         opacity: .6;
+        border-radius: 8px;
     }
 
     .Mobile-TabText {
@@ -63,11 +65,12 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: var(--Seperated-Transparent);
+    background: var(--Seperated-Transparent);
     position: fixed;
     padding: 0 16px;
     border-right: 1px solid var(--border-color);
     z-index: 2;
+    transition: all .4s ease-in-out;
 }
 
     .top {
@@ -102,6 +105,7 @@
         align-items: center;
         flex: 1 0 0px;
         position: relative;
+        gap: 4px;
     }
 
         .item-row > a {
@@ -134,7 +138,7 @@
         }
 
     .sidebar-on {
-        background-color: var(--Tertiary);
+        background: var(--Tertiary);
         opacity: var(--opacity-100) !important;
         font-feature-settings: "ss09" on;
     }
@@ -151,7 +155,7 @@
 
     .bottom > .box-A {
         padding: 16px 0;
-        background-color: transparent;
+        background: transparent;
         border-radius: 0;
     }
 
@@ -165,7 +169,7 @@
     display: none;
     flex-direction: column;
     align-items: flex-start;
-    background-color: transparent;
+    background: transparent;
     position: relative;
     z-index: 1;
 }
@@ -214,7 +218,12 @@
     font-size: 21px;
 }
 
+.item:hover {
+    background: var(--Tertiary);
+}
+
 .PC-Header {
+    width: 100%;
     height: 56px;
     display: flex;
     align-items: center;
@@ -222,12 +231,13 @@
     position: fixed;
     top: 24px;
     z-index: 10;
+    transition: all .4s ease-in-out;
 }
 
     .Fix {
         width: 100%;
         height: 60px;
-        background-color: var(--Seperated-Transparent);
+        background: var(--body-bg);
         border-bottom: 1px solid var(--border-color);
         -webkit-backdrop-filter: blur(8px);
         backdrop-filter: blur(8px);
@@ -255,7 +265,7 @@
 
         .HeaderMid > a {
             height: auto;
-            margin: 0 26px;
+            margin: 0 18px;
         }
 
         .HeaderMid a > p {
@@ -277,14 +287,14 @@
         padding: 4px 3px 2px 3px;
     }
         .HeaderRight a > i:hover {
-            background-color: var(--Tertiary);
+            background: var(--Tertiary);
             border-radius: 4px;
         }
 
 .PC-SemiHeader {
     width: 100%;
     height: 36px;
-    background-color: var(--Seperated-Transparent);
+    background: var(--Seperated-Transparent);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--border-color);
@@ -292,6 +302,6 @@
     align-items: center;
     justify-content: center;
     position: fixed;
-    top: 60px;
+    top: -36px;
     z-index: 10;
 }
