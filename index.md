@@ -2,15 +2,28 @@
 layout: default
 page_title: DEVELGUIDE
 ---
+<div class="h1-with-account">
+  <h1 class="LargeTitle">디벨로이드</h1>
+</div>
 
-<div class="search">
+<body>
+  <div data-include-path="./Header.html"></div>
+  <div data-include-path="./TabBar.html"></div>
+  <div data-include-path="./SideBar.html"></div>
+  <main>
+  <div class="Side-Bar_dummy"></div>
+  <div class="h1-with-account">
+      <h1 class="LargeTitle">디벨서포트</h1>
+  </div>
+  <div class="Activity">
+  <div class="search">
   <input type="text" id="searchInput" class="searchInput" placeholder="search...">
 
   <ul id="searchResults" class="searchResults"></ul>
 
-</div>
+  </div>
 
-<div class="category">
+  <div class="category">
   <ul class="categoryList">
   {% assign pages_list = site.pages %}
   {% for node in pages_list %}
@@ -22,7 +35,9 @@ page_title: DEVELGUIDE
     {% endif %}
   {% endfor %}
   </ul>
-</div>
+  </div>
+  </div>
+  </main>
 
 
 <!-- Script pointing to jekyll-search.js -->
