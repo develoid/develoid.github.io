@@ -1,14 +1,39 @@
 ---
 layout: default
 ---
-<h1 class="categoryTitle">{{page.title}}</h1>
-<!--<hr class="postHr" />-->
-<ul class="postsList">
-  {% assign category = page.category | default: page.title %}
-  {% assign products = site.categories[category] | sort: 'title' %}
-  {% for post in products %}
-    <a href="{{ site.baseurl }}{{ post.url }}"><li>{{ post.title }}</li></a>
-  {% endfor %}
-</ul>
 
-{% include backButton.html %}
+<main>
+  <div class="Side-Bar_dummy"></div>
+  {% include backButton.html %}
+  <div class="h1-with-account">
+    <h1 class="LargeTitle">디벨가이드</h1>
+  </div>
+
+  <div class="div-search mobile-search pointer">
+    <i class="iSearch iRegular"></i>
+    <h3 class="Subheadline">테크 지식</h3>
+  </div>
+  
+  <div class="Activity postsList">
+    <div class="text text-row">
+      <h2 class="categoryTitle Title2">{{ page.title }}</h2>
+    </div>
+
+    <div class="postsList">
+      {% assign category = page.category | default: page.title %}
+      {% assign products = site.categories[category] | sort: 'title' %}
+      {% for post in products %}
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <div class="box-A">
+          <div class="box_text-A">
+            <p class="Body f500">{{ post.title }}</p>
+          </div>
+          <div class="box_go">
+            <i class="iArrowKeyRight fill"></i>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</main>

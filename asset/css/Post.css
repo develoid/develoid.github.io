@@ -1,0 +1,160 @@
+.highlighter-rouge, .content, .content pre, .code.highlighter-rouge, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content p, .content ul, .content ol, .content li, .content blockquote, .content hr, .content table {
+    width: 100%;
+}
+
+.content {
+    margin-bottom: 80px;
+}
+
+code.highlighter-rouge {
+    background: var(--Develoid);
+    color: var(--white);
+    padding: 2px 8px;
+    border: 0;
+    border-radius: 8px;
+  }
+
+  .content pre {
+    margin: 0;
+    border: 0;
+    padding: 16px;
+    border-radius: 8px;
+    background: var(--Elevated-Primary);
+    color: var(--body-color);
+    white-space: pre-wrap;
+  }
+
+  .content code { 
+    font-family: var(--font-monospace);
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .content p > a {
+    font-weight: 450 !important;
+  }
+
+  .content a {
+    display: inline;
+    padding: 0;
+    color: var(--Develoid);
+  }
+  
+  .content h1 {
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .content .LargeTitle {
+    border-bottom: 0 !important;
+  }
+
+  .content h2 {
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .content h3 {
+    font-weight: 550 !important;
+    padding: 16px;
+    border-radius: 8px;
+    background: var(--Develoid);
+    color: var(--white);
+  }
+
+  .content strong {
+    font-weight: 550 !important;
+  }
+
+  .content img {
+    width: 100%;
+    margin: 0 0 8px 0;
+    border: 0;
+    border-radius: 8px;
+    display: block;
+  }
+  
+  .content del {
+    color: #BDBDBD;
+    text-decoration: line-through;
+  }
+  
+  .content ul, .content ol {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0;
+    padding-left: 20px;
+    line-height: 22px;
+  }
+  
+  .content ul li {
+    margin: 2px 0;
+  }
+
+  .content ul,  .content li, .content ol, .content p, .content code {
+    word-break: normal;
+  }
+
+  .content li pre {
+    margin: 12px 0 8px 0;
+  }
+  
+  .content blockquote {
+    margin: 16px 4px;
+    padding: 0 6px;
+    border-left: 2px solid var(--Develoid);
+  }
+
+  .content blockquote p {
+    word-break: break-all;
+  }
+
+  .content blockquote ol,
+  .content blockquote ul {
+    margin-left: 24px;
+  }
+  
+  .content hr {
+    border: 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .content table {
+    background: var(--Elevated-Primary);
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 8px;
+  }
+  
+  .content th {
+    padding: 16px;
+    border: 1px solid var(--border-color);
+    border-left: 0;
+    border-top: 0;
+  }
+  
+  .content td {
+    padding: 16px;
+    border: 1px solid var(--border-color);
+  }
+
+  .content th:last-child {
+    border-right: 0;
+  }
+
+  .content th td:last-child {
+    border-right: 0;
+  }
+
+  .content tr td:first-child {
+    border-left: 0;
+  }
+
+  .content tr:last-child td {
+    border-bottom: 0;
+  }
+
+  .content tr td:last-child {
+    border-right: 0;
+  }
