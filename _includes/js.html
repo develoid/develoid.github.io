@@ -1,1 +1,30 @@
-<script type="text/javascript" src="{{ "/asset/js/nav.js" | relative_url }}"></script>
+<script>history.scrollRestoration = "manual"</script>
+<script type="text/javascript">
+  window.addEventListener('scroll', function(e){
+    let scroll = document.documentElement.scrollTop;
+    if (scroll > 24) {
+        document.querySelector('.PC-Header').classList.add('Fix');
+        document.querySelector('.PC-Header_dummy').classList.add('on');
+    }
+
+    else {
+        document.querySelector('.PC-Header').classList.remove('Fix');
+        document.querySelector('.PC-Header_dummy').classList.remove('on');
+    }
+  });
+</script>
+<script type="text/javascript" src="{{site.baseurl}}/asset/js/import.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/asset/js/search_ui.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/asset/js/jekyll-search.min.js"></script>
+<script type="text/javascript">
+  SimpleJekyllSearch({
+    searchInput: document.querySelector('.searchInput'),
+    resultsContainer: document.querySelector('.searchResults'),
+    json: '{{ site.baseurl }}/search.json',
+    searchResultTemplate: '<a href="{url}" title="{desc}"><div class="box-A"><p class="Body f500">{title}</p></div></a>',
+    noResultsText: '<div class="box-A search-none"><p class="Body f500">검색 결과를 찾을 수 없습니다..ㅠㅜ</p></div>',
+    limit: 20,
+    fuzzy: false,
+    exclude: ['Welcome']
+  })
+</script>
