@@ -1,0 +1,407 @@
+<!DOCTYPE HTML>
+<html class="" lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta content="#F2F2F7" name="theme-color" media="(prefers-color-scheme: light)">
+    <meta content="#000" name="theme-color" media="(prefers-color-scheme: dark)">
+    <meta content='yes' name='apple-mobile-web-app-capable'/>
+    <meta NAME="ROBOTS" content="NOINDEX, NOFOLLOW">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="DEVELOID">
+    <meta name="description" content="DEVELOID">
+    <meta name="keywords" content="DEVELOID, Cafe, Community, Content, IT, Tech">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://develoid.github.io/develoid/">
+    <meta property="og:title" content="디벨로이드">
+    <meta property="og:image" content="../asset/images/ogimage.png">
+    <meta property="og:description" content="우리와 함께, 디벨로이드.">
+    <link rel="canonical" href="https://develoid.net">
+    <link rel="icon" href="../asset/favicon.svg">
+    <link rel=”mask-icon” href="../asset/images/transparent.svg" color="#000000">
+    <link rel="apple-touch-icon" href="../asset/images/universal_icon.png">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/Box.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/Card.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/FrontDesign.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/MainActivity.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/MainLayout.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/NavBar.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/Notice.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/Post.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/Search.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/System.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/SystemFont.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/TabBar.css">
+    <title>디벨로이드</title>
+    <script type="text/javascript" src="../asset/js/theme-toggle.js"></script>
+</head>
+<style>
+    .Editor-header {
+        margin-right: 2px !important;
+    }
+    
+    .Home {
+        background: var(--Tertiary);
+        opacity: var(--opacity-100) !important;
+        font-feature-settings: "ss09" on;
+    }
+
+    .Home-tab {
+        opacity: var(--opacity-100) !important;
+        font-feature-settings: "ss09" on;
+    }
+
+    h2 {
+        padding: 0 !important;
+        border-bottom: 0 !important;
+    }
+</style>
+<body>
+    <div data-include-path="./FrontDesign/Header.html"></div>
+    <div data-include-path="./FrontDesign/TabBar.html"></div>
+    <div data-include-path="./FrontDesign/SideBar.html"></div>
+    <main>
+
+        <!-- <div class="notice-A load">데이터를 불러왔습니다.</div> -->
+        <div class="notice-A make">클립보드에 복사하고 저장했습니다.</div>
+        <!-- <div class="notice-A error" style="background: var(--Coral);">오류가 발생했습니다.</div> -->
+
+        <div class="Side-Bar_dummy"></div>
+        <div class="h1-with-account">
+            <h1 class="LargeTitle">대문 편집기</h1>
+        </div>
+
+
+        <div class="Activity content cafe-front draggable">
+
+            <h2>수정 사항</h2>
+            <textarea class="changelog" onkeyup="this.style.height='26px'; this.style.height = this.scrollHeight + 'px';"></textarea>
+
+            <div class="divider"></div>
+
+            <h2>메뉴</h2>
+            <table id="menu">
+                <thead>
+                    <tr>
+                        <th class="number_top"></th>
+                        <th class="imageid_top">이미지</th>
+                        <th class="linkid_top">링크</th>
+                        <th class="btn_plus" onclick="ItemControl('add', 'menu')">+</th>
+                        <th class="btn_minus" onclick="ItemControl('remove', 'menu')">-</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--
+                    <tr id="menu_1">
+                        <td>1</td>
+                        <td><input type="url" class="imageid" id="menu_i1" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="menu_u1" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    -->
+                </tbody>
+            </table>
+
+            <div class="divider"></div>
+
+            <h2>공지사항</h2>
+            <table id="notice">
+                <thead>
+                    <tr>
+                        <th class="number_top"></th>
+                        <th class="imageid_top">이미지</th>
+                        <th class="linkid_top">링크</th>
+                        <th class="btn_plus" onclick="ItemControl('add', 'notice')">+</th>
+                        <th class="btn_minus" onclick="ItemControl('remove', 'notice')">-</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+            <div class="divider"></div>
+
+            <h2>베스트포토</h2>
+            <table id="bestphoto">
+                <thead>
+                    <tr>
+                        <th class="imageid_top">이미지</th>
+                        <th class="linkid_top">링크</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="bestphoto_1">
+                        <td><input type="url" class="imageid" id="bestphoto_i1" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="bestphoto_u1" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="divider"></div>
+
+            <h2>이벤트 1단</h2>
+            <table id="event_single">
+                <thead>
+                    <tr>
+                        <th class="number_top"></th>
+                        <th class="imageid_top">이미지</th>
+                        <th class="linkid_top">링크</th>
+                        <th class="btn_plus" onclick="ItemControl('add', 'event_single')">+</th>
+                        <th class="btn_minus" onclick="ItemControl('remove', 'event_single')">-</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+
+            <div class="divider"></div>
+
+            <h2>이벤트 2단</h2>
+            <table id="event_dual">
+                <thead>
+                    <tr>
+                        <th class="number_top"></th>
+                        <th class="imageid_top">이미지</th>
+                        <th class="linkid_top">링크</th>
+                        <th class="btn_plus" onclick="ItemControl('add', 'event_dual')">+</th>
+                        <th class="btn_minus" onclick="ItemControl('remove', 'event_dual')">-</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+
+            <div class="divider"></div>
+
+            <h2>디벨베스트</h2>
+            <table id="best_writing">
+                <thead>
+                    <tr>
+                        <th class="number_top"></th>
+                        <th class="imageid_top">이미지</th>
+                        <th class="linkid_top">링크</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="best_writing_1">
+                        <td class="number">1</td>
+                        <td><input type="url" class="imageid" id="best_writing_i1" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="best_writing_u1" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="best_writing_2">
+                        <td class="number">2</td>
+                        <td><input type="url" class="imageid" id="best_writing_i2" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="best_writing_u2" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="best_writing_3">
+                        <td class="number">3</td>
+                        <td><input type="url" class="imageid" id="best_writing_i3" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="best_writing_u3" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="best_writing_4">
+                        <td class="number">4</td>
+                        <td><input type="url" class="imageid" id="best_writing_i4" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="best_writing_u4" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="best_writing_5">
+                        <td class="number">5</td>
+                        <td><input type="url" class="imageid" id="best_writing_i5" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="best_writing_u5" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="best_writing_6">
+                        <td class="number">6</td>
+                        <td><input type="url" class="imageid" id="best_writing_i6" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="best_writing_u6" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="best_writing_7">
+                        <td class="number">7</td>
+                        <td><input type="url" class="imageid" id="best_writing_i7" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="best_writing_u7" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                
+                </tbody>
+            </table>
+
+            <div class="divider"></div>
+
+            <h2>지난달 디벨베스트</h2>
+            <h3 class="Subheadline pointer" style="background: var(--Violet);">기존 데이터 붙이기</h3>
+            <table id="last_best_writing">
+                <thead>
+                    <tr>
+                        <th class="number_top"></th>
+                        <th class="imageid_top">이미지</th>
+                        <th class="linkid_top">링크</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="last_best_writing_1">
+                        <td class="number">1</td>
+                        <td><input type="url" class="imageid" id="last_best_writing_i1" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="last_best_writing_u1" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="last_best_writing_2">
+                        <td class="number">2</td>
+                        <td><input type="url" class="imageid" id="last_best_writing_i2" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="last_best_writing_u2" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="last_best_writing_3">
+                        <td class="number">3</td>
+                        <td><input type="url" class="imageid" id="last_best_writing_i3" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="last_best_writing_u3" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="last_best_writing_4">
+                        <td class="number">4</td>
+                        <td><input type="url" class="imageid" id="last_best_writing_i4" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="last_best_writing_u4" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="last_best_writing_5">
+                        <td class="number">5</td>
+                        <td><input type="url" class="imageid" id="last_best_writing_i5" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="last_best_writing_u5" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="last_best_writing_6">
+                        <td class="number">6</td>
+                        <td><input type="url" class="imageid" id="last_best_writing_i6" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="last_best_writing_u6" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="last_best_writing_7">
+                        <td class="number">7</td>
+                        <td><input type="url" class="imageid" id="last_best_writing_i7" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="last_best_writing_u7" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="divider"></div>
+
+            <h2>디벨콘텐츠</h2>
+            <table id="content">
+                <thead>
+                    <tr>
+                        <th class="number_top"></th>
+                        <th class="imageid_top">이미지</th>
+                        <th class="linkid_top">링크</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="content_1">
+                        <td class="number">1</td>
+                        <td><input type="url" class="imageid" id="content_i1" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="content_u1" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="content_2">
+                        <td class="number">2</td>
+                        <td><input type="url" class="imageid" id="content_i2" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="content_u2" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="content_3">
+                        <td class="number">3</td>
+                        <td><input type="url" class="imageid" id="content_i3" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="content_u3" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="content_4">
+                        <td class="number">4</td>
+                        <td><input type="url" class="imageid" id="content_i4" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="content_u4" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="content_5">
+                        <td class="number">5</td>
+                        <td><input type="url" class="imageid" id="content_i5" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="content_u5" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="divider"></div>
+
+            <h2>디벨스폰서</h2>
+            <table id="sponsor">
+                <thead>
+                    <tr>
+                        <th class="number_top"></th>
+                        <th class="imageid_top">이미지</th>
+                        <th class="linkid_top">링크</th>
+                        <th class="btn_plus" onclick="ItemControl('add', 'sponsor')">+</th>
+                        <th class="btn_minus" onclick="ItemControl('remove', 'sponsor')">-</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="sponsor_1">
+                        <td class="number">1</td>
+                        <td><input type="url" class="imageid" id="sponsor_i1" ondrop="dropIMG(event, this.id)"></td>
+                        <td colspan="3"><input type="url" class="linkid" id="sponsor_u1" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="sponsor_2">
+                        <td class="number">2</td>
+                        <td><input type="url" class="imageid" id="sponsor_i2" ondrop="dropIMG(event, this.id)"></td>
+                        <td colspan="3"><input type="url" class="linkid" id="sponsor_u2" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="sponsor_3">
+                        <td class="number">3</td>
+                        <td><input type="url" class="imageid" id="sponsor_i3" ondrop="dropIMG(event, this.id)"></td>
+                        <td colspan="3"><input type="url" class="linkid" id="sponsor_u3" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="sponsor_4">
+                        <td class="number">4</td>
+                        <td><input type="url" class="imageid" id="sponsor_i4" ondrop="dropIMG(event, this.id)"></td>
+                        <td colspan="3"><input type="url" class="linkid" id="sponsor_u4" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="sponsor_5">
+                        <td class="number">5</td>
+                        <td><input type="url" class="imageid" id="sponsor_i5" ondrop="dropIMG(event, this.id)"></td>
+                        <td colspan="3"><input type="url" class="linkid" id="sponsor_u5" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="divider"></div>
+
+            <h2>인터페이스</h2>
+            <h3 style="background: var(--Coral);">필요한 경우가 아닌 경우 수정하지 마십시오.</h3>
+            <table id="interface">
+                <thead>
+                    <tr>
+                        <th class="name_top"></th>
+                        <th class="imageid_top">이미지</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="interface_1">
+                        <td class="name">메뉴 화살표</td>
+                        <td><input type="url" class="imageid" id="interface_i1" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="interface_2">
+                        <td class="name">디벨베스트</td>
+                        <td><input type="url" class="imageid" id="interface_i2" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="interface_3">
+                        <td class="name">지난달 디벨베스트</td>
+                        <td><input type="url" class="imageid" id="interface_i3" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="interface_4">
+                        <td class="name">디벨콘텐츠</td>
+                        <td><input type="url" class="imageid" id="interface_i4" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="interface_5">
+                        <td class="name">디벨스폰서</td>
+                        <td><input type="url" class="imageid" id="interface_i5" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                    <tr id="interface_6">
+                        <td class="name">하단</td>
+                        <td><input type="url" class="imageid" id="interface_i6" ondrop="dropIMG(event, this.id)"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+    </main>
+</body>
+<script>history.scrollRestoration = "manual"</script>
+<script type="text/javascript" src="../asset/js/import.js"></script>
+<script type="text/javascript" src="../asset/js/header-scroll.js"></script>
+<script type="text/javascript" src="../asset/js/jquery-3.6.1.min.js"></script>
+<script type="text/javascript" src="../asset/js/front_design.js"></script>
+</html>

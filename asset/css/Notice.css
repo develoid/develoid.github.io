@@ -1,0 +1,37 @@
+.notice-A {
+    line-height: 22px;
+    padding: 16px 20px;
+    position: fixed;
+    background: var(--Develoid);
+    color: var(--white);
+    border-radius: 8px;
+    z-index: 7;
+}
+
+    @media (min-width: 1280px) {
+        .notice-A {
+            top: initial;
+            bottom: 48px;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+    }
+
+    @media (max-width: 1279.98px) and (min-width: 768px) {
+        .notice-A {
+            width: calc(30vw - 48px);
+            max-width: 276px;
+            bottom: 24px;
+            left: 24px;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        .notice-A {
+            text-align: center;
+            top: initial;
+            bottom: 80px;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+    }

@@ -7,7 +7,7 @@ main {
     align-items: flex-start;
     padding: 48px 16px 80px 16px;
     position: relative;
-    gap: 4px;
+    gap: 16px;
 }
 
 @media (max-height: 599.98px) {
@@ -68,7 +68,7 @@ main {
 
 @media (min-width: 1280px) {
     .h1-with-account {
-        margin-bottom: 56px;
+        margin-bottom: 44px;
     }
 }
 
@@ -81,7 +81,7 @@ main {
     align-items: flex-start;
     flex: 1 0 0px;
     position: relative;
-    gap: 16px;
+    gap: 24px;
 }
 
 .text {
