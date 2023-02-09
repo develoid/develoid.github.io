@@ -2,10 +2,6 @@
     width: 100%;
 }
 
-.content {
-    margin-bottom: 80px;
-}
-
 code.highlighter-rouge {
     background: var(--Develoid);
     color: var(--white);
@@ -41,8 +37,7 @@ code.highlighter-rouge {
   }
   
   .content h1 {
-    padding: 16px 0;
-    border-bottom: 1px solid var(--border-color);
+    padding: 0;
   }
 
   .content .LargeTitle {

@@ -13,6 +13,8 @@
     --Tertiary-NotTransparent: #232323;
     --Seperated-Transparent: #1E1E1EBF;
     --Develoid: #1F84FF;
+    --Violet: #7935FF;
+    --Coral: #E56A6A;
     --white: #FFF;
     --body-bg: var(--black);
     --body-bg-80: #000000CC;
@@ -185,6 +187,10 @@ i {
         font-size: 15px;
     }
 
+    body, textarea {
+        font-size: 13px !important;
+    }
+
     .Footnote {
         font-size: 12px !important;
     }
@@ -221,7 +227,7 @@ i {
     }
 
     .Body, p {
-        font-size: 17px;
+        font-size: 15px;
         letter-spacing: -.3px;
     }
 
@@ -371,6 +377,10 @@ i {
 
 .display-initial {
     display: initial !important;
+}
+
+.align-flex-start {
+    align-items: flex-start !important;
 }
 
 .category, .postsList {
