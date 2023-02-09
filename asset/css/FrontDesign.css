@@ -1,26 +1,43 @@
-.cafe-front textarea {
-    font-family: var(--font-sans-serif);
-    font-size: var(--font-size);
-    line-height: 22px;
-    width: 100%;
-    height: 54px;
-    resize: none;
-    border: 0;
-    padding: 16px;
-    border-radius: 8px;
-    background: var(--Elevated-Primary);
-    color: var(--body-color);
-    white-space: pre-wrap;
-    overflow: hidden;
+.cafe-front {
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
 }
 
-    .cafe-front textarea:focus {
-        outline: none;
+    .cafe-front input {
+        padding: 0;
     }
 
-.cafe-front td {
-    text-align: center;
-}
+    .cafe-front input, textarea {
+        -webkit-user-select: text;
+        -moz-user-select: text;
+        -ms-user-select: text;
+        user-select: text;
+    }
+
+    .cafe-front textarea {
+        font-family: var(--font-sans-serif);
+        font-size: var(--font-size);
+        line-height: 22px;
+        width: 100%;
+        resize: none;
+        border: 0;
+        padding: 16px;
+        border-radius: 8px;
+        background: var(--Elevated-Primary);
+        color: var(--body-color);
+        white-space: pre-wrap;
+        overflow: hidden;
+    }
+
+        .cafe-front textarea:focus {
+            outline: none;
+        }
+
+    .cafe-front td {
+        text-align: center;
+    }
 
 .number_top {
     width: 52px;

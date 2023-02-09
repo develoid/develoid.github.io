@@ -35,7 +35,7 @@
     <script type="text/javascript" src="../asset/js/theme-toggle.js"></script>
 </head>
 <style>
-    .Editor-header {
+    .Post-header {
         margin-right: 2px !important;
     }
     
@@ -56,28 +56,23 @@
     }
 </style>
 <body>
+    <div data-include-path="./Notice.html"></div>
     <div data-include-path="./FrontDesign/Header.html"></div>
     <div data-include-path="./FrontDesign/TabBar.html"></div>
     <div data-include-path="./FrontDesign/SideBar.html"></div>
     <main>
-
-        <!-- <div class="notice-A load">데이터를 불러왔습니다.</div> -->
-        <div class="notice-A make">클립보드에 복사하고 저장했습니다.</div>
-        <!-- <div class="notice-A error" style="background: var(--Coral);">오류가 발생했습니다.</div> -->
 
         <div class="Side-Bar_dummy"></div>
         <div class="h1-with-account">
             <h1 class="LargeTitle">대문 편집기</h1>
         </div>
 
-
         <div class="Activity content cafe-front draggable">
 
             <h2>수정 사항</h2>
-            <textarea class="changelog" onkeyup="this.style.height='26px'; this.style.height = this.scrollHeight + 'px';"></textarea>
-
+            <textarea class="changelog" id="changelog_u1" style="height: 98px;" onkeyup="this.style.height='98px'; this.style.height = this.scrollHeight + 'px';"></textarea>
             <div class="divider"></div>
-
+            
             <h2>메뉴</h2>
             <table id="menu">
                 <thead>
@@ -90,13 +85,6 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <!--
-                    <tr id="menu_1">
-                        <td>1</td>
-                        <td><input type="url" class="imageid" id="menu_i1" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="menu_u1" ondrop="dropIMG(event, this.id)"></td>
-                    </tr>
-                    -->
                 </tbody>
             </table>
 
@@ -125,13 +113,11 @@
                 <thead>
                     <tr>
                         <th class="imageid_top">이미지</th>
-                        <th class="linkid_top">링크</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr id="bestphoto_1">
                         <td><input type="url" class="imageid" id="bestphoto_i1" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="bestphoto_u1" ondrop="dropIMG(event, this.id)"></td>
                     </tr>
                 </tbody>
             </table>
@@ -186,38 +172,38 @@
                 <tbody>
                     <tr id="best_writing_1">
                         <td class="number">1</td>
-                        <td><input type="url" class="imageid" id="best_writing_i1" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="best_writing_u1" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="imageid imageid1" id="best_writing_i1" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid linkid1" id="best_writing_u1" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="best_writing_2">
                         <td class="number">2</td>
-                        <td><input type="url" class="imageid" id="best_writing_i2" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="best_writing_u2" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="imageid imageid2" id="best_writing_i2" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid linkid2" id="best_writing_u2" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="best_writing_3">
                         <td class="number">3</td>
-                        <td><input type="url" class="imageid" id="best_writing_i3" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="best_writing_u3" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="imageid imageid3" id="best_writing_i3" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid linkid3" id="best_writing_u3" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="best_writing_4">
                         <td class="number">4</td>
-                        <td><input type="url" class="imageid" id="best_writing_i4" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="best_writing_u4" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="imageid imageid4" id="best_writing_i4" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid linkid4" id="best_writing_u4" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="best_writing_5">
                         <td class="number">5</td>
-                        <td><input type="url" class="imageid" id="best_writing_i5" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="best_writing_u5" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="imageid imageid5" id="best_writing_i5" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid linkid5" id="best_writing_u5" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="best_writing_6">
                         <td class="number">6</td>
-                        <td><input type="url" class="imageid" id="best_writing_i6" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="best_writing_u6" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="imageid imageid6" id="best_writing_i6" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid linkid6" id="best_writing_u6" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="best_writing_7">
                         <td class="number">7</td>
-                        <td><input type="url" class="imageid" id="best_writing_i7" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="best_writing_u7" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="imageid imageid7" id="best_writing_i7" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid linkid7" id="best_writing_u7" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                 
                 </tbody>
@@ -226,7 +212,7 @@
             <div class="divider"></div>
 
             <h2>지난달 디벨베스트</h2>
-            <h3 class="Subheadline pointer" style="background: var(--Violet);">기존 데이터 붙이기</h3>
+            <h3 class="Subheadline bestcopy pointer" style="background: var(--Violet);">기존 데이터 붙이기</h3>
             <table id="last_best_writing">
                 <thead>
                     <tr>
@@ -238,38 +224,38 @@
                 <tbody>
                     <tr id="last_best_writing_1">
                         <td class="number">1</td>
-                        <td><input type="url" class="imageid" id="last_best_writing_i1" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="last_best_writing_u1" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="imageid limageid1" id="last_best_writing_i1" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid llinkid1" id="last_best_writing_u1" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="last_best_writing_2">
                         <td class="number">2</td>
-                        <td><input type="url" class="imageid" id="last_best_writing_i2" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="last_best_writing_u2" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="imageid limageid2" id="last_best_writing_i2" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid llinkid2" id="last_best_writing_u2" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="last_best_writing_3">
                         <td class="number">3</td>
-                        <td><input type="url" class="imageid" id="last_best_writing_i3" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="last_best_writing_u3" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="imageid limageid3" id="last_best_writing_i3" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid llinkid3" id="last_best_writing_u3" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="last_best_writing_4">
                         <td class="number">4</td>
-                        <td><input type="url" class="imageid" id="last_best_writing_i4" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="last_best_writing_u4" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="imageid limageid4" id="last_best_writing_i4" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid llinkid4" id="last_best_writing_u4" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="last_best_writing_5">
                         <td class="number">5</td>
-                        <td><input type="url" class="imageid" id="last_best_writing_i5" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="last_best_writing_u5" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="imageid limageid5" id="last_best_writing_i5" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid llinkid5" id="last_best_writing_u5" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="last_best_writing_6">
                         <td class="number">6</td>
-                        <td><input type="url" class="imageid" id="last_best_writing_i6" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="last_best_writing_u6" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="imageid limageid6" id="last_best_writing_i6" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid llinkid6" id="last_best_writing_u6" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="last_best_writing_7">
                         <td class="number">7</td>
-                        <td><input type="url" class="imageid" id="last_best_writing_i7" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="last_best_writing_u7" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="imageid limageid7" id="last_best_writing_i7" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid llinkid7" id="last_best_writing_u7" ondrop="dropIMG(event, this.id)"></td>
                     </tr>
                 </tbody>
             </table>
@@ -289,27 +275,27 @@
                     <tr id="content_1">
                         <td class="number">1</td>
                         <td><input type="url" class="imageid" id="content_i1" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="content_u1" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="content_u1" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="content_2">
                         <td class="number">2</td>
                         <td><input type="url" class="imageid" id="content_i2" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="content_u2" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="content_u2" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="content_3">
                         <td class="number">3</td>
                         <td><input type="url" class="imageid" id="content_i3" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="content_u3" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="content_u3" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="content_4">
                         <td class="number">4</td>
                         <td><input type="url" class="imageid" id="content_i4" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="content_u4" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="content_u4" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                     <tr id="content_5">
                         <td class="number">5</td>
                         <td><input type="url" class="imageid" id="content_i5" ondrop="dropIMG(event, this.id)"></td>
-                        <td><input type="url" class="linkid" id="content_u5" ondrop="dropIMG(event, this.id)"></td>
+                        <td><input type="url" class="linkid" id="content_u5" ondrop="dropURL(event, this.id)"></td>
                     </tr>
                 </tbody>
             </table>
@@ -328,31 +314,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr id="sponsor_1">
-                        <td class="number">1</td>
-                        <td><input type="url" class="imageid" id="sponsor_i1" ondrop="dropIMG(event, this.id)"></td>
-                        <td colspan="3"><input type="url" class="linkid" id="sponsor_u1" ondrop="dropIMG(event, this.id)"></td>
-                    </tr>
-                    <tr id="sponsor_2">
-                        <td class="number">2</td>
-                        <td><input type="url" class="imageid" id="sponsor_i2" ondrop="dropIMG(event, this.id)"></td>
-                        <td colspan="3"><input type="url" class="linkid" id="sponsor_u2" ondrop="dropIMG(event, this.id)"></td>
-                    </tr>
-                    <tr id="sponsor_3">
-                        <td class="number">3</td>
-                        <td><input type="url" class="imageid" id="sponsor_i3" ondrop="dropIMG(event, this.id)"></td>
-                        <td colspan="3"><input type="url" class="linkid" id="sponsor_u3" ondrop="dropIMG(event, this.id)"></td>
-                    </tr>
-                    <tr id="sponsor_4">
-                        <td class="number">4</td>
-                        <td><input type="url" class="imageid" id="sponsor_i4" ondrop="dropIMG(event, this.id)"></td>
-                        <td colspan="3"><input type="url" class="linkid" id="sponsor_u4" ondrop="dropIMG(event, this.id)"></td>
-                    </tr>
-                    <tr id="sponsor_5">
-                        <td class="number">5</td>
-                        <td><input type="url" class="imageid" id="sponsor_i5" ondrop="dropIMG(event, this.id)"></td>
-                        <td colspan="3"><input type="url" class="linkid" id="sponsor_u5" ondrop="dropIMG(event, this.id)"></td>
-                    </tr>
+
                 </tbody>
             </table>
 
@@ -395,7 +357,24 @@
                 </tbody>
             </table>
 
+            <div class="divider"></div>
 
+            <h2>HTTPS</h2>
+            <textarea id="codeHTTPS" class="codeHTTPS" readonly="readonly"></textarea>
+
+            <div class="divider"></div>
+
+            <h2>HTTP</h2>
+            <textarea id="codeHTTP" class="codeHTTP" readonly="readonly"></textarea>
+
+            <div class="display-none" id="changelog_i1"></div>
+            <div class="display-none" id="bestphoto_u1"></div>
+            <div class="display-none" id="interface_u1"></div>
+            <div class="display-none" id="interface_u2"></div>
+            <div class="display-none" id="interface_u3"></div>
+            <div class="display-none" id="interface_u4"></div>
+            <div class="display-none" id="interface_u5"></div>
+            <div class="display-none" id="interface_u6"></div>
         </div>
     </main>
 </body>

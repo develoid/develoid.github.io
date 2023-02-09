@@ -71,6 +71,9 @@
     padding: 6px 12px;
     border-radius: 8px;
     transition: background .2s ease-out;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
 
     .TabBaritem:hover {
