@@ -1,0 +1,80 @@
+.error > i {
+    font-size: 56px;
+    margin-bottom: -8px;
+}
+
+.modal {
+    text-align: center;
+    width: 30vw;
+    border-radius: 16px;
+    background: var(--Seperated-Transparent);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    gap: 24px;
+    opacity: 1;
+    animation-duration: .5s;
+    animation-name: fade-modal;
+}
+@keyframes fade-modal {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+    .modal-text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+.modal-bg {
+    background: var(--Tertiary);
+    backdrop-filter: blur(8px);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 14;
+    animation-duration: 1s;
+    animation-name: fade-modal-bg;
+}
+@keyframes fade-modal-bg {
+    from {
+        background: transparent;
+        backdrop-filter: blur(0px);
+    }
+    to {
+        background: var(--Tertiary);
+        backdrop-filter: blur(8px);
+    }
+}
+
+
+.modal-btn-A {
+    cursor: pointer;
+    background: var(--Develoid);
+    color: var(--white);
+    padding: 12px;
+    border-radius: 8px;
+    transition: background .2s ease-out;
+}
+
+    .modal-btn-A:hover {
+        background: #1d79ea;
+    }
+
+    .modal-btn-A:active {
+        background: #196bcf;
+    }

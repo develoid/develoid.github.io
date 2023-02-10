@@ -1,57 +1,169 @@
 <!DOCTYPE HTML>
-<html lang="ko">
-<style>
-    html, body {
-        height: 100%;
-    }
-
-    .mbtn_top, .history_back {
-        border-radius: 100px !important;
-    }
-
-    .mbtn {
-        border-radius: 100px !important;
-    }
-</style>
+<html class="" lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta content="#ECECEC" name="theme-color" media="(prefers-color-scheme: light)">
-    <meta content="#222" name="theme-color" media="(prefers-color-scheme: dark)">
+    <meta content="#F2F2F7" name="theme-color" media="(prefers-color-scheme: light)">
+    <meta content="#000" name="theme-color" media="(prefers-color-scheme: dark)">
+    <meta content='yes' name='apple-mobile-web-app-capable'/>
     <meta NAME="ROBOTS" content="NOINDEX, NOFOLLOW">
-    <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <link rel="icon" href="./asset/images/favicon.svg">
-    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/style_def.css">
-    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/fonts.css">
-    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/base_style.css">
-    <title>페이지를 찾을 수 없습니다.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="DEVELOID">
+    <meta name="description" content="DEVELOID">
+    <meta name="keywords" content="DEVELOID, Cafe, Community, Content, IT, Tech">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://develoid.github.io/develoid/">
+    <meta property="og:title" content="디벨로이드">
+    <meta property="og:image" content="https://develoid.github.io/asset/images/ogimage.png">
+    <meta property="og:description" content="우리와 함께, 디벨로이드.">
+    <link rel="canonical" href="https://develoid.net">
+    <link rel="icon" href="https://develoid.github.io/asset/favicon.svg">
+    <link rel=”mask-icon” href="https://develoid.github.io/asset/images/transparent.svg" color="#000000">
+    <link rel="apple-touch-icon" href="https://develoid.github.io/asset/images/universal_icon.png">
+    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/Box.css">
+    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/Card.css">
+    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/FrontDesign.css">
+    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/MainActivity.css">
+    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/MainLayout.css">
+    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/Modal.css">
+    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/NavBar.css">
+    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/Notice.css">
+    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/Post.css">
+    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/Search.css">
+    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/System.css">
+    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/SystemFont.css">
+    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/TabBar.css">
+    <title>디벨로이드</title>
+    <script type="text/javascript" src="https://develoid.github.io/asset/js/theme-toggle.js"></script>
 </head>
-<body>
-    <div class="section">
-        <div class="title">
-            <h2><span class="error_html">HTTP 오류 404.</span></h2><h1>주소를 확인해 주세요.</h1>
-            <p><span id="timer">15</span>초 후 자동으로 커뮤니티로 이동합니다.</p>
-        </div>
-        <div class="cont">
-            <p>여기를 찾으세요?</p>
-            <button type="button" class="mbtn_top" onclick="window.open('https://develoid.net')";>커뮤니티</button>
-            <button type="button" class="mbtn" onclick="window.open('https://develoid.github.io')";>디벨가이드</button>
-            <button type="button" class="mbtn" onclick="window.open('https://develoid.github.io/cs')";>디벨서포트</button>
-        </div>
-        <button type="button" class="history_back" onclick="history.back()">돌아가기</button>
-    </div>
-<script>
-    var count = 15;
-    var counter = setInterval(timer, 1000);
-    function timer() {
-    count--;
-        if (count <= 0) {
-            clearInterval(counter);
-            document.getElementById("timer").innerHTML = "0";
-            window.location.replace('https://develoid.net')
-            return;
-        }
-    document.getElementById("timer").innerHTML = count;
+<style>
+    .Home {
+        background: var(--Tertiary);
+        opacity: var(--opacity-100) !important;
+        font-feature-settings: "ss09" on;
     }
-</script>
+
+    .Home-tab {
+        opacity: var(--opacity-100) !important;
+        font-feature-settings: "ss09" on;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    body * {
+        touch-action: none;
+    }
+</style>
+<body>
+    <div class="modal error">
+        <i class="iWarningSquare"></i>
+        <div class="modal-text">
+            <h3>문제가 발생했습니다.</h3>
+            <p class="Subheadline">주소를 정상적으로 입력했는지 확인해주세요.</p>
+        </div>
+        <div class="modal-btn-A Subheadline"  onclick="location.href='https://go.develoid.net';">확인</div>
+    </div>
+    <div class="modal-bg"></div>
+    <div data-include-path="https://develoid.github.io/site/Notice.html"></div>
+    <div data-include-path="https://develoid.github.io/site/Header.html"></div>
+    <div data-include-path="https://develoid.github.io/site/TabBar.html"></div>
+    <div data-include-path="https://develoid.github.io/site/SideBar.html"></div>
+
+    <main>
+        <div class="Side-Bar_dummy"></div>
+        <div class="h1-with-account">
+            <h1 class="LargeTitle">디벨로이드</h1>
+        </div>
+        <div class="Activity">
+            <div class="grid-row small">
+                <div class="box-A" onclick="location.href='http://naver.me/5IsbVWnO';">
+                    <div class="box_text-A">
+                        <p class="Body f500">제휴 업무 소개서</p>
+                    </div>
+                    <div class="box_go">
+                        <i class="iArrowKeyRight fill"></i>
+                    </div>
+                </div>
+                <div class="box-A" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSeB6dvSsHVPy69geM4y6rmTGzTqTaM3rmF6UCIocrnvQWLQMw/viewform';">
+                    <div class="box_text-A">
+                        <p class="Body f500">제휴 맺기</p>
+                    </div>
+                    <div class="box_go">
+                        <i class="iArrowKeyRight fill"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="text text-row">
+                <h2 class="Title2">베스트포토</h2>
+            </div>
+            <img class="card-bestphoto pointer" src="https://go.develoid.net/gate/bestphoto/BESTPHOTO.png" onclick="location.href='https://go.develoid.net/gate/bestphoto/BESTPHOTO.html';">
+            <div class="box-A" onclick="location.href='https://cafe.naver.com/develoid/1000961';">
+                <div class="box_icon-A">
+                    <i class="iImage fill"></i>
+                </div>
+                <div class="box_text-A">
+                    <p class="Body f500">베스트포토가 궁금하다면?</p>
+                </div>
+                <div class="box_go">
+                    <i class="iArrowKeyRight fill"></i>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+        
+            <div class="grid-row">
+                <div class="box-C" onclick="location.href='https://cafe.naver.com/develoid/menu/1';">
+                    <i class="iFileNote fill"></i>
+                    <p class="Caption2">공지사항</p>
+                </div>
+                <div class="box-C" onclick="location.href='https://cafe.naver.com/develoid/menu/1292';">
+                    <i class="iLocalShipping fill"></i>
+                    <p class="Caption2">공동구매</p>
+                </div>
+                <div class="box-C" onclick="location.href='https://cafe.naver.com/develoid/menu/1200';">
+                    <i class="iShoppingCart fill"></i>
+                    <p class="Caption2">중고장터</p>
+                </div>
+            </div>
+
+            <div class="box-dl-bg">
+                <div class="box-A first" onclick="location.href='https://cafe.naver.com/develoid/menu/1363';">
+                    <div class="box_icon-A">
+                        <i class="iMemoNote fill"></i>
+                    </div>
+                    <div class="box_text-A">
+                        <p class="Caption1 opacity-80">운영진이 엄선하는 양질의 콘텐츠</p>
+                        <p class="Body f500">디벨베스트</p>
+                    </div>
+                    <div class="box_go">
+                        <i class="iArrowKeyRight fill"></i>
+                    </div>
+                </div>
+
+                <div class="box_divider-A-small"></div>
+
+                <div class="box-A last" onclick="location.href='https://cafe.naver.com/develoid/menu/1312';">
+                    <div class="box_icon-A">
+                        <i class="iMenuSquare fill"></i>
+                    </div>
+                    <div class="box_text-A">
+                        <p class="Caption1 opacity-80">운영진이 직접 작성한 우수한 콘텐츠</p>
+                        <p class="Body f500">디벨콘텐츠</p>
+                    </div>
+                    <div class="box_go">
+                        <i class="iArrowKeyRight fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </main>
+
 </body>
+<script>history.scrollRestoration = "manual"</script>
+<script type="text/javascript" src="https://develoid.github.io/asset/js/import.js"></script>
+<script type="text/javascript" src="https://develoid.github.io/asset/js/header-scroll.js"></script>
 </html>
