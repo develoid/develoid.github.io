@@ -4,8 +4,8 @@
 }
 
 .modal {
+    width: 260px;
     text-align: center;
-    width: 30vw;
     border-radius: 16px;
     background: var(--Seperated-Transparent);
     backdrop-filter: blur(4px);
@@ -18,10 +18,10 @@
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 15;
-    gap: 24px;
     opacity: 1;
     animation-duration: .5s;
     animation-name: fade-modal;
+    box-shadow: 0 8px 16px var(--Tertiary);
 }
 @keyframes fade-modal {
     from {
@@ -32,11 +32,35 @@
     }
 }
 
-    .modal-text {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+.modal-text-parent, .modal-btn-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+@media (max-width: 380.98px) {
+    .modal {
+        width: 220px !important;
+        gap: 24px !important;
     }
+}
+
+@media (max-width: 1279.98px) {
+    .modal {
+        gap: 24px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .modal {
+        width: 280px !important;
+        gap: 28px !important;
+    }
+
+    .modal-text-parent, .modal-btn-parent {
+        gap: 14px !important;
+    }
+}
 
 .modal-bg {
     background: var(--Tertiary);
@@ -61,20 +85,32 @@
     }
 }
 
-
 .modal-btn-A {
     cursor: pointer;
-    background: var(--Develoid);
-    color: var(--white);
-    padding: 12px;
+    background: var(--Elevated-Secondary);
+    box-shadow: 0 8px 16px var(--Tertiary);
+    padding: 10px;
     border-radius: 8px;
     transition: background .2s ease-out;
 }
 
     .modal-btn-A:hover {
-        background: #1d79ea;
+        background: var(--Elevated-Quaternary);
     }
 
     .modal-btn-A:active {
+        background: var(--Elevated-Quinary);
+    }
+
+    .modal-develoid {
+        background: var(--Develoid);
+        color: var(--white);
+    }
+
+    .modal-develoid:hover {
+        background: #1d79ea;
+    }
+
+    .modal-develoid:active {
         background: #196bcf;
     }

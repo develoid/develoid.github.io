@@ -11,7 +11,7 @@
     <meta name="description" content="DEVELOID">
     <meta name="keywords" content="DEVELOID, Cafe, Community, Content, IT, Tech">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://go.develoid.net">
+    <meta property="og:url" content="https://develoid.github.io/develoid/">
     <meta property="og:title" content="디벨로이드">
     <meta property="og:image" content="https://develoid.github.io/asset/images/ogimage.png">
     <meta property="og:description" content="우리와 함께, 디벨로이드.">
@@ -24,7 +24,7 @@
     <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/FrontDesign.css">
     <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/MainActivity.css">
     <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/MainLayout.css">
-    <link rel="stylesheet" type='text/css' media='all' href="/asset/css/Modal.css">
+    <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/Modal.css">
     <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/NavBar.css">
     <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/Notice.css">
     <link rel="stylesheet" type='text/css' media='all' href="https://develoid.github.io/asset/css/Post.css">
@@ -58,11 +58,17 @@
 <body>
     <div class="modal error">
         <i class="iWarningSquare"></i>
-        <div class="modal-text">
+        <div class="modal-text-parent">
             <h3>문제가 발생했습니다.</h3>
-            <p class="Subheadline">주소를 정상적으로 입력했는지 확인해주세요.</p>
+            <p class="Subheadline">주소를 확인해 주세요.</p>
         </div>
-        <div class="modal-btn-A Subheadline"  onclick="location.href='https://go.develoid.net';">확인</div>
+        <div class="modal-btn-parent">
+            <div class="modal-btn-A modal-develoid Subheadline f500" onclick="location.href='https://go.develoid.net';">디벨로이드로 가기</div>
+            <div class="modal-btn-A Subheadline f500" onclick="location.href='https://develoid.github.io/site/Support.html';">문의하기</div>
+        </div>
+        <div class="modal-btn-parent">
+            <div class="modal-btn-A Subheadline f500" onclick="history.back()">뒤로가기</div>
+        </div>
     </div>
     <div class="modal-bg"></div>
     <div data-include-path="https://develoid.github.io/site/Notice.html"></div>

@@ -6,6 +6,8 @@
     --border-color: #FFFFFF1A;
     --Elevated-Primary: #1C1C1E;
     --Elevated-Secondary: #2C2C2E;
+    --Elevated-Quaternary: #252528;
+    --Elevated-Quinary: #1e1e20;
     --Elevated-Secondary-NotTransparent: var(--Elevated-Secondary);
     --Label-Secondary: #EBEBF599;
     --Tertiary: #9191973d;
@@ -28,7 +30,9 @@
 .light {
     --border-color: #0000001A;
     --Elevated-Primary: var(--white);
-    --Elevated-Secondary: #7474801A;
+    --Elevated-Secondary: #c7c7cd;
+    --Elevated-Quaternary: #bcbcc3;
+    --Elevated-Quinary: #acacb4;
     --Elevated-Secondary-NotTransparent: #e9e9ed;
     --Label-Secondary: #3C3C4399;
     --Tertiary: #7676801F;
@@ -61,6 +65,8 @@ html {
 }
 
 body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     margin: 0;
     font-family: var(--font-sans-serif);
     font-size: var(--font-size);
@@ -155,7 +161,7 @@ i {
 }
 
 .Body, p, li {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: -.5px;
     line-height: 27px;
@@ -172,7 +178,7 @@ i {
     }
 
     .Title3, h3 {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .Title4, h4 {
@@ -223,7 +229,7 @@ i {
     }
 
     .Subheadline {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .Body, p {
