@@ -18,6 +18,7 @@
         -moz-user-select: text;
         -ms-user-select: text;
         user-select: text;
+        transition: background .2s ease-out;
     }
 
     .cafe-front textarea {
@@ -33,7 +34,6 @@
         color: var(--body-color);
         white-space: pre-wrap;
         overflow: hidden;
-        transition: background .2s ease-out;
     }
 
         .cafe-front textarea:focus {
