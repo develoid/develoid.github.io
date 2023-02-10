@@ -532,4 +532,5 @@ CopyBest.addEventListener("click", function() { //checkbox에 이벤트 리스�
     document.querySelector('.llinkid6').value = linkid6;
     var linkid7 = document.querySelector('.linkid7').value;
     document.querySelector('.llinkid7').value = linkid7;
+    $('.toast-bestcopy').fadeIn(200).delay(3000).fadeOut(200); 
 });

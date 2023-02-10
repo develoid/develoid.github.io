@@ -67,3 +67,16 @@
 .imageid:focus, .linkid:focus{
     outline: none;
 }
+
+.bestcopy {
+    background: var(--Violet) !important;
+    transition: background .2s ease-out;
+}
+
+    .bestcopy:hover {
+        background: #6a2ee3 !important;
+    }
+
+    .bestcopy:active {
+        background: #5926c0 !important;
+    }
