@@ -503,7 +503,7 @@ function Make() {
 }
 
 var CopyBest = document.querySelector('.bestcopy');
-CopyBest.addEventListener("click", function() { //checkbox에 이벤트 리스너 등록
+CopyBest.addEventListener("click", function() {
     var imageid1 = document.querySelector('.imageid1').value;
     document.querySelector('.limageid1').value = imageid1;
     var imageid2 = document.querySelector('.imageid2').value;
