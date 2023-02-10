@@ -6,7 +6,11 @@
 }
 
     .cafe-front input {
-        padding: 0;
+        padding: 0 16px;
+    }
+
+    .cafe-front input:focus {
+        background: var(--Tertiary-NotTransparent);
     }
 
     .cafe-front input, textarea {
@@ -29,32 +33,43 @@
         color: var(--body-color);
         white-space: pre-wrap;
         overflow: hidden;
+        transition: background .2s ease-out;
     }
 
         .cafe-front textarea:focus {
             outline: none;
+            background: var(--Tertiary-NotTransparent);
         }
 
     .cafe-front td {
+        padding: 0 !important;
         text-align: center;
     }
 
 .number_top {
-    width: 52px;
+    width: 8%;
 }
 
 .name_top {
     width: 144px;
 }
 
-.name {
-    padding-left: 20px !important;
-    text-align: left !important;
-}
-
 .btn_plus, .btn_minus {
-    width: 50px;
+    cursor: pointer;
+    width: 8%;
+    transition: background .2s ease-out;
 }
+    .btn_minus {
+        border-top-right-radius: 8px;
+    }
+
+    .btn_plus:hover, .btn_minus:hover {
+        background: var(--Tertiary-NotTransparent);
+    }
+
+    .btn_plus:active, .btn_minus:active {
+        background: var(--Tertiary2);
+    }
 
 .imageid, .linkid {
     border: 0;
@@ -62,6 +77,15 @@
     color: var(--body-color);
     font-size: 15px;
     width: 100%;
+    height: 50px;
+}
+
+.imageid2_top {
+    width: 46%;
+}
+
+.linkid2_top {
+    width: 30%;
 }
 
 .imageid:focus, .linkid:focus{
