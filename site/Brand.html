@@ -5,6 +5,7 @@
     <meta content="#F2F2F7" name="theme-color" media="(prefers-color-scheme: light)">
     <meta content="#000" name="theme-color" media="(prefers-color-scheme: dark)">
     <meta content='yes' name='apple-mobile-web-app-capable'/>
+    <meta name="apple-mobile-web-app-title" content="디벨로이드">
     <meta NAME="ROBOTS" content="NOINDEX, NOFOLLOW">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="author" content="DEVELOID">
@@ -15,21 +16,32 @@
     <meta property="og:title" content="디벨로이드">
     <meta property="og:image" content="../asset/images/ogimage.png">
     <meta property="og:description" content="우리와 함께, 디벨로이드.">
+    <link rel="apple-touch-icon" href="../asset/images/universal_icon.png">
+    <link rel="manifest" href="/manifest.json">
     <link rel="canonical" href="https://develoid.net">
     <link rel="icon" href="../asset/favicon.svg">
     <link rel=”mask-icon” href="../asset/images/transparent.svg" color="#000000">
     <link rel="apple-touch-icon" href="../asset/images/universal_icon.png">
     <link rel="stylesheet" type='text/css' media='all' href="../asset/css/Box.css">
     <link rel="stylesheet" type='text/css' media='all' href="../asset/css/Card.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/FrontDesign.css">
     <link rel="stylesheet" type='text/css' media='all' href="../asset/css/MainActivity.css">
     <link rel="stylesheet" type='text/css' media='all' href="../asset/css/MainLayout.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/Modal.css">
     <link rel="stylesheet" type='text/css' media='all' href="../asset/css/NavBar.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/Notice.css">
+    <link rel="stylesheet" type='text/css' media='all' href="../asset/css/Post.css">
     <link rel="stylesheet" type='text/css' media='all' href="../asset/css/Search.css">
     <link rel="stylesheet" type='text/css' media='all' href="../asset/css/System.css">
     <link rel="stylesheet" type='text/css' media='all' href="../asset/css/SystemFont.css">
     <link rel="stylesheet" type='text/css' media='all' href="../asset/css/TabBar.css">
     <title>디벨로이드</title>
     <script type="text/javascript" src="../asset/js/theme-toggle.js"></script>
+    <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/asset/js/manifest.js');
+    }
+    </script>
 </head>
 <style>
     .Brand {

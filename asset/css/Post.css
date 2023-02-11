@@ -55,6 +55,7 @@ code.highlighter-rouge {
     border-radius: 8px;
     background: var(--Develoid);
     color: var(--white);
+    box-shadow: 0 8px 16px var(--Tertiary);
   }
 
   .content strong {
