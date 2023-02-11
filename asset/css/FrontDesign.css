@@ -54,6 +54,11 @@
     width: 144px;
 }
 
+.name {
+    padding-left: 20px !important;
+    text-align: left !important;
+}
+
 .btn_plus, .btn_minus {
     cursor: pointer;
     width: 8%;
