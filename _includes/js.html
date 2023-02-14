@@ -1,13 +1,13 @@
 <script>history.scrollRestoration = "manual"</script>
-<script type="text/javascript" src="{{site.baseurl}}/asset/js/import.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/asset/js/header-scroll.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/asset/js/search_ui.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/asset/js/jekyll-search.min.js"></script>
+<script type="text/javascript" src="/asset/js/import.js"></script>
+<script type="text/javascript" src="/asset/js/header-scroll.js"></script>
+<script type="text/javascript" src="/asset/js/search_ui.js"></script>
+<script type="text/javascript" src="/asset/js/jekyll-search.min.js"></script>
 <script type="text/javascript">
   SimpleJekyllSearch({
     searchInput: document.querySelector('.searchInput'),
     resultsContainer: document.querySelector('.searchResults'),
-    json: '{{ site.baseurl }}/search.json',
+    json: '/search.json',
     searchResultTemplate: '<a href="{url}" title="{desc}"><div class="box-A"><p class="Body f500">{title}</p></div></a>',
     noResultsText: '<div class="box-A search-none"><p class="Body f500">검색결과를 찾지 못했습니다.</p></div>',
     limit: 20,
