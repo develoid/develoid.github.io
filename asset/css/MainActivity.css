@@ -5,6 +5,7 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 48px 16px calc(80px + env(safe-area-inset-bottom)) 16px !important;
     position: relative;
     gap: 16px;
 }
