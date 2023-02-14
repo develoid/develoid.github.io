@@ -19,27 +19,25 @@
   <link rel="canonical" href="https://develoid.net">
   <link rel="icon" href="/asset/favicon.svg">
   <link rel=”mask-icon” href="/asset/images/transparent.svg" color="#000000">
-  <link rel="icon" href="{{ "/asset/favicon.svg" | relative_url }}">
-  <link rel=”mask-icon” href="{{ "/asset/images/transparent.svg" | relative_url }}" color="#000000">
-  <link rel="apple-touch-icon" href="{{ "/asset/images/universal_icon.png" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/asset/css/Box.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/asset/css/Card.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/asset/css/MainActivity.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/asset/css/MainLayout.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/asset/css/NavBar.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/asset/css/Notice.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/asset/css/Post.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/asset/css/Search.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/asset/css/System.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/asset/css/SystemFont.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/asset/css/TabBar.css" | relative_url }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="stylesheet" type='text/css' media='all' href="/asset/css/Box.css">
+  <link rel="stylesheet" type='text/css' media='all' href="/asset/css/Card.css">
+  <link rel="stylesheet" type='text/css' media='all' href="/asset/css/FrontDesign.css">
+  <link rel="stylesheet" type='text/css' media='all' href="/asset/css/MainActivity.css">
+  <link rel="stylesheet" type='text/css' media='all' href="/asset/css/MainLayout.css">
+  <link rel="stylesheet" type='text/css' media='all' href="/asset/css/Modal.css">
+  <link rel="stylesheet" type='text/css' media='all' href="/asset/css/NavBar.css">
+  <link rel="stylesheet" type='text/css' media='all' href="/asset/css/Notice.css">
+  <link rel="stylesheet" type='text/css' media='all' href="/asset/css/Post.css">
+  <link rel="stylesheet" type='text/css' media='all' href="/asset/css/Search.css">
+  <link rel="stylesheet" type='text/css' media='all' href="/asset/css/System.css">
+  <link rel="stylesheet" type='text/css' media='all' href="/asset/css/SystemFont.css">
+  <link rel="stylesheet" type='text/css' media='all' href="/asset/css/TabBar.css">
   <title>디벨로이드</title>
   <script type="text/javascript" src="/asset/js/theme-toggle.js"></script>
   <script>
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/asset/js/manifest.js');
-    }
-    </script>
+  if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/asset/js/manifest.js');
+  }
+  </script>
   {% include googleAnalytics.html %}
 </head>
