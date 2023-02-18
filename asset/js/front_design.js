@@ -378,7 +378,7 @@ function Make() {
       page += "<div style='image-rendering: high-quality; display: flex; flex: 1; justify-content: center; gap: 4px; max-width: 836px;'>"
       for(j = 0; j<2; j++) {
           //console.log(i, j, i+j);
-          page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='image-rendering: high-quality; max-width: 416px; max-height: auto; border-radius: 4px;'></a></div>";
+          page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='image-rendering: high-quality; max-width: 416px; max-height: 162px; border-radius: 4px;'></a></div>";
       }
       page += "</div>";
   }
