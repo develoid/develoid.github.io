@@ -22,7 +22,7 @@
     --body-bg-80: #000000CC;
     --body-bg-60: #00000099;
     --body-color: var(--white);
-    --font-sans-serif: -apple-system, "Pretendard Variable", system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-sans-serif: -apple-system, "SF Pro", "SF Pro Display", "Pretendard Variable", system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-monospace: "FiraCode Variable", "Pretendard Variable", monospace;
     --font-size: 15px;
 }
@@ -244,7 +244,7 @@ i {
     }
 
     .Caption1 {
-        font-size: 13.5px !important;
+        font-size: 12px !important;
         letter-spacing: -.1px !important;
         line-height: 18px;
     }
@@ -263,7 +263,7 @@ i {
 }
 
 .Caption1 {
-    font-size: 12px;
+    font-size: 11.5px;
     font-weight: 400;
     letter-spacing: -.2px;
     line-height: 16px;
@@ -278,8 +278,8 @@ i {
 
 .PCHeaderText {
     font-size: 12px;
-    font-weight: 450;
-    letter-spacing: 1.2px;
+    font-weight: 500;
+    letter-spacing: 2.2px;
     line-height: 1;
 }
 

@@ -107,8 +107,16 @@
         align-items: flex-start;
         position: relative;
         padding: 0;
-        gap: 2px;
+        gap: 6px;
     }
+
+        .box_text-A .Caption1 {
+            line-height: 1;
+        }
+
+        .box_text-A .Body {
+            line-height: 1;
+        }
 
     .box_divider-A {
         width: calc(100% - 64px);
@@ -118,12 +126,6 @@
     .box_divider-A-small {
         width: calc(100% - 16px);
         border-top: 1px solid var(--border-color);
-    }
-
-    @media (min-width: 1280px) {
-        .box_text-A {
-            gap: 4px;
-        }
     }
 
 .box-C {
@@ -138,7 +140,7 @@
     padding: 12px;
     background: var(--Elevated-Primary);
     position: relative;
-    gap: 6px;
+    gap: 8px;
     border-radius: 8px;
     transition: background .2s ease-out;
 }
