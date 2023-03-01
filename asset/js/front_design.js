@@ -599,7 +599,7 @@ function MakePlay() {
   page += "<div style='image-rendering: high-quality; display:flex; flex-direction: column; flex: 1; justify-content: center; gap: 4px; max-width: 836px;'>";
   num = getTarget('bestphoto');
   for(i = 0; i<arrayCNT[num]; i++) {
-      page += "<a href='https://go.develoid.net/gate/bestphoto/BESTPHOTO.html' target='_blank'><img src='"+temp[i].img+"' style='image-rendering: high-quality; max-width: 836px; max-height: auto; border-radius: 4px;'></a>";
+      page += "<a href='https://go.develoid.net/gate/bestphoto/play/BESTPHOTO.html' target='_blank'><img src='"+temp[i].img+"' style='image-rendering: high-quality; max-width: 836px; max-height: auto; border-radius: 4px;'></a>";
   }
   page += "</div>";
 
