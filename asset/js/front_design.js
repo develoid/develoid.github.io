@@ -437,7 +437,7 @@ function Make() {
       page += "<div style='image-rendering: high-quality; display: flex; flex: 1; justify-content: center; gap: 4px; max-width: 836px;'>"
       for(j = 0; j<2; j++) {
           //console.log(i, j, i+j);
-          page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='image-rendering: high-quality; max-width: 416px; max-height: 162px; border-radius: 4px;'></a></div>";
+          page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='image-rendering: high-quality; max-width: 432px; max-height: 162px; border-radius: 4px;'></a></div>";
       }
       page += "</div>";
   }
@@ -618,10 +618,10 @@ function MakePlay() {
   num = getTarget('event_dual');
   for(i = 0; i<temp.length; i+=2) {
       //console.log(arrayCNT[num]/arraySET[num]);
-      page += "<div style='image-rendering: high-quality; display: flex; flex: 1; justify-content: center; gap: 5px; max-width: 870px;'>"
+      page += "<div style='image-rendering: high-quality; display: flex; flex: 1; justify-content: center; gap: 6px; max-width: 870px;'>"
       for(j = 0; j<2; j++) {
           //console.log(i, j, i+j);
-          page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='image-rendering: high-quality; max-width: 416px; max-height: 162px; border-radius: 4px;'></a></div>";
+          page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='image-rendering: high-quality; max-width: 432px; max-height: 168px; border-radius: 4px;'></a></div>";
       }
       page += "</div>";
   }
