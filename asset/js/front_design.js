@@ -569,16 +569,16 @@ function MakePlay() {
   let i = 0;
   let j = 0;
   let temp;
-
+  
   // 페이지 생성 시작
-  let page = "<!-- develoid community gate | responsible: heart -->";
+  let page = "<!-- develplay community gate | responsible: heart -->";
   page += "<center>";
   // 상단 테이블 생성
-  page += "<div style='image-rendering: high-quality; display: flex; flex-direction: column; gap: 5px; width: 870px;'>";
+  page += "<div style='image-rendering: high-quality; display: flex; flex-direction: column; margin-top: -8px; gap: 4px; width: 836px;'>";
 
   // 상단 메뉴
   temp = arrayITEM['menu'];
-  page += "<div style='image-rendering: high-quality; display: flex; justify-content: center; gap: 5px; max-width: 870px;'>";
+  page += "<div style='image-rendering: high-quality; display: flex; justify-content: center; gap: 4px; max-width: 836px;'>";
   num = getTarget('menu');
   for(i = 0; i<arrayCNT[num]; i++) {
       page += "<a href='"+temp[i].url+"' target='_blank'><img src='"+temp[i].img+"' style='image-rendering: high-quality; width: auto; max-height: 48px; border-radius: 4px;'></a>";
@@ -587,28 +587,28 @@ function MakePlay() {
 
   // 공지사항
   temp = arrayITEM['notice'];
-  page += "<div style='image-rendering: high-quality; display:flex; flex-direction: column; flex: 1; justify-content: center; gap: 5px; max-width: 870px;'>";
+  page += "<div style='image-rendering: high-quality; display:flex; flex-direction: column; flex: 1; justify-content: center; gap: 4px; max-width: 836px;'>";
   num = getTarget('notice');
   for(i = 0; i<arrayCNT[num]; i++) {
-      page += "<a href='"+temp[i].url+"' target='_blank'><img src='"+temp[i].img+"' style='image-rendering: high-quality; max-width: 870px; max-height: auto; border-radius: 4px;'></a>";
+      page += "<a href='"+temp[i].url+"' target='_blank'><img src='"+temp[i].img+"' style='image-rendering: high-quality; max-width: 836px; max-height: auto; border-radius: 4px;'></a>";
   }
   page += "</div>";
 
   // 베스트포토
   temp = arrayITEM['bestphoto'];
-  page += "<div style='image-rendering: high-quality; display:flex; flex-direction: column; flex: 1; justify-content: center; gap: 5px; max-width: 870px;'>";
+  page += "<div style='image-rendering: high-quality; display:flex; flex-direction: column; flex: 1; justify-content: center; gap: 4px; max-width: 836px;'>";
   num = getTarget('bestphoto');
   for(i = 0; i<arrayCNT[num]; i++) {
-      page += "<a href='https://go.develoid.net/gate/bestphoto/play/BESTPHOTO.html' target='_blank'><img src='"+temp[i].img+"' style='image-rendering: high-quality; max-width: 870px; max-height: auto; border-radius: 4px;'></a>";
+      page += "<a href='https://go.develoid.net/gate/bestphoto/BESTPHOTO.html' target='_blank'><img src='"+temp[i].img+"' style='image-rendering: high-quality; max-width: 836px; max-height: auto; border-radius: 4px;'></a>";
   }
   page += "</div>";
 
   // 이벤트 1단
   temp = arrayITEM['event_single'];
-  page += "<div style='image-rendering: high-quality; display:flex; flex-direction: column; flex: 1; justify-content: center; gap: 5px; max-width: 870px;'>";
+  page += "<div style='image-rendering: high-quality; display:flex; flex-direction: column; flex: 1; justify-content: center; gap: 4px; max-width: 836px;'>";
   num = getTarget('event_single');
   for(i = 0; i<arrayCNT[num]; i++) {
-      page += "<a href='"+temp[i].url+"' target='_blank'><img src='"+temp[i].img+"' style='image-rendering: high-quality; max-width: 870px; max-height: auto; border-radius: 4px;'></a>";
+      page += "<a href='"+temp[i].url+"' target='_blank'><img src='"+temp[i].img+"' style='image-rendering: high-quality; max-width: 836px; max-height: auto; border-radius: 4px;'></a>";
   }
   page += "</div>";
 
@@ -618,17 +618,17 @@ function MakePlay() {
   num = getTarget('event_dual');
   for(i = 0; i<temp.length; i+=2) {
       //console.log(arrayCNT[num]/arraySET[num]);
-      page += "<div style='image-rendering: high-quality; display: flex; flex: 1; justify-content: center; gap: 6px; max-width: 870px;'>"
+      page += "<div style='image-rendering: high-quality; display: flex; flex: 1; justify-content: center; gap: 4px; max-width: 836px;'>"
       for(j = 0; j<2; j++) {
           //console.log(i, j, i+j);
-          page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='image-rendering: high-quality; max-width: 432px; max-height: 168px; border-radius: 4px;'></a></div>";
+          page += "<div><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' style='image-rendering: high-quality; max-width: 432px; max-height: 162px; border-radius: 4px;'></a></div>";
       }
       page += "</div>";
   }
 
   // 디벨스폰서 메뉴 생성
   temp = arrayITEM['interface'];
-  page += "<div style='image-rendering: high-quality; display: flex; justify-content: center; align-items: center; width: 870px; height: 38px;'>";
+  page += "<div style='image-rendering: high-quality; display: flex; justify-content: center; align-items: center; width: 836px; height: 38px;'>";
   page += "<div style='image-rendering: high-quality; max-height: 100%;'>"
   page += "<div style='image-rendering: high-quality; display: block; font-size: 0;'><img src='"+temp[4].img+"' style='image-rendering: high-quality; max-width: auto; max-height: 16px;'></div>";
   page += "</div>";
@@ -639,18 +639,18 @@ function MakePlay() {
   num = getTarget('sponsor');
   for(i = 0; i<temp.length; i+=5) {
       //console.log(arrayCNT[num]/arraySET[num]);
-      page += "<div style='image-rendering: high-quality; display: flex; flex: 1; justify-content: center; gap: 5px; width: 870px;'>"
+      page += "<div style='image-rendering: high-quality; display: flex; flex: 1; justify-content: center; gap: 4px; width: 836px;'>"
       for(j = 0; j<5; j++) {
           //console.log(i, j, i+j);
-          page += "<div style='image-rendering: high-quality; width: 170px; height: 170px;'><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' width='170' height='170' style='image-rendering: high-quality; max-width: 170px; max-height: 170px; border-radius: 4px;'></a></div>";
+          page += "<div style='image-rendering: high-quality; width: 164px; height: 164px;'><a href='"+temp[i+j].url+"' target='_blank'><img src='"+temp[i+j].img+"' width='164' height='164' style='image-rendering: high-quality; max-width: 164px; max-height: 164px; border-radius: 4px;'></a></div>";
       }
       page += "</div>";
   }
 
   // 하단 생성
   temp = arrayITEM['interface'];
-  page += "<div style='image-rendering: high-quality; display: flex; justify-content: center; align-items: center; width: 838px; padding: 16px;'>";
-  page += "<div style='image-rendering: high-quality; display: block; font-size: 0;'><img src='"+temp[5].img+"' style='image-rendering: high-quality; max-width: auto; max-height: 24px;'></div>";
+  page += "<div style='image-rendering: high-quality; display: flex; justify-content: center; align-items: center; width: 836px; padding: 12px;'>";
+  page += "<div style='image-rendering: high-quality; display: block; font-size: 0;'><img src='"+temp[5].img+"' style='image-rendering: high-quality; max-width: auto; max-height: 30px;'></div>";
 
   // 콘텐츠 테이블 종료
   page += "</div>";
