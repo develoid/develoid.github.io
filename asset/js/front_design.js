@@ -419,7 +419,7 @@ function Make() {
   page += "<tbody>"
   num = getTarget('bestphoto');
   for(i = 0; i<arrayCNT[num]; i++) {
-    page += "<td><a href='https://go.develoid.net/gate/bestphoto/BESTPHOTO.html' target='_blank'><img src='"+temp[i].img+"' style='width: 824px; height: auto;'></a></td>";
+    page += "<td><a href='https://dvldesign.yun0525.work/gate/bestphoto/BESTPHOTO.html' target='_blank'><img src='"+temp[i].img+"' style='width: 824px; height: auto;'></a></td>";
   }
   page += "</tbody></table>";
 
@@ -619,7 +619,7 @@ function MakePlay() {
   page += "<div style='display:flex; flex-direction: column; flex: 1; justify-content: center; gap: 4px; max-width: 836px;'>";
   num = getTarget('bestphoto');
   for(i = 0; i<arrayCNT[num]; i++) {
-      page += "<a href='https://go.develoid.net/gate/bestphoto/BESTPHOTO.html' target='_blank'><img src='"+temp[i].img+"' style='max-width: 836px; max-height: auto;'></a>";
+      page += "<a href='https://dvldesign.yun0525.work/gate/bestphoto/BESTPHOTO.html' target='_blank'><img src='"+temp[i].img+"' style='max-width: 836px; max-height: auto;'></a>";
   }
   page += "</div>";
 
